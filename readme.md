@@ -31,8 +31,8 @@
 ***
 
 ## Armas
-![Primeira imagem das armas](/assets/armas-1.png)
-![Segunda imagem das armas](/assets/armas-2.png)
+![Primeira imagem das armas](/assets/armas-1.PNG)
+![Segunda imagem das armas](/assets/armas-2.PNG)
 ***
 
 ## Mapas
