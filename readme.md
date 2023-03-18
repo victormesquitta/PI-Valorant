@@ -49,3 +49,8 @@
 
 ## Protótipo Low Fidelity
 ![Imagem do protótipo low fidelity](/assets/low-fidelity.png)
+
+***
+## Screenshot MER
+![Imagem do MER](/assets/MER_VALORANT.JPG)
+
