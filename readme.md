@@ -26,8 +26,8 @@
 ***
 
 ## Agentes
-![Primeira imagem dos agentes]()
-![Segunda imagem dos agentes]()
+![Primeira imagem dos agentes](/assets/agentes-1.png)
+![Segunda imagem dos agentes](/assets/agentes-2.png)
 ***
 
 ## Armas
@@ -36,11 +36,11 @@
 ***
 
 ## Mapas
-![Primeira imagem dos mapas]()
-![Segunda imagem dos mapas]()
-![Terceira imagem dos mapas]()
-![Quarta imagem dos mapas]()
-![Quinta imagem dos mapas]()
+![Primeira imagem dos mapas](/assets/mapas-1.png)
+![Segunda imagem dos mapas](/assets/mapas-2.png)
+![Terceira imagem dos mapas](/assets/mapas-3.png)
+![Quarta imagem dos mapas](/assets/mapas-4.png)
+![Quinta imagem dos mapas](/assets/mapas-5.png)
 ***
 
 ## Skins
