@@ -22,7 +22,7 @@
 
 ## Home
 ![Primeira imagem da home](/assets/home-1.png)
-![Segunda imagem da home][]
+![Segunda imagem da home](/assets/home-2.png)
 ***
 
 ## Agentes
@@ -31,8 +31,8 @@
 ***
 
 ## Armas
-![Primeira imagem das armas][]
-![Segunda imagem das armas][]
+![Primeira imagem das armas](/assets/armas-1.png)
+![Segunda imagem das armas](/assets/armas-2.png)
 ***
 
 ## Mapas
@@ -44,5 +44,5 @@
 ***
 
 ## Skins
-![Imagem das skins][]
+![Imagem das skins](/assets/skins.png)
 ***
