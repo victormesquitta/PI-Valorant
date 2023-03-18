@@ -26,8 +26,8 @@
 ***
 
 ## Agentes
-![Primeira imagem dos agentes][]
-![Segunda imagem dos agentes][]
+![Primeira imagem dos agentes]()
+![Segunda imagem dos agentes]()
 ***
 
 ## Armas
@@ -36,13 +36,16 @@
 ***
 
 ## Mapas
-![Primeira imagem dos mapas][]
-![Segunda imagem dos mapas][]
-![Terceira imagem dos mapas][]
-![Quarta imagem dos mapas][]
-![Quinta imagem dos mapas][]
+![Primeira imagem dos mapas]()
+![Segunda imagem dos mapas]()
+![Terceira imagem dos mapas]()
+![Quarta imagem dos mapas]()
+![Quinta imagem dos mapas]()
 ***
 
 ## Skins
 ![Imagem das skins](/assets/skins.png)
 ***
+
+## Protótipo Low Fidelity
+![Imagem do protótipo low fidelity](/assets/low-fidelity.png)
