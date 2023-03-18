@@ -19,3 +19,30 @@
 * Sistema de pesquisa em cada uma das páginas de consulta (Agentes, Armas, Skins, ...).
 ***
 ### Screenshots do Protótipo
+
+## Home
+![Primeira imagem da home][]
+![Segunda imagem da home][]
+***
+
+## Agentes
+![Primeira imagem dos agentes][]
+![Segunda imagem dos agentes][]
+***
+
+## Armas
+![Primeira imagem das armas][]
+![Segunda imagem das armas][]
+***
+
+## Mapas
+![Primeira imagem dos mapas][]
+![Segunda imagem dos mapas][]
+![Terceira imagem dos mapas][]
+![Quarta imagem dos mapas][]
+![Quinta imagem dos mapas][]
+***
+
+## Skins
+![Imagem das skins][]
+***
