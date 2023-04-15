@@ -4,6 +4,15 @@ import java.sql.Date;
 
 public class Map {
     private String Name;
+    private String Description;
+    private int Bombsites;
+    private String Coordinates;
+    private String Country;
+    private String Peculiarity;
+    private String Release_Date;
+    private int Season;
+    private int Act;
+    private boolean Rotation;
 
     public String getName() {
         return Name;
@@ -85,15 +94,7 @@ public class Map {
         Rotation = rotation;
     }
 
-    private String Description;
-    private int Bombsites;
-    private String Coordinates;
-    private String Country;
-    private String Peculiarity;
-    private String Release_Date;
-    private int Season;
-    private int Act;
-    private boolean Rotation;
+
 
 
 

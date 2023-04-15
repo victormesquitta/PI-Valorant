@@ -3,6 +3,10 @@ package ValorantSSP.com.br.Dao;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 import ValorantSSP.com.br.Model.Map;
 
@@ -43,5 +47,44 @@ public class MapDao {
             System.out.println("fail in connection");
         }
     }
+    public List<Map> findAllMaps(){
+        String SQL = "SELECT * FROM MAP";
 
+        try {
+
+            Connection connection = DriverManager.getConnection("jdbc:h2:~/test", "sa", "sa");
+
+            System.out.println("success in database connection");
+
+            PreparedStatement preparedStatement = connection.prepareStatement(SQL);
+
+            ResultSet resultSet = preparedStatement.executeQuery();
+
+            List<Map> maps = new ArrayList<>();
+
+            while (resultSet.next()) {
+
+                String mapName = resultSet.getString("name");
+
+                Map map = new Map();
+                map.setName(mapName);
+
+                maps.add(map);
+
+            }
+
+            System.out.println("success in select * map");
+
+            connection.close();
+
+            return maps;
+
+        } catch (Exception e) {
+
+            System.out.println("fail in database connection");
+
+            return Collections.emptyList();
+
+        }
+    }
 }

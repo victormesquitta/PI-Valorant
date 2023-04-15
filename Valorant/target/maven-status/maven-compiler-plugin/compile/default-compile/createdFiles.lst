@@ -1,3 +1,4 @@
-ValorantSSP\com\br\servlet\CreateMapServlet.class
-ValorantSSP\com\br\Dao\MapDao.class
 ValorantSSP\com\br\Model\Map.class
+ValorantSSP\com\br\Servlet\CreateMapServlet.class
+ValorantSSP\com\br\Servlet\ListMapServlet.class
+ValorantSSP\com\br\Dao\MapDao.class

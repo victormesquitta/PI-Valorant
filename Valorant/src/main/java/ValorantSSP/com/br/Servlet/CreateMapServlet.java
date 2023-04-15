@@ -42,6 +42,8 @@ public class CreateMapServlet extends HttpServlet {
 
         new MapDao().createMap(map);
 
-        req.getRequestDispatcher("index.jsp").forward(req, resp);
+        resp.sendRedirect("/find-all-maps");
     }
+
+
 }
