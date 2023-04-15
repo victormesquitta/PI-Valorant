@@ -24,7 +24,8 @@
 * Após isso, abrir o localhost do H2DB (http://localhost:8080/console); 
 * Fazer o login (user: "sa", password:"sa");
 * Criar a tabela referente aos mapas com o seguinte comando:
-```*CREATE TABLE MAP(ID INT PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(20) NOT NULL,
+```
+    CREATE TABLE MAP(ID INT PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(20) NOT NULL,
     DESCRIPTION VARCHAR(255) NOT NULL,
     BOMBSITES INT NOT NULL,
     COORDINATES VARCHAR(50) UNIQUE NOT NULL,
@@ -34,6 +35,6 @@
     SEASON INT NOT NULL,
     ACT INT NOT NULL,
     ROTATION BOOLEAN
-    )*; 
+    ); 
   ```
 * Para o preenchimento dos dados, acessar o url de CRUD do mapa (http://localhost:8080/create-map).
