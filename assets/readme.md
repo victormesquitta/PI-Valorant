@@ -2,34 +2,34 @@
 
 ## Home
 ![Primeira imagem da home](/assets/home-1.png)
-![Segunda imagem da home](/home-2.png)
+![Segunda imagem da home](/assets/home-2.png)
 ***
 
 ## Agentes
-![Primeira imagem dos agentes](/agentes-1.png)
-![Segunda imagem dos agentes](/agentes-2.png)
+![Primeira imagem dos agentes](/assets/agentes-1.png)
+![Segunda imagem dos agentes](/assets/agentes-2.png)
 ***
 
 ## Armas
-![Primeira imagem das armas](/armas-1.PNG)
-![Segunda imagem das armas](/armas-2.PNG)
+![Primeira imagem das armas](/assets/armas-1.PNG)
+![Segunda imagem das armas](/assets/armas-2.PNG)
 ***
 
 ## Mapas
-![Primeira imagem dos mapas](/mapas-1.png)
-![Segunda imagem dos mapas](/mapas-2.png)
-![Terceira imagem dos mapas](/mapas-3.png)
-![Quarta imagem dos mapas](/mapas-4.png)
-![Quinta imagem dos mapas](/mapas-5.png)
+![Primeira imagem dos mapas](/assets/mapas-1.png)
+![Segunda imagem dos mapas](/assets/mapas-2.png)
+![Terceira imagem dos mapas](/assets/mapas-3.png)
+![Quarta imagem dos mapas](/assets/mapas-4.png)
+![Quinta imagem dos mapas](/assets/mapas-5.png)
 ***
 
 ## Skins
-![Imagem das skins](/skins.png)
+![Imagem das skins](/assets/skins.png)
 ***
 
 ## Protótipo Low Fidelity
-![Imagem do protótipo low fidelity](/low-fidelity.png)
+![Imagem do protótipo low fidelity](/assets/low-fidelity.png)
 
 ***
 ## Screenshot MER
-![Imagem do MER](/MER_VALORANT.JPG)
+![Imagem do MER](/assets/MER_VALORANT.JPG)
