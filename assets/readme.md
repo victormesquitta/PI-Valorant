@@ -1,7 +1,7 @@
 ### Screenshots do Protótipo
 
 ## Home
-![Primeira imagem da home](/home-1.png)
+![Primeira imagem da home](/assets/home-1.png)
 ![Segunda imagem da home](/home-2.png)
 ***
 
