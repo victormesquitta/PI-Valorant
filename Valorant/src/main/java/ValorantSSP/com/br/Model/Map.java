@@ -3,6 +3,7 @@ package ValorantSSP.com.br.Model;
 import java.sql.Date;
 
 public class Map {
+    private int id;
     private String Name;
     private String Description;
     private int Bombsites;
@@ -14,6 +15,9 @@ public class Map {
     private int Act;
     private boolean Rotation;
 
+    public int getId(){
+        return id;
+    }
     public String getName() {
         return Name;
     }
@@ -93,11 +97,4 @@ public class Map {
     public void setRotation(boolean rotation) {
         Rotation = rotation;
     }
-
-
-
-
-
-
-
 }
