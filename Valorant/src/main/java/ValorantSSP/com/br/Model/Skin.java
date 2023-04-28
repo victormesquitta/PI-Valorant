@@ -2,59 +2,60 @@ package ValorantSSP.com.br.Model;
 
 public class Skin {
     private int id;
-    private String Name;
-    private int Season;
-    private int Act;
-    private String Date;
+    private String name;
+    private int season;
+    private int act;
+    private String date;
     private float price;
-    private boolean Recolors;
+    private int recolors;
 
 
     public int getId(){
         return id;
     }
 
-    public void setId(int Id) {this.id = id;}
+    public void setId(int id) {this.id = id;}
+
     public String getName() {
-        return Name;
+        return name;
     }
 
     public void setName(String name) {
-        this.Name = name;
+        this.name = name;
     }
 
     public String getDate() {
-        return Date;
+        return date;
     }
 
     public void setDate(String date) {
-        this.Date = date;
+        this.date = date;
     }
 
 
     public int getSeason() {
-        return Season;
+        return season;
     }
 
     public void setSeason(int season) {
-        Season = season;
+        this.season = season;
     }
 
     public int getAct() {
-        return Act;
+        return act;
     }
 
     public void setAct(int act) {
-        Act = act;
+        this.act = act;
     }
 
     public float getPrice(){return price;}
 
     public void setPrice(float price){this.price = price;}
 
-    public boolean getRecolors() {return Recolors;}
+    public int getRecolors() {return recolors;}
 
-    public void setRecolors(boolean recolors) {this.Recolors = recolors;}
+    public void setRecolors(int recolors) {this.recolors = recolors;}
 
 
 }

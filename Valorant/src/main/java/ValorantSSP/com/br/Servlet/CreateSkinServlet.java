@@ -15,12 +15,12 @@ public class CreateSkinServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        String skinName = req.getParameter("map-name");
-        String skinDate = req.getParameter("map-description");
-        int skinSeason = Integer.parseInt(req.getParameter("map-bombsites"));
+        String skinName = req.getParameter("skin-name");
+        String skinDate = req.getParameter("skin-date");
+        int skinSeason = Integer.parseInt(req.getParameter("skin-season"));
         int skinAct = Integer.parseInt(req.getParameter("map-act"));
-        Float skinPrice = Float.parseFloat("skin-price");
-        boolean skinRecolors = Boolean.parseBoolean(req.getParameter("map-rotation"));
+        float skinPrice = Float.parseFloat("skin-price");
+        int skinRecolors = Integer.parseInt(req.getParameter("skin-recolors"));
 
 
         Skin skin = new Skin();

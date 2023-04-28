@@ -15,7 +15,7 @@
         </tr>
         <c:forEach var="map" items="${maps}">
             <tr>
-                <td></td>
+                <td>${map.id}</td>
                 <td>${map.name}</td>
             </tr>
         </c:forEach>
