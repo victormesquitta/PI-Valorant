@@ -1,4 +1,12 @@
+ValorantSSP\com\br\Servlet\ListWeaponServlet.class
 ValorantSSP\com\br\Model\Map.class
+ValorantSSP\com\br\Dao\SkinDao.class
 ValorantSSP\com\br\Servlet\CreateMapServlet.class
+ValorantSSP\com\br\Servlet\CreateWeaponServlet.class
 ValorantSSP\com\br\Servlet\ListMapServlet.class
+ValorantSSP\com\br\Servlet\ListSkinServelet.class
+ValorantSSP\com\br\Servlet\CreateSkinServlet.class
+ValorantSSP\com\br\Model\Skin.class
+ValorantSSP\com\br\Model\Weapon.class
 ValorantSSP\com\br\Dao\MapDao.class
+ValorantSSP\com\br\Dao\WeaponDao.class
