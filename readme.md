@@ -19,11 +19,13 @@
 * Sistema de pesquisa em cada uma das páginas de consulta (Agentes, Armas, Skins, ...).
 ***
 
-### Instruções para execução do sistema - Funcionalidade: Mapa
+### Instruções para execução do sistema
 * Run no projeto dentro do Maven;
 * Após isso, abrir o localhost do H2DB (http://localhost:8080/console); 
 * Fazer o login (user: "sa", password:"sa");
-* Criar a tabela referente aos mapas com o seguinte comando:
+* Criar a tabela referente as funcionalidades com os seguintes comando:
+
+### Mapa:
 ```
     CREATE TABLE MAP(ID INT PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(20) NOT NULL,
     DESCRIPTION VARCHAR(255) NOT NULL,
@@ -40,11 +42,7 @@
 * Para o preenchimento dos dados, acessar o url de CRUD do mapa (http://localhost:8080/create-map).
 ***
 
-### Instruções para execução do sistema - Funcionalidade: Armas 
-* Run no projeto dentro do Maven;
-* Após isso, abrir o localhost do H2DB (http://localhost:8080/console); 
-* Fazer o login (user: "sa", password:"sa");
-* Criar a tabela referente as armas com o seguinte comando:
+### Arma:
 ```
    CREATE TABLE WEAPON(
     ID INT PRIMARY KEY AUTO_INCREMENT, 
@@ -59,4 +57,18 @@
     );
  ```
 * Para o preenchimento dos dados, acessar o url de CRUD do mapa (http://localhost:8080/create-weapon).
+***
+### Skin:
+```
+    CREATE TABLE SKIN(
+    ID INT PRIMARY KEY AUTO_INCREMENT, 
+    NAME VARCHAR(20) NOT NULL,
+    DATE DATE NOT NULL,
+    PRICE FLOAT NOT NULL,
+    SEASON INT NOT NULL,
+    ACT INT NOT NULL,
+    RECOLORS INT NOT NULL
+    );
+ ```
+ * Para o preenchimento dos dados, acessar o url de CRUD do mapa (http://localhost:8080/create-skin).
 
