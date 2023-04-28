@@ -100,8 +100,8 @@
     <label>Name</label>
     <input type="text" name="agent-name" id="agent-name">
     <br>
-    <label>Class</label>
-        <input type="text" name="agent-class" id="agent-class">
+    <label>Role</label>
+        <input type="text" name="agent-role" id="agent-role">
     <br>
     <label>Skill</label>
         <input type="text" name="agent-skill" id="agent-skill">
