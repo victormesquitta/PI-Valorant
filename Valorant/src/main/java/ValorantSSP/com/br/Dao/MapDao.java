@@ -64,12 +64,15 @@ public class MapDao {
 
             while (resultSet.next()) {
 
+                String mapId = resultSet.getString("id");
                 String mapName = resultSet.getString("name");
 
                 Map map = new Map();
                 map.setName(mapName);
+                map.setId(mapId);
 
                 maps.add(map);
+
 
             }
 
@@ -86,5 +89,32 @@ public class MapDao {
             return Collections.emptyList();
 
         }
+    }
+    public void deleteMapById(String mapId) {
+        String SQL = "DELETE MAP WHERE ID = ?";
+
+        try {
+
+            System.out.println("success in connection");
+            Connection connection = DriverManager.getConnection(
+                    "jdbc:h2:~/test",
+                    "sa",
+                    "sa");
+
+            PreparedStatement preparedStatement = connection.prepareStatement(SQL);
+            preparedStatement.setString(1, mapId);
+            ;
+            preparedStatement.execute();
+
+            System.out.println("success on delete map with id: " + mapId);
+
+            connection.close();
+
+        } catch (Exception e) {
+
+            System.out.println("fail in database connection");
+
+        }
+
     }
 }
