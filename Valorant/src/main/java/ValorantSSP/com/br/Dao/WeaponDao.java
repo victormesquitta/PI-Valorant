@@ -85,4 +85,28 @@ public class WeaponDao {
 
         }
     }
+    public void deleteWeaponById(String weaponId) {
+
+        String SQL = "DELETE WEAPON WHERE ID = ?";
+        try {
+
+            Connection connection = DriverManager.getConnection("jdbc:h2:~/test", "sa", "sa");
+
+            System.out.println("success in database connection");
+
+            PreparedStatement preparedStatement = connection.prepareStatement(SQL);
+            preparedStatement.setString(1, weaponId);
+            preparedStatement.execute();
+
+            System.out.println("success on delete car with name: " + weaponId);
+
+            connection.close();
+
+        } catch (Exception e) {
+
+            System.out.println("fail in database connection");
+
+        }
+    }
+
 }

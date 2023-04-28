@@ -84,7 +84,7 @@ public class SkinDao {
         }
     }
 
-    public void deleteSkinByName(String skinName) {
+    public void deleteSkinById(String skinId) {
 
         String SQL = "DELETE SKIN WHERE ID = ?";
         try {
@@ -94,10 +94,10 @@ public class SkinDao {
             System.out.println("success in database connection");
 
             PreparedStatement preparedStatement = connection.prepareStatement(SQL);
-            preparedStatement.setString(1, skinName);
+            preparedStatement.setString(1, skinId);
             preparedStatement.execute();
 
-            System.out.println("success on delete car with name: " + skinName);
+            System.out.println("success on delete car with name: " + skinId);
 
             connection.close();
 

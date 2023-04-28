@@ -55,6 +55,8 @@ public class Skin {
     public boolean getRecolors() {return Recolors;}
 
     public void setRecolors(boolean recolors) {this.Recolors = recolors;}
+
+
 }
 
 

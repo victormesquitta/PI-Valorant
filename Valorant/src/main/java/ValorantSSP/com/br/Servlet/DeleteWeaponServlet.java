@@ -1,5 +1,6 @@
 package ValorantSSP.com.br.Servlet;
-import ValorantSSP.com.br.Dao.SkinDao;
+
+import ValorantSSP.com.br.Dao.WeaponDao;
 
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -7,16 +8,17 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet ("/delete-skin")
-public class DeleteSkinServlet extends HttpServlet {
+@WebServlet ("/delete-weapon")
+
+public class DeleteWeaponServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException {
 
-        String skinId = req.getParameter("id");
+        String weaponId = req.getParameter("id");
 
-        new SkinDao().deleteSkinById(skinId);
+        new WeaponDao().deleteWeaponById(weaponId);
 
-        resp.sendRedirect("/find-all-skins");
+        resp.sendRedirect("/find-all-weapon");
 
     }
 }
