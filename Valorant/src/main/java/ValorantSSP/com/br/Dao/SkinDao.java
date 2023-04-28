@@ -30,7 +30,7 @@ public class SkinDao {
             preparedStatement.setInt(3, skin.getSeason());
             preparedStatement.setInt(4, skin.getAct());
             preparedStatement.setFloat(5, skin.getPrice());
-            preparedStatement.setBoolean(6, skin.getRecolors());
+            preparedStatement.setInt(6, skin.getRecolors());
 
 
 
