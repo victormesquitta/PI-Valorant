@@ -9,7 +9,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.Date;
 
 @WebServlet ("/create-map")
 public class CreateMapServlet extends HttpServlet {
@@ -35,7 +34,7 @@ public class CreateMapServlet extends HttpServlet {
         map.setCoordinates(mapCoordinates);
         map.setCountry(mapCountry);
         map.setPeculiarity(mapPeculiarity);
-        map.setRelease_Date(mapReleaseDate);
+        map.setReleaseDate(mapReleaseDate);
         map.setSeason(mapSeason);
         map.setAct(mapAct);
         map.setRotation(mapRotation);

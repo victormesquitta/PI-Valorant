@@ -1,3 +1,5 @@
+ValorantSSP\com\br\Model\Skills.class
+ValorantSSP\com\br\Model\Agent.class
 ValorantSSP\com\br\Servlet\CreateWeaponServlet.class
 ValorantSSP\com\br\Servlet\DeleteMapServlet.class
 ValorantSSP\com\br\Servlet\ListMapServlet.class

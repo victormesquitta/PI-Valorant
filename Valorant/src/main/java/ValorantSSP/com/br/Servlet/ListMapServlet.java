@@ -15,6 +15,7 @@ import java.util.List;
 public class ListMapServlet extends HttpServlet{
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
         List<Map> maps = new MapDao().findAllMaps();
 
         req.setAttribute("maps", maps);
@@ -23,3 +24,5 @@ public class ListMapServlet extends HttpServlet{
 
     }
 }
+
+

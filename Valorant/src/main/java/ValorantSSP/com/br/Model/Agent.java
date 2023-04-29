@@ -1,10 +1,12 @@
 package ValorantSSP.com.br.Model;
 
+import java.util.*;
+
 public class Agent {
 
     private int id;
     private String role;
-    private String skill;
+    private List<Skills> skills;
     private String lore;
     private int ultimatePoints;
 
@@ -19,17 +21,16 @@ public class Agent {
     public String getRole() {
         return role;
     }
+    public List<Skills> getSkills() {
+        return skills;
+    }
+
+    public void setSkills(List<Skills> skills) {
+        this.skills = skills;
+    }
 
     public void setRole(String role) {
         this.role = role;
-    }
-
-    public String getSkill() {
-        return skill;
-    }
-
-    public void setSkill(String skill) {
-        this.skill = skill;
     }
 
     public String getLore() {

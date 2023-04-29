@@ -1,7 +1,5 @@
 package ValorantSSP.com.br.Model;
 
-import java.sql.Date;
-
 public class Map {
     private String id;
     private String Name;
@@ -10,7 +8,7 @@ public class Map {
     private String Coordinates;
     private String Country;
     private String Peculiarity;
-    private String Release_Date;
+    private String releaseDate;
     private int Season;
     private int Act;
     private boolean Rotation;
@@ -71,12 +69,12 @@ public class Map {
         Peculiarity = peculiarity;
     }
 
-    public String getRelease_Date() {
-        return Release_Date;
+    public String getReleaseDate() {
+        return releaseDate;
     }
 
-    public void setRelease_Date(String release_Date) {
-        Release_Date = release_Date;
+    public void setReleaseDate(String releaseDate) {
+        this.releaseDate = releaseDate;
     }
 
     public int getSeason() {

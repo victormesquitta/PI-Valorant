@@ -18,7 +18,7 @@ public class MapDao {
 
         try {
 
-            System.out.println("success in connection");
+            System.out.println("1success in connection");
             Connection connection = DriverManager.getConnection(
                     "jdbc:h2:~/test",
                     "sa",
@@ -32,7 +32,7 @@ public class MapDao {
             preparedStatement.setString(4, map.getCoordinates());
             preparedStatement.setString(5, map.getCountry());
             preparedStatement.setString(6, map.getPeculiarity());
-            preparedStatement.setString(7,  map.getRelease_Date());
+            preparedStatement.setString(7,  map.getReleaseDate());
             preparedStatement.setInt(8, map.getSeason());
             preparedStatement.setInt(9, map.getAct());
             preparedStatement.setBoolean(10, map.isRotation());
@@ -44,7 +44,7 @@ public class MapDao {
 
         } catch (Exception e){
 
-            System.out.println("fail in connection");
+            System.out.println("1fail in connection");
         }
     }
     public List<Map> findAllMaps(){
@@ -54,7 +54,7 @@ public class MapDao {
 
             Connection connection = DriverManager.getConnection("jdbc:h2:~/test", "sa", "sa");
 
-            System.out.println("success in database connection");
+            System.out.println("2success in database connection");
 
             PreparedStatement preparedStatement = connection.prepareStatement(SQL);
 
@@ -66,17 +66,36 @@ public class MapDao {
 
                 String mapId = resultSet.getString("id");
                 String mapName = resultSet.getString("name");
+                String mapDescription = resultSet.getString("description");
+
+                int mapBombsites = resultSet.getInt("bombsites");
+                String mapCoordinates = resultSet.getString("coordinates");
+                String mapCountry = resultSet.getString("country");
+                String mapPeculiarity = resultSet.getString("peculiarity");
+                String mapDate = resultSet.getString("release_date");
+                int mapSeason = resultSet.getInt("season");
+                int mapAct = resultSet.getInt("act");
+                boolean mapRotation = resultSet.getBoolean("rotation");
 
                 Map map = new Map();
                 map.setName(mapName);
                 map.setId(mapId);
+                map.setDescription(mapDescription);
+                map.setBombsites(mapBombsites);
+                map.setCoordinates(mapCoordinates);
+                map.setCountry(mapCountry);
+                map.setPeculiarity(mapPeculiarity);
+                map.setReleaseDate(mapDate);
+                map.setSeason(mapSeason);
+                map.setAct(mapAct);
+                map.setRotation(mapRotation);
 
                 maps.add(map);
 
 
             }
 
-            System.out.println("success in select * map");
+            System.out.println("2success in select * map");
 
             connection.close();
 
@@ -85,6 +104,8 @@ public class MapDao {
         } catch (Exception e) {
 
             System.out.println("fail in database connection");
+            System.out.println(e.getMessage());
+
 
             return Collections.emptyList();
 

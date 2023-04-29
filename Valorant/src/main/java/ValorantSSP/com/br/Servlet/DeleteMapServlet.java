@@ -15,7 +15,7 @@ public class DeleteMapServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        String mapId = req.getParameter("id");
+        String mapId = req.getParameter("map-id");
 
         new MapDao().deleteMapById(mapId);
 
