@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <a href="#" class="" id="logo-ancora"><img class="" id="logo-navbar" src="logo.png" alt="logo"></a>
+        <a href="#" class="" id="logo-ancora"><img class="" id="logo-navbar" src="/telas/Skins/Images/logo.png" alt="logo"></a>
         <nav class="nav_links">
             <a href="#">Agentes</a>
             <a href="#">Armas</a>
@@ -22,7 +22,7 @@
 <div class="skins">
     <c:forEach var="skin" items="${skins}">
         <div class="conteudo">
-            <img src="/telas/Skins/Oni.png" alt="">
+            <img src=${skin.path} alt="">
             <h2>${skin.name}</h2>
         </div>
      </c:forEach>

@@ -21,6 +21,7 @@ public class CreateSkinServlet extends HttpServlet {
         int skinAct = Integer.parseInt(req.getParameter("skin-act"));
         float skinPrice = Float.parseFloat(req.getParameter("skin-price"));
         int skinRecolors = Integer.parseInt(req.getParameter("skin-recolors"));
+        String skinPath = req.getParameter("skin-path");
 
 
         Skin skin = new Skin();
@@ -30,6 +31,7 @@ public class CreateSkinServlet extends HttpServlet {
         skin.setAct(skinAct);
         skin.setRecolors(skinRecolors);
         skin.setPrice(skinPrice);
+        skin.setPath(skinPath);
 
 
         new SkinDao().createSkin(skin);

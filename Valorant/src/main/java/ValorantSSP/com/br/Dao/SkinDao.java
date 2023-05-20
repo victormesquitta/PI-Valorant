@@ -13,7 +13,7 @@ import java.util.List;
 public class SkinDao {
     public void createSkin(Skin skin){
 
-        String SQL = "INSERT INTO SKIN (NAME, DATE, PRICE, SEASON, ACT, RECOLORS) VALUES (?,?,?,?,?,?)";
+        String SQL = "INSERT INTO SKIN (NAME, DATE, PRICE, SEASON, ACT, RECOLORS, PATH) VALUES (?,?,?,?,?,?,?)";
 
         try {
 
@@ -31,6 +31,7 @@ public class SkinDao {
             preparedStatement.setInt(4, skin.getAct());
             preparedStatement.setFloat(5, skin.getPrice());
             preparedStatement.setInt(6, skin.getRecolors());
+            preparedStatement.setString(7, skin.getPath());
 
 
 
@@ -62,9 +63,11 @@ public class SkinDao {
             while (resultSet.next()) {
 
                 String skinName = resultSet.getString("name");
+                String skinPath = resultSet.getString("path");
 
                 Skin skin = new Skin();
                 skin.setName(skinName);
+                skin.setPath(skinPath);
 
                 skins.add(skin);
 

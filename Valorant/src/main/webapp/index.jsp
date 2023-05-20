@@ -90,6 +90,9 @@
     <label>Recolors</label>
         <input type="number" name="skin-recolors" id="skin-recolors">
     <br>
+    <label>Path</label>
+            <input type="text" name="skin-path" id="skin-path">
+        <br>
     <button type="submit">Register</button>
 </form>
 

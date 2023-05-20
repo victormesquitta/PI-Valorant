@@ -13,6 +13,8 @@ public class Map {
     private int Act;
     private boolean Rotation;
 
+    private String Path;
+
     public String getId(){
         return id;
     }
@@ -100,4 +102,5 @@ public class Map {
     public void setRotation(boolean rotation) {
         Rotation = rotation;
     }
+
 }

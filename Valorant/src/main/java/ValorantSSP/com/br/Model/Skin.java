@@ -9,6 +9,8 @@ public class Skin {
     private float price;
     private int recolors;
 
+    private String path;
+
 
     public int getId(){
         return id;
@@ -56,6 +58,15 @@ public class Skin {
     public int getRecolors() {return recolors;}
 
     public void setRecolors(int recolors) {this.recolors = recolors;}
+
+    public String getPath() {
+        return path;
+    }
+
+    public void setPath(String path) {
+        this.path = path;
+    }
+
 
 
 }

@@ -67,7 +67,8 @@
     PRICE FLOAT NOT NULL,
     SEASON INT NOT NULL,
     ACT INT NOT NULL,
-    RECOLORS INT NOT NULL
+    RECOLORS INT NOT NULL,
+    PATH VARCHAR(50) NOT NUL
     );
  ```
  * Para o preenchimento dos dados, acessar o url de CRUD do mapa (http://localhost:8080/create-skin).
