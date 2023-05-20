@@ -13,7 +13,7 @@ import java.util.List;
 public class SkinDao {
     public void createSkin(Skin skin){
 
-        String SQL = "INSERT INTO SKIN (NAME, DATE, PRICE, SEASON, ACT, RECOLORS) VALUES (?,?,?,?,?,?,?)";
+        String SQL = "INSERT INTO SKIN (NAME, DATE, PRICE, SEASON, ACT, RECOLORS) VALUES (?,?,?,?,?,?)";
 
         try {
 
@@ -41,6 +41,7 @@ public class SkinDao {
         } catch (Exception e){
 
             System.out.println("fail in connection");
+            System.out.println(e.getMessage());
         }
     }
     public List<Skin> findAllSkins(){

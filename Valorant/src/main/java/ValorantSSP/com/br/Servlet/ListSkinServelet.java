@@ -15,11 +15,12 @@ import java.util.List;
 public class ListSkinServelet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
         List<Skin> skins = new SkinDao().findAllSkins();
 
         req.setAttribute("skins", skins);
 
-        req.getRequestDispatcher("dashboard.jsp").forward(req, resp);
+        req.getRequestDispatcher("telas/Skins/Skins.jsp").forward(req, resp);
 
     }
 }
