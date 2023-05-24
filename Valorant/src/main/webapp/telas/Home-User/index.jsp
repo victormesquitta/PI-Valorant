@@ -11,10 +11,11 @@
     <header>
             <a href="#" class="" id="logo-ancora"><img class="" id="logo-navbar" src="images/logo.png" alt="logo"></a>
             <nav class="nav_links">
+                <a href="../Home-User/index.jsp">Home</a>
                 <a href="#">Agentes</a>
-                <a href="#">Armas</a>
+                <a href="../Tela-Weapons/Weapons.jsp">Armas</a>
                 <a href="#">Mapas</a>
-                <a href="#">Skins</a>
+                <a href="../Skins/Skins.jsp">Skins</a>
             </nav>
     </header>
     <div id="flexbox">

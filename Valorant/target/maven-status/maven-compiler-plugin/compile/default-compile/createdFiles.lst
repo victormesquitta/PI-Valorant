@@ -1,4 +1,5 @@
 ValorantSSP\com\br\Model\Skills.class
+ValorantSSP\com\br\Dao\AgentDao.class
 ValorantSSP\com\br\Model\Agent.class
 ValorantSSP\com\br\Servlet\CreateWeaponServlet.class
 ValorantSSP\com\br\Servlet\DeleteMapServlet.class
@@ -11,7 +12,10 @@ ValorantSSP\com\br\Servlet\DeleteSkinServlet.class
 ValorantSSP\com\br\Dao\WeaponDao.class
 ValorantSSP\com\br\Servlet\ListWeaponServlet.class
 ValorantSSP\com\br\Model\Map.class
+ValorantSSP\com\br\Servlet\CreateAgentServlet.class
 ValorantSSP\com\br\Dao\SkinDao.class
 ValorantSSP\com\br\Servlet\CreateMapServlet.class
+ValorantSSP\com\br\Servlet\DeleteAgentServlet.class
 ValorantSSP\com\br\Servlet\CreateSkinServlet.class
+ValorantSSP\com\br\Servlet\ListAgentServlet.class
 ValorantSSP\com\br\Dao\MapDao.class
