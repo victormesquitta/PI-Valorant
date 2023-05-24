@@ -1,20 +1,18 @@
 package ValorantSSP.com.br.Model;
 
-import java.util.*;
-
 public class Agent {
     private int id;
     private String name;
     private String role;
+    private String lore;
     private String skill1;
     private String skill2;
     private String skill3;
     private String ultimate;
-    private String skilldescription1;
-    private String skilldescription2;
-    private String skilldescription3;
-    private String skilldescription4;
-    private String lore;
+    private String skillDescription1;
+    private String skillDescription2;
+    private String skillDescription3;
+    private String ultimateDescription;
     private int ultimatePoints;
 
     public int getId() {
@@ -74,35 +72,35 @@ public class Agent {
     }
 
     public String getSkillDescription1() {
-        return skilldescription1;
+        return skillDescription1;
     }
 
     public void setSkillDescription1(String skilldescription1) {
-        this.skilldescription1 = skilldescription1;
+        this.skillDescription1 = skilldescription1;
     }
 
     public String getSkillDescription2() {
-        return skilldescription2;
+        return skillDescription2;
     }
 
     public void setSkillDescription2(String skilldescription2) {
-        this.skilldescription2 = skilldescription2;
+        this.skillDescription2 = skilldescription2;
     }
 
     public String getSkillDescription3() {
-        return skilldescription3;
+        return skillDescription3;
     }
 
     public void setSkillDescription3(String skilldescription3) {
-        this.skilldescription3 = skilldescription3;
+        this.skillDescription3 = skilldescription3;
     }
 
-    public String getSkillDescription4() {
-        return skilldescription4;
+    public String getUltimateDescription() {
+        return ultimateDescription;
     }
 
-    public void setSkillDescription4(String skilldescription4) {
-        this.skilldescription4 = skilldescription4;
+    public void setUltimateDescription(String skilldescription4) {
+        this.ultimateDescription = skilldescription4;
     }
 
     public String getLore() {

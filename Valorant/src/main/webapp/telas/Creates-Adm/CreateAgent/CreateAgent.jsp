@@ -37,11 +37,32 @@
             <label>Role</label>
                 <input type="text" name="agent-role" id="agent-role">
             <br>
-            <label>Skill</label>
-                <input type="text" name="agent-skill" id="agent-skill">
-            <br>
             <label>Lore</label>
                 <input type="text" name="agent-lore" id="agent-lore">
+            <br>
+            <label>Skill 1</label>
+                <input type="text" name="agent-skill1" id="agent-skill1">
+            <br>
+            <label>Skill 2</label>
+                <input type="text" name="agent-skill2" id="agent-skill2">
+            <br>
+            <label>Skill 3</label>
+                <input type="text" name="agent-skill3" id="agent-skill3">
+            <br>
+            <label>Ultimate</label>
+                <input type="text" name="agent-ultimate" id="agent-ultimate">
+            <br>
+            <label>Skill Description 1</label>
+                <input type="text" name="agent-skilldescription1" id="agent-skilldescription1">
+            <br>
+            <label>Skill Description 2</label>
+                <input type="text" name="agent-skilldescription2" id="agent-skilldescription2">
+            <br>
+            <label>Skill Description 3</label>
+                <input type="text" name="agent-skilldescription3" id="agent-skilldescription3">
+            <br>
+            <label>Ultimate Description</label>
+                <input type="text" name="agent-ultimatedescription" id="agent-ultimatedescription">
             <br>
             <label>Ultimate Points</label>
                 <input type="number" name="agent-ultimatepoints" id="agent-ultimatepoints">
