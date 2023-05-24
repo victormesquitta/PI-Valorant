@@ -26,24 +26,23 @@ import java.io.IOException;
             String agentSkillDescription1 = req.getParameter("agent-skilldescription1");
             String agentSkillDescription2 = req.getParameter("agent-skilldescription2");
             String agentSkillDescription3 = req.getParameter("agent-skilldescription3");
-            String agentSkillDescription4 = req.getParameter("agent-ultimatedescription");
-            int agentUltimatePoint = Integer.parseInt(req.getParameter("agent-ultimatepoints"));
+            String agentUltimateDescription = req.getParameter("agent-ultimatedescription");
+            int agentUltimatePoints = Integer.parseInt(req.getParameter("agent-ultimatepoints"));
 
 
             Agent agent = new Agent();
             agent.setName(agentName);
             agent.setRole(agentRole);
             agent.setLore(agentLore);
-            agent.setSkillDescription1(agentSkillDescription1);
-            agent.setSkillDescription2(agentSkillDescription2);
-            agent.setSkillDescription3(agentSkillDescription3);
-            agent.setSkillDescription3(agentSkillDescription4);
             agent.setSkill1(agentSkill1);
             agent.setSkill2(agentSkill2);
             agent.setSkill3(agentSkill3);
-            agent.setUltimatePoints(agentUltimatePoint);
             agent.setUltimate(agentUltimate);
-
+            agent.setSkillDescription1(agentSkillDescription1);
+            agent.setSkillDescription2(agentSkillDescription2);
+            agent.setSkillDescription3(agentSkillDescription3);
+            agent.setUltimateDescription(agentUltimateDescription);
+            agent.setUltimatePoints(agentUltimatePoints);
 
             new AgentDao().createAgent(agent);
 

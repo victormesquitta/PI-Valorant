@@ -32,7 +32,7 @@
     <div id="form-create-agent">
         <form action="/create-agent" method="post">
             <label>Name</label>
-            <input type="text" name="agent-name" id="agent-name">
+                <input type="text" name="agent-name" id="agent-name">
             <br>
             <label>Role</label>
                 <input type="text" name="agent-role" id="agent-role">

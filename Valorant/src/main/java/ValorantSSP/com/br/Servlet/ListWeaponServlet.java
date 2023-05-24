@@ -15,6 +15,7 @@ import java.util.List;
 public class ListWeaponServlet extends HttpServlet{
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
         List<Weapon> weapons = new WeaponDao().findAllWeapons();
 
         req.setAttribute("weapons", weapons);
