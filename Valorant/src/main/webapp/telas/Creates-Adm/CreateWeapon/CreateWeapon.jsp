@@ -26,7 +26,7 @@
                 </div>
             </nav>
             <div id="header-down">
-                <a href="telas/Home-User/index.jsp" id="ancora-button"><button id="button_logout">LOG OUT</button></a>
+                <a href="../../Home-User/index.jsp" id="ancora-button"><button id="button_logout">LOG OUT</button></a>
             </div>
        </header>
     <div id="form-create-weapon">
