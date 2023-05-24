@@ -39,6 +39,14 @@ public class Agent {
         this.role = role;
     }
 
+    public String getLore() {
+        return lore;
+    }
+
+    public void setLore(String lore) {
+        this.lore = lore;
+    }
+
     public String getSkill1() {
         return skill1;
     }
@@ -99,16 +107,8 @@ public class Agent {
         return ultimateDescription;
     }
 
-    public void setUltimateDescription(String skilldescription4) {
-        this.ultimateDescription = skilldescription4;
-    }
-
-    public String getLore() {
-        return lore;
-    }
-
-    public void setLore(String lore) {
-        this.lore = lore;
+    public void setUltimateDescription(String ultimateDescription) {
+        this.ultimateDescription = ultimateDescription;
     }
 
     public int getUltimatePoints() {
