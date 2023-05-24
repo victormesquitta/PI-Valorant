@@ -42,9 +42,8 @@ header{
     margin: 0;
 }
 
-#logo-ancora{
+.logo-ancora{
     display: flex;
-    justify-content: flex-end;
     align-items: center;
     width: 35%;
     height: 100%;
@@ -54,6 +53,7 @@ header{
 
 #logo-navbar{
     display: flex;
+    justify-content: flex-end;
     width: 65%;
     margin-right: 10%;
 }
@@ -122,16 +122,20 @@ a{
     width: 100%;
     height: 15%;
 }
-
-#button_logout{
-    width: 35%;
-    height: 20%;
-    border: 1px solid #908f8f;
-    border-radius: 5px;
-    margin: 12.5% 35% 0 0;
+#ancora-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 #button_logout{
+    width: 40%;
+    height: 40%;
+    border: 1px solid #908f8f;
+    border-radius: 5px;
+    margin: 10% 35% 0 0;
     font-weight: bold;
 }
 

@@ -8,8 +8,8 @@
 <body>
     <header>
         <div id="header-up">
-            <a href="#" class="" id="logo-ancora"><img class="" id="logo-navbar" src="images/logo.png" alt="logo"></a>
-            <h2 id="titulo-header">Visão Administrativa</h2>
+            <a href="http://localhost:8080/" class="logo-ancora" id=""><img class="" id="logo-navbar" src="images/logo.png" alt="logo"></a>
+            <a href="http://localhost:8080/" class="logo-ancora" id=""><h2 id="titulo-header">Visão Administrativa</h2></a>
         </div>
         <nav class="nav_links">
             <div class="nav_link">
@@ -26,7 +26,7 @@
             </div>
         </nav>
         <div id="header-down">
-            <a href="//localhost:8080/telas/Home-User/index.jsp"<button id="button_logout">LOG OUT</button></a>
+            <a href="telas/Home-User/index.jsp" id="ancora-button"><button id="button_logout">LOG OUT</button></a>
         </div>
     </header>
     <div id="form-create-agent">
