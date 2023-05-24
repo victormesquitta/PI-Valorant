@@ -35,7 +35,6 @@
                 <td>${map.season}</td>
                 <td>${map.act}</td>
                 <td>${map.rotation}</td>
-
                 <td><form action="/delete-map" method="post">
                         <input type="hidden" id="map-id" name="map-id" value="${map.id}">
                         <button type="submit">Delete</button>

@@ -2,7 +2,7 @@ package ValorantSSP.com.br.Model;
 
 public class Weapon {
 
-    private int id;
+    private String id;
     private String name;
     private String type;
     private int creds;
@@ -12,11 +12,11 @@ public class Weapon {
     private int fireRateSecs;
     private String wallPenetration;
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 

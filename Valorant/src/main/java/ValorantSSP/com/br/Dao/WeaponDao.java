@@ -14,7 +14,7 @@ public class WeaponDao {
 
     public void createWeapon(Weapon weapon){
 
-        String SQL = "INSERT INTO MAP (NAME, TYPE, CREDS, DAMAGE, MAGAZINE, RESERVE, FIRERATESECS, WALLPENETRATION) VALUES (?,?,?,?,?,?,?,?)";
+        String SQL = "INSERT INTO WEAPON (NAME, TYPE, CREDS, DAMAGE, MAGAZINE, RESERVE, FIRERATESECS, WALLPENETRATION) VALUES (?,?,?,?,?,?,?,?)";
 
         try {
 
@@ -45,7 +45,7 @@ public class WeaponDao {
             System.out.println("fail in connection");
         }
     }
-    public List<Weapon> findAllWeapon(){
+    public List<Weapon> findAllWeapons(){
         String SQL = "SELECT * FROM WEAPON";
 
         try {
@@ -62,11 +62,26 @@ public class WeaponDao {
 
             while (resultSet.next()) {
 
+                String weaponId = resultSet.getString("id");
                 String weaponName = resultSet.getString("name");
+                String weaponType = resultSet.getString("type");
+                int weaponCreds = resultSet.getInt("creds");
+                int weaponDamage = resultSet.getInt("damage");
+                int weaponMagazine = resultSet.getInt("magazine");
+                int weaponReserve = resultSet.getInt("reserve");
+                int weaponFireRateSecs = resultSet.getInt("fireRateSecs");
+                String weaponWallPenetration = resultSet.getString("wallPenetration");
 
                 Weapon weapon = new Weapon();
+                weapon.setId(weaponId);
                 weapon.setName(weaponName);
-
+                weapon.setType(weaponType);
+                weapon.setCreds(weaponCreds);
+                weapon.setDamage(weaponDamage);
+                weapon.setMagazine(weaponMagazine);
+                weapon.setReserve(weaponReserve);
+                weapon.setFireRateSecs(weaponFireRateSecs);
+                weapon.setWallPenetration(weaponWallPenetration);
                 weapons.add(weapon);
 
             }

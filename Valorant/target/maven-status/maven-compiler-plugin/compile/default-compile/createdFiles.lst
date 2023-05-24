@@ -4,7 +4,7 @@ ValorantSSP\com\br\Servlet\CreateWeaponServlet.class
 ValorantSSP\com\br\Servlet\DeleteMapServlet.class
 ValorantSSP\com\br\Servlet\ListMapServlet.class
 ValorantSSP\com\br\Servlet\DeleteWeaponServlet.class
-ValorantSSP\com\br\Servlet\ListSkinServelet.class
+ValorantSSP\com\br\Servlet\ListSkinServlet.class
 ValorantSSP\com\br\Model\Skin.class
 ValorantSSP\com\br\Model\Weapon.class
 ValorantSSP\com\br\Servlet\DeleteSkinServlet.class

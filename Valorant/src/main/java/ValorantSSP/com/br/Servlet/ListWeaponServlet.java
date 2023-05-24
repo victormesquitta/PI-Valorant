@@ -15,11 +15,11 @@ import java.util.List;
 public class ListWeaponServlet extends HttpServlet{
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        List<Weapon> weapons = new WeaponDao().findAllWeapon();
+        List<Weapon> weapons = new WeaponDao().findAllWeapons();
 
         req.setAttribute("weapons", weapons);
 
-        req.getRequestDispatcher("dashboard.jsp").forward(req, resp);
+        req.getRequestDispatcher("./telas/tela-inicial-weapons/dashboard-weapons.jsp").forward(req, resp);
 
     }
 }
