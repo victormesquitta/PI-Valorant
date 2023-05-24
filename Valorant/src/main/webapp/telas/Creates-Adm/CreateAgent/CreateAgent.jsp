@@ -41,25 +41,25 @@
                 <input type="text" name="agent-lore" id="agent-lore">
             <br>
             <label>Skill 1</label>
-                <input type="text" name="agent-skill1" id="agent-skill1">
+                <input type="text" name="agent-skillq" id="agent-skillq">
             <br>
             <label>Skill 2</label>
-                <input type="text" name="agent-skill2" id="agent-skill2">
+                <input type="text" name="agent-skille" id="agent-skille">
             <br>
             <label>Skill 3</label>
-                <input type="text" name="agent-skill3" id="agent-skill3">
+                <input type="text" name="agent-skillc" id="agent-skillc">
             <br>
             <label>Ultimate</label>
                 <input type="text" name="agent-ultimate" id="agent-ultimate">
             <br>
             <label>Skill Description 1</label>
-                <input type="text" name="agent-skilldescription1" id="agent-skilldescription1">
+                <input type="text" name="agent-skilldescriptionq" id="agent-skilldescriptionq">
             <br>
             <label>Skill Description 2</label>
-                <input type="text" name="agent-skilldescription2" id="agent-skilldescription2">
+                <input type="text" name="agent-skilldescriptione" id="agent-skilldescriptione">
             <br>
             <label>Skill Description 3</label>
-                <input type="text" name="agent-skilldescription3" id="agent-skilldescription3">
+                <input type="text" name="agent-skilldescriptionc" id="agent-skilldescriptionc">
             <br>
             <label>Ultimate Description</label>
                 <input type="text" name="agent-ultimatedescription" id="agent-ultimatedescription">

@@ -5,13 +5,13 @@ public class Agent {
     private String name;
     private String role;
     private String lore;
-    private String skill1;
-    private String skill2;
-    private String skill3;
+    private String skillq;
+    private String skille;
+    private String skillc;
     private String ultimate;
-    private String skillDescription1;
-    private String skillDescription2;
-    private String skillDescription3;
+    private String skillDescriptionq;
+    private String skillDescriptione;
+    private String skillDescriptionc;
     private String ultimateDescription;
     private int ultimatePoints;
 
@@ -47,28 +47,28 @@ public class Agent {
         this.lore = lore;
     }
 
-    public String getSkill1() {
-        return skill1;
+    public String getSkillq() {
+        return skillq;
     }
 
-    public void setSkill1(String skill1) {
-        this.skill1 = skill1;
+    public void setSkillq(String skillq) {
+        this.skillq = skillq;
     }
 
-    public String getSkill2() {
-        return skill2;
+    public String getSkille() {
+        return skille;
     }
 
-    public void setSkill2(String skill2) {
-        this.skill2 = skill2;
+    public void setSkille(String skille) {
+        this.skille = skille;
     }
 
-    public String getSkill3() {
-        return skill3;
+    public String getSkillc() {
+        return skillc;
     }
 
-    public void setSkill3(String skill3) {
-        this.skill3 = skill3;
+    public void setSkillc(String skillc) {
+        this.skillc = skillc;
     }
 
     public String getUltimate() {
@@ -79,28 +79,28 @@ public class Agent {
         this.ultimate = ultimate;
     }
 
-    public String getSkillDescription1() {
-        return skillDescription1;
+    public String getSkillDescriptionq() {
+        return skillDescriptionq;
     }
 
-    public void setSkillDescription1(String skilldescription1) {
-        this.skillDescription1 = skilldescription1;
+    public void setSkillDescriptionq(String skilldescription1) {
+        this.skillDescriptionq = skilldescription1;
     }
 
-    public String getSkillDescription2() {
-        return skillDescription2;
+    public String getSkillDescriptione() {
+        return skillDescriptione;
     }
 
-    public void setSkillDescription2(String skilldescription2) {
-        this.skillDescription2 = skilldescription2;
+    public void setSkillDescriptione(String skilldescription2) {
+        this.skillDescriptione = skilldescription2;
     }
 
-    public String getSkillDescription3() {
-        return skillDescription3;
+    public String getSkillDescriptionc() {
+        return skillDescriptionc;
     }
 
-    public void setSkillDescription3(String skilldescription3) {
-        this.skillDescription3 = skilldescription3;
+    public void setSkillDescriptionc(String skilldescription3) {
+        this.skillDescriptionc = skilldescription3;
     }
 
     public String getUltimateDescription() {
