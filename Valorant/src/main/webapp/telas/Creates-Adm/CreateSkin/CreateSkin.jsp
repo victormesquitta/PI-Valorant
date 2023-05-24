@@ -35,7 +35,7 @@
             <input type="text" name="skin-name" id="skin-name">
             <br>
             <label>Season</label>
-                <input type="text" name="skin-season" id="skin-season">
+                <input type="number" name="skin-season" id="skin-season">
             <br>
             <label>Act</label>
                 <input type="number" name="skin-act" id="skin-act">
