@@ -141,7 +141,7 @@ a{
     width: 40%;
 }
 
-#button_logout{
+.button{
     width: 100%;
     height: 100%;
     border: 1px solid #908f8f;
@@ -151,83 +151,51 @@ a{
     padding: 0;
 }
 
-
 #button_logout:hover{
     background-color: #e3e3e3;
     cursor: pointer;
 }
 
-#div-right{
-    /* background-color: gold; */
+#dashboard{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 82.5%;
     height: 100vh;
+    color: rgb(78, 78, 78);
     margin-left: 17.5%;
 }
 
-#form-title{
-    display: flex;
-    justify-content: flex-start;
-
-    width: 50%;
+h1{
+    margin-bottom: 1.5%;
 }
 
-#div-form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+#table{
+    width: 90%;
+}
+
+#form-delete{
     width: 100%;
+}
+tr{
+    background-color: rgb(216, 216, 216);
+}
+.novo-ancora{
+    margin-top: 1%;
+    height: 5%;
+    width: 10%;
+}
+#button_novo{
+    color: #ECE8E1;
+    background-color: rgb(37, 166, 52);
     height: 100%;
-}
-
-#form-create-agent{
-    /* background-color: purple; */
-    width: 50%;
-    height: 75%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-#colunas{
-    display: flex;
-    justify-content: space-between;
     width: 100%;
-    height: 80%;
+    margin:0;
 }
 
-#coluna-1{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    height: 100%;
-}
 
-#coluna-2{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    height: 100%;
-}
-
-input{
-    width: 80%;
-    height: 50%;
-    border: 0.1px solid #ccc;
-    border-radius: 10px;
-}
-
-label{
-    margin-bottom: 1%;
-}
-
-#button-register{
-    width: 40%;
-    height: 10%;
-    border: 1px solid #908f8f;
-    border-radius: 20px;
-    font-weight: bold;
-}
+/* #button-delete{
+    width: ;
+} */
