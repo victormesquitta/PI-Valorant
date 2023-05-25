@@ -9,6 +9,7 @@ import java.util.Collections;
 import java.util.List;
 
 import ValorantSSP.com.br.Model.Map;
+import ValorantSSP.com.br.config.ConnectionPoolConfig;
 
 public class MapDao {
 
@@ -18,11 +19,7 @@ public class MapDao {
 
         try {
 
-            System.out.println("1success in connection");
-            Connection connection = DriverManager.getConnection(
-                    "jdbc:h2:~/test",
-                    "sa",
-                    "sa");
+            Connection connection = ConnectionPoolConfig.getConnection();
 
             PreparedStatement preparedStatement = connection.prepareStatement(SQL);
 
@@ -52,9 +49,7 @@ public class MapDao {
 
         try {
 
-            Connection connection = DriverManager.getConnection("jdbc:h2:~/test", "sa", "sa");
-
-            System.out.println("2success in database connection");
+            Connection connection = ConnectionPoolConfig.getConnection();
 
             PreparedStatement preparedStatement = connection.prepareStatement(SQL);
 
@@ -116,11 +111,7 @@ public class MapDao {
 
         try {
 
-            System.out.println("success in connection");
-            Connection connection = DriverManager.getConnection(
-                    "jdbc:h2:~/test",
-                    "sa",
-                    "sa");
+            Connection connection = ConnectionPoolConfig.getConnection();
 
             PreparedStatement preparedStatement = connection.prepareStatement(SQL);
             preparedStatement.setString(1, mapId);
