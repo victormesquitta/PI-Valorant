@@ -5,17 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PI Valorant</title>
+    <title>Armas</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <a href="../home-user/index.jsp" class="" id="logo-ancora"><img class="" id="logo-navbar" src="/user/weapons/Images/logo.png" alt="logo"></a>
         <nav class="nav_links">
-            <a href="#">Agentes</a>
-            <a href="#">Armas</a>
-            <a href="#">Mapas</a>
-            <a href="#">Skins</a>
+            <a href="../home-user/index.jsp">Home</a>
+            <a href="../agents/Agents.jsp">Agentes</a>
+            <a href="../weapons/Weapon.jsp">Armas</a>
+            <a href="../maps/Maps.jsp">Mapas</a>
+            <a href="../skins/Skins.jsp">Skins</a>
         </nav>
     </header>
 

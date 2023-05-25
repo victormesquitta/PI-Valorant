@@ -13,9 +13,9 @@
             <a href="index.jsp" class="" id="logo-ancora"><img class="" id="logo-navbar" src="images/logo.png" alt="logo"></a>
             <nav class="nav_links">
                 <a href="../home-user/index.jsp">Home</a>
-                <a href="#">Agentes</a>
-                <a href="../skins/Weapon.jsp">Armas</a>
-                <a href="#">Mapas</a>
+                <a href="../agents/Agents.jsp">Agentes</a>
+                <a href="../weapons/Weapon.jsp">Armas</a>
+                <a href="../maps/Maps.jsp">Mapas</a>
                 <a href="../skins/Skins.jsp">Skins</a>
             </nav>
     </header>
