@@ -17,18 +17,18 @@
             <a href="#">Mapas</a>
             <a href="Skins.jsp">Skins</a>
         </nav>
-</header>   
-    <h1>COLEÇÕES</h1>
-
-
-<div class="skins">
-    <c:forEach var="skin" items="${skins}">
-        <div class="conteudo">
-            <img src=${skin.path} alt="">
-            <h2>${skin.name}</h2>
-        </div>
-     </c:forEach>
-</div>
+    </header>
+    <div id="title">
+        <h1>COLEÇÕES</h1>
+    </div>  
+    <div class="skins">
+        <c:forEach var="skin" items="${skins}">
+            <div class="conteudo">
+                <img src=${skin.path} alt="">
+                <h2>${skin.name}</h2>
+            </div>
+        </c:forEach>
+    </div>
     
 </body>
 </html>
