@@ -26,7 +26,9 @@
             </div>
         </nav>
         <div id="header-down">
-            <a href="../../" id="ancora-button"><button id="button_logout">LOG OUT</button></a>
+            <div id="div-ancora-button">
+                <a href="../../" id="ancora-button"><button id="button_logout">LOG OUT</button></a>
+            </div>
         </div>
     </header>
     <div id="form-create-skin">

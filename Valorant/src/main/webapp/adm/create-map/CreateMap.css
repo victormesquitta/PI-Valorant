@@ -123,7 +123,7 @@ a{
     height: 15%;
 }
 
-#ancora-button{
+#div-ancora-button{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,14 +131,26 @@ a{
     height: 100%;
 }
 
-#button_logout{
-    width: 40%;
+#ancora-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 35% 0 0;
+    padding: 0;
     height: 40%;
+    width: 40%;
+}
+
+#button_logout{
+    width: 100%;
+    height: 100%;
     border: 1px solid #908f8f;
     border-radius: 5px;
-    margin: 10% 35% 0 0;
+
     font-weight: bold;
+    padding: 0;
 }
+
 
 #button_logout:hover{
     background-color: #e3e3e3;
