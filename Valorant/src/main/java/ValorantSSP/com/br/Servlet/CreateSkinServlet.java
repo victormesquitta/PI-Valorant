@@ -36,7 +36,7 @@ public class CreateSkinServlet extends HttpServlet {
 
         new SkinDao().createSkin(skin);
 
-        resp.sendRedirect("/find-all-skins");
+        resp.sendRedirect("/skins");
     }
 
 }
