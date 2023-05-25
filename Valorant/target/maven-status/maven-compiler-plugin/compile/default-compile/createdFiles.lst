@@ -1,4 +1,5 @@
 ValorantSSP\com\br\Model\Skills.class
+ValorantSSP\com\br\config\ConnectionPoolConfig.class
 ValorantSSP\com\br\Dao\AgentDao.class
 ValorantSSP\com\br\Model\Agent.class
 ValorantSSP\com\br\Servlet\CreateWeaponServlet.class

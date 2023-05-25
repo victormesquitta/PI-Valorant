@@ -1,6 +1,7 @@
 package ValorantSSP.com.br.Dao;
 
 import ValorantSSP.com.br.Model.Agent;
+import ValorantSSP.com.br.config.ConnectionPoolConfig;
 
 
 import java.sql.Connection;
@@ -18,11 +19,7 @@ public class AgentDao {
 
         try {
 
-            System.out.println("1success in connection");
-            Connection connection = DriverManager.getConnection(
-                    "jdbc:h2:~/test",
-                    "sa",
-                    "sa");
+            Connection connection = ConnectionPoolConfig.getConnection();
 
             PreparedStatement preparedStatement = connection.prepareStatement(SQL);
 
@@ -53,9 +50,7 @@ public class AgentDao {
 
         try {
 
-            Connection connection = DriverManager.getConnection("jdbc:h2:~/test", "sa", "sa");
-
-            System.out.println("2success in database connection");
+            Connection connection = ConnectionPoolConfig.getConnection();
 
             PreparedStatement preparedStatement = connection.prepareStatement(SQL);
 
@@ -120,11 +115,7 @@ public class AgentDao {
 
         try {
 
-            System.out.println("success in connection");
-            Connection connection = DriverManager.getConnection(
-                    "jdbc:h2:~/test",
-                    "sa",
-                    "sa");
+            Connection connection = ConnectionPoolConfig.getConnection();
 
             PreparedStatement preparedStatement = connection.prepareStatement(SQL);
             preparedStatement.setString(1, agentId);

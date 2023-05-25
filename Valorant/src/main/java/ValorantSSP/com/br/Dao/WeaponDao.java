@@ -9,6 +9,7 @@ import java.util.Collections;
 import java.util.List;
 
 import ValorantSSP.com.br.Model.Weapon;
+import ValorantSSP.com.br.config.ConnectionPoolConfig;
 
 public class WeaponDao {
 
@@ -18,11 +19,7 @@ public class WeaponDao {
 
         try {
 
-            System.out.println("success in connection");
-            Connection connection = DriverManager.getConnection(
-                    "jdbc:h2:~/test",
-                    "sa",
-                    "sa");
+            Connection connection = ConnectionPoolConfig.getConnection();
 
             PreparedStatement preparedStatement = connection.prepareStatement(SQL);
 
@@ -50,9 +47,7 @@ public class WeaponDao {
 
         try {
 
-            Connection connection = DriverManager.getConnection("jdbc:h2:~/test", "sa", "sa");
-
-            System.out.println("success in database connection");
+            Connection connection = ConnectionPoolConfig.getConnection();
 
             PreparedStatement preparedStatement = connection.prepareStatement(SQL);
 
@@ -105,15 +100,13 @@ public class WeaponDao {
         String SQL = "DELETE WEAPON WHERE ID = ?";
         try {
 
-            Connection connection = DriverManager.getConnection("jdbc:h2:~/test", "sa", "sa");
-
-            System.out.println("success in database connection");
+            Connection connection = ConnectionPoolConfig.getConnection();
 
             PreparedStatement preparedStatement = connection.prepareStatement(SQL);
             preparedStatement.setString(1, weaponId);
             preparedStatement.execute();
 
-            System.out.println("success on delete car with name: " + weaponId);
+            System.out.println("success on delete weapon with name: " + weaponId);
 
             connection.close();
 

@@ -1,6 +1,7 @@
 package ValorantSSP.com.br.Dao;
 
 import ValorantSSP.com.br.Model.Skin;
+import ValorantSSP.com.br.config.ConnectionPoolConfig;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -17,11 +18,7 @@ public class SkinDao {
 
         try {
 
-            System.out.println("success in connection");
-            Connection connection = DriverManager.getConnection(
-                    "jdbc:h2:~/test",
-                    "sa",
-                    "sa");
+            Connection connection = ConnectionPoolConfig.getConnection();
 
             PreparedStatement preparedStatement = connection.prepareStatement(SQL);
 
@@ -50,9 +47,7 @@ public class SkinDao {
 
         try {
 
-            Connection connection = DriverManager.getConnection("jdbc:h2:~/test", "sa", "sa");
-
-            System.out.println("success in database connection");
+            Connection connection = ConnectionPoolConfig.getConnection();
 
             PreparedStatement preparedStatement = connection.prepareStatement(SQL);
 
@@ -93,9 +88,7 @@ public class SkinDao {
         String SQL = "DELETE SKIN WHERE ID = ?";
         try {
 
-            Connection connection = DriverManager.getConnection("jdbc:h2:~/test", "sa", "sa");
-
-            System.out.println("success in database connection");
+            Connection connection = ConnectionPoolConfig.getConnection();
 
             PreparedStatement preparedStatement = connection.prepareStatement(SQL);
             preparedStatement.setString(1, skinId);
