@@ -17,8 +17,8 @@
         </div>
         <form action="../../index.jsp" class="box-item" id="item-form">
             <div class="item-form-data">
-                <label for="email">E-mail</label>
-                <input type="email" name="" id="" placeholder="valorant_pi@gmail.com" class="input-text" required>
+                <label for="username">Usuário</label>
+                <input type="text" name="" id="" placeholder="valorant_pi" class="input-text" required>
             </div>
             <div class="item-form-data">
                 <label for="password">Senha</label>
