@@ -29,8 +29,7 @@
             </div> 
         </form>
         <div class="box-item" id="item-cadastro">
-            <button id="cadastrar-se" class="button button-cadastro">Cadastrar-se</button>
-            <button id="esqueceu-a-senha" class="button button-cadastro">Trocar Senha</button>
+            <a href="../cadastro/index.jsp" id="ancora-cadastro"> <button id="cadastrar-se" class="button button-cadastro">Cadastrar-se</button></a>
         </div>
         
     </div>

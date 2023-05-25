@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,7 +14,8 @@
         <div id="box-logar">
             <h1 class="box-logar-item">Já tem uma conta ?</h1>
             <p class="box-logar-item">Acesse agora mesmo utilizando suas credenciais!</p>
-            <button class="button box-logar-item" id="button-entrar">ENTRAR</button>
+            <a href="../login/index.jsp" id="ancora-entrar"><button class="button box-logar-item" id="button-entrar">ENTRAR</button>
+</a>
         </div>
         <div id="div-registrar-box">
             <div id="registrar-box">

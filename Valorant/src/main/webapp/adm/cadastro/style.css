@@ -56,9 +56,14 @@ p{
     width: 50%;
 }
 
-#button-entrar{
-    width: 30%;
+#ancora-entrar{
+width: 30%;
     height: 6.5%;
+}
+
+#button-entrar{
+    width: 100%;
+    height: 100%;
     border-radius: 20px;
     background-color: #FF4655;
     color: #ECE8E1;
