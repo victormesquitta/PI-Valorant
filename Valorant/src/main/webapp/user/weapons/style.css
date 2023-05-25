@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@700&display=swap');
 *{
-    font-family: 'Inter', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: bold;
     margin: 0;
 }
@@ -22,7 +23,6 @@ header{
     box-shadow: 0 1px 30px #191919;
 }
 a{
-    font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 0.75rem;
     color: #ECE8E1;
@@ -161,9 +161,9 @@ h1{
 
 }
 .name{
-
-
-    text-align: center;
+    display: flex;
+    width:100%;
+    justify-content: center;
     background-color: aqua;
 
 

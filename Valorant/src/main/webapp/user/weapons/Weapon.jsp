@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +10,7 @@
 </head>
 <body>
     <header>
-        <a href="#" class="" id="logo-ancora"><img class="" id="logo-navbar" src="logo.png" alt="logo"></a>
+        <a href="../home-user/index.jsp" class="" id="logo-ancora"><img class="" id="logo-navbar" src="/user/weapons/Images/logo.png" alt="logo"></a>
         <nav class="nav_links">
             <a href="#">Agentes</a>
             <a href="#">Armas</a>
@@ -19,18 +20,18 @@
     </header>
 
     <h1 class="title">ARMAS</h1>
-    <img class="barra" src="/weapon/images/linha-de-titulo-branca.png">
+    <img class="barra" src="/user/weapons/Images/linha-de-titulo-branca.png">
     <h1 class="subtitle">PISTOLAS</h1>
 
 
     <div class="container">
         <div class="box">
-            <img class="images" src="images/Classic.png">
+            <img class="images" src="/user/weapons/Images/Classic.png">
             <h1 class="name">CLASSIC</h1>
 
         </div>
         <div class="box">
-            <img class="images" src="images/Classic.png">
+            <img class="images" src="/user/weapons/Images/Classic.png">
             <h1 class="name">CLASSIC</h1>
 
         </div>
@@ -40,12 +41,12 @@
     <h1 class="subtitle">SUBMETRALHADORAS</h1>
     <div class="container">
         <div class="box">
-            <img class="images" src="images/Classic.png">
+            <img class="images" src="/user/weapons/Images/Classic.png">
             <h1 class="name">CLASSIC</h1>
 
         </div>
         <div class="box">
-            <img class="images" src="images/Classic.png">
+            <img class="images" src="/user/weapons/Images/Classic.png">
             <h1 class="name">CLASSIC</h1>
 
         </div>
@@ -55,12 +56,12 @@
     <h1 class="subtitle">ESCOPETAS</h1>
     <div class="container">
         <div class="box">
-            <img class="images" src="images/Classic.png">
+            <img class="images" src="/user/weapons/Images/Classic.png">
             <h1 class="name">CLASSIC</h1>
 
         </div>
         <div class="box">
-            <img class="images" src="images/Classic.png">
+            <img class="images" src="/user/weapons/Images/Classic.png">
             <h1 class="name">CLASSIC</h1>
 
         </div>
@@ -70,12 +71,12 @@
     <h1 class="subtitle">FUZIL</h1>
     <div class="container">
         <div class="box">
-            <img class="images" src="images/Classic.png">
+            <img class="images" src="/user/weapons/Images/Classic.png">
             <h1 class="name">CLASSIC</h1>
 
         </div>
         <div class="box">
-            <img class="images" src="images/Classic.png">
+            <img class="images" src="/user/weapons/Images/Classic.png">
             <h1 class="name">CLASSIC</h1>
 
         </div>
@@ -85,12 +86,12 @@
     <h1 class="subtitle">FUZIL DE PRECISÃO</h1>
     <div class="container">
         <div class="box">
-            <img class="images" src="images/Classic.png">
+            <img class="images" src="/user/weapons/Images/Classic.png">
             <h1 class="name">CLASSIC</h1>
 
         </div>
         <div class="box">
-            <img class="images" src="images/Classic.png">
+            <img class="images" src="/user/weapons/Images/Classic.png">
             <h1 class="name">CLASSIC</h1>
 
         </div>
