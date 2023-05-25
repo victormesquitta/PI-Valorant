@@ -55,7 +55,10 @@
                 <input type="number" name="weapon-fireRateSecs" id="weapon-fireRateSecs">
             <br>
             <label>Wall Penetration</label>
-                    <input type="text" name="weapon-wallPenetration" id="weapon-wallPenetration">
+                 <input type="text" name="weapon-wallPenetration" id="weapon-wallPenetration">
+            <br>
+            <label>Path</label>
+                 <input type="text" name="weapon-path" id="weapon-path">
             <br>
                 <button type="submit">Register</button>
         </form>

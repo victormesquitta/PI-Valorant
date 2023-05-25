@@ -11,16 +11,18 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet("/find-all-weapons")
+@WebServlet("/armas")
 public class ListWeaponServlet extends HttpServlet{
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         List<Weapon> weapons = new WeaponDao().findAllWeapons();
+        List<Weapon> pistols = new WeaponDao().findAllPistols();
 
         req.setAttribute("weapons", weapons);
+        req.setAttribute("pistols", pistols);
 
-        req.getRequestDispatcher("adm/dashboard-weapons/Weapons.jsp").forward(req, resp);
+        req.getRequestDispatcher("user/weapons/Weapon.jsp").forward(req, resp);
 
     }
 }

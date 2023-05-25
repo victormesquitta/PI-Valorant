@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Armas</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="user/weapons/style.css">
 </head>
 <body>
     <header>
@@ -26,19 +27,14 @@
 
 
     <div class="container">
-        <div class="box">
-            <img class="images" src="/user/weapons/Images/Classic.png">
-            <h1 class="name">CLASSIC</h1>
-
-        </div>
-        <div class="box">
-            <img class="images" src="/user/weapons/Images/Classic.png">
-            <h1 class="name">CLASSIC</h1>
-
-        </div>
-
-
+        <c:forEach var = "pistol" items="${pistols}">
+            <div class="box">
+                <img class="images" src=${pistol.path}>
+                <h1 class="name">${pistol.name}</h1>
+            </div>
+        </c:forEach>
     </div>
+
     <h1 class="subtitle">SUBMETRALHADORAS</h1>
     <div class="container">
         <div class="box">

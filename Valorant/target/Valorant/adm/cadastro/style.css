@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    /* background-color: #c7c7c7; */
+    background-color: #FF4655;
+}
+
+h1{
+font-size: 2rem;
+}
+
+#main-box{
+    border-radius: 30px;
+    background-color: #ECE8E1;
+    display: flex;
+    width: 90%;
+    height: 90%;
+    box-shadow: 5px 5px 30px #191919;
+}
+
+#box-logar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ECE8E1;
+    background-color: #FF4655;
+    /* background-color: #ECE8E1; */
+    width: 45%;
+    height: 100%;
+    border-radius: 20px 0px 0px 28px;
+    margin: 0px;
+}
+
+.box-logar-item{
+    margin: 1.5%;
+}
+
+p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    text-align: center;
+    font-weight: 100;
+    width: 50%;
+}
+
+#ancora-entrar{
+width: 30%;
+    height: 6.5%;
+}
+
+#button-entrar{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #FF4655;
+    color: #ECE8E1;
+    margin: 3.5%;
+}
+
+#div-registrar-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    color: #191919;
+    /* background-color: gold; */
+    width: 70%;
+    height: 100%;
+}
+
+
+#registrar-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #191919;
+    /* background-color: #ffbb44; */
+    width: 65%;
+    height: 80%;
+    /* border-radius: 10px;
+    box-shadow: 5px 5px 30px #191919; */
+}
+
+#item-title{
+    display: flex;
+    justify-content: center;
+    height: 15%;
+    /* height: 20%; */
+    /* border: 2px solid #228d14; */
+    width: 100%;
+    margin: 5% 0 2% 0 ;
+
+}
+
+.title{
+    display: flex;
+    margin: 0;
+    padding: 0 0 2.5% 0;
+    justify-content: center;
+}
+
+#item-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80%;
+    width: 75%;
+    /* border: 2px solid #2475df; */
+    flex-direction: column;
+}
+
+.item-form-data{
+    display: flex;
+    flex-direction: column;
+    padding: 0% 0 5% 0;
+    width: 100%;
+    height: 20%;
+}
+
+label{
+    margin:  0 0 1.5% 2.5%;
+}
+
+.input-text{   
+    /* width: 100%; */
+    border: 0.1px solid #ccc;
+    border-radius: 15px;
+    padding-left: 5%;
+    transition: all 0.3s ease;
+    height: 50%;
+}
+
+.input-text:focus{
+    background:#eee9e9;
+    border: 0.1px solid #FF4655;
+    outline: none ;
+}
+
+#div-button-cadastrar{
+    display: flex;
+    justify-content: center;
+    padding: 2.5% 0 0 0;
+    height: 20%;
+    width: 100%;
+}
+
+#button-cadastrar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #FF4655;
+    color: #ECE8E1;
+    /* border: 2.5px solid #ffffff; */
+    border: none;
+    border-radius: 30px;
+}
+
+#button-entrar:hover{
+    cursor: pointer;
+    background: #f54654;
+}
+
+.button{
+    border: 2px solid #ECE8E1;
+    transition: all 0.3s ease;
+}
+
+.button:hover{
+    cursor: pointer;
+    background: #cacaca;
+}
+
+
+#item-cadastro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20%;
+    /* border: 2px solid #ff28a6; */
+    width: 75%;
+    margin-bottom: 2.5%;
+}
+
+.button-cadastro{
+    height: 60%;
+    border-radius: 40px;
+    width: 49%;
+    border: 2.5px solid #f54654;
+}
+
+
+
+/*Deixar de background image os log

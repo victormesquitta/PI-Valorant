@@ -15,7 +15,7 @@ public class WeaponDao {
 
     public void createWeapon(Weapon weapon){
 
-        String SQL = "INSERT INTO WEAPON (NAME, TYPE, CREDS, DAMAGE, MAGAZINE, RESERVE, FIRERATESECS, WALLPENETRATION) VALUES (?,?,?,?,?,?,?,?)";
+        String SQL = "INSERT INTO WEAPON (NAME, TYPE, CREDS, DAMAGE, MAGAZINE, RESERVE, FIRERATESECS, WALLPENETRATION, PATH) VALUES (?,?,?,?,?,?,?,?,?)";
 
         try {
 
@@ -31,6 +31,7 @@ public class WeaponDao {
             preparedStatement.setInt(6, weapon.getReserve());
             preparedStatement.setInt(7,  weapon.getFireRateSecs());
             preparedStatement.setString(8, weapon.getWallPenetration());
+            preparedStatement.setString(9, weapon.getPath());
 
 
             preparedStatement.execute();
@@ -66,6 +67,7 @@ public class WeaponDao {
                 int weaponReserve = resultSet.getInt("reserve");
                 int weaponFireRateSecs = resultSet.getInt("fireRateSecs");
                 String weaponWallPenetration = resultSet.getString("wallPenetration");
+                String weaponPath = resultSet.getString("path");
 
                 Weapon weapon = new Weapon();
                 weapon.setId(weaponId);
@@ -77,6 +79,7 @@ public class WeaponDao {
                 weapon.setReserve(weaponReserve);
                 weapon.setFireRateSecs(weaponFireRateSecs);
                 weapon.setWallPenetration(weaponWallPenetration);
+                weapon.setPath(weaponPath);
                 weapons.add(weapon);
 
             }
@@ -86,6 +89,62 @@ public class WeaponDao {
             connection.close();
 
             return weapons;
+
+        } catch (Exception e) {
+
+            System.out.println("fail in database connection");
+
+            return Collections.emptyList();
+
+        }
+    }
+
+    public List<Weapon> findAllPistols(){
+        String SQL = "SELECT * FROM WEAPON WHERE TYPE = 'pistolas'";
+
+        try {
+
+            Connection connection = ConnectionPoolConfig.getConnection();
+
+            PreparedStatement preparedStatement = connection.prepareStatement(SQL);
+
+            ResultSet resultSet = preparedStatement.executeQuery();
+
+            List<Weapon> pistolas = new ArrayList<>();
+
+            while (resultSet.next()) {
+
+                String pistolID = resultSet.getString("id");
+                String pistolName = resultSet.getString("name");
+                String pistolType = resultSet.getString("type");
+                int pistolCreds = resultSet.getInt("creds");
+                int pistolDamage = resultSet.getInt("damage");
+                int pistolMagazine = resultSet.getInt("magazine");
+                int pistolReserve = resultSet.getInt("reserve");
+                int pistolFireRateSecs = resultSet.getInt("fireRateSecs");
+                String pistolWallPenetration = resultSet.getString("wallPenetration");
+                String pistolPath = resultSet.getString("path");
+
+                Weapon pistol = new Weapon();
+                pistol.setId(pistolID);
+                pistol.setName(pistolName);
+                pistol.setType(pistolType);
+                pistol.setCreds(pistolCreds);
+                pistol.setDamage(pistolDamage);
+                pistol.setMagazine(pistolMagazine);
+                pistol.setReserve(pistolReserve);
+                pistol.setFireRateSecs(pistolFireRateSecs);
+                pistol.setWallPenetration(pistolWallPenetration);
+                pistol.setPath(pistolPath);
+                pistolas.add(pistol);
+
+            }
+
+            System.out.println("success in select * weapon where type = 'pistolas'");
+
+            connection.close();
+
+            return pistolas;
 
         } catch (Exception e) {
 

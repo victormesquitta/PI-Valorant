@@ -12,6 +12,8 @@ public class Weapon {
     private int fireRateSecs;
     private String wallPenetration;
 
+    private String path;
+
     public String getId() {
         return id;
     }
@@ -82,5 +84,13 @@ public class Weapon {
 
     public void setWallPenetration(String wallPenetration) {
         this.wallPenetration = wallPenetration;
+    }
+
+    public String getPath() {
+        return path;
+    }
+
+    public void setPath(String path) {
+        this.path = path;
     }
 }

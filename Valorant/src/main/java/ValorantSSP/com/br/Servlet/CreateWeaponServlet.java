@@ -24,6 +24,7 @@ public class CreateWeaponServlet extends HttpServlet {
         int weaponReserve = Integer.parseInt(req.getParameter("weapon-reserve"));
         int weaponFireRateSecs = Integer.parseInt(req.getParameter("weapon-fireRateSecs"));
         String weaponWallPenetration = req.getParameter("weapon-wallPenetration");
+        String weaponPath = req.getParameter("weapon-path");
 
 
         Weapon weapon = new Weapon();
@@ -35,10 +36,11 @@ public class CreateWeaponServlet extends HttpServlet {
         weapon.setReserve(weaponReserve);
         weapon.setFireRateSecs(weaponFireRateSecs);
         weapon.setWallPenetration(weaponWallPenetration);
+        weapon.setPath(weaponPath);
 
         new WeaponDao().createWeapon(weapon);
 
-        resp.sendRedirect("/find-all-weapons");
+        resp.sendRedirect("/armas");
     }
 
 
