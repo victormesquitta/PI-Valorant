@@ -20,7 +20,7 @@ public class ListWeaponServlet extends HttpServlet{
 
         req.setAttribute("weapons", weapons);
 
-        req.getRequestDispatcher("telas/tela-inicial-weapons/Weapons.jsp").forward(req, resp);
+        req.getRequestDispatcher("adm/dashboard-weapons/Weapons.jsp").forward(req, resp);
 
     }
 }

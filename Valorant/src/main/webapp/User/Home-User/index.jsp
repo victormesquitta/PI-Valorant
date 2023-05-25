@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,11 +12,11 @@
     <header>
             <a href="index.jsp" class="" id="logo-ancora"><img class="" id="logo-navbar" src="images/logo.png" alt="logo"></a>
             <nav class="nav_links">
-                <a href="../Home-User/index.jsp">Home</a>
+                <a href="../home-user/index.jsp">Home</a>
                 <a href="#">Agentes</a>
-                <a href="../Tela-Weapons/Weapons.jsp">Armas</a>
+                <a href="#">Armas</a>
                 <a href="#">Mapas</a>
-                <a href="../Skins/Skins.jsp">Skins</a>
+                <a href="../skins/Skins.jsp">Skins</a>
             </nav>
     </header>
     <div id="flexbox">

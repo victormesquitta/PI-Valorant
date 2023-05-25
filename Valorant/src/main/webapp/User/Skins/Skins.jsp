@@ -4,14 +4,14 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/User/Skins/style.css">
+    <link rel="stylesheet" href="/user/skins/style.css">
     <title>Skins</title>
 </head>
 <body>
     <header>
-        <a href="../Home-User/index.jsp" class="" id="logo-ancora"><img class="" id="logo-navbar" src="/User/Skins/Images/logo.png" alt="logo"></a>
+        <a href="../home-user/index.jsp" class="" id="logo-ancora"><img class="" id="logo-navbar" src="/User/Skins/Images/logo.png" alt="logo"></a>
         <nav class="nav_links">
-            <a href="../Home-User/index.jsp">Home</a>
+            <a href="../home-user/index.jsp">Home</a>
             <a href="#">Agentes</a>
             <a href="#">Armas</a>
             <a href="#">Mapas</a>

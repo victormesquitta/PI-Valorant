@@ -13,20 +13,20 @@
         </div>
         <nav class="nav_links">
             <div class="nav_link">
-                <a href="Adm/CreateAgent/CreateAgent.jsp"><img id="agent-icon" class="icon" src="images/agent-icon.png">Agentes</a>
+                <a href="adm/create-agent/CreateAgent.jsp"><img id="agent-icon" class="icon" src="images/agent-icon.png">Agentes</a>
             </div>
             <div class="nav_link">
-                <a href="Adm/CreateWeapon/CreateWeapon.jsp"><img id="weapon-icon" class="icon" src="images/weapon-icon.png">Armas</a>
+                <a href="adm/create-weapon/CreateWeapon.jsp"><img id="weapon-icon" class="icon" src="images/weapon-icon.png">Armas</a>
             </div>
             <div class="nav_link">
-                <a href="Adm/CreateMap/CreateMap.jsp"><img id="map-icon" class="icon" src="images/map-icon.png">Mapas</a>
+                <a href="adm/create-map/CreateMap.jsp"><img id="map-icon" class="icon" src="images/map-icon.png">Mapas</a>
             </div>
             <div class="nav_link">
-                <a href="Adm/CreateSkin/CreateSkin.jsp"><img id="skin-icon" class="icon" src="images/skin-icon.jpg">Skins</a>
+                <a href="adm/create-skin/CreateSkin.jsp"><img id="skin-icon" class="icon" src="images/skin-icon.jpg">Skins</a>
             </div>
         </nav>
         <div id="header-down">
-            <a href="User/Home-User/index.jsp" id="ancora-button"><button id="button_logout">LOG OUT</button></a>
+            <a href="user/home-user/index.jsp" id="ancora-button"><button id="button_logout">LOG OUT</button></a>
         </div>
     </header>
     <div id="descricao-adm">    

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,7 +15,7 @@
             <h1 class="title">Já possui uma conta?</h1>
             <p class="title">Entre com as suas credenciais abaixo!</p>
         </div>
-        <form action="./dashboard.html" class="box-item" id="item-form">
+        <form action="../../index.jsp" class="box-item" id="item-form">
             <div class="item-form-data">
                 <label for="email">E-mail</label>
                 <input type="email" name="" id="" placeholder="valorant_pi@gmail.com" class="input-text" required>

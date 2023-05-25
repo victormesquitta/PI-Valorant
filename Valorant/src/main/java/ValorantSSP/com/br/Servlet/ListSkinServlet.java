@@ -20,7 +20,7 @@ public class ListSkinServlet extends HttpServlet {
 
         req.setAttribute("skins", skins);
 
-        req.getRequestDispatcher("User/Skins/Skins.jsp").forward(req, resp);
+        req.getRequestDispatcher("user/skins/Skins.jsp").forward(req, resp);
 
     }
 }
