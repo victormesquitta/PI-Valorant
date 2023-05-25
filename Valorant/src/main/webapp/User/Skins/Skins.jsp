@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/telas/Skins/style.css">
+    <link rel="stylesheet" href="/User/Skins/style.css">
     <title>Skins</title>
 </head>
 <body>
     <header>
-        <a href="#" class="" id="logo-ancora"><img class="" id="logo-navbar" src="/telas/Skins/Images/logo.png" alt="logo"></a>
+        <a href="#" class="" id="logo-ancora"><img class="" id="logo-navbar" src="/User/Skins/Images/logo.png" alt="logo"></a>
         <nav class="nav_links">
             <a href="../Home-User/index.jsp">Home</a>
             <a href="#">Agentes</a>
