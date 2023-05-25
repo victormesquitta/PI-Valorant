@@ -22,7 +22,7 @@
                     <h1 class="title">Criar conta</h1>
                     <!-- <p class="title">Preencha com seus dados</p> -->
                 </div>
-                <form action="./dashboard.html" class="box-item" id="item-form">
+                <form action="./dashboard.jsp" method="post" class="box-item" id="item-form">
                     <div class="item-form-data">
                         <label for="name">Nome completo</label>
                         <input type="name" name="" id="" placeholder="Digite seu nome completo" class="input-text" required>
