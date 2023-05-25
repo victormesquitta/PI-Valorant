@@ -16,7 +16,7 @@
                 <a href="../agents/Agents.jsp">Agentes</a>
                 <a href="../weapons/Weapon.jsp">Armas</a>
                 <a href="../maps/Maps.jsp">Mapas</a>
-                <a href="../skins/Skins.jsp">Skins</a>
+                <a href="/skins">Skins</a>
             </nav>
     </header>
 <body>

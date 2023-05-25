@@ -14,7 +14,7 @@
                 <a href="user/agents/Agents.jsp">Agentes</a>
                 <a href="user/weapons/Weapon.jsp">Armas</a>
                 <a href="user/maps/Maps.jsp">Mapas</a>
-                <a href="user/skins/Skins.jsp">Skins</a>
+                <a href="/skins">Skins</a>
             </nav>
     </header>
     <div id="flexbox">
