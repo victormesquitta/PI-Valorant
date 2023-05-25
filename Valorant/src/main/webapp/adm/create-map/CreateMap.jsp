@@ -26,7 +26,7 @@
             </div>
         </nav>
         <div id="header-down">
-            <a href="../../user/home-user/index.jsp" id="ancora-button"><button id="button_logout" class="button">LOG OUT</button></a>
+            <a href="../../User/Home-User/index.jsp" id="ancora-button"><button id="button_logout" class="button">LOG OUT</button></a>
         </div>
     </header>
     <div id="form-create-map">
