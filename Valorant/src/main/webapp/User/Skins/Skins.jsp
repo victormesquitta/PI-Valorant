@@ -9,9 +9,9 @@
 </head>
 <body>
     <header>
-        <a href="../home-user/index.jsp" class="" id="logo-ancora"><img class="" id="logo-navbar" src="/user/skins/Images/logo.png" alt="logo"></a>
+        <a href="../../" class="" id="logo-ancora"><img class="" id="logo-navbar" src="/user/skins/Images/logo.png" alt="logo"></a>
         <nav class="nav_links">
-            <a href="../home-user/index.jsp">Home</a>
+            <a href="../../">Home</a>
             <a href="../agents/Agents.jsp">Agentes</a>
             <a href="../weapons/Weapon.jsp">Armas</a>
             <a href="../maps/Maps.jsp">Mapas</a>
