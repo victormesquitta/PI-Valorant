@@ -52,14 +52,14 @@
                 </div>
             </div>
             <div id="agentes-coluna-2">
-                <a id="agentes-ancora" class="ancora" href=""><h3 id="">IR PARA A SESSÃO DE AGENTES ❯❯</h3></a>
+                <a id="agentes-ancora" class="ancora" href="user/agents/Agents.jsp"><h3 id="">IR PARA A SESSÃO DE AGENTES ❯❯</h3></a>
                 <img id="agente-img-gekko" src="images/gekko-home.png" alt="PERSONAGEM GEKKO">                
             </div>
         </div>
 
         <div id="mapas">
             <div id="mapas-coluna-1">
-                <a id="mapas-ancora" class="ancora" href=""><h3 id="">❮❮ IR PARA A SESSÃO DE MAPAS</h3></a>
+                <a id="mapas-ancora" class="ancora" href="user/maps/Maps.jsp"><h3 id="">❮❮ IR PARA A SESSÃO DE MAPAS</h3></a>
                 <div id="mapas-img-e-legenda">
                     <img id="mapas-img-lotus" src="images/lotus-home.png" alt="MAPA LÓTUS">
                     <p id="mapas-legenda-p">LÓTUS - ÚLTIMO MAPA LANÇADO</p>
