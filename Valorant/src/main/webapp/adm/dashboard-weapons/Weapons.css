@@ -182,11 +182,20 @@ h1{
 tr{
     background-color: rgb(216, 216, 216);
 }
+
+#div-ancora-novo{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 10%;
+}
+
 .novo-ancora{
     margin-top: 1%;
-    height: 5%;
+    height: 100%;
     width: 10%;
 }
+
 #button_novo{
     color: #ECE8E1;
     background-color: rgb(37, 166, 52);
