@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 C:\Users\021\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Dao\UserDao.java
 C:\Users\021\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Model\User.java
 C:\Users\021\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Dao\MapDao.java
@@ -25,3 +26,32 @@ C:\Users\021\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com
 C:\Users\021\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Servlet\CreateAgentServlet.java
 C:\Users\021\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Servlet\DeleteWeaponServlet.java
 C:\Users\021\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Dao\SkinDao.java
+=======
+C:\Users\vitor\OneDrive\Documentos\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Servlet\ListMapServlet.java
+C:\Users\vitor\OneDrive\Documentos\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Servlet\CreateSkinServlet.java
+C:\Users\vitor\OneDrive\Documentos\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Servlet\ListWeaponServlet.java
+C:\Users\vitor\OneDrive\Documentos\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Dao\SkinDao.java
+C:\Users\vitor\OneDrive\Documentos\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Dao\MapDao.java
+C:\Users\vitor\OneDrive\Documentos\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Servlet\CreateAgentServlet.java
+C:\Users\vitor\OneDrive\Documentos\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Servlet\CreateWeaponServlet.java
+C:\Users\vitor\OneDrive\Documentos\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\config\ConnectionPoolConfig.java
+C:\Users\vitor\OneDrive\Documentos\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Model\User.java
+C:\Users\vitor\OneDrive\Documentos\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Servlet\ListSkinServlet.java
+C:\Users\vitor\OneDrive\Documentos\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Dao\UserDao.java
+C:\Users\vitor\OneDrive\Documentos\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Servlet\DeleteWeaponServlet.java
+C:\Users\vitor\OneDrive\Documentos\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Servlet\DeleteAgentServlet.java
+C:\Users\vitor\OneDrive\Documentos\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Model\Skin.java
+C:\Users\vitor\OneDrive\Documentos\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Dao\WeaponDao.java
+C:\Users\vitor\OneDrive\Documentos\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Servlet\ListAgentServlet.java
+C:\Users\vitor\OneDrive\Documentos\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Dao\AgentDao.java
+C:\Users\vitor\OneDrive\Documentos\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Model\Agent.java
+C:\Users\vitor\OneDrive\Documentos\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\filter\AuthenticationFilter.java
+C:\Users\vitor\OneDrive\Documentos\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Servlet\LogoutServlet.java
+C:\Users\vitor\OneDrive\Documentos\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Servlet\CreateMapServlet.java
+C:\Users\vitor\OneDrive\Documentos\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Servlet\DeleteMapServlet.java
+C:\Users\vitor\OneDrive\Documentos\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Servlet\LoginServlet.java
+C:\Users\vitor\OneDrive\Documentos\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Model\Map.java
+C:\Users\vitor\OneDrive\Documentos\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Model\Weapon.java
+C:\Users\vitor\OneDrive\Documentos\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Model\Skills.java
+C:\Users\vitor\OneDrive\Documentos\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Servlet\DeleteSkinServlet.java
+>>>>>>> Stashed changes

@@ -28,9 +28,9 @@
                 <input type="submit" id="button-entrar" class="button" value = "ENTRAR"> 
             </div> 
         </form>
-        <div class="box-item" id="item-cadastro">
+        <!--<div class="box-item" id="item-cadastro">
             <a href="../cadastro/index.jsp" id="ancora-cadastro"> <button id="cadastrar-se" class="button button-cadastro">Cadastrar-se</button></a>
-        </div>
+        </div>-->
         
     </div>
 </body>
