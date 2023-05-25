@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-            <a href="#" class="" id="logo-ancora"><img class="" id="logo-navbar" src="images/logo.png" alt="logo"></a>
+            <a href="index.jsp" class="" id="logo-ancora"><img class="" id="logo-navbar" src="images/logo.png" alt="logo"></a>
             <nav class="nav_links">
                 <a href="../Home-User/index.jsp">Home</a>
                 <a href="#">Agentes</a>
