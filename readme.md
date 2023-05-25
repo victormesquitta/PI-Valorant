@@ -93,3 +93,11 @@
  ```
  * Para o preenchimento dos dados, acessar o url de CRUD do mapa (http://localhost:8080/create-agent).
 
+### Login:
+```
+    CREATE TABLE LOGIN(
+    ID INT PRIMARY KEY AUTO_INCREMENT, 
+    USERNAME VARCHAR(50) NOT NULL,
+    PASSWORD VARCHAR(59) NOT NULL,
+    );
+ ```
