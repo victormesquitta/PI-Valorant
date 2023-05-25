@@ -8,8 +8,8 @@
 <body>
     <header>
         <div id="header-up">
-            <a href="http://localhost:8080/" class="logo-ancora" id=""><img class="" id="logo-navbar" src="images/logo.png" alt="logo"></a>
-            <a href="http://localhost:8080/" class="logo-ancora" id=""><h2 id="titulo-header">Visão Administrativa</h2></a>
+            <a href="../home/home.jsp" class="logo-ancora" id=""><img class="" id="logo-navbar" src="images/logo.png" alt="logo"></a>
+            <a href="../home/home.jsp" class="logo-ancora" id=""><h2 id="titulo-header">Visão Administrativa</h2></a>
         </div>
         <nav class="nav_links">
             <div class="nav_link">
@@ -26,7 +26,7 @@
             </div>
         </nav>
         <div id="header-down">
-                <a href="v" id="ancora-button"><button id="button_logout" class="button">LOG OUT</button></a>
+            <a href="../../" id="ancora-button"><button id="button_logout">LOG OUT</button></a>
         </div>
     </header>
     <div id="form-create-skin">

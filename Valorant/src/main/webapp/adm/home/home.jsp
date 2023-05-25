@@ -8,25 +8,25 @@
 <body>
     <header>
         <div id="header-up">
-            <a href="http://localhost:8080/" class="logo-ancora" id=""><img class="" id="logo-navbar" src="images/logo.png" alt="logo"></a>
-            <a href="http://localhost:8080/" class="logo-ancora" id=""><h2 id="titulo-header">Visão Administrativa</h2></a>
+            <a href="" class="logo-ancora" id=""><img class="" id="logo-navbar" src="images/logo.png" alt="logo"></a>
+            <a href="" class="logo-ancora" id=""><h2 id="titulo-header">Visão Administrativa</h2></a>
         </div>
         <nav class="nav_links">
             <div class="nav_link">
-                <a href="adm/create-agent/CreateAgent.jsp"><img id="agent-icon" class="icon" src="images/agent-icon.png">Agentes</a>
+                <a href="../create-agent/CreateAgent.jsp"><img id="agent-icon" class="icon" src="images/agent-icon.png">Agentes</a>
             </div>
             <div class="nav_link">
-                <a href="adm/create-weapon/CreateWeapon.jsp"><img id="weapon-icon" class="icon" src="images/weapon-icon.png">Armas</a>
+                <a href="../create-weapon/CreateWeapon.jsp"><img id="weapon-icon" class="icon" src="images/weapon-icon.png">Armas</a>
             </div>
             <div class="nav_link">
-                <a href="adm/create-map/CreateMap.jsp"><img id="map-icon" class="icon" src="images/map-icon.png">Mapas</a>
+                <a href="../create-map/CreateMap.jsp"><img id="map-icon" class="icon" src="images/map-icon.png">Mapas</a>
             </div>
             <div class="nav_link">
-                <a href="adm/create-skin/CreateSkin.jsp"><img id="skin-icon" class="icon" src="images/skin-icon.jpg">Skins</a>
+                <a href="../create-skin/CreateSkin.jsp"><img id="skin-icon" class="icon" src="images/skin-icon.jpg">Skins</a>
             </div>
         </nav>
         <div id="header-down">
-            <a href="User/Home-User/index.jsp" id="ancora-button"><button id="button_logout">LOG OUT</button></a>
+            <a href="../../" id="ancora-button"><button id="button_logout">LOG OUT</button></a>
         </div>
     </header>
     <div id="descricao-adm">
