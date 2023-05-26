@@ -71,6 +71,7 @@ public class MapDao {
                 int mapSeason = resultSet.getInt("season");
                 int mapAct = resultSet.getInt("act");
                 boolean mapRotation = resultSet.getBoolean("rotation");
+                String mapPath = resultSet.getString("path");
 
                 Map map = new Map();
                 map.setName(mapName);
@@ -84,6 +85,7 @@ public class MapDao {
                 map.setSeason(mapSeason);
                 map.setAct(mapAct);
                 map.setRotation(mapRotation);
+                map.setPath(mapPath);
 
                 maps.add(map);
 
