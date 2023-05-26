@@ -14,6 +14,7 @@ public class Agent {
     private String skillDescriptionc;
     private String ultimateDescription;
     private int ultimatePoints;
+    private String path;
 
     public int getId() {
         return id;
@@ -117,5 +118,13 @@ public class Agent {
 
     public void setUltimatePoints(int ultimatePoints) {
         this.ultimatePoints = ultimatePoints;
+    }
+
+    public String getPath() {
+        return path;
+    }
+
+    public void setPath(String path) {
+        this.path = path;
     }
 }

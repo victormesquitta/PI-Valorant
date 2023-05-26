@@ -15,7 +15,7 @@ import java.util.List;
 public class AgentDao {
     public void createAgent(Agent agent){
 
-        String SQL = "INSERT INTO AGENT (NAME, ROLE, LORE, SKILLQ, SKILLE, SKILLC, ULTIMATE, SKILLDESCRIPTIONQ, SKILLDESCRIPTIONE, SKILLDESCRIPTIONC, ULTIMATEDESCRIPTION, ULTIMATEPOINTS) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)";
+        String SQL = "INSERT INTO AGENT (NAME, ROLE, LORE, SKILLQ, SKILLE, SKILLC, ULTIMATE, SKILLDESCRIPTIONQ, SKILLDESCRIPTIONE, SKILLDESCRIPTIONC, ULTIMATEDESCRIPTION, ULTIMATEPOINTS, PATH) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)";
 
         try {
 
@@ -35,6 +35,7 @@ public class AgentDao {
             preparedStatement.setString(10, agent.getSkillDescriptionc());
             preparedStatement.setString(11, agent.getUltimateDescription());
             preparedStatement.setInt(12, agent.getUltimatePoints());
+            preparedStatement.setString(13, agent.getPath());
 
             preparedStatement.execute();
 
@@ -72,6 +73,7 @@ public class AgentDao {
                 String agentSkillDescription3 = resultSet.getString("skilldescriptionc");
                 String agentUltimateDescription = resultSet.getString("ultimatedescription");
                 int agentUltimatePoints = resultSet.getInt("ultimatepoints");
+                String agentPath = resultSet.getString("path");
 
 
                 Agent agent = new Agent();
@@ -88,6 +90,7 @@ public class AgentDao {
                 agent.setSkillDescriptionc(agentSkillDescription3);
                 agent.setUltimateDescription(agentUltimateDescription);
                 agent.setUltimatePoints(agentUltimatePoints);
+                agent.setPath(agentPath);
 
                 agents.add(agent);
 

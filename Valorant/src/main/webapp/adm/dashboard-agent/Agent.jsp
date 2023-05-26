@@ -56,13 +56,18 @@
                 <tr>
                     <td class="td">${agent.id}</td>
                     <td class="td">${agent.name}</td>
-                    <td class="td">${agent.type}</td>
-                    <td class="td">${agent.creds}</td>
-                    <td class="td">${agent.damage}</td>
-                    <td class="td">${agent.magazine}</td>
-                    <td class="td">${agent.reserve}</td>
-                    <td class="td">${agent.fireRateSecs}</td>
-                    <td class="td">${agent.wallPenetration}</td>
+                    <td class="td">${agent.role}</td>
+                    <td class="td">${agent.lore}</td>
+                    <td class="td">${agent.skillq}</td>
+                    <td class="td">${agent.skille}</td>
+                    <td class="td">${agent.skillc}</td>
+                    <td class="td">${agent.ultimate}</td>
+                    <td class="td">${agent.skillDescriptionq}</td>
+                    <td class="td">${agent.skillDescriptione}</td>
+                    <td class="td">${agent.skillDescriptionc}</td>
+                    <td class="td">${agent.ultimateDescription}</td>
+                    <td class="td">${agent.ultimatePoints}</td>
+                    <td class="td">${agent.path}</td>
                     <td class="td">
                         <form action="/delete-agent" method="post" id="form-delete">
                             <input type="hidden" id="agent-id" name="agent-id" value="${agent.id}" class="button">

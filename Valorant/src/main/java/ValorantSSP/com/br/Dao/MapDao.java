@@ -63,7 +63,6 @@ public class MapDao {
                 String mapId = resultSet.getString("id");
                 String mapName = resultSet.getString("name");
                 String mapDescription = resultSet.getString("description");
-
                 int mapBombsites = resultSet.getInt("bombsites");
                 String mapCoordinates = resultSet.getString("coordinates");
                 String mapCountry = resultSet.getString("country");
