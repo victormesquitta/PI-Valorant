@@ -59,7 +59,7 @@
                     <td class="td">${skin.recolors}</td>
                     <td class="td">${skin.path}</td>
                     <td class="td">
-                        <form action="/delete-skins" method="post" id="form-delete">
+                        <form action="/delete-skin" method="post" id="form-delete">
                         <input type="hidden" id="skin-id" name="skin-id" value="${skin.id}" class="button">
                         <button type="submit" class="button" id="button-delete">Delete</button>
                     </form>

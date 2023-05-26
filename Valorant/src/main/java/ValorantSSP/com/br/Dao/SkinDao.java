@@ -57,7 +57,7 @@ public class SkinDao {
 
             while (resultSet.next()) {
 
-                int skinID = resultSet.getInt("id");
+                String skinId = resultSet.getString("id");
                 String skinName = resultSet.getString("name");
                 int skinSeason = resultSet.getInt("season");
                 int skinAct = resultSet.getInt("act");
@@ -67,7 +67,7 @@ public class SkinDao {
                 String skinPath = resultSet.getString("path");
 
                 Skin skin = new Skin();
-                skin.setId(skinID);
+                skin.setId(skinId);
                 skin.setName(skinName);
                 skin.setPath(skinPath);
                 skin.setSeason(skinSeason);
@@ -106,7 +106,7 @@ public class SkinDao {
             preparedStatement.setString(1, skinId);
             preparedStatement.execute();
 
-            System.out.println("success on delete car with name: " + skinId);
+            System.out.println("success on delete skin with id: " + skinId);
 
             connection.close();
 

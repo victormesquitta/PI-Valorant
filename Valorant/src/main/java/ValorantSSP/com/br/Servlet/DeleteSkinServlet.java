@@ -12,11 +12,11 @@ public class DeleteSkinServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException {
 
-        String skinId = req.getParameter("id");
+        String skinId = req.getParameter("skin-id");
 
         new SkinDao().deleteSkinById(skinId);
 
-        resp.sendRedirect("skins");
+        resp.sendRedirect("/skins");
 
     }
 }
