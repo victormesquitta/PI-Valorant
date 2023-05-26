@@ -183,6 +183,10 @@ tr{
     background-color: rgb(216, 216, 216);
 }
 
+.th{
+    font-size: 0.75rem;
+}
+
 #div-ancora-novo{
     display: flex;
     justify-content: flex-end;
