@@ -26,8 +26,8 @@ public class ListWeaponServlet extends HttpServlet{
         req.setAttribute("weapons", weapons);
         req.setAttribute("pistols", pistols);
 
-        //req.getRequestDispatcher("user/weapons/Weapon.jsp").forward(req, resp);
-        req.getRequestDispatcher("adm/dashboard-weapons/Weapons.jsp").forward(req, resp);
+        req.getRequestDispatcher("user/weapons/Weapon.jsp").forward(req, resp);
+//        req.getRequestDispatcher("adm/dashboard-weapons/Weapons.jsp").forward(req, resp);
 
     }
 }
