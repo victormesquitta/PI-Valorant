@@ -75,6 +75,9 @@
                         <label>Ultimate Points</label>
                             <input type="number" name="agent-ultimatepoints" id="agent-ultimatepoints">
                         <br>
+                        <label>Path</label>
+                            <input type="text" name="agent-path" id="agent-path">
+                        <br>
                     </div>
                 </div>
                 <button type="submit" id="button-register" class="button" >REGISTRAR</button>

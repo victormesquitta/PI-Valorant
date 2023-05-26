@@ -25,7 +25,7 @@ public class ListAgentServlet extends HttpServlet {
 
         if  (session.getAttribute("loggedUser") == null ) {
 
-            req.getRequestDispatcher("user/agent/Agent.jsp").forward(req, resp);
+            req.getRequestDispatcher("user/agents/Agents.jsp").forward(req, resp);
 
         }  else {
 

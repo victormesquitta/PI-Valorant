@@ -218,6 +218,7 @@ input{
     height: 50%;
     border: 0.1px solid #ccc;
     border-radius: 10px;
+    padding-left: 5%;
 }
 
 label{
