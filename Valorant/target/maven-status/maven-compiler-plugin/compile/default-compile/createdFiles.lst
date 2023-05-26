@@ -1,6 +1,7 @@
 ValorantSSP\com\br\Servlet\LoginServlet.class
 ValorantSSP\com\br\Dao\AgentDao.class
 ValorantSSP\com\br\Model\Agent.class
+ValorantSSP\com\br\Servlet\LoginHome.class
 ValorantSSP\com\br\Servlet\DeleteWeaponServlet.class
 ValorantSSP\com\br\Dao\UserDao.class
 ValorantSSP\com\br\Servlet\ListSkinServlet.class
