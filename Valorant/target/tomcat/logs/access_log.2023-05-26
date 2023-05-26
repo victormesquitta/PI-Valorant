@@ -6947,3 +6947,16 @@
 0:0:0:0:0:0:0:1 - - [26/May/2023:01:25:57 -0300] "GET /user/weapons/Images/linha-de-titulo-branca.png HTTP/1.1" 404 1009 http-bio-8080-exec-10 5
 0:0:0:0:0:0:0:1 - - [26/May/2023:01:25:57 -0300] "GET /user/weapons/Images/Classic.png HTTP/1.1" 404 1009 http-bio-8080-exec-2 9
 0:0:0:0:0:0:0:1 - - [26/May/2023:01:25:57 -0300] "GET /favicon.ico HTTP/1.1" 200 4610 http-bio-8080-exec-10 2
+0:0:0:0:0:0:0:1 - - [26/May/2023:01:27:31 -0300] "GET / HTTP/1.1" 200 4610 http-bio-8080-exec-1 67
+0:0:0:0:0:0:0:1 - - [26/May/2023:01:27:32 -0300] "GET /style.css HTTP/1.1" 200 4610 http-bio-8080-exec-3 23
+0:0:0:0:0:0:0:1 - - [26/May/2023:01:27:32 -0300] "GET /images/linha-home-central-preta.png HTTP/1.1" 404 983 http-bio-8080-exec-5 6
+0:0:0:0:0:0:0:1 - - [26/May/2023:01:27:32 -0300] "GET /images/linha-de-titulo-vermelha.png HTTP/1.1" 404 983 http-bio-8080-exec-6 6
+0:0:0:0:0:0:0:1 - - [26/May/2023:01:27:32 -0300] "GET /images/logo.png HTTP/1.1" 404 983 http-bio-8080-exec-2 17
+0:0:0:0:0:0:0:1 - - [26/May/2023:01:27:32 -0300] "GET /images/home-sobre.png HTTP/1.1" 404 983 http-bio-8080-exec-7 5
+0:0:0:0:0:0:0:1 - - [26/May/2023:01:27:32 -0300] "GET /images/valorant-home.png HTTP/1.1" 404 983 http-bio-8080-exec-4 8
+0:0:0:0:0:0:0:1 - - [26/May/2023:01:27:32 -0300] "GET /script.js HTTP/1.1" 200 4610 http-bio-8080-exec-8 5
+0:0:0:0:0:0:0:1 - - [26/May/2023:01:27:32 -0300] "GET /images/linha-de-titulo-vermelha-menor.png HTTP/1.1" 404 983 http-bio-8080-exec-1 4
+0:0:0:0:0:0:0:1 - - [26/May/2023:01:27:32 -0300] "GET /images/simbolo-iniciador-home.png HTTP/1.1" 404 983 http-bio-8080-exec-10 4
+0:0:0:0:0:0:0:1 - - [26/May/2023:01:27:32 -0300] "GET /images/gekko-home.png HTTP/1.1" 404 983 http-bio-8080-exec-9 4
+0:0:0:0:0:0:0:1 - - [26/May/2023:01:27:32 -0300] "GET /images/linha-de-titulo-branca.png HTTP/1.1" 404 983 http-bio-8080-exec-11 4
+0:0:0:0:0:0:0:1 - - [26/May/2023:01:27:32 -0300] "GET /images/lotus-home.png HTTP/1.1" 404 983 http-bio-8080-exec-12 4
