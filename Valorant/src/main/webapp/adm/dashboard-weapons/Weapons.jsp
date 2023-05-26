@@ -24,11 +24,7 @@
                 <a href="/adm/create-map/CreateMap.jsp"><img id="map-icon" class="icon" src="adm/dashboard-weapons/images/map-icon.png">Mapas</a>
             </div>
             <div class="nav_link">
-<<<<<<< Updated upstream
                 <a href="/adm/create-skin/CreateSkin.jsp"><img id="skin-icon" class="icon" src="adm/dashboard-weapons/images/skin-icon.jpg">Skins</a>
-=======
-                <a href="../adm/create-skin/CreateSkin.jsp"><img id="skin-icon" class="icon" src="adm/dashboard-weapons/images/skin-icon.jpg">Skins</a>
->>>>>>> Stashed changes
             </div>
         </nav>
         <div id="header-down">
