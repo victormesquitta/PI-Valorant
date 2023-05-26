@@ -8,10 +8,11 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet({"/find-all-maps", "/admin/find-all-maps"})
+@WebServlet({"/maps"})
 public class ListMapServlet extends HttpServlet{
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -20,7 +21,16 @@ public class ListMapServlet extends HttpServlet{
 
         req.setAttribute("maps", maps);
 
-        req.getRequestDispatcher("dashboard.jsp").forward(req, resp);
+        HttpSession session = req.getSession();
+
+        if  (session.getAttribute("loggedUser") == null ) {
+
+            req.getRequestDispatcher("user/maps/Maps.jsp.jsp").forward(req, resp);
+
+        }  else {
+
+            req.getRequestDispatcher("adm/dashboard-maps/Maps.jsp").forward(req, resp);
+        }
 
     }
 }

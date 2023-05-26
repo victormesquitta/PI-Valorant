@@ -72,7 +72,7 @@
                         </div>
                         <br>
                         <label>Path</label>
-                                <input type="text" name="map-path" id="map-path">
+                            <input type="text" name="map-path" id="map-path">
                         <br>
                     </div>
                 </div>

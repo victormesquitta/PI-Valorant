@@ -19,7 +19,7 @@
                 <a href="/armas"><img id="weapon-icon" class="icon" src="images/weapon-icon.png">Armas</a>
             </div>
             <div class="nav_link">
-                <a href="../create-map/CreateMap.jsp"><img id="map-icon" class="icon" src="images/map-icon.png">Mapas</a>
+                <a href="/maps"><img id="map-icon" class="icon" src="images/map-icon.png">Mapas</a>
             </div>
             <div class="nav_link">
                 <a href="../create-skin/CreateSkin.jsp"><img id="skin-icon" class="icon" src="images/skin-icon.jpg">Skins</a>

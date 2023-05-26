@@ -13,7 +13,7 @@
                 <a href="">Home</a>
                 <a href="user/agents/Agents.jsp">Agentes</a>
                 <a href="/armas">Armas</a>
-                <a href="user/maps/Maps.jsp">Mapas</a>
+                <a href="/maps">Mapas</a>
                 <a href="/skins">Skins</a>
             </nav>
     </header>

@@ -15,7 +15,7 @@ public class MapDao {
 
     public void createMap(Map map){
 
-        String SQL = "INSERT INTO MAP (NAME, DESCRIPTION, BOMBSITES, COORDINATES, COUNTRY, PECULIARITY, RELEASE_DATE, SEASON, ACT, ROTATION) VALUES (?,?,?,?,?,?,?,?,?,?)";
+        String SQL = "INSERT INTO MAP (NAME, DESCRIPTION, BOMBSITES, COORDINATES, COUNTRY, PECULIARITY, RELEASE_DATE, SEASON, ACT, ROTATION, PATH) VALUES (?,?,?,?,?,?,?,?,?,?,?)";
 
         try {
 

@@ -22,7 +22,7 @@
     </header>
     <h1>Mapas</h1>
     <div class="container">
-        <c:forEach var = "map" items="${maps}">
+        <c:forEach var="map" items="${maps}">
             <div class="box">
                 <h1 class="name">${map.name}</h1>
                 <img src="Images/linha-de-titulo-vermelha.png" alt="">

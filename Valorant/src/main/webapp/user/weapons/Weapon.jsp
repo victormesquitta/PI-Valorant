@@ -24,8 +24,7 @@
     <h1 class="title">ARMAS</h1>
     <img class="barra" src="/user/weapons/Images/linha-de-titulo-branca.png">
     <h1 class="subtitle">PISTOLAS</h1>
-
-
+    
     <div class="container">
         <c:forEach var = "pistol" items="${pistols}">
             <div class="box">

@@ -42,7 +42,7 @@ public class CreateMapServlet extends HttpServlet {
 
         new MapDao().createMap(map);
 
-        resp.sendRedirect("/find-all-maps");
+        resp.sendRedirect("/maps");
     }
 
 
