@@ -29,7 +29,7 @@
         <div id="header-down">
             <div id="div-ancora-button">
         <c:if test="${SessionScope.loggedUser != null}" id="test">
-                <a href="../../" id="ancora-button"><button id="button_logout">LOG OUT</button></a>
+                <a href="/logout" id="ancora-button"><button id="button_logout">LOG OUT</button></a>
         <c:if>
             </div>
         </div>

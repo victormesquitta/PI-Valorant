@@ -173,6 +173,7 @@ h1{
 }
 
 #table{
+    height: 20%;
     width: 90%;
 }
 
@@ -184,7 +185,17 @@ tr{
 }
 
 .th{
-    font-size: 0.75rem;
+    font-size: 0.6rem;
+    white-space: nowrap; /* Impede a quebra de linha nos títulos */
+    overflow: hidden; /* Esconde o conteúdo excedente */
+    text-overflow: ellipsis; /* Adiciona reticências quando o texto é cortado */
+    max-width: 0; /* Define a largura máxima dos títulos como zero */
+    transition: max-width 0.3s ease-in; /* Adiciona uma transição suave para expandir e contrair os títulos */
+    min-width: 50px;
+}
+
+.td{
+    font-size: 0.5rem;
 }
 
 #div-ancora-novo{
@@ -215,6 +226,10 @@ tr{
 }
 
 
-/* #button-delete{
-    width: ;
-} */
+tr{
+    font-size: 0.3rem;
+}
+
+th, td {
+    padding: 0px; /* Define o espaçamento interno das células como 5 pixels */
+  }
