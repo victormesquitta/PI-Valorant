@@ -91,7 +91,7 @@
     SKILLDESCRIPTIONC VARCHAR(200)  NOT NULL,
     ULTIMATEDESCRIPTION VARCHAR(200) NOT NULL,
     ULTIMATEPOINTS INT NOT NULL,
-    PATH VARCHAR(50) NOT NULL;
+    PATH VARCHAR(50) NOT NULL
     );
  ```
  * Para o preenchimento dos dados, acessar o url de CRUD do mapa (http://localhost:8080/create-agent).
