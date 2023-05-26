@@ -15,10 +15,6 @@ import java.io.IOException;
 import java.util.List;
 
 @WebServlet("/armas")
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 public class ListWeaponServlet extends HttpServlet{
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -29,10 +25,6 @@ public class ListWeaponServlet extends HttpServlet{
         req.setAttribute("weapons", weapons);
         req.setAttribute("pistols", pistols);
 
-<<<<<<< Updated upstream
-        req.getRequestDispatcher("user/weapons/Weapon.jsp").forward(req, resp);
-//      req.getRequestDispatcher("adm/dashboard-weapons/Weapons.jsp").forward(req, resp);
-=======
         HttpSession session = req.getSession();
 
         if  (session.getAttribute("loggedUser") == null ) {
@@ -43,7 +35,6 @@ public class ListWeaponServlet extends HttpServlet{
 
             req.getRequestDispatcher("adm/dashboard-weapons/Weapons.jsp").forward(req, resp);
         }
->>>>>>> Stashed changes
 
     }
 }

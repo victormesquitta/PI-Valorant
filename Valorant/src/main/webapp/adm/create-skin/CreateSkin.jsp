@@ -31,31 +31,40 @@
             </div>
         </div>
     </header>
-    <div id="form-create-skin">
-        <form action="/create-skin" method="post">
-            <label>Name</label>
-            <input type="text" name="skin-name" id="skin-name">
-            <br>
-            <label>Season</label>
-                <input type="number" name="skin-season" id="skin-season">
-            <br>
-            <label>Act</label>
-                <input type="number" name="skin-act" id="skin-act">
-            <br>
-            <label>Date</label>
-                <input type="date" name="skin-date" id="skin-date">
-            <br>
-            <label>Price</label>
-                <input type="number" name="skin-price" id="skin-price">
-            <br>
-            <label>Recolors</label>
-                <input type="number" name="skin-recolors" id="skin-recolors">
-            <br>
-            <label>Path</label>
-                    <input type="text" name="skin-path" id="skin-path">
-                <br>
-            <button type="submit">Register</button>
-        </form>
+    <div id="div-right">
+        <div id="div-form">
+            <h2 id="form-title">Agentes</h2>
+            <form id="form-create-skin" action="/create-skin" method="post">
+                <div id="colunas">
+                    <div id="coluna-1">
+                        <label>Name</label>
+                        <input type="text" name="skin-name" id="skin-name">
+                        <br>
+                        <label>Season</label>
+                            <input type="number" name="skin-season" id="skin-season">
+                        <br>
+                        <label>Act</label>
+                            <input type="number" name="skin-act" id="skin-act">
+                        <br>
+                        <label>Date</label>
+                            <input type="date" name="skin-date" id="skin-date">
+                        <br>
+                    </div>
+                    <div id="coluna-2">
+                        <label>Price</label>
+                            <input type="number" name="skin-price" id="skin-price">
+                        <br>
+                        <label>Recolors</label>
+                            <input type="number" name="skin-recolors" id="skin-recolors">
+                        <br>
+                        <label>Path</label>
+                            <input type="text" name="skin-path" id="skin-path">
+                        <br>
+                    </div>
+                </div>
+                <button type="submit" id="button-register" class="button" >REGISTRAR</button>
+            </form>
+        </div>
     </div>
 </body>
 </html>

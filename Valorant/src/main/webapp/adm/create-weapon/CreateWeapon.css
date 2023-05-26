@@ -151,13 +151,84 @@ a{
     padding: 0;
 }
 
+
 #button_logout:hover{
     background-color: #e3e3e3;
     cursor: pointer;
 }
 
-#form-create-weapon{
+#div-right{
+    /* background-color: gold; */
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    margin-left: 17.5%;
+}
+
+#form-title{
+    display: flex;
+    justify-content: flex-start;
+
+    width: 50%;
+}
+
+#div-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+#form-create-weapon{
+    /* background-color: purple; */
+    width: 50%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#colunas{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80%;
+}
+
+#coluna-1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+#coluna-2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 80%;
+}
+
+input{
+    width: 80%;
+    height: 50%;
+    border: 0.1px solid #ccc;
+    border-radius: 10px;
+}
+
+label{
+    margin-bottom: 1%;
+}
+
+#button-register{
+    width: 40%;
+    height: 10%;
+    border: 1px solid #908f8f;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
 }

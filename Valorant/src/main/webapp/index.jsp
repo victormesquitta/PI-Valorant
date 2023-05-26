@@ -12,7 +12,7 @@
             <nav class="nav_links">
                 <a href="">Home</a>
                 <a href="user/agents/Agents.jsp">Agentes</a>
-                <a href="user/weapons/Weapon.jsp">Armas</a>
+                <a href="/armas">Armas</a>
                 <a href="user/maps/Maps.jsp">Mapas</a>
                 <a href="/skins">Skins</a>
             </nav>

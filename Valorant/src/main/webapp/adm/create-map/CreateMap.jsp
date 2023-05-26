@@ -41,7 +41,7 @@
                         <input type="text" name="map-name" id="map-name">
                         <br>
                         <label>Description</label>
-                            <input name="map-description" id="map-description">
+                            <textarea name="map-description" id="map-description"></textarea>
                         <br>
                         <label>BombSites</label>
                             <input type="number" name="map-bombsites" id="map-bombsites">
@@ -67,7 +67,9 @@
                                 <input type="number" name="map-act" id="map-act">
                         <br>
                         <label>Rotation</label>
-                                <input type="checkbox" name="map-rotation" id="map-rotation" value = "true">
+                        <div id="div-rotation">
+                            <input type="checkbox" name="map-rotation" id="map-rotation" value = "true">
+                        </div>
                         <br>
                         <label>Path</label>
                                 <input type="text" name="map-path" id="map-path">

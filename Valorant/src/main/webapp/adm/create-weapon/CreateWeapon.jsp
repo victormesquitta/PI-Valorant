@@ -30,38 +30,47 @@
                 <a href="../../" id="ancora-button"><button id="button_logout">LOG OUT</button></a>
             </div>
         </div>
-       </header>
-    <div id="form-create-weapon">
-        <form action="/create-weapon" method="post">
-            <label>Name</label>
-            <input type="text" name="weapon-name" id="weapon-name">
-            <br>
-            <label>Type</label>
-                <input type="text" name="weapon-type" id="weapon-type">
-            <br>
-            <label>Creds</label>
-                <input type="number" name="weapon-creds" id="weapon-creds">
-            <br>
-            <label>Damage</label>
-                <input type="number" name="weapon-damage" id="weapon-damage">
-            <br>
-            <label>Magazine</label>
-                <input type="number" name="weapon-magazine" id="weapon-magazine">
-            <br>
-            <label>Reserve</label>
-                <input type="number" name="weapon-reserve" id="weapon-reserve">
-            <br>
-            <label>Fire Rate per Seconds</label>
-                <input type="number" name="weapon-fireRateSecs" id="weapon-fireRateSecs">
-            <br>
-            <label>Wall Penetration</label>
-                 <input type="text" name="weapon-wallPenetration" id="weapon-wallPenetration">
-            <br>
-            <label>Path</label>
-                 <input type="text" name="weapon-path" id="weapon-path">
-            <br>
-                <button type="submit">Register</button>
-        </form>
+    </header>
+    <div id="div-right">
+        <div id="div-form">
+            <h2 id="form-title">Armas</h2>
+            <form id="form-create-weapon" action="/create-weapon" method="post">
+                <div id="colunas">
+                    <div id="coluna-1">
+                        <label>Name</label>
+                        <input type="text" name="weapon-name" id="weapon-name">
+                        <br>
+                        <label>Type</label>
+                            <input type="text" name="weapon-type" id="weapon-type">
+                        <br>
+                        <label>Creds</label>
+                            <input type="number" name="weapon-creds" id="weapon-creds">
+                        <br>
+                        <label>Damage</label>
+                            <input type="number" name="weapon-damage" id="weapon-damage">
+                        <br>
+                        <label>Magazine</label>
+                            <input type="number" name="weapon-magazine" id="weapon-magazine">
+                        <br>
+                    </div>
+                    <div id="coluna-2">
+                        <label>Reserve</label>
+                        <input type="number" name="weapon-reserve" id="weapon-reserve">
+                        <br>
+                        <label>Fire Rate per Seconds</label>
+                            <input type="number" name="weapon-fireRateSecs" id="weapon-fireRateSecs">
+                        <br>
+                        <label>Wall Penetration</label>
+                                <input type="text" name="weapon-wallPenetration" id="weapon-wallPenetration">
+                        <br>
+                        <label>Path</label>
+                                <input type="text" name="weapon-path" id="weapon-path">
+                        <br>
+                    </div>
+                </div>
+                <button type="submit" id="button-register" class="button" >REGISTRAR</button>
+            </form>
+        </div>
     </div>
 </body>
 </html>
