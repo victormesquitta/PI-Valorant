@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+/adm/home/home.jsp<!DOCTYPE html>
 <html lang="pt-BR">
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
@@ -30,7 +30,7 @@
                     <div class="${status.index % 2 == 0 ? 'coluna-1-left' : 'coluna-1-right'}">
                         <h1 class="name">${map.name}</h1>
                         <img src="/user/maps/Images/${status.index % 2 == 0 ? 'linha-de-titulo-vermelha.png' : 'linha-de-titulo-branca-invertida.png'}" class="linha" alt="">
-                        <p>Quantidade de bombsites: ${map.bombsites}</p>
+                        <p class="bombsites">Quantidade de bombsites: ${map.bombsites}</p>
                         <p>Coordenadas: ${map.coordinates}</p>
                         <p>País: ${map.country}</p>
                         <p>Peculiaridade: ${map.peculiarity}</p>
@@ -41,10 +41,13 @@
                         <p>${map.description}</p>
                     </div>
                     <div class="${status.index % 2 == 0 ? 'coluna-2-left' : 'coluna-2-right'}">
-                        <img class="images" src=${map.path}>
+                        <img class="${status.index % 2 == 0 ? 'image-left' : 'image-right'}" src=${map.path}>
                     </div>
                 </div>
             </div>
         </c:forEach>
     </div>
+    <footer>
+        <h1>&copy;</h1>
+    </footer>
 <body>

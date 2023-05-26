@@ -75,22 +75,31 @@ body{
 }
 
 #div-title{
+    margin: 0% 10% 0 7.5%;
     background-color: #FF4655;
-    width: 100%;
-    padding-bottom: 5%;
+    width: 102.5%;
+    padding-bottom: 1%;
 
 }
 
 #title{
     width: 80%;
     display: flex;
-    margin: 8% 10% 0 10%;
     font-family: 'Alumni Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 4.5rem;
     line-height: 78px;
     color: #ECE8E1;
+    margin: 5% 0 0 7.5%;
+}
+
+.bombsites{
+    margin-top: 5%;
+}
+
+.name{
+    margin-bottom: 5%;
 }
 
 .container{
@@ -104,36 +113,37 @@ body{
     display: flex;
     align-items: center;
     width: 100%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    height: 80vh;
+
 }
 
 .left-align {
     height: 100%;
     display: flex;
     justify-content: space-between;
-    margin-left: 7.5%;
-    padding: 0;
+
 }
 
 .right-align {
+    background-color: #FF4655;
+    color: #ECE8E1;
     height: 100%;
     display: flex;
     flex-direction: row-reverse ;
     justify-content: space-between;
-    margin-right: 7.5%;
-    padding: 0;
 }
 
 .coluna-1-left{
     display: flex;
-    margin-left: 0%;
+    margin-left: 7.5%;
     justify-content: center;
     flex-direction: column;
     width: 40%;
+    
 }
 .coluna-1-right{
-    margin-right: 0%;
+    text-align: end;
+    margin-right: 7.5%;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -145,7 +155,7 @@ body{
 .coluna-2-left{
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 60%;
     align-items: flex-end;
     justify-content: center;
     margin: 0;
@@ -155,17 +165,23 @@ body{
 .coluna-2-right{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 60%;
     align-items: flex-start;
     justify-content: center;
     margin: 0;
     padding: 0;
 }
 
-.images{
-    width: 100%;
-    /* background-color: coral; */
+.image-left{
+    width: 85%;
+    border-radius: 40px  0px 0px 40px;
 }
+
+.image-right{
+    width: 85%;
+    border-radius: 0  40px 40px 0;
+}
+
 .linha{
     width: 70%;
 }
@@ -179,27 +195,10 @@ p{
     width: 50%;
 }
 
-/* .conteudo h2{
-    text-align: center;
-    color: #ECE8E1;
-}
-
-.skins{ 
+footer{
+    background-color: gold;
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    width: 90%;
-    margin: 4% 3% 3% 2%;
+    justify-content: center;
+    height: 30vh;
 }
-
-.conteudo{
-    width: 20%;
-    margin: 2% 2.5% 2% 2.5%; 
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.conteudo img{
-    width: 70%;
-    border-radius: 45px;
-} */
