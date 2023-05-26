@@ -50,20 +50,20 @@
                 <th class="th">Rotation</th>
                 <th class="th">Path</th>
             </tr>
-            <c:forEach var="weapon" items="${weapons}">
+            <c:forEach var="map" items="${maps}">
                 <tr>
-                    <td class="td">${weapon.id}</td>
-                    <td class="td">${weapon.name}</td>
-                    <td class="td">${weapon.description}</td>
-                    <td class="td">${weapon.bombsites}</td>
-                    <td class="td">${weapon.coordinates}</td>
-                    <td class="td">${weapon.country}</td>
-                    <td class="td">${weapon.peculiarity}</td>
-                    <td class="td">${weapon.release_date}</td>
-                    <td class="td">${weapon.season}</td>
-                    <td class="td">${weapon.act}</td>
-                    <td class="td">${weapon.rotation}</td>
-                    <td class="td">${weapon.path}</td>
+                    <td class="td">${map.id}</td>
+                    <td class="td">${map.name}</td>
+                    <td class="td">${map.description}</td>
+                    <td class="td">${map.bombsites}</td>
+                    <td class="td">${map.coordinates}</td>
+                    <td class="td">${map.country}</td>
+                    <td class="td">${map.peculiarity}</td>
+                    <td class="td">${map.releaseDate}</td>
+                    <td class="td">${map.season}</td>
+                    <td class="td">${map.act}</td>
+                    <td class="td">${map.rotation}</td>
+                    <td class="td">${map.path}</td>
                     <td class="td">
                         <form action="/delete-map" method="post" id="form-map">
                             <input type="hidden" id="map-id" name="map-id" value="${map.id}" class="button">
