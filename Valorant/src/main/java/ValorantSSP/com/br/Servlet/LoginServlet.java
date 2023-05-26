@@ -14,9 +14,9 @@ import ValorantSSP.com.br.Model.User;
         @Override
         protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-            //req.getRequestDispatcher("adm/login/login.jsp").forward(req, resp);
+            req.getRequestDispatcher("adm/login/login.jsp").forward(req, resp);
 
-            resp.sendRedirect("adm/login/login.jsp");
+            //resp.sendRedirect("adm/login/login.jsp");
 
         }
 

@@ -3,7 +3,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <head>
     <title>Inicio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/adm/home/style.css">
 </head>
 <body>
     <header>
@@ -13,16 +13,16 @@
         </div>
         <nav class="nav_links">
             <div class="nav_link">
-                <a href="/agents"><img id="agent-icon" class="icon" src="images/agent-icon.png">Agentes</a>
+                <a href="/agents"><img id="agent-icon" class="icon" src="/adm/home/images/agent-icon.png">Agentes</a>
             </div>
             <div class="nav_link">
-                <a href="/armas"><img id="weapon-icon" class="icon" src="images/weapon-icon.png">Armas</a>
+                <a href="/armas"><img id="weapon-icon" class="icon" src="/adm/home/images/weapon-icon.png">Armas</a>
             </div>
             <div class="nav_link">
-                <a href="/maps"><img id="map-icon" class="icon" src="images/map-icon.png">Mapas</a>
+                <a href="/maps"><img id="map-icon" class="icon" src="/adm/home/images/map-icon.png">Mapas</a>
             </div>
             <div class="nav_link">
-                <a href="/skins"><img id="skin-icon" class="icon" src="images/skin-icon.jpg">Skins</a>
+                <a href="/skins"><img id="skin-icon" class="icon" src="/adm/home/images/skin-icon.jpg">Skins</a>
             </div>
         </nav>
 
