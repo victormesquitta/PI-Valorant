@@ -26,10 +26,10 @@
     <div class="container">
         <c:forEach var="map" items="${maps}" varStatus="status">
             <div class="box">
-                <div class="colunas ${status.index % 2 == 0 ? 'left-align' : 'right-align'}">
-                    <div id="coluna-1">
+                <div class="${status.index % 2 == 0 ? 'left-align' : 'right-align'}">
+                    <div class="${status.index % 2 == 0 ? 'coluna-1-left' : 'coluna-1-right'}">
                         <h1 class="name">${map.name}</h1>
-                        <img src="/user/maps/Images/linha-de-titulo-vermelha.png" alt="">
+                        <img src="/user/maps/Images/${status.index % 2 == 0 ? 'linha-de-titulo-vermelha.png' : 'linha-de-titulo-branca-invertida.png'}" class="linha" alt="">
                         <p>Quantidade de bombsites: ${map.bombsites}</p>
                         <p>Coordenadas: ${map.coordinates}</p>
                         <p>País: ${map.country}</p>
@@ -40,12 +40,10 @@
                         <p>Está na rotação: ${map.rotation}</p>
                         <p>${map.description}</p>
                     </div>
-                    <div id="coluna-2">
-                        <h1>teste</h1>
+                    <div class="${status.index % 2 == 0 ? 'coluna-2-left' : 'coluna-2-right'}">
                         <img class="images" src=${map.path}>
                     </div>
                 </div>
-                
             </div>
         </c:forEach>
     </div>

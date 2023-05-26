@@ -146,7 +146,7 @@ a{
     height: 100%;
     border: 1px solid #908f8f;
     border-radius: 5px;
-
+    cursor: pointer;
     font-weight: bold;
     padding: 0;
 }
