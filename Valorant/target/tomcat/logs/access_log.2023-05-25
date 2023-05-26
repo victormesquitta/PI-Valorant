@@ -6024,3 +6024,8 @@
 0:0:0:0:0:0:0:1 - - [25/May/2023:22:48:22 -0300] "GET /user/weapons/Images/Classic.png HTTP/1.1" 200 290400 http-bio-8080-exec-1 1
 0:0:0:0:0:0:0:1 - - [25/May/2023:22:48:22 -0300] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-1 0
 >>>>>>> Stashed changes
+0:0:0:0:0:0:0:1 - - [25/May/2023:22:50:33 -0300] "GET /user/weapons/Weapon.jsp HTTP/1.1" 200 2638 http-bio-8080-exec-1 101
+0:0:0:0:0:0:0:1 - - [25/May/2023:22:50:33 -0300] "GET /user/weapons/user/weapons/style.css HTTP/1.1" 404 1021 http-bio-8080-exec-3 1
+0:0:0:0:0:0:0:1 - - [25/May/2023:22:50:40 -0300] "GET /armas HTTP/1.1" 200 3730 http-bio-8080-exec-4 116
+0:0:0:0:0:0:0:1 - - [25/May/2023:22:50:40 -0300] "GET /user/weapons/style.css HTTP/1.1" 200 2501 http-bio-8080-exec-5 5
+0:0:0:0:0:0:0:1 - - [25/May/2023:22:50:40 -0300] "GET /armas HTTP/1.1" 200 3730 http-bio-8080-exec-6 2
