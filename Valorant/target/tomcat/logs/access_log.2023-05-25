@@ -3415,6 +3415,7 @@
 0:0:0:0:0:0:0:1 - - [25/May/2023:20:44:42 -0300] "GET /adm/dashboard-weapons/images/map-icon.png HTTP/1.1" 200 21180 http-bio-8080-exec-9 1
 0:0:0:0:0:0:0:1 - - [25/May/2023:20:44:42 -0300] "GET /adm/dashboard-weapons/images/skin-icon.jpg HTTP/1.1" 200 74338 http-bio-8080-exec-10 1
 0:0:0:0:0:0:0:1 - - [25/May/2023:20:44:42 -0300] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-3 1
+<<<<<<< Updated upstream
 =======
 0:0:0:0:0:0:0:1 - - [25/May/2023:17:30:32 -0300] "GET /adm/home/home.jsp HTTP/1.1" 200 1597 http-bio-8080-exec-1 2886
 0:0:0:0:0:0:0:1 - - [25/May/2023:17:30:32 -0300] "GET /adm/home/images/map-icon.png HTTP/1.1" 200 21180 http-bio-8080-exec-5 8
@@ -3871,4 +3872,21 @@
 0:0:0:0:0:0:0:1 - - [25/May/2023:20:42:24 -0300] "GET /armas HTTP/1.1" 200 3548 http-bio-8080-exec-10 4
 0:0:0:0:0:0:0:1 - - [25/May/2023:20:42:24 -0300] "GET /user/weapons/style.css HTTP/1.1" 200 2548 http-bio-8080-exec-10 29
 0:0:0:0:0:0:0:1 - - [25/May/2023:20:44:26 -0300] "GET /user/weapons/style.css HTTP/1.1" 304 - http-bio-8080-exec-9 3
+>>>>>>> Stashed changes
+=======
+0:0:0:0:0:0:0:1 - - [25/May/2023:20:49:59 -0300] "GET /find-all-weapons HTTP/1.1" 200 4902 http-bio-8080-exec-8 68
+0:0:0:0:0:0:0:1 - - [25/May/2023:20:49:59 -0300] "GET /adm/dashboard-weapons/Weapons.css HTTP/1.1" 304 - http-bio-8080-exec-8 1
+0:0:0:0:0:0:0:1 - - [25/May/2023:20:49:59 -0300] "GET /find-all-weapons HTTP/1.1" 200 4902 http-bio-8080-exec-8 1
+0:0:0:0:0:0:0:1 - - [25/May/2023:20:49:59 -0300] "GET /find-all-weapons HTTP/1.1" 200 4902 http-bio-8080-exec-8 2
+0:0:0:0:0:0:0:1 - - [25/May/2023:20:50:00 -0300] "GET /find-all-weapons HTTP/1.1" 200 4902 http-bio-8080-exec-8 1
+0:0:0:0:0:0:0:1 - - [25/May/2023:20:50:00 -0300] "GET /create-weapon HTTP/1.1" 405 1065 http-bio-8080-exec-8 0
+0:0:0:0:0:0:0:1 - - [25/May/2023:20:52:50 -0300] "GET /find-all-weapons HTTP/1.1" 200 4902 http-bio-8080-exec-9 3
+0:0:0:0:0:0:0:1 - - [25/May/2023:20:52:50 -0300] "GET /adm/dashboard-weapons/Weapons.css HTTP/1.1" 304 - http-bio-8080-exec-9 2
+0:0:0:0:0:0:0:1 - - [25/May/2023:20:52:51 -0300] "GET /find-all-weapons HTTP/1.1" 200 4902 http-bio-8080-exec-9 1
+0:0:0:0:0:0:0:1 - - [25/May/2023:20:52:51 -0300] "GET /find-all-weapons HTTP/1.1" 200 4902 http-bio-8080-exec-9 2
+0:0:0:0:0:0:0:1 - - [25/May/2023:20:52:51 -0300] "GET /find-all-weapons HTTP/1.1" 200 4902 http-bio-8080-exec-9 1
+0:0:0:0:0:0:0:1 - - [25/May/2023:20:52:52 -0300] "GET /find-all-weapons HTTP/1.1" 200 4902 http-bio-8080-exec-9 1
+0:0:0:0:0:0:0:1 - - [25/May/2023:20:52:52 -0300] "GET /find-all-weapons HTTP/1.1" 200 4902 http-bio-8080-exec-9 2
+0:0:0:0:0:0:0:1 - - [25/May/2023:20:52:53 -0300] "GET /create-agent/CreateAgent.jsp HTTP/1.1" 404 1007 http-bio-8080-exec-9 1
+0:0:0:0:0:0:0:1 - - [25/May/2023:20:52:56 -0300] "GET / HTTP/1.1" 200 4627 http-bio-8080-exec-9 2
 >>>>>>> Stashed changes

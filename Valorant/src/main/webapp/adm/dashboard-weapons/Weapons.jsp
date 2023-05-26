@@ -68,7 +68,7 @@
             </c:forEach>
         </table>
         <div id="div-ancora-novo">
-            <a href="create-weapon" class="novo-ancora" id=""><button id="button_novo" class="button">Novo</button></a>
+            <a href="/create-weapon" class="novo-ancora" id=""><button id="button_novo" class="button">Novo</button></a>
         </div>
         
     </div>
