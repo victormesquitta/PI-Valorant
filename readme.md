@@ -96,10 +96,14 @@
 
 ### Login:
 ```
-    CREATE TABLE LOGIN(
+    CREATE TABLE USR (
     ID INT PRIMARY KEY AUTO_INCREMENT, 
     USERNAME VARCHAR(50) NOT NULL,
-    PASSWORD VARCHAR(50) NOT NULL,
-    FULLNAME VARCHAR(100) NOT NULL
+    PASSWORD VARCHAR(50) NOT NULL
     );
  ```
+ * Comando para inserir o primeiro login.
+ ```
+    INSERT INTO USR (USERNAME, PASSWORD) VALUES ('your-user', 'your-password')
+ ```
+ 
