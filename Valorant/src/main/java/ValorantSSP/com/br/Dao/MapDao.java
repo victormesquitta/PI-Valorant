@@ -33,6 +33,7 @@ public class MapDao {
             preparedStatement.setInt(8, map.getSeason());
             preparedStatement.setInt(9, map.getAct());
             preparedStatement.setBoolean(10, map.isRotation());
+            preparedStatement.setString(11, map.getPath());
 
 
             preparedStatement.execute();

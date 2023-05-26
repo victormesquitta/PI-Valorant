@@ -12,7 +12,6 @@ public class Map {
     private int Season;
     private int Act;
     private boolean Rotation;
-
     private String Path;
 
     public String getId(){
@@ -103,4 +102,11 @@ public class Map {
         Rotation = rotation;
     }
 
+    public String getPath() {
+        return Path;
+    }
+
+    public void setPath(String path) {
+        Path = path;
+    }
 }

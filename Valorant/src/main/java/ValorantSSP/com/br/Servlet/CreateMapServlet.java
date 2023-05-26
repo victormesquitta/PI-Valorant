@@ -25,7 +25,7 @@ public class CreateMapServlet extends HttpServlet {
         int mapSeason = Integer.parseInt(req.getParameter("map-season"));
         int mapAct = Integer.parseInt(req.getParameter("map-act"));
         boolean mapRotation = Boolean.parseBoolean(req.getParameter("map-rotation"));
-
+        String mapPath = req.getParameter("map-path");
 
         Map map = new Map();
         map.setName(mapName);
@@ -38,6 +38,7 @@ public class CreateMapServlet extends HttpServlet {
         map.setSeason(mapSeason);
         map.setAct(mapAct);
         map.setRotation(mapRotation);
+        map.setPath(mapPath);
 
         new MapDao().createMap(map);
 
