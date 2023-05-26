@@ -231,4 +231,5 @@ label{
     border: 1px solid #908f8f;
     border-radius: 5px;
     font-weight: bold;
+    cursor: pointer;
 }

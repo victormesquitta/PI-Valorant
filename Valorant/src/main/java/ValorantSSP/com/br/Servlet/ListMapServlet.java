@@ -25,7 +25,7 @@ public class ListMapServlet extends HttpServlet{
 
         if  (session.getAttribute("loggedUser") == null ) {
 
-            req.getRequestDispatcher("user/maps/Maps.jsp.jsp").forward(req, resp);
+            req.getRequestDispatcher("user/maps/Maps.jsp").forward(req, resp);
 
         }  else {
 

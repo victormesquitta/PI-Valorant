@@ -4,7 +4,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <head>
     <meta charset="UTF-8">
-    <title>Weapons</title>
+    <title>Maps</title>
     <link rel="stylesheet" href="adm/dashboard-weapons/Weapons.css">
 </head>
 <body>
@@ -29,7 +29,7 @@
         </nav>
         <div id="header-down">
             <div id="div-ancora-button">
-                <a href="../../" id="ancora-button"><button id="button_logout" class="button">LOG OUT</button></a>
+                <a href="/logout" id="ancora-button"><button id="button_logout" class="button">LOG OUT</button></a>
             </div>
         </div>
     </header>

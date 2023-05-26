@@ -68,21 +68,96 @@ a{
 }
 
 body{
-    background-color: #FF4655; 
+    background-color: #ECE8E1; 
     display: flex;
     align-items: center;   
     flex-direction: column;  
 }
 
+#div-title{
+    background-color: #FF4655;
+    width: 100%;
+    padding-bottom: 5%;
+
+}
+
 #title{
+    width: 80%;
+    display: flex;
+    margin: 8% 10% 0 10%;
+    font-family: 'Alumni Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.5rem;
+    line-height: 78px;
+    color: #ECE8E1;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
     width: 100%;
 }
 
-h1{
+
+.box{
     display: flex;
-    margin: 8% 0 0 5%;
-    color: #ECE8E1;
+    align-items: center;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: aquamarine;
 }
+
+.left-align {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #c68619; 
+    margin: 0;
+    padding: 0;
+}
+
+.right-align {
+    display: flex;
+    flex-direction: row-reverse ;
+    margin: 0;
+    padding: 0;
+}
+
+.name{
+    background-color: gold;
+}
+
+.colunas{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+#coluna-1{
+    margin-left: 10%;
+    display: flex;
+    background-color: palegreen;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+#coluna-2{
+    display: flex;
+    background-color: rgb(255, 87, 174);
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.images{
+    width: 80%;
+    background-color: coral;
+}
+
+
 
 /* .conteudo h2{
     text-align: center;
