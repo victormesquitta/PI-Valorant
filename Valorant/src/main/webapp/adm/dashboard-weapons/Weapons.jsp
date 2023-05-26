@@ -68,7 +68,11 @@
             </c:forEach>
         </table>
         <div id="div-ancora-novo">
+<<<<<<< HEAD
             <a href="../adm/create-weapon/CreateWeapon.jsp" class="novo-ancora" id=""><button id="button_novo" class="button">Novo</button></a>
+=======
+            <a href="/create-weapon" class="novo-ancora" id=""><button id="button_novo" class="button">Novo</button></a>
+>>>>>>> d06d7f44678d5b81ffb0d303de2290bef852768d
         </div>
         
     </div>
