@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="adm/login/login.css">
     <link rel="shortcut icon" href="images/valorant-transparente.png" type="image/x-icon">
 </head>
 <body>
-    <div id="main-box">
+    <div id="main-box"> 
         <div class="box-item" id="item-title">
             <h1 class="title">Já possui uma conta?</h1>
             <p class="title">Entre com as suas credenciais abaixo!</p>
