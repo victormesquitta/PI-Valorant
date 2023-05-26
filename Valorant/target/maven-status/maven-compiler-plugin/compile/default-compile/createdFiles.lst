@@ -9,7 +9,6 @@ ValorantSSP\com\br\Model\User.class
 ValorantSSP\com\br\Servlet\LogoutServlet.class
 ValorantSSP\com\br\Servlet\CreateSkinServlet.class
 ValorantSSP\com\br\Dao\MapDao.class
-ValorantSSP\com\br\Model\Skills.class
 ValorantSSP\com\br\config\ConnectionPoolConfig.class
 ValorantSSP\com\br\Servlet\CreateWeaponServlet.class
 ValorantSSP\com\br\Servlet\DeleteMapServlet.class
