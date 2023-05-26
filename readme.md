@@ -53,7 +53,8 @@
     MAGAZINE INT NOT NULL,
     RESERVE INT NOT NULL,
     FIRERATESECS INT NOT NULL,
-    WALLPENETRATION VARCHAR(20) NOT NULL
+    WALLPENETRATION VARCHAR(20) NOT NULL,
+    PATH VARCHAR(50) NOT NULL
     );
  ```
 * Para o preenchimento dos dados, acessar o url de CRUD do mapa (http://localhost:8080/create-weapon).
