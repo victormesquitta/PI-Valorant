@@ -39,13 +39,18 @@
             <tr>
                 <th class="th">ID</th>
                 <th class="th">Name</th>
-                <th class="th">Type</th>
-                <th class="th">Creds</th>
-                <th class="th">Damage</th>
-                <th class="th">Magazine</th>
-                <th class="th">Reserve</th>
-                <th class="th">FireRateSecs</th>
-                <th class="th">WallPenetration</th>
+                <th class="th">Role</th>
+                <th class="th">Lore</th>
+                <th class="th">Skill Q</th>
+                <th class="th">Skill E</th>
+                <th class="th">Skill C</th>
+                <th class="th">Ultimate</th>
+                <th class="th">Skill Description Q</th>
+                <th class="th">Skill Description E</th>
+                <th class="th">Skill Description C</th>
+                <th class="th">Ultimate Description</th>
+                <th class="th">Ultimate Points </th>
+                <th class="th">Path</th>
             </tr>
             <c:forEach var="agent" items="${agents}">
                 <tr>
@@ -53,11 +58,11 @@
                     <td class="td">${agent.name}</td>
                     <td class="td">${agent.type}</td>
                     <td class="td">${agent.creds}</td>
-                    <td class="td">${weapon.damage}</td>
-                    <td class="td">${weapon.magazine}</td>
-                    <td class="td">${weapon.reserve}</td>
-                    <td class="td">${weapon.fireRateSecs}</td>
-                    <td class="td">${weapon.wallPenetration}</td>
+                    <td class="td">${agent.damage}</td>
+                    <td class="td">${agent.magazine}</td>
+                    <td class="td">${agent.reserve}</td>
+                    <td class="td">${agent.fireRateSecs}</td>
+                    <td class="td">${agent.wallPenetration}</td>
                     <td class="td">
                         <form action="/delete-agent" method="post" id="form-delete">
                             <input type="hidden" id="agent-id" name="agent-id" value="${agent.id}" class="button">

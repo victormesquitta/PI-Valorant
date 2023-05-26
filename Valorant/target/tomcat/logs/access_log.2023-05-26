@@ -7921,6 +7921,7 @@
 0:0:0:0:0:0:0:1 - - [26/May/2023:02:54:47 -0300] "GET /agents HTTP/1.1" 500 1525 http-bio-8080-exec-10 40
 0:0:0:0:0:0:0:1 - - [26/May/2023:02:56:00 -0300] "GET /agents HTTP/1.1" 500 1525 http-bio-8080-exec-6 4
 >>>>>>> Stashed changes
+<<<<<<< Updated upstream
 =======
 0:0:0:0:0:0:0:1 - - [26/May/2023:02:13:07 -0300] "POST /login HTTP/1.1" 302 - http-bio-8080-exec-1 256
 0:0:0:0:0:0:0:1 - - [26/May/2023:02:13:07 -0300] "GET /adm/home/home.jsp HTTP/1.1" 200 1696 http-bio-8080-exec-2 58
@@ -8015,4 +8016,13 @@
 0:0:0:0:0:0:0:1 - - [26/May/2023:02:59:59 -0300] "GET /adm/create-skin/CreateSkin.jsp HTTP/1.1" 200 3114 http-bio-8080-exec-2 11
 0:0:0:0:0:0:0:1 - - [26/May/2023:02:59:59 -0300] "GET /adm/create-skin/CreateSkin.css HTTP/1.1" 304 - http-bio-8080-exec-3 8
 0:0:0:0:0:0:0:1 - - [26/May/2023:03:00:55 -0300] "GET /adm/create-skin/CreateSkin.jsp HTTP/1.1" 200 3112 http-bio-8080-exec-4 949
+>>>>>>> Stashed changes
+=======
+0:0:0:0:0:0:0:1 - - [26/May/2023:02:58:43 -0300] "GET /maps HTTP/1.1" 200 5538 http-bio-8080-exec-1 190
+0:0:0:0:0:0:0:1 - - [26/May/2023:02:58:44 -0300] "GET /adm/dashboard-weapons/Weapons.css HTTP/1.1" 304 - http-bio-8080-exec-3 4
+0:0:0:0:0:0:0:1 - - [26/May/2023:02:58:47 -0300] "GET /maps HTTP/1.1" 200 5538 http-bio-8080-exec-4 2
+0:0:0:0:0:0:0:1 - - [26/May/2023:02:58:53 -0300] "GET /adm/home/home.jsp HTTP/1.1" 200 1650 http-bio-8080-exec-5 483
+0:0:0:0:0:0:0:1 - - [26/May/2023:02:58:53 -0300] "GET /adm/home/style.css HTTP/1.1" 304 - http-bio-8080-exec-6 3
+0:0:0:0:0:0:0:1 - - [26/May/2023:02:58:55 -0300] "GET /agents HTTP/1.1" 500 1525 http-bio-8080-exec-7 17
+0:0:0:0:0:0:0:1 - - [26/May/2023:02:58:59 -0300] "GET /agents HTTP/1.1" 500 1525 http-bio-8080-exec-2 3
 >>>>>>> Stashed changes

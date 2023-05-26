@@ -21,8 +21,6 @@ public class ListAgentServlet extends HttpServlet {
 
         req.setAttribute("agents", agents);
 
-        req.getRequestDispatcher("dashboard.jsp").forward(req, resp);
-
         HttpSession session = req.getSession();
 
         if  (session.getAttribute("loggedUser") == null ) {
