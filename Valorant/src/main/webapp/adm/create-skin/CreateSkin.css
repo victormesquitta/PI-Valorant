@@ -221,15 +221,25 @@ input{
     padding-left: 5%;
 }
 
+input:focus, textarea:focus{
+    border: none;
+    outline: none;
+}
+
 label{
     margin-bottom: 1%;
 }
 
 #button-register{
-    width: 40%;
-    height: 10%;
+    width: 20%;
+    height: 7.5%;
     border: 1px solid #908f8f;
     border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+#button-register:hover{
+    background-color: #e3e3e3;
 }

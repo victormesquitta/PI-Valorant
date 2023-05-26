@@ -50,7 +50,13 @@
                 <th class="th">Skill Description C</th>
                 <th class="th">Ultimate Description</th>
                 <th class="th">Ultimate Points </th>
-                <th class="th">Path</th>
+                <th class="th">Path Agent</th>
+                <th class="th">Path Role</th>
+                <th class="th">Path Skill Q</th>
+                <th class="th">Path Skill E</th>
+                <th class="th">Path Skill C</th>
+                <th class="th">Path Ultimate</th>
+
             </tr>
             <c:forEach var="agent" items="${agents}">
                 <tr>
@@ -67,7 +73,12 @@
                     <td class="td">${agent.skillDescriptionc}</td>
                     <td class="td">${agent.ultimateDescription}</td>
                     <td class="td">${agent.ultimatePoints}</td>
-                    <td class="td">${agent.path}</td>
+                    <td class="td">${agent.pathagent}</td>
+                    <td class="td">${agent.pathrole}</td>
+                    <td class="td">${agent.pathskillq}</td>
+                    <td class="td">${agent.pathskille}</td>
+                    <td class="td">${agent.pathskillc}</td>
+                    <td class="td">${agent.pathultimate}</td>
                     <td class="td">
                         <form action="/delete-agent" method="post" id="form-delete">
                             <input type="hidden" id="agent-id" name="agent-id" value="${agent.id}" class="button">

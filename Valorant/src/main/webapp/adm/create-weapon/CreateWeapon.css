@@ -169,8 +169,7 @@ a{
 #form-title{
     display: flex;
     justify-content: flex-start;
-
-    width: 50%;
+    width: 70%;
 }
 
 #div-form{
@@ -184,8 +183,8 @@ a{
 
 #form-create-weapon{
     /* background-color: purple; */
-    width: 50%;
-    height: 60%;
+    width: 70%;
+    height: 75%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -219,16 +218,25 @@ input{
     border: 0.1px solid #ccc;
     border-radius: 10px;
 }
+input:focus, textarea:focus{
+    border: none;
+    outline: none;
+}
 
 label{
     margin-bottom: 1%;
 }
 
 #button-register{
-    width: 40%;
-    height: 10%;
+    width: 20%;
+    height: 7.5%;
     border: 1px solid #908f8f;
-    border-radius: 20px;
+    border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+#button-register:hover{
+    background-color: #e3e3e3;
 }

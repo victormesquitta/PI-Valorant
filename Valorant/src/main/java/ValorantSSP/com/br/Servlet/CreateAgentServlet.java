@@ -28,7 +28,12 @@ import java.io.IOException;
             String agentSkillDescriptionC = req.getParameter("agent-skilldescriptionc");
             String agentUltimateDescription = req.getParameter("agent-ultimatedescription");
             int agentUltimatePoints = Integer.parseInt(req.getParameter("agent-ultimatepoints"));
-            String agentPath = req.getParameter("agent-path");
+            String agentPathAgent = req.getParameter("agent-pathagent");
+            String agentPathRole = req.getParameter("agent-pathrole");
+            String agentPathSkillQ = req.getParameter("agent-pathskillq");
+            String agentPathSkillE = req.getParameter("agent-pathskille");
+            String agentPathSkillC = req.getParameter("agent-pathskillc");
+            String agentPathUltimate = req.getParameter("agent-pathultimate");
 
             Agent agent = new Agent();
             agent.setName(agentName);
@@ -43,7 +48,12 @@ import java.io.IOException;
             agent.setSkillDescriptionc(agentSkillDescriptionC);
             agent.setUltimateDescription(agentUltimateDescription);
             agent.setUltimatePoints(agentUltimatePoints);
-            agent.setPath(agentPath);
+            agent.setPathagent(agentPathAgent);
+            agent.setPathrole(agentPathRole);
+            agent.setPathskillq(agentPathSkillQ);
+            agent.setPathskille(agentPathSkillE);
+            agent.setPathskillc(agentPathSkillC);
+            agent.setPathultimate(agentPathUltimate);
 
             new AgentDao().createAgent(agent);
 

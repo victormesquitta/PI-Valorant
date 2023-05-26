@@ -38,7 +38,7 @@
                 <div id="colunas">
                     <div id="coluna-1">
                         <label>Name</label>
-                        <input type="text" name="map-name" id="map-name">
+                            <input type="text" name="map-name" id="map-name">
                         <br>
                         <label>Description</label>
                             <textarea name="map-description" id="map-description"></textarea>

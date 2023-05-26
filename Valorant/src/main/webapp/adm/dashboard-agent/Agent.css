@@ -207,6 +207,11 @@ tr{
     width: 100%;
     margin:0;
     cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+#button_novo:hover{
+    background-color: rgb(26, 151, 41);
 }
 
 

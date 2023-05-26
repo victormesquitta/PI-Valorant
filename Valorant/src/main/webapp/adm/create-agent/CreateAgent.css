@@ -146,9 +146,9 @@ a{
     height: 100%;
     border: 1px solid #908f8f;
     border-radius: 5px;
-
     font-weight: bold;
     padding: 0;
+    transition: all 0.3s ease 0s;
 }
 
 
@@ -169,8 +169,7 @@ a{
 #form-title{
     display: flex;
     justify-content: flex-start;
-
-    width: 50%;
+    width: 70%;
 }
 
 #div-form{
@@ -184,7 +183,7 @@ a{
 
 #form-create-agent{
     /* background-color: purple; */
-    width: 50%;
+    width: 70%;
     height: 75%;
     display: flex;
     flex-direction: column;
@@ -202,14 +201,28 @@ a{
 #coluna-1{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 25%;
     height: 100%;
 }
 
 #coluna-2{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 25%;
+    height: 100%;
+}
+
+#coluna-3{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+}
+
+#coluna-4{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
     height: 100%;
 }
 
@@ -220,16 +233,44 @@ input{
     border-radius: 10px;
     padding-left: 5%;
 }
+input:focus, textarea:focus{
+    border: none;
+    outline: none;
+}
 
 label{
     margin-bottom: 1%;
 }
 
 #button-register{
-    width: 40%;
-    height: 10%;
+    width: 20%;
+    height: 7.5%;
     border: 1px solid #908f8f;
     border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+#button-register:hover{
+    background-color: #e3e3e3;
+}
+
+#agent-lore{
+    height: 70%;
+    width:  75%;
+    vertical-align: top;
+    resize: none;
+    border: 0.1px solid #ccc;
+    border-radius: 15px;
+    padding: 5%;
+}
+
+#agent-name{
+    height: 15%;
+}
+
+#agent-role{
+    height: 15%;
+ 
 }

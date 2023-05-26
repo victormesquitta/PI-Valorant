@@ -14,7 +14,12 @@ public class Agent {
     private String skillDescriptionc;
     private String ultimateDescription;
     private int ultimatePoints;
-    private String path;
+    private String pathagent;
+    private String pathrole;
+    private String pathskillq;
+    private String pathskille;
+    private String pathskillc;
+    private String pathultimate;
 
     public int getId() {
         return id;
@@ -120,11 +125,51 @@ public class Agent {
         this.ultimatePoints = ultimatePoints;
     }
 
-    public String getPath() {
-        return path;
+    public String getPathagent() {
+        return pathagent;
     }
 
-    public void setPath(String path) {
-        this.path = path;
+    public void setPathagent(String pathagent) {
+        this.pathagent = pathagent;
+    }
+
+    public String getPathrole() {
+        return pathrole;
+    }
+
+    public void setPathrole(String pathrole) {
+        this.pathrole = pathrole;
+    }
+
+    public String getPathskillq() {
+        return pathskillq;
+    }
+
+    public void setPathskillq(String pathskillq) {
+        this.pathskillq = pathskillq;
+    }
+
+    public String getPathskille() {
+        return pathskille;
+    }
+
+    public void setPathskille(String pathskille) {
+        this.pathskille = pathskille;
+    }
+
+    public String getPathskillc() {
+        return pathskillc;
+    }
+
+    public void setPathskillc(String pathskillc) {
+        this.pathskillc = pathskillc;
+    }
+
+    public String getPathultimate() {
+        return pathultimate;
+    }
+
+    public void setPathultimate(String pathultimate) {
+        this.pathultimate = pathultimate;
     }
 }

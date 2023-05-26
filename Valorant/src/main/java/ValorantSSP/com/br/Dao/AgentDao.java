@@ -5,7 +5,6 @@ import ValorantSSP.com.br.config.ConnectionPoolConfig;
 
 
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
@@ -15,7 +14,7 @@ import java.util.List;
 public class AgentDao {
     public void createAgent(Agent agent){
 
-        String SQL = "INSERT INTO AGENT (NAME, ROLE, LORE, SKILLQ, SKILLE, SKILLC, ULTIMATE, SKILLDESCRIPTIONQ, SKILLDESCRIPTIONE, SKILLDESCRIPTIONC, ULTIMATEDESCRIPTION, ULTIMATEPOINTS, PATH) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)";
+        String SQL = "INSERT INTO AGENT (NAME, ROLE, LORE, SKILLQ, SKILLE, SKILLC, ULTIMATE, SKILLDESCRIPTIONQ, SKILLDESCRIPTIONE, SKILLDESCRIPTIONC, ULTIMATEDESCRIPTION, ULTIMATEPOINTS, PATHAGENT, PATHROLE, PATHSKILLQ, PATHSKILLE, PATHSKILLC, PATHULTIMATE) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
 
         try {
 
@@ -35,8 +34,12 @@ public class AgentDao {
             preparedStatement.setString(10, agent.getSkillDescriptionc());
             preparedStatement.setString(11, agent.getUltimateDescription());
             preparedStatement.setInt(12, agent.getUltimatePoints());
-            preparedStatement.setString(13, agent.getPath());
-
+            preparedStatement.setString(13, agent.getPathagent());
+            preparedStatement.setString(14, agent.getPathrole());
+            preparedStatement.setString(15, agent.getPathskillq());
+            preparedStatement.setString(16, agent.getPathskille());
+            preparedStatement.setString(17, agent.getPathskillc());
+            preparedStatement.setString(18, agent.getPathultimate());
             preparedStatement.execute();
 
             connection.close();
@@ -44,6 +47,7 @@ public class AgentDao {
         } catch (Exception e){
 
             System.out.println("1fail in connection");
+            System.out.println(e);
         }
     }
     public List<Agent> findAllAgents(){
@@ -73,7 +77,13 @@ public class AgentDao {
                 String agentSkillDescription3 = resultSet.getString("skilldescriptionc");
                 String agentUltimateDescription = resultSet.getString("ultimatedescription");
                 int agentUltimatePoints = resultSet.getInt("ultimatepoints");
-                String agentPath = resultSet.getString("path");
+                String agentPathAgent = resultSet.getString("pathagent");
+                String agentPathRole = resultSet.getString("pathrole");
+                String agentPathSkill1 = resultSet.getString("pathskillq");
+                String agentPathSkill2 = resultSet.getString("pathskille");
+                String agentPathSkill3 = resultSet.getString("pathskillc");
+                String agentPathUltimate = resultSet.getString("pathultimate");
+
 
 
                 Agent agent = new Agent();
@@ -90,7 +100,13 @@ public class AgentDao {
                 agent.setSkillDescriptionc(agentSkillDescription3);
                 agent.setUltimateDescription(agentUltimateDescription);
                 agent.setUltimatePoints(agentUltimatePoints);
-                agent.setPath(agentPath);
+                agent.setPathagent(agentPathAgent);
+                agent.setPathrole(agentPathRole);
+                agent.setPathskillq(agentPathSkill1);
+                agent.setPathskille(agentPathSkill2);
+                agent.setPathskillc(agentPathSkill3);
+                agent.setPathultimate(agentPathUltimate);
+
 
                 agents.add(agent);
 
