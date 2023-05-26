@@ -16,7 +16,7 @@ public class DeleteSkinServlet extends HttpServlet {
 
         new SkinDao().deleteSkinById(skinId);
 
-        resp.sendRedirect("/find-all-skins");
+        resp.sendRedirect("skins");
 
     }
 }

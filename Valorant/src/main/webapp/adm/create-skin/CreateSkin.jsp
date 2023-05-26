@@ -33,7 +33,7 @@
     </header>
     <div id="div-right">
         <div id="div-form">
-            <h2 id="form-title">Agentes</h2>
+            <h2 id="form-title">Skins</h2>
             <form id="form-create-skin" action="/create-skin" method="post">
                 <div id="colunas">
                     <div id="coluna-1">

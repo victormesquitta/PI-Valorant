@@ -22,7 +22,7 @@
                 <a href="/maps"><img id="map-icon" class="icon" src="images/map-icon.png">Mapas</a>
             </div>
             <div class="nav_link">
-                <a href="../create-skin/CreateSkin.jsp"><img id="skin-icon" class="icon" src="images/skin-icon.jpg">Skins</a>
+                <a href="/skins"><img id="skin-icon" class="icon" src="images/skin-icon.jpg">Skins</a>
             </div>
         </nav>
 

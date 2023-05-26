@@ -57,12 +57,24 @@ public class SkinDao {
 
             while (resultSet.next()) {
 
+                int skinID = resultSet.getInt("id");
                 String skinName = resultSet.getString("name");
+                int skinSeason = resultSet.getInt("season");
+                int skinAct = resultSet.getInt("act");
+                String skinDate = resultSet.getString("date");
+                float skinPrice = resultSet.getFloat("price");
+                int skinRecolors = resultSet.getInt("recolors");
                 String skinPath = resultSet.getString("path");
 
                 Skin skin = new Skin();
+                skin.setId(skinID);
                 skin.setName(skinName);
                 skin.setPath(skinPath);
+                skin.setSeason(skinSeason);
+                skin.setAct(skinAct);
+                skin.setDate(skinDate);
+                skin.setPrice(skinPrice);
+                skin.setRecolors(skinRecolors);
 
                 skins.add(skin);
 
