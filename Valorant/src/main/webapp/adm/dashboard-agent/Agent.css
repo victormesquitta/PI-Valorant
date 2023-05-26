@@ -192,10 +192,16 @@ tr{
     max-width: 0; /* Define a largura máxima dos títulos como zero */
     transition: max-width 0.3s ease-in; /* Adiciona uma transição suave para expandir e contrair os títulos */
     min-width: 50px;
+    max-width: 75px;
 }
 
 .td{
+    min-width: 50px;
+    max-width: 75px;
     font-size: 0.5rem;
+    text-align: center; /* Alinha o conteúdo à esquerda */
+    word-break: break-all; /* Quebra a linha sempre que necessário */
+
 }
 
 #div-ancora-novo{
