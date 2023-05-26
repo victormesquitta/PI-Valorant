@@ -135,10 +135,15 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10% 35% 0 0;
     padding: 0;
-    height: 40%;
+    height: 100%;
+    width: 100%;
+}
+
+#test{
+    margin: 10% 35% 0 0;
     width: 40%;
+    height: 40%;
 }
 
 #button_logout{

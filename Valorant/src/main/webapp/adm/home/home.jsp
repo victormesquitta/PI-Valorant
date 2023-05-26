@@ -25,11 +25,15 @@
                 <a href="../create-skin/CreateSkin.jsp"><img id="skin-icon" class="icon" src="images/skin-icon.jpg">Skins</a>
             </div>
         </nav>
+
         <div id="header-down">
             <div id="div-ancora-button">
-                <a href="../../" id="ancora-button"><button id="button_logout">LOG OUT</button></a>
+        <c:if test="${SessionScope.loggedUser != null}" id="test">
+                <a href="/logout" id="ancora-button"><button id="button_logout">LOG OUT</button></a>
+        <c:if>
             </div>
         </div>
+
     </header>
     <div id="descricao-adm">
         <h2>Esse é o dashboard do site. Aqui é realizado as operações do Crud: Create, Read, Update e Delete.</br>Cada seção destinada é a uma funcionalidade do site.</h2>
