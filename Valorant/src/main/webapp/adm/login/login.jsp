@@ -15,18 +15,20 @@
             <h1 class="title">Já possui uma conta?</h1>
             <p class="title">Entre com as suas credenciais abaixo!</p>
         </div>
-        <form action="../../index.jsp" class="box-item" id="item-form">
+        <form action="/login" class="box-item" id="item-form" method="post">
             <div class="item-form-data">
                 <label for="username">Usuário</label>
-                <input type="text" name="" id="" placeholder="valorant_pi" class="input-text" required>
+                <input type="text" name="username" id="username" placeholder="valorant_pi" class="input-text" required>
             </div>
             <div class="item-form-data">
                 <label for="password">Senha</label>
-                <input type="password" name="" id="" placeholder="monoyoru1234" class="input-text" required>
+                <input type="password" name="password" id="password" placeholder="monoyoru1234" class="input-text" required>
             </div>
+            <span>${requestScope.message}</span>
             <div id="div-button-entrar">
                 <input type="submit" id="button-entrar" class="button" value = "ENTRAR"> 
-            </div> 
+            </div>
+
         </form>
         <!--<div class="box-item" id="item-cadastro">
             <a href="../cadastro/index.jsp" id="ancora-cadastro"> <button id="cadastrar-se" class="button button-cadastro">Cadastrar-se</button></a>

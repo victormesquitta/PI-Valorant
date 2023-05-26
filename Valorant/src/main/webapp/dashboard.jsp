@@ -11,17 +11,19 @@
     <h1>Maps</h1>
     <table>
         <tr>
-            <th>ID</th>
-            <th>Name</th>
-            <th>Description</th>
-            <th>Bombsites</th>
-            <th>Coordinates</th>
-            <th>Country</th>
-            <th>Peculiarity</th>
-            <th>Release date</th>
-            <th>Season</th>
-            <th>Act</th>
-            <th>Rotation</th>
+            <c:if test="${sessionScope.loggedUser != null}">
+                <th>ID</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Bombsites</th>
+                <th>Coordinates</th>
+                <th>Country</th>
+                <th>Peculiarity</th>
+                <th>Release date</th>
+                <th>Season</th>
+                <th>Act</th>
+                <th>Rotation</th>
+            </c:if>
         </tr>
         <c:forEach var="map" items="${maps}">
             <tr>
@@ -36,13 +38,15 @@
                 <td>${map.season}</td>
                 <td>${map.act}</td>
                 <td>${map.rotation}</td>
-                <td><form action="/delete-map" method="post">
-                        <input type="hidden" id="map-id" name="map-id" value="${map.id}">
-                        <button type="submit">Delete</button>
-                    </form>
+                <td>
+                    <c:if test="${sessionScope.loggedUser != null}">
+                        <form action="/delete-map" method="post">
+                            <input type="hidden" id="map-id" name="map-id" value="${map.id}">
+                            <button type="submit">Delete</button>
+                        </form>
+                    </c:if>
                 </td>
             </tr>
-
         </c:forEach>
     </table>
   </div>

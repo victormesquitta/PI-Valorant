@@ -14,7 +14,7 @@ import ValorantSSP.com.br.Model.User;
         @Override
         protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-            req.getRequestDispatcher("login.jsp").forward(req, resp);
+            req.getRequestDispatcher("adm/login/login.jsp").forward(req, resp);
 
         }
 
@@ -32,13 +32,13 @@ import ValorantSSP.com.br.Model.User;
 
                 req.getSession().setAttribute("loggedUser", username);
 
-                resp.sendRedirect("adm/home-adm/index.jsp");
+                resp.sendRedirect("adm/home/home.jsp");
 
             } else {
 
                 req.setAttribute("message", "Invalid credentials!");
 
-                req.getRequestDispatcher("adm/login/index.jsp").forward(req, resp);
+                resp.sendRedirect("adm/login/login.jsp");
 
             }
 
