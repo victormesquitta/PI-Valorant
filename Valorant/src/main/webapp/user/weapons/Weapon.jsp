@@ -36,63 +36,46 @@
 
     <h1 class="subtitle">SUBMETRALHADORAS</h1>
     <div class="container">
+    <c:forEach var = "sub" items="${subs}">
         <div class="box">
-            <img class="images" src="/user/weapons/Images/Classic.png">
-            <h1 class="name">CLASSIC</h1>
-
+            <img class="images" src=${sub.path}>
+            <h1 class="name">${sub.name}</h1>
         </div>
-        <div class="box">
-            <img class="images" src="/user/weapons/Images/Classic.png">
-            <h1 class="name">CLASSIC</h1>
-
-        </div>
+    </c:forEach>
+    </div>
 
 
     </div>
     <h1 class="subtitle">ESCOPETAS</h1>
     <div class="container">
-        <div class="box">
-            <img class="images" src="/user/weapons/Images/Classic.png">
-            <h1 class="name">CLASSIC</h1>
-
-        </div>
-        <div class="box">
-            <img class="images" src="/user/weapons/Images/Classic.png">
-            <h1 class="name">CLASSIC</h1>
-
-        </div>
+        <c:forEach var = "esc" items="${escopetas}">
+            <div class="box">
+                <img class="images" src=${esc.path}>
+                <h1 class="name">${esc.name}</h1>
+            </div>
+        </c:forEach>
+    </div>
 
 
     </div>
     <h1 class="subtitle">FUZIL</h1>
     <div class="container">
-        <div class="box">
-            <img class="images" src="/user/weapons/Images/Classic.png">
-            <h1 class="name">CLASSIC</h1>
-
-        </div>
-        <div class="box">
-            <img class="images" src="/user/weapons/Images/Classic.png">
-            <h1 class="name">CLASSIC</h1>
-
-        </div>
-
-
+        <c:forEach var = "fuz" items="${fuzis}">
+            <div class="box">
+                <img class="images" src=${fuz.path}>
+                <h1 class="name">${fuz.name}</h1>
+            </div>
+        </c:forEach>
     </div>
+
     <h1 class="subtitle">FUZIL DE PRECISÃO</h1>
     <div class="container">
-        <div class="box">
-            <img class="images" src="/user/weapons/Images/Classic.png">
-            <h1 class="name">CLASSIC</h1>
-
-        </div>
-        <div class="box">
-            <img class="images" src="/user/weapons/Images/Classic.png">
-            <h1 class="name">CLASSIC</h1>
-
-        </div>
-
-
+        <c:forEach var = "fuzi" items="${fuzilPrecisao}">
+            <div class="box">
+                <img class="images" src=${fuzi.path}>
+                <h1 class="name">${fuzi.name}</h1>
+            </div>
+        </c:forEach>
     </div>
 </body>
 </html>
