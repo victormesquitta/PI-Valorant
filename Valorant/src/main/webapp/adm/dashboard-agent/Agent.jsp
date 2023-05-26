@@ -5,20 +5,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Weapons</title>
-    <link rel="stylesheet" href="adm/dashboard-weapons/Weapons.css">
+    <link rel="stylesheet" href="adm/dashboard-agent/Agent.css">
 </head>
 <body>
     <header>
         <div id="header-up">
-            <a href="" class="logo-ancora" id=""><img class="" id="logo-navbar" src="adm/dashboard-weapons/images/logo.png" alt="logo"></a>
+            <a href="" class="logo-ancora" id=""><img class="" id="logo-navbar" src="adm/dashboard-agent/images/logo.png" alt="logo"></a>
             <a href="" class="logo-ancora" id=""><h2 id="titulo-header">Visão Administrativa</h2></a>
         </div>
         <nav class="nav_links">
             <div class="nav_link">
-                <a href="/adm/create-agent/CreateAgent.jsp"><img id="agent-icon" class="icon" src="adm/dashboard-weapons/images/agent-icon.png">Agentes</a>
+                <a href="/adm/dashboar-weapons/Agent.jsp"><img id="agent-icon" class="icon" src="adm/dashboard-weapons/images/agent-icon.png">Agentes</a>
             </div>
             <div class="nav_link">
-                <a href="/armas"><img id="weapon-icon" class="icon" src="adm/dashboard-weapons/images/weapon-icon.png">Armas</a>
+                <a href="/find-all-weapons"><img id="weapon-icon" class="icon" src="adm/dashboard-weapons/images/weapon-icon.png">Armas</a>
             </div>
             <div class="nav_link">
                 <a href="/adm/create-map/CreateMap.jsp"><img id="map-icon" class="icon" src="adm/dashboard-weapons/images/map-icon.png">Mapas</a>
@@ -34,7 +34,7 @@
         </div>
     </header>
     <div id="dashboard">
-        <h1>Weapons</h1>
+        <h1>Agent</h1>
         <table id="table">
             <tr>
                 <th class="th">ID</th>
@@ -47,20 +47,20 @@
                 <th class="th">FireRateSecs</th>
                 <th class="th">WallPenetration</th>
             </tr>
-            <c:forEach var="weapon" items="${weapons}">
+            <c:forEach var="agent" items="${agents}">
                 <tr>
-                    <td class="td">${weapon.id}</td>
-                    <td class="td">${weapon.name}</td>
-                    <td class="td">${weapon.type}</td>
-                    <td class="td">${weapon.creds}</td>
+                    <td class="td">${agent.id}</td>
+                    <td class="td">${agent.name}</td>
+                    <td class="td">${agent.type}</td>
+                    <td class="td">${agent.creds}</td>
                     <td class="td">${weapon.damage}</td>
                     <td class="td">${weapon.magazine}</td>
                     <td class="td">${weapon.reserve}</td>
                     <td class="td">${weapon.fireRateSecs}</td>
                     <td class="td">${weapon.wallPenetration}</td>
                     <td class="td">
-                        <form action="/delete-weapon" method="post" id="form-delete">
-                            <input type="hidden" id="weapon-id" name="weapon-id" value="${weapon.id}" class="button">
+                        <form action="/delete-agent" method="post" id="form-delete">
+                            <input type="hidden" id="agent-id" name="agent-id" value="${agent.id}" class="button">
                             <button type="submit" class="button" id="button-delete">Delete</button>
                         </form>
                     </td>
@@ -68,9 +68,9 @@
             </c:forEach>
         </table>
         <div id="div-ancora-novo">
-            <a href="../adm/create-weapon/CreateWeapon.jsp" class="novo-ancora" id=""><button id="button_novo" class="button">Novo</button></a>
+            <a href="../adm/create-weapon/CreateAgent.jsp" class="novo-ancora" id=""><button id="button_novo" class="button">Novo</button></a>
         </div>
-        
+
     </div>
 </body>
 </html>

@@ -46,7 +46,7 @@ import java.io.IOException;
 
             new AgentDao().createAgent(agent);
 
-            resp.sendRedirect("/find-all-agents");
+            resp.sendRedirect("/agents");
         }
 
     }

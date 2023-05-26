@@ -18,7 +18,7 @@ public class DeleteAgentServlet extends HttpServlet {
 
         new AgentDao().deleteAgentById(agentId);
 
-        resp.sendRedirect("/find-all-agents");
+        resp.sendRedirect("/agent");
 
     }
 }

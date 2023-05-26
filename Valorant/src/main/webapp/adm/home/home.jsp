@@ -13,7 +13,7 @@
         </div>
         <nav class="nav_links">
             <div class="nav_link">
-                <a href="../create-agent/CreateAgent.jsp"><img id="agent-icon" class="icon" src="images/agent-icon.png">Agentes</a>
+                <a href="/agents"><img id="agent-icon" class="icon" src="images/agent-icon.png">Agentes</a>
             </div>
             <div class="nav_link">
                 <a href="/armas"><img id="weapon-icon" class="icon" src="images/weapon-icon.png">Armas</a>
