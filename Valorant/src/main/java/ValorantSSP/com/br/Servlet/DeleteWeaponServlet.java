@@ -19,7 +19,7 @@ public class DeleteWeaponServlet extends HttpServlet {
 
         new WeaponDao().deleteWeaponById(weaponId);
 
-        resp.sendRedirect("/find-all-weapons");
+        resp.sendRedirect("/armas");
 
     }
 }
