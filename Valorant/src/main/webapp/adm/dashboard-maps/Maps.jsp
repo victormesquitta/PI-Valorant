@@ -68,6 +68,8 @@
                         <form action="/delete-map" method="post" id="form-map">
                             <input type="hidden" id="map-id" name="map-id" value="${map.id}" class="button">
                             <button type="submit" class="button" id="button-delete">Delete</button>
+                            <span> | </span>
+                            <a href="/adm/create-map/CreateMap.jsp?id=${map.id}&name=${map.name}">Update</a>
                         </form>
                     </td>
                 </tr>

@@ -28,6 +28,7 @@ public class CreateMapServlet extends HttpServlet {
         String mapPath = req.getParameter("map-path");
 
         Map map = new Map();
+        MapDao mapDao = new MapDao();
         map.setName(mapName);
         map.setDescription(mapDescription);
         map.setBombsites(mapBombsite);
@@ -39,6 +40,16 @@ public class CreateMapServlet extends HttpServlet {
         map.setAct(mapAct);
         map.setRotation(mapRotation);
         map.setPath(mapPath);
+
+
+        if (mapName.isBlank()) {
+
+            mapDao.createMap(map);
+
+        } else {
+
+            mapDao.updateMap(map);
+        }
 
         new MapDao().createMap(map);
 

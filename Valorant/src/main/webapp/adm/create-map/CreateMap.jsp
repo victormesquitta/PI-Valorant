@@ -38,33 +38,33 @@
                 <div id="colunas">
                     <div id="coluna-1">
                         <label>Name</label>
-                            <input type="text" name="map-name" id="map-name">
+                            <input type="text" name="map-name" id="map-name" value="${param.name}">
                         <br>
                         <label>Description</label>
-                            <textarea name="map-description" id="map-description"></textarea>
+                            <textarea name="map-description" id="map-description" value="${param.description}"></textarea>
                         <br>
                         <label>BombSites</label>
-                            <input type="number" name="map-bombsites" id="map-bombsites">
+                            <input type="number" name="map-bombsites" id="map-bombsites" value="${param.bombsites}">
                         <br>
                         <label>Coordinates</label>
-                            <input type="text" name="map-coordinates" id="map-coordinates">
+                            <input type="text" name="map-coordinates" id="map-coordinates" value="${param.coordinates}">
                         <br>
                         <label>Country</label>
-                            <input type="text" name="map-country" id="map-country">
+                            <input type="text" name="map-country" id="map-country" value="${param.country}">
                         <br>
                     </div>
                     <div id="coluna-2">
                         <label>Peculiarity</label>
-                        <input type="text" name="map-peculiarity" id="map-peculiarity">
+                        <input type="text" name="map-peculiarity" id="map-peculiarity" value="${param.peculiarity}">
                         <br>
                         <label>Release Date</label>
-                            <input type="Date" name="map-date" id="map-date">
+                            <input type="Date" name="map-date" id="map-date" value="${param.date}">
                         <br>
                         <label>Season</label>
-                                <input type="number" name="map-season" id="map-season">
+                                <input type="number" name="map-season" id="map-season" value="${param.season}">
                         <br>
                         <label>Act</label>
-                                <input type="number" name="map-act" id="map-act">
+                                <input type="number" name="map-act" id="map-act" value="${param.act}">
                         <br>
                         <label>Rotation</label>
                         <div id="div-rotation">
@@ -72,7 +72,7 @@
                         </div>
                         <br>
                         <label>Path</label>
-                            <input type="text" name="map-path" id="map-path">
+                            <input type="text" name="map-path" id="map-path" value="${param.path}">
                         <br>
                     </div>
                 </div>

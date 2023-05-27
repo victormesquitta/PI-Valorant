@@ -131,4 +131,39 @@ public class MapDao {
         }
 
     }
+    public void updateMap(Map map) {
+
+        String SQL = "UPDATE MAP SET NAME = ? WHERE ID = ?";
+
+        try {
+
+            Connection connection = ConnectionPoolConfig.getConnection();
+            System.out.println("success in database connection");
+
+            PreparedStatement preparedStatement = connection.prepareStatement(SQL);
+
+            preparedStatement.setString(1, map.getName());
+            preparedStatement.setString(2, map.getId());
+            preparedStatement.setString(3, map.getDescription());
+            preparedStatement.setInt(4, map.getBombsites());
+            preparedStatement.setString(5, map.getCoordinates());
+            preparedStatement.setString(6, map.getCountry());
+            preparedStatement.setString(7, map.getPeculiarity());
+            preparedStatement.setString(8, map.getReleaseDate());
+            preparedStatement.setInt(9, map.getSeason());
+            preparedStatement.setInt(10, map.getAct());
+            preparedStatement.execute();
+
+            System.out.println("success in update map");
+
+            connection.close();
+
+        } catch (Exception e) {
+
+            System.out.println("fail in database connection");
+            System.out.println("Error: " + e.getMessage());
+
+        }
+
+    }
 }
