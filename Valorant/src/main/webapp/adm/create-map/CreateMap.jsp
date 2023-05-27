@@ -73,6 +73,7 @@
                         <br>
                         <label>Path</label>
                             <input type="text" name="map-path" id="map-path" value="${param.path}">
+                            <input type="hidden" name="map-id" id="map-id" value="${param.id}">
                         <br>
                     </div>
                 </div>

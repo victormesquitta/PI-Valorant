@@ -143,15 +143,17 @@ public class MapDao {
             PreparedStatement preparedStatement = connection.prepareStatement(SQL);
 
             preparedStatement.setString(1, map.getName());
-            preparedStatement.setString(2, map.getId());
-            preparedStatement.setString(3, map.getDescription());
-            preparedStatement.setInt(4, map.getBombsites());
-            preparedStatement.setString(5, map.getCoordinates());
-            preparedStatement.setString(6, map.getCountry());
-            preparedStatement.setString(7, map.getPeculiarity());
-            preparedStatement.setString(8, map.getReleaseDate());
-            preparedStatement.setInt(9, map.getSeason());
-            preparedStatement.setInt(10, map.getAct());
+            preparedStatement.setString(2, map.getDescription());
+            preparedStatement.setInt(3, map.getBombsites());
+            preparedStatement.setString(4, map.getCoordinates());
+            preparedStatement.setString(5, map.getCountry());
+            preparedStatement.setString(6, map.getPeculiarity());
+            preparedStatement.setString(7, map.getReleaseDate());
+            preparedStatement.setInt(8, map.getSeason());
+            preparedStatement.setInt(9, map.getAct());
+            preparedStatement.setBoolean(10, map.isRotation());
+            preparedStatement.setString(11, map.getPath());
+            preparedStatement.setString(12, map.getId());
             preparedStatement.execute();
 
             System.out.println("success in update map");

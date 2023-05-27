@@ -15,6 +15,7 @@ public class CreateMapServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+        String mapId = req.getParameter("map-id");
         String mapName = req.getParameter("map-name");
         String mapDescription = req.getParameter("map-description");
         int mapBombsite = Integer.parseInt(req.getParameter("map-bombsites"));
@@ -28,7 +29,8 @@ public class CreateMapServlet extends HttpServlet {
         String mapPath = req.getParameter("map-path");
 
         Map map = new Map();
-        MapDao mapDao = new MapDao();
+
+        map.setId(mapId);
         map.setName(mapName);
         map.setDescription(mapDescription);
         map.setBombsites(mapBombsite);
@@ -41,8 +43,10 @@ public class CreateMapServlet extends HttpServlet {
         map.setRotation(mapRotation);
         map.setPath(mapPath);
 
+        MapDao mapDao = new MapDao();
 
-        if (mapName.isBlank()) {
+
+        if (mapId.isBlank()) {
 
             mapDao.createMap(map);
 
