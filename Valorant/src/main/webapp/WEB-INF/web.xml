@@ -21,4 +21,10 @@
     <url-pattern>/console/*</url-pattern>
   </servlet-mapping>
 
+  <servlet>
+    <servlet-name>Database Servlet</servlet-name>
+    <servlet-class>ValorantSSP.com.br.DataBaseServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+
 </web-app>

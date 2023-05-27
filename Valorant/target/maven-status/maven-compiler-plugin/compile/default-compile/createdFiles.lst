@@ -5,8 +5,10 @@ ValorantSSP\com\br\Servlet\LoginHome.class
 ValorantSSP\com\br\Servlet\DeleteWeaponServlet.class
 ValorantSSP\com\br\Dao\UserDao.class
 ValorantSSP\com\br\Servlet\ListSkinServlet.class
+ValorantSSP\com\br\DataBaseServlet.class
 ValorantSSP\com\br\Servlet\ListWeaponServlet.class
 ValorantSSP\com\br\Model\User.class
+ValorantSSP\com\br\Model\Map.class
 ValorantSSP\com\br\Servlet\LogoutServlet.class
 ValorantSSP\com\br\Servlet\CreateSkinServlet.class
 ValorantSSP\com\br\Dao\MapDao.class
