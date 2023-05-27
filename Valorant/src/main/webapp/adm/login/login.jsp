@@ -16,6 +16,7 @@
             <p class="title">Entre com as suas credenciais abaixo!</p>
         </div>
         <form action="/login" class="box-item" id="item-form" method="post">
+            <span>${requestScope.message}A</span>
             <div class="item-form-data">
                 <label for="username">Usuário</label>
                 <input type="text" name="username" id="username" placeholder="valorant_pi" class="input-text" required>
@@ -24,7 +25,7 @@
                 <label for="password">Senha</label>
                 <input type="password" name="password" id="password" placeholder="monoyoru1234" class="input-text" required>
             </div>
-            <span>${requestScope.message}</span>
+
             <div id="div-button-entrar">
                 <input type="submit" id="button-entrar" class="button" value = "ENTRAR"> 
             </div>

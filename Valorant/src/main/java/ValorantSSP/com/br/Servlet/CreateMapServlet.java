@@ -51,7 +51,6 @@ public class CreateMapServlet extends HttpServlet {
             mapDao.updateMap(map);
         }
 
-        new MapDao().createMap(map);
 
         resp.sendRedirect("/maps");
     }

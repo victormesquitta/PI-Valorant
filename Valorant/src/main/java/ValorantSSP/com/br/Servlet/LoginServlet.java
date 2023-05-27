@@ -16,8 +16,6 @@ import ValorantSSP.com.br.Model.User;
 
             req.getRequestDispatcher("adm/login/login.jsp").forward(req, resp);
 
-            //resp.sendRedirect("adm/login/login.jsp");
-
         }
 
         @Override
@@ -34,13 +32,13 @@ import ValorantSSP.com.br.Model.User;
 
                 req.getSession().setAttribute("loggedUser", username);
 
-                resp.sendRedirect("adm/home/home.jsp");
+                resp.sendRedirect("/home");
 
             } else {
 
                 req.setAttribute("message", "Invalid credentials!");
 
-                resp.sendRedirect("adm/login/login.jsp");
+                req.getRequestDispatcher("adm/login/login.jsp").forward(req, resp);
 
             }
 

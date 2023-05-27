@@ -133,7 +133,7 @@ public class MapDao {
     }
     public void updateMap(Map map) {
 
-        String SQL = "UPDATE MAP SET NAME = ? WHERE ID = ?";
+        String SQL = "UPDATE MAP SET NAME = ?, DESCRIPTION = ? , BOMBSITES = ? , COORDINATES = ? , COUNTRY = ?, PECULIARITY = ?, RELEASE_DATE = ?, SEASON = ?, ACT = ?, ROTATION = ?, PATH = ?  WHERE ID = ?";
 
         try {
 
