@@ -9,9 +9,9 @@
 </head>
 <body>
     <header>
-        <a href="../../" class="" id="logo-ancora"><img class="" id="logo-navbar" src="/user/skins/Images/logo.png" alt="logo"></a>
+        <a href="/home" class="" id="logo-ancora"><img class="" id="logo-navbar" src="/user/skins/Images/logo.png" alt="logo"></a>
         <nav class="nav_links">
-            <a href="../../">Home</a>
+            <a href="/home">Home</a>
             <a href="/agents">Agentes</a>
             <a href="/armas">Armas</a>
             <a href="/maps">Mapas</a>
@@ -22,6 +22,8 @@
         <h1>COLEÇÕES</h1>
     </div>  
     <div class="skins">
+    <img class="barra" src="/user/skins/Images/linha-de-titulo-branca.png">
+
         <c:forEach var="skin" items="${skins}">
             <div class="conteudo">
                 <img src=${skin.path} alt="">

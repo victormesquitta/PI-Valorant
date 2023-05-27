@@ -68,10 +68,7 @@ a{
 }
 
 body{
-    background-color: #FF4655; 
-    display: flex;
-    align-items: center;   
-    flex-direction: column;  
+    background-color: #FF4655;  
 }
 
 #title{
@@ -82,6 +79,67 @@ h1{
     display: flex;
     margin: 8% 0 0 5%;
     color: #ECE8E1;
+}
+
+.barra{
+    margin-left: 10%;
+}
+.title{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 7.5%;
+    font-family: 'Alumni Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.5rem;
+    line-height: 78px;
+    color: #ECE8E1;
+}
+.subtitle{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-family: 'Alumni Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #ECE8E1;
+
+}
+.container{
+   width: 90%;
+   height: auto;
+   margin-left: 5%;
+   margin-top: 4%;
+   display: flex;
+   flex-wrap: wrap;
+}
+.box{
+    width: 15%;
+    /* height: 50%; */
+    background: #ECE8E1;
+    margin: 1% 2.5% 2% 2.5%;
+    box-sizing: border-box;
+    border: 5px solid #ECE8E1;
+    border-radius: 20px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    padding: 20%;
+    margin-top: 30%;
+    width: 55%;
+}
+
+.name{
+    display: flex;
+    width:100%;
+    justify-content: center;
+    background-color: aqua;
+    font-family: 'Alumni Sans';
+    font-style: normal;
+    font-size: 100%;
+    color: #383E3A;
 }
 
 /* .conteudo h2{

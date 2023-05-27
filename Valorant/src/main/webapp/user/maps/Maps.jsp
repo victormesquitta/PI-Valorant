@@ -20,9 +20,8 @@
                 <a href="/skins">Skins</a>
             </nav>
     </header>
-    <div id="div-title">
-        <h1 id="title">Mapas</h1>
-    </div>
+    <h1 id="title">Mapas</h1>
+    <img class="barra" src="/user/maps/Images/linha-de-titulo-branca.png">
     <div class="container">
         <c:forEach var="map" items="${maps}" varStatus="status">
             <div class="box">

@@ -1,4 +1,5 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 C:\Users\joao.vfcalejon\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Dao\MapDao.java
 C:\Users\joao.vfcalejon\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Model\User.java
 C:\Users\joao.vfcalejon\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Servlet\DeleteAgentServlet.java
@@ -55,4 +56,33 @@ C:\Users\vitor.raraujo\Documents\GitHub\PI-Valorant\Valorant\src\main\java\Valor
 C:\Users\vitor.raraujo\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Servlet\DeleteWeaponServlet.java
 C:\Users\vitor.raraujo\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Servlet\LoginHome.java
 C:\Users\vitor.raraujo\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Dao\UserDao.java
+>>>>>>> Stashed changes
+=======
+C:\Users\021\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Dao\UserDao.java
+C:\Users\021\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Model\User.java
+C:\Users\021\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Servlet\LoginHome.java
+C:\Users\021\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Dao\MapDao.java
+C:\Users\021\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Servlet\ListSkinServlet.java
+C:\Users\021\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Servlet\LogoutServlet.java
+C:\Users\021\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Servlet\CreateWeaponServlet.java
+C:\Users\021\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Servlet\DeleteAgentServlet.java
+C:\Users\021\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Servlet\DeleteSkinServlet.java
+C:\Users\021\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Servlet\CreateSkinServlet.java
+C:\Users\021\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\filter\AuthenticationFilter.java
+C:\Users\021\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Servlet\CreateMapServlet.java
+C:\Users\021\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Dao\AgentDao.java
+C:\Users\021\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Servlet\DeleteMapServlet.java
+C:\Users\021\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Model\Weapon.java
+C:\Users\021\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Model\Agent.java
+C:\Users\021\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Servlet\ListMapServlet.java
+C:\Users\021\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Model\Map.java
+C:\Users\021\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Model\Skin.java
+C:\Users\021\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Servlet\ListWeaponServlet.java
+C:\Users\021\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Servlet\ListAgentServlet.java
+C:\Users\021\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Servlet\LoginServlet.java
+C:\Users\021\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Dao\WeaponDao.java
+C:\Users\021\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\config\ConnectionPoolConfig.java
+C:\Users\021\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Servlet\CreateAgentServlet.java
+C:\Users\021\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Servlet\DeleteWeaponServlet.java
+C:\Users\021\Documents\GitHub\PI-Valorant\Valorant\src\main\java\ValorantSSP\com\br\Dao\SkinDao.java
 >>>>>>> Stashed changes

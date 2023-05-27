@@ -11,9 +11,9 @@
 </head>
 <body>
     <header>
-        <a href="../../" class="" id="logo-ancora"><img class="" id="logo-navbar" src="/user/skins/Images/logo.png" alt="logo"></a>
+        <a href="/home" class="" id="logo-ancora"><img class="" id="logo-navbar" src="/user/skins/Images/logo.png" alt="logo"></a>
         <nav class="nav_links">
-            <a href="../../">Home</a>
+            <a href="/home">Home</a>
             <a href="/agents">Agentes</a>
             <a href="/armas">Armas</a>
             <a href="/maps">Mapas</a>
@@ -23,8 +23,8 @@
 
     <h1 class="title">ARMAS</h1>
     <img class="barra" src="/user/weapons/Images/linha-de-titulo-branca.png">
-    <h1 class="subtitle">PISTOLAS</h1>
     
+    <h1 class="subtitle">PISTOLAS</h1>
     <div class="container">
         <c:forEach var = "pistol" items="${pistols}">
             <div class="box">
