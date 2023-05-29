@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-            <a href="../../" class="" id="logo-ancora"><img class="" id="logo-navbar" src="/user/skins/Images/logo.png" alt="logo"></a>
+            <a href="../../" class="" id="logo-ancora"><img class="" id="logo-navbar" src="/user/maps/Images/logo.png" alt="logo"></a>
             <nav class="nav_links">
                 <a href="../../">Home</a>
                 <a href="/agents">Agentes</a>
@@ -20,8 +20,12 @@
                 <a href="/skins">Skins</a>
             </nav>
     </header>
-    <h1 id="title">Mapas</h1>
-    <img class="barra" src="/user/maps/Images/linha-de-titulo-branca.png">
+    <div id="div-box-title">
+        <div id="div-title">  
+            <h1 id="title">Mapas</h1>
+            <img class="barra" src="/user/maps/Images/linha-de-titulo-branca.png">
+        </div>
+    </div>
     <div class="container">
         <c:forEach var="map" items="${maps}" varStatus="status">
             <div class="box">
