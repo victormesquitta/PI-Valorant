@@ -100,7 +100,7 @@ public class WeaponDao {
     }
 
     public List<Weapon> findAllPistols(){
-        String SQL = "SELECT * FROM WEAPON WHERE TYPE = 'pistolas'";
+        String SQL = "SELECT * FROM WEAPON WHERE TYPE = 'pistola'";
 
         try {
 
@@ -140,7 +140,7 @@ public class WeaponDao {
 
             }
 
-            System.out.println("success in select * weapon where type = 'pistolas'");
+            System.out.println("success in select * weapon where type = 'pistola'");
 
             connection.close();
 
