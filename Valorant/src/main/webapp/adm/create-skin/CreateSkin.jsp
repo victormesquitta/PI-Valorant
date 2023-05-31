@@ -38,27 +38,27 @@
                 <div id="colunas">
                     <div id="coluna-1">
                         <label>Name</label>
-                        <input type="text" name="skin-name" id="skin-name">
+                        <input type="text" name="skin-name" id="skin-name" required>
                         <br>
                         <label>Season</label>
-                            <input type="number" name="skin-season" id="skin-season">
+                            <input type="number" name="skin-season" id="skin-season" required>
                         <br>
                         <label>Act</label>
-                            <input type="number" name="skin-act" id="skin-act">
+                            <input type="number" name="skin-act" id="skin-act" required>
                         <br>
                         <label>Date</label>
-                            <input type="date" name="skin-date" id="skin-date">
+                            <input type="date" name="skin-date" id="skin-date" required>
                         <br>
                     </div>
                     <div id="coluna-2">
                         <label>Price</label>
-                            <input type="number" name="skin-price" id="skin-price">
+                            <input type="number" name="skin-price" id="skin-price" required>
                         <br>
                         <label>Recolors</label>
-                            <input type="number" name="skin-recolors" id="skin-recolors">
+                            <input type="number" name="skin-recolors" id="skin-recolors" required>
                         <br>
                         <label>Path</label>
-                            <input type="text" name="skin-path" id="skin-path">
+                            <input type="text" name="skin-path" id="skin-path" required>
                         <br>
                     </div>
                 </div>

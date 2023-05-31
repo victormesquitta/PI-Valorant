@@ -80,3 +80,25 @@ VALUES (
 'user',
 '1234'
 );
+
+INSERT INTO AGENT (NAME, ROLE, LORE, SKILLQ, SKILLE, SKILLC, ULTIMATE, SKILLDESCRIPTIONQ, SKILLDESCRIPTIONE, SKILLDESCRIPTIONC, ULTIMATEDESCRIPTION, ULTIMATEPOINTS, PATHAGENT, PATHROLE, PATHSKILLQ, PATHSKILLE, PATHSKILLC, PATHULTIMATE)
+VALUES (
+'Omen',
+'controlador',
+'Um cara que controla legal',
+'paranóia',
+'smoke',
+'tpzin',
+'O TELEPORTE',
+'dá uma paranóia',
+'dá uma smoke',
+'dá um tpzin',
+'dá o TELEPORTE',
+7,
+'user\agents\Images\Omen.png',
+'user\agents\Images\Controlador.png',
+'user\agents\Images\Paranoia.png',
+'user\agents\Images\Manto-Sombrio.png',
+'user\agents\Images\Passos-Tenebrosos.png',
+'user\agents\Images\Salto-das-Sombras.png'
+);

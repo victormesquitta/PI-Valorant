@@ -75,12 +75,6 @@ body{
     width: 100%;
 }
 
-h1{
-    display: flex;
-    margin: 8% 0 0 5%;
-    color: #ECE8E1;
-}
-
 .barra{
     margin-left: 10%;
 }
@@ -96,6 +90,7 @@ h1{
     color: #ECE8E1;
 }
 .subtitle{
+    display: flex;
     width: 90%;
     margin-left: 5%;
     margin-top: 5%;
@@ -115,6 +110,10 @@ h1{
    flex-wrap: wrap;
 }
 .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 15%;
     /* height: 50%; */
     background: #ECE8E1;
@@ -125,21 +124,19 @@ h1{
 }
 .images{
     display: flex;
-    justify-content: center;
-    padding: 20%;
-    margin-top: 30%;
-    width: 55%;
+    margin: 30% 0 10%;
+    width: 80%;
 }
 
 .name{
     display: flex;
-    width:100%;
+    width: 100%;
     justify-content: center;
-    background-color: aqua;
     font-family: 'Alumni Sans';
     font-style: normal;
-    font-size: 100%;
+    font-size: 2.2rem;
     color: #383E3A;
+    margin: 0 0 5%;
 }
 
 /* .conteudo h2{

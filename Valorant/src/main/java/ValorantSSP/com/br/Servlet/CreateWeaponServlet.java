@@ -16,6 +16,8 @@ public class CreateWeaponServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+        req.setCharacterEncoding("UTF-8");
+
         String weaponName = req.getParameter("weapon-name");
         String weaponType = req.getParameter("weapon-type");
         int weaponCreds = Integer.parseInt(req.getParameter("weapon-creds"));

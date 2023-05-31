@@ -15,6 +15,8 @@ public class CreateMapServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+        req.setCharacterEncoding("UTF-8");
+
         String mapId = req.getParameter("map-id");
         String mapName = req.getParameter("map-name");
         String mapDescription = req.getParameter("map-description");

@@ -129,9 +129,9 @@ h1{
     display: flex;
     width:100%;
     justify-content: center;
-    background-color: aqua;
     font-family: 'Alumni Sans';
     font-style: normal;
-    font-size: 100%;
+    font-size: 2.2rem;
     color: #383E3A;
+    text-transform: uppercase;
 }

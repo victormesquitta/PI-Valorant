@@ -105,6 +105,7 @@ body{
 
 .name{
     margin-bottom: 5%;
+    font-size: 3rem;
 }
 
 .container{
@@ -188,7 +189,8 @@ body{
 }
 
 .linha{
-    width: 70%;
+    width: 50%;
+    margin-bottom: 5%;
 }
 
 c:foreach{

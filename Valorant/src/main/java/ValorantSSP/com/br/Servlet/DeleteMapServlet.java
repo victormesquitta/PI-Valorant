@@ -19,7 +19,7 @@ public class DeleteMapServlet extends HttpServlet {
 
         new MapDao().deleteMapById(mapId);
 
-        resp.sendRedirect("/find-all-maps");
+        resp.sendRedirect("/maps");
 
     }
 }

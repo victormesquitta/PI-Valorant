@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-            <a href="../../" class="" id="logo-ancora"><img class="" id="logo-navbar" src="/user/skins/Images/logo.png" alt="logo"></a>
+            <a href="../../" class="" id="logo-ancora"><img class="" id="logo-navbar" src="/user/agents/Images/logo.png" alt="logo"></a>
             <nav class="nav_links">
                 <a href="../../">Home</a>
                 <a href="/">Agentes</a>
@@ -27,7 +27,7 @@
     <div class="container">
         <c:forEach var = "duelista" items="${duelistas}">
             <div class="box">
-                <img class="images" src=${duelista.path}>
+                <img class="images" src=${duelista.pathagent}>
                 <h1 class="name">${duelista.name}</h1>
             </div>
         </c:forEach>
@@ -37,7 +37,7 @@
     <div class="container">
         <c:forEach var = "iniciador" items="${iniciadores}">
             <div class="box">
-                <img class="images" src=${iniciador.path}>
+                <img class="images" src=${iniciador.pathagent}>
                 <h1 class="name">${iniciador.name}</h1>
             </div>
         </c:forEach>
@@ -47,7 +47,7 @@
     <div class="container">
         <c:forEach var = "controlador" items="${controladores}">
             <div class="box">
-                <img class="images" src=${controlador.path}>
+                <img class="images" src=${controlador.pathagent}>
                 <h1 class="name">${controlador.name}</h1>
             </div>
         </c:forEach>
@@ -57,7 +57,7 @@
     <div class="container">
         <c:forEach var = "sentinela" items="${sentinelas}">
             <div class="box">
-                <img class="images" src=${sentinela.path}>
+                <img class="images" src=${sentinela.pathagent}>
                 <h1 class="name">${sentinela.name}</h1>
             </div>
         </c:forEach>

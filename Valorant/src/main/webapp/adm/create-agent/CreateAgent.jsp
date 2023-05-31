@@ -38,68 +38,68 @@
                 <div id="colunas">
                     <div id="coluna-1">
                         <label>Name</label>
-                        <input type="text" name="agent-name" id="agent-name">
+                        <input type="text" name="agent-name" id="agent-name" required>
                         <br>
                         <label>Role</label>
-                            <input type="text" name="agent-role" id="agent-role">
+                            <input type="text" name="agent-role" id="agent-role" required>
                         <br>
                         <label>Lore</label>
-                            <textarea name="agent-lore" id="agent-lore"></textarea>
+                            <textarea name="agent-lore" id="agent-lore" required></textarea>
                         <br>
                     </div>
                     <div id="coluna-2">
                         <label>Skill 1</label>
-                            <input type="text" name="agent-skillq" id="agent-skillq">
+                            <input type="text" name="agent-skillq" id="agent-skillq" required>
                         <br>
                         <label>Skill 2</label>
-                            <input type="text" name="agent-skille" id="agent-skille">
+                            <input type="text" name="agent-skille" id="agent-skille" required>
                         <br>
                         <label>Skill 3</label>
-                            <input type="text" name="agent-skillc" id="agent-skillc">
+                            <input type="text" name="agent-skillc" id="agent-skillc" required>
                         <br>
                         <label>Ultimate</label>
-                        <input type="text" name="agent-ultimate" id="agent-ultimate">
+                        <input type="text" name="agent-ultimate" id="agent-ultimate" required>
                         <br>
                         <label>Skill Description 1</label>
-                            <input type="text" name="agent-skilldescriptionq" id="agent-skilldescriptionq">
+                            <input type="text" name="agent-skilldescriptionq" id="agent-skilldescriptionq" required>
                         <br>
                     </div>
                     <div id="coluna-3">
                         <label>Skill Description 2</label>
-                            <input type="text" name="agent-skilldescriptione" id="agent-skilldescriptione">
+                            <input type="text" name="agent-skilldescriptione" id="agent-skilldescriptione" required>
                         <br>
                         <label>Skill Description 3</label>
-                            <input type="text" name="agent-skilldescriptionc" id="agent-skilldescriptionc">
+                            <input type="text" name="agent-skilldescriptionc" id="agent-skilldescriptionc" required>
                         <br>
                         <label>Ultimate Description</label>
-                            <input type="text" name="agent-ultimatedescription" id="agent-ultimatedescription">
+                            <input type="text" name="agent-ultimatedescription" id="agent-ultimatedescription" required>
                         <br>
                         <label>Ultimate Points</label>
-                            <input type="number" name="agent-ultimatepoints" id="agent-ultimatepoints">
+                            <input type="number" name="agent-ultimatepoints" id="agent-ultimatepoints" required>
                         <br>
                         <label>Path Agent</label>
-                            <input type="text" name="agent-pathagent" id="agent-pathagent">
+                            <input type="text" name="agent-pathagent" id="agent-pathagent" required>
                         <br>
                     </div>
                     <div id="coluna-4">
                         <label>Path Role</label>
-                            <input type="text" name="agent-pathrole" id="agent-pathrole">
+                            <input type="text" name="agent-pathrole" id="agent-pathrole" required>
                         <br>
                         <label>Path Skill 1</label>
-                            <input type="text" name="agent-pathskillq" id="agent-pathskillq">
+                            <input type="text" name="agent-pathskillq" id="agent-pathskillq" required>
                         <br>
                         <label>Path Skill 2</label>
-                            <input type="text" name="agent-pathskille" id="agent-pathskille">
+                            <input type="text" name="agent-pathskille" id="agent-pathskille" required>
                         <br>
                         <label>Path Skill 3</label>
-                            <input type="text" name="agent-pathskillc" id="agent-pathskillc">
+                            <input type="text" name="agent-pathskillc" id="agent-pathskillc" required>
                         <br>
                         <label>Path Ultimate</label>
-                            <input type="text" name="agent-pathultimate" id="agent-pathultimate">
+                            <input type="text" name="agent-pathultimate" id="agent-pathultimate" required>
                         <br>
                     </div>
                 </div>
-                <button type="submit" id="button-register" class="button" >REGISTRAR</button>
+                <button type="submit" id="button-register" class="button">REGISTRAR</button>
             </form>
         </div>
     </div>

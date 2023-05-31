@@ -16,6 +16,8 @@ import java.io.IOException;
         @Override
         protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+            req.setCharacterEncoding("UTF-8");
+
             String agentName = req.getParameter("agent-name");
             String agentRole = req.getParameter("agent-role");
             String agentLore = req.getParameter("agent-lore");

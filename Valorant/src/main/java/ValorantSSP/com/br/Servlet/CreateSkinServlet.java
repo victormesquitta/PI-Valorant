@@ -15,6 +15,8 @@ public class CreateSkinServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+        req.setCharacterEncoding("UTF-8");
+
         String skinName = req.getParameter("skin-name");
         String skinDate = req.getParameter("skin-date");
         int skinSeason = Integer.parseInt(req.getParameter("skin-season"));

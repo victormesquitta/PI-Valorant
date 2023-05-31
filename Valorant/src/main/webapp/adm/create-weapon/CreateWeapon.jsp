@@ -38,33 +38,33 @@
                 <div id="colunas">
                     <div id="coluna-1">
                         <label>Name</label>
-                        <input type="text" name="weapon-name" id="weapon-name">
+                        <input type="text" name="weapon-name" id="weapon-name" required>
                         <br>
                         <label>Type</label>
-                            <input type="text" name="weapon-type" id="weapon-type">
+                            <input type="text" name="weapon-type" id="weapon-type" required>
                         <br>
                         <label>Creds</label>
-                            <input type="number" name="weapon-creds" id="weapon-creds">
+                            <input type="number" name="weapon-creds" id="weapon-creds" required>
                         <br>
                         <label>Damage</label>
-                            <input type="number" name="weapon-damage" id="weapon-damage">
+                            <input type="number" name="weapon-damage" id="weapon-damage" required>
                         <br>
                         <label>Magazine</label>
-                            <input type="number" name="weapon-magazine" id="weapon-magazine">
+                            <input type="number" name="weapon-magazine" id="weapon-magazine" required>
                         <br>
                     </div>
                     <div id="coluna-2">
                         <label>Reserve</label>
-                        <input type="number" name="weapon-reserve" id="weapon-reserve">
+                        <input type="number" name="weapon-reserve" id="weapon-reserve" required>
                         <br>
                         <label>Fire Rate per Seconds</label>
-                            <input type="number" name="weapon-fireRateSecs" id="weapon-fireRateSecs">
+                            <input type="number" name="weapon-fireRateSecs" id="weapon-fireRateSecs" required>
                         <br>
                         <label>Wall Penetration</label>
-                                <input type="text" name="weapon-wallPenetration" id="weapon-wallPenetration">
+                                <input type="text" name="weapon-wallPenetration" id="weapon-wallPenetration" required>
                         <br>
                         <label>Path</label>
-                                <input type="text" name="weapon-path" id="weapon-path">
+                                <input type="text" name="weapon-path" id="weapon-path" required>
                         <br>
                     </div>
                 </div>
