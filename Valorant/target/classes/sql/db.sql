@@ -102,3 +102,25 @@ VALUES (
 'user\agents\Images\Passos-Tenebrosos.png',
 'user\agents\Images\Salto-das-Sombras.png'
 );
+
+INSERT INTO AGENT (NAME, ROLE, LORE, SKILLQ, SKILLE, SKILLC, ULTIMATE, SKILLDESCRIPTIONQ, SKILLDESCRIPTIONE, SKILLDESCRIPTIONC, ULTIMATEDESCRIPTION, ULTIMATEPOINTS, PATHAGENT, PATHROLE, PATHSKILLQ, PATHSKILLE, PATHSKILLC, PATHULTIMATE)
+VALUES (
+'Raze',
+'duelista',
+'Uma menina que duela legal',
+'Carga de Explosivos',
+'Cartuchos de Tinta',
+'Bumba',
+'Estraga-Prazeres',
+'dá uma Carga de Explosivos',
+'dá um Cartuchos de Tinta',
+'dá um Bumba',
+'dá o Estraga-Prazeres',
+8,
+'user\agents\Images\Raze.png',
+'user\agents\Images\Duelista.png',
+'user\agents\Images\Carga-de-Explosivos.png',
+'user\agents\Images\Cartuchos-de-Tinta.png',
+'user\agents\Images\Bumba.png',
+'user\agents\Images\Estraga-Prazeres.png'
+);

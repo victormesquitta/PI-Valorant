@@ -26,9 +26,29 @@
     <h1 class="subtitle">Duelistas</h1>
     <div class="container">
         <c:forEach var = "duelista" items="${duelistas}">
-            <div class="box">
+            <div class="box" onclick="openOverlay()">
                 <img class="images" src=${duelista.pathagent}>
                 <h1 class="name">${duelista.name}</h1>
+            </div>
+            <div class="overlay" id="myOverlay">
+                <div class="overlay-item">
+                    <div class="overlay-coluna-1">
+                        <h1 class="overlay-name">${duelista.name}</h1>
+                        <img class="image-overlay" src=${duelista.pathagent}>
+                        <div class="overlay-div-role">
+                            <img class="overlay-img-role" src="${duelista.pathrole}" alt="">
+                            <h2 class="overlay-role">${duelista.role}</h2>
+                        </div>
+                        <h4 class="overlay-ultimatepoints">Ultimate Points: ${duelista.ultimatePoints} Points</h4>
+                        <div class="overlay-div-lore">
+                            <h3 class="overlay-lore-titulo">Lore</h3>
+                            <h4 class="overlay-lore">${duelista.lore}</h4>
+                        </div> 
+                    </div>
+                    <div class="overlay-coluna-2">
+                        <button class="overlay-button" onclick="closeOverlay()">Fechar</button>
+                    </div>
+                </div>
             </div>
         </c:forEach>
     </div>
@@ -50,7 +70,25 @@
                 <img class="images" src=${controlador.pathagent}>
                 <h1 class="name">${controlador.name}</h1>
             </div>
-            
+            <div class="overlay" id="myOverlay">
+                <div class="overlay-item">
+                    <div id="overlay-coluna-1">
+                        <h1 id="overlay-name">${controlador.name}</h1>
+                        <img class="images-overlay" src=${controlador.pathagent}>
+                        <div>
+                            <img src="${controlador.pathrole}" alt="">
+                            <h2 id="overlay-role">${controlador.role}</h2>
+                        </div>
+                        <h4 id="overlay-ultimatepoints">Ultimate Points: ${controlador.ultimatePoints} Points</h4>
+                        <h3 id="overlay-lore-titulo">Lore</h3>
+                        <h4 id="overlay-lore">${controlador.lore}</h4>
+                        <button onclick="closeOverlay()">Fechar</button>
+                    </div>
+                    <div id="overlay-coluna-2">
+
+                    </div>
+                </div>
+            </div>
         </c:forEach>
     </div>
 
@@ -63,4 +101,8 @@
             </div>
         </c:forEach>
     </div>
+    <footer>
+        dsadsa
+    </footer>
+    <script src="user/agents/script.js"></script>
 <body>
