@@ -124,8 +124,8 @@ body{
 }
 .images{
     display: flex;
-    margin: 30% 0 10%;
-    width: 80%;
+    margin: 25% 0 15% 0;
+    width: 70%;
 }
 
 .name{
@@ -134,9 +134,9 @@ body{
     justify-content: center;
     font-family: 'Alumni Sans';
     font-style: normal;
-    font-size: 2.2rem;
+    font-size: 3rem;
     color: #383E3A;
-    margin: 0 0 5%;
+    margin: 0 0 7.5% 0;
 }
 
 /* .conteudo h2{

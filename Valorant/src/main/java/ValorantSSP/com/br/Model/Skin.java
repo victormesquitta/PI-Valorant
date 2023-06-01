@@ -8,7 +8,6 @@ public class Skin {
     private String date;
     private float price;
     private int recolors;
-
     private String path;
 
 

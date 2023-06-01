@@ -46,10 +46,11 @@
     <h1 class="subtitle">Controladores</h1>
     <div class="container">
         <c:forEach var = "controlador" items="${controladores}">
-            <div class="box">
+            <div class="box" onclick="openOverlay()">
                 <img class="images" src=${controlador.pathagent}>
                 <h1 class="name">${controlador.name}</h1>
             </div>
+            
         </c:forEach>
     </div>
 
