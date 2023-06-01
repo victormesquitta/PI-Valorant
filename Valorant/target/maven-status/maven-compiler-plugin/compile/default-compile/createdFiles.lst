@@ -26,3 +26,4 @@ ValorantSSP\com\br\Dao\SkinDao.class
 ValorantSSP\com\br\Servlet\CreateMapServlet.class
 ValorantSSP\com\br\Servlet\DeleteAgentServlet.class
 ValorantSSP\com\br\Servlet\ListAgentServlet.class
+ValorantSSP\com\br\Servlet\CreateUserServlet.class

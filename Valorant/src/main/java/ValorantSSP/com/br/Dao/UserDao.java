@@ -45,5 +45,26 @@ public class UserDao {
         }
 
     }
+    public void createUser(User user){
+        String SQL = "INSERT INTO USR (USERNAME, PASSWORD) VALUES (?,?)";
+
+        try{
+            Connection connection = ConnectionPoolConfig.getConnection();
+
+            PreparedStatement preparedStatement = connection.prepareStatement(SQL);
+
+            preparedStatement.setString(1, user.getUsername());
+            preparedStatement.setString(2, user.getPassword());
+
+            preparedStatement.execute();
+
+            connection.close();
+
+        } catch (Exception e){
+            System.out.println("fail in connection");
+            System.out.println(e.getMessage());
+
+        }
+    }
 
 }

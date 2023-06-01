@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="adm/cadastro/style.css">
     <link rel="shortcut icon" href="images/valorant-transparente.png" type="image/x-icon">
 </head>
 <body>
@@ -22,22 +22,19 @@
                     <h1 class="title">Criar conta</h1>
                     <!-- <p class="title">Preencha com seus dados</p> -->
                 </div>
-                <form action="./dashboard.jsp" method="post" class="box-item" id="item-form">
+
+                <form action="/cadastro" method="post" class="box-item" id="item-form">
                     <div class="item-form-data">
                         <label for="name">Nome completo</label>
-                        <input type="name" name="" id="" placeholder="Digite seu nome completo" class="input-text" required>
-                    </div>
-                    <div class="item-form-data">
-                        <label for="email">E-mail</label>
-                        <input type="email" name="" id="" placeholder="Digite seu e-mail" class="input-text" required>
+                        <input type="text" name="usr-user" id="usr-user" placeholder="Digite seu nome completo" class="input-text" required>
                     </div>
                     <div class="item-form-data">
                         <label for="password">Senha</label>
-                        <input type="password" name="" id="" placeholder="Digite sua senha" class="input-text" required>
+                        <input type="password" name="usr-pass" id="usr-pass" placeholder="Digite sua senha" class="input-text" required>
                     </div>
                     <div class="item-form-data">
                         <label for="confirm-password">Confirmar senha</label>
-                        <input type="password" name="" id="" placeholder="Confirme sua senha" class="input-text" required>
+                        <input type="password" name="usr-confirm" id="usr-confirm" placeholder="Confirme sua senha" class="input-text" required>
                     </div>
                     <div id="div-button-cadastrar">
                         <input type="submit" id="button-cadastrar" class="button" value = "CADASTRAR"> 
