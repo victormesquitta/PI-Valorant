@@ -399,5 +399,40 @@ public class WeaponDao {
 
         }
     }
+    public void updateWeapon(Weapon weapon) {
+
+        String SQL = "UPDATE WEAPON SET NAME = ?, TYPE = ? , CREDS = ? , DAMAGE = ? , MAGAZINE = ?, RESERVE = ?, FIRERATESECS = ?, WALLPENETRATION = ?, PATH = ? WHERE ID = ?";
+
+        try {
+
+            Connection connection = ConnectionPoolConfig.getConnection();
+            System.out.println("success in database connection");
+
+            PreparedStatement preparedStatement = connection.prepareStatement(SQL);
+
+            preparedStatement.setString(1, weapon.getName());
+            preparedStatement.setString(2, weapon.getType());
+            preparedStatement.setInt(3, weapon.getCreds());
+            preparedStatement.setString(4, weapon.getWallPenetration());
+            preparedStatement.setInt(5, weapon.getDamage());
+            preparedStatement.setInt(6, weapon.getMagazine());
+            preparedStatement.setInt(7, weapon.getReserve());
+            preparedStatement.setInt(8, weapon.getFireRateSecs());
+            preparedStatement.setString(9, weapon.getPath());
+            preparedStatement.setString(10, weapon.getId());
+            preparedStatement.execute();
+
+            System.out.println("success in update weapon");
+
+            connection.close();
+
+        } catch (Exception e) {
+
+            System.out.println("fail in database connection");
+            System.out.println("Error: " + e.getMessage());
+
+        }
+
+    }
 
 }

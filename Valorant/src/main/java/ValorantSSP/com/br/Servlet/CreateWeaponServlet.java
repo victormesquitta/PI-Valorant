@@ -18,6 +18,7 @@ public class CreateWeaponServlet extends HttpServlet {
 
         req.setCharacterEncoding("UTF-8");
 
+        String weaponId = req.getParameter("weapon-id");
         String weaponName = req.getParameter("weapon-name");
         String weaponType = req.getParameter("weapon-type");
         int weaponCreds = Integer.parseInt(req.getParameter("weapon-creds"));
@@ -30,6 +31,7 @@ public class CreateWeaponServlet extends HttpServlet {
 
 
         Weapon weapon = new Weapon();
+        weapon.setId(weaponId);
         weapon.setName(weaponName);
         weapon.setType(weaponType);
         weapon.setCreds(weaponCreds);
@@ -40,10 +42,15 @@ public class CreateWeaponServlet extends HttpServlet {
         weapon.setWallPenetration(weaponWallPenetration);
         weapon.setPath(weaponPath);
 
-        new WeaponDao().createWeapon(weapon);
+        WeaponDao weaponDao = new WeaponDao();
+
+        if(weaponId.isBlank()){
+            weaponDao.createWeapon(weapon);
+        }else{
+            weaponDao.updateWeapon(weapon);
+        }
 
         resp.sendRedirect("/armas");
     }
-
 
 }
