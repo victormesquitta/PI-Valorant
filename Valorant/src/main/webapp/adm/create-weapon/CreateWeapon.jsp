@@ -65,6 +65,7 @@
                         <br>
                         <label>Path</label>
                                 <input type="text" name="weapon-path" id="weapon-path" required>
+                                <input type="hidden" name="weapon-id" id="map-weapon">
                         <br>
                     </div>
                 </div>
