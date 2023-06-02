@@ -222,3 +222,16 @@
 0:0:0:0:0:0:0:1 - - [02/Jun/2023:01:40:45 -0300] "GET /adm/create-weapon/CreateWeapon.jsp?id=1&name=buygtyfyvy&type=yugugyv&creds=86686&damage=68689&magazine=797&reserve=986897098&fireRateSecs=67968&wallPenetration=yftftygyufty&path$={weapon.path} HTTP/1.1" 200 3774 http-bio-8080-exec-9 8
 0:0:0:0:0:0:0:1 - - [02/Jun/2023:01:40:49 -0300] "GET /armas HTTP/1.1" 200 3604 http-bio-8080-exec-9 87
 0:0:0:0:0:0:0:1 - - [02/Jun/2023:01:40:52 -0300] "GET /adm/create-weapon/CreateWeapon.jsp?id=1&name=buygtyfyvy&type=yugugyv&creds=86686&damage=68689&magazine=797&reserve=986897098&fireRateSecs=67968&wallPenetration=yftftygyufty&path=gihuigihuik HTTP/1.1" 200 3785 http-bio-8080-exec-9 5
+127.0.0.1 - - [02/Jun/2023:01:42:02 -0300] "GET /maps HTTP/1.1" 200 2454 http-bio-8080-exec-1 2198
+127.0.0.1 - - [02/Jun/2023:01:42:10 -0300] "GET /skins HTTP/1.1" 200 2244 http-bio-8080-exec-4 218
+127.0.0.1 - - [02/Jun/2023:01:42:12 -0300] "GET /adm/create-skin/CreateSkin.jsp HTTP/1.1" 200 3238 http-bio-8080-exec-5 144
+127.0.0.1 - - [02/Jun/2023:01:42:12 -0300] "GET /adm/create-skin/CreateSkin.css HTTP/1.1" 200 4180 http-bio-8080-exec-6 8
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:01:42:12 -0300] "GET /adm/create-skin/images/logo.png HTTP/1.1" 304 - http-bio-8080-exec-2 8
+127.0.0.1 - - [02/Jun/2023:01:42:12 -0300] "GET /adm/create-skin/images/agent-icon.png HTTP/1.1" 304 - http-bio-8080-exec-3 8
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:01:42:12 -0300] "GET /adm/create-skin/images/map-icon.png HTTP/1.1" 304 - http-bio-8080-exec-1 6
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:01:42:13 -0300] "GET /adm/create-skin/images/skin-icon.jpg HTTP/1.1" 304 - http-bio-8080-exec-8 8
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:01:42:13 -0300] "GET /adm/create-skin/images/weapon-icon.png HTTP/1.1" 304 - http-bio-8080-exec-10 6
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:01:42:31 -0300] "POST /create-skin HTTP/1.1" 302 - http-bio-8080-exec-10 7
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:01:42:31 -0300] "GET /skins HTTP/1.1" 200 3224 http-bio-8080-exec-10 18
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:01:42:33 -0300] "GET /adm/create-skin/CreateSkin.jsp?id=1&name=bhiinibi&season=7987&act=7686876&date=2023-06-06&price=89797.0&recolors=6&path=vugyubju HTTP/1.1" 200 3284 http-bio-8080-exec-10 4
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:01:42:40 -0300] "GET / HTTP/1.1" 200 4582 http-bio-8080-exec-10 12
