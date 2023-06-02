@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 0:0:0:0:0:0:0:1 - - [02/Jun/2023:00:00:57 -0300] "GET / HTTP/1.1" 200 4582 http-bio-8080-exec-1 83
 0:0:0:0:0:0:0:1 - - [02/Jun/2023:00:01:05 -0300] "GET /login HTTP/1.1" 200 1644 http-bio-8080-exec-3 27
 0:0:0:0:0:0:0:1 - - [02/Jun/2023:00:01:10 -0300] "POST /login HTTP/1.1" 302 - http-bio-8080-exec-4 61
@@ -90,3 +91,32 @@
 0:0:0:0:0:0:0:1 - - [02/Jun/2023:00:47:26 -0300] "GET /adm/create-weapon/CreateWeapon.jsp?id=1&name=asdas&type=asdsaf HTTP/1.1" 200 3729 http-bio-8080-exec-3 2
 0:0:0:0:0:0:0:1 - - [02/Jun/2023:00:47:30 -0300] "GET /agents HTTP/1.1" 200 7481 http-bio-8080-exec-3 677
 0:0:0:0:0:0:0:1 - - [02/Jun/2023:00:47:34 -0300] "GET /adm/create-agent/CreateAgent.jsp?id=2&name=Raze&role=duelista&lore=Uma%20menina%20que%20duela%20legal&skillq=Carga%20de%20Explosivos&skille=Cartuchos%20de%20Tinta&skillc=Bumba&ultimate=Estraga-Prazeres&skillDescriptionq=d%C3%A1%20uma%20Carga%20de%20Explosivos&skillDescriptione=d%C3%A1%20um%20Cartuchos%20de%20Tinta&skillDescriptionc=d%C3%A1%20um%20Bumba&ultimateDescription=d%C3%A1%20o%20Estraga-Prazeres&ultimatePoints8&pathagentuser\agents\Images\Raze.png&pathroleuser\agents\Images\Duelista.png&pathskillquser\agents\Images\Carga-de-Explosivos.png&pathskilleuser\agents\Images\Cartuchos-de-Tinta.png&pathskillcuser\agents\Images\Bumba.png&pathultimateuser\agents\Images\Estraga-Prazeres.png HTTP/1.1" 200 5744 http-bio-8080-exec-3 6
+=======
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:00:05:47 -0300] "GET /maps HTTP/1.1" 200 4743 http-bio-8080-exec-2 147
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:00:05:49 -0300] "GET /create-map?map-name=isdabadi&map-description=duisndasan&map-bombsites=41331&map-coordinates=3428432789&map-country=fuijdasndij&map-peculiarity=ncjianasid&map-releaseDate=2023-06-12&map-season=3&map-act=321&map-rotation=true&map-path=dnajksdnajk&map-id=1 HTTP/1.1" 405 1065 http-bio-8080-exec-3 1
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:00:06:30 -0300] "GET /maps HTTP/1.1" 200 4761 http-bio-8080-exec-3 118
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:00:06:32 -0300] "GET /adm/create-map/CreateMap.jsp?map-name=isdabadi&map-description=duisndasan&map-bombsites=41331&map-coordinates=3428432789&map-country=fuijdasndij&map-peculiarity=ncjianasid&map-releaseDate=2023-06-12&map-season=3&map-act=321&map-rotation=true&map-path=dnajksdnajk&map-id=1 HTTP/1.1" 200 4077 http-bio-8080-exec-3 3
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:00:08:29 -0300] "GET /maps HTTP/1.1" 200 4761 http-bio-8080-exec-10 10
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:00:08:31 -0300] "GET /adm/create-map/CreateMap.jsp?map-name=isdabadi&map-description=duisndasan&map-bombsites=41331&map-coordinates=3428432789&map-country=fuijdasndij&map-peculiarity=ncjianasid&map-releaseDate=2023-06-12&map-season=3&map-act=321&map-rotation=true&map-path=dnajksdnajk&map-id=1 HTTP/1.1" 200 4077 http-bio-8080-exec-10 4
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:00:09:04 -0300] "GET /maps HTTP/1.1" 200 4743 http-bio-8080-exec-10 105
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:00:09:06 -0300] "GET /create-map?map-name=isdabadi&map-description=duisndasan&map-bombsites=41331&map-coordinates=3428432789&map-country=fuijdasndij&map-peculiarity=ncjianasid&map-releaseDate=2023-06-12&map-season=3&map-act=321&map-rotation=true&map-path=dnajksdnajk&map-id=1 HTTP/1.1" 405 1065 http-bio-8080-exec-2 2
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:00:14:12 -0300] "GET /maps HTTP/1.1" 200 3805 http-bio-8080-exec-6 136
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:00:14:14 -0300] "GET /adm/create-map/CreateMap.jsp?id=1&name=isdabadi&description=duisndasan&bombsites=41331&coordinates=3428432789&country={map.country}&peculiarity=ncjianasid&releaseDate=2023-06-12&season=3&act=321&rotation=true&path=dnajksdnajk HTTP/1.1" 200 4149 http-bio-8080-exec-9 11
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:00:14:43 -0300] "GET /adm/create-map/CreateMap.jsp?id=1&name=isdabadi&description=duisndasan&bombsites=41331&coordinates=3428432789&country={map.country}&peculiarity=ncjianasid&releaseDate=2023-06-12&season=3&act=321&rotation=true&path=dnajksdnajk HTTP/1.1" 200 4149 http-bio-8080-exec-9 5
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:00:14:44 -0300] "GET /adm/create-map/CreateMap.jsp?id=1&name=isdabadi&description=duisndasan&bombsites=41331&coordinates=3428432789&country={map.country}&peculiarity=ncjianasid&releaseDate=2023-06-12&season=3&act=321&rotation=true&path=dnajksdnajk HTTP/1.1" 200 4149 http-bio-8080-exec-9 2
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:00:14:46 -0300] "GET /maps HTTP/1.1" 200 3803 http-bio-8080-exec-9 123
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:00:14:47 -0300] "GET /adm/create-map/CreateMap.jsp?id=1&name=isdabadi&description=duisndasan&bombsites=41331&coordinates=3428432789&country=fuijdasndij&peculiarity=ncjianasid&releaseDate=2023-06-12&season=3&act=321&rotation=true&path=dnajksdnajk HTTP/1.1" 200 4147 http-bio-8080-exec-9 2
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:00:16:59 -0300] "GET /adm/create-map/CreateMap.jsp?id=1&name=isdabadi&description=duisndasan&bombsites=41331&coordinates=3428432789&country=fuijdasndij&peculiarity=ncjianasid&releaseDate=2023-06-12&season=3&act=321&rotation=true&path=dnajksdnajk HTTP/1.1" 200 4157 http-bio-8080-exec-4 86
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:00:19:02 -0300] "GET /adm/create-map/CreateMap.jsp?id=1&name=isdabadi&description=duisndasan&bombsites=41331&coordinates=3428432789&country=fuijdasndij&peculiarity=ncjianasid&releaseDate=2023-06-12&season=3&act=321&rotation=true&path=dnajksdnajk HTTP/1.1" 200 4156 http-bio-8080-exec-1 92
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:00:19:03 -0300] "GET /adm/create-map/CreateMap.jsp?id=1&name=isdabadi&description=duisndasan&bombsites=41331&coordinates=3428432789&country=fuijdasndij&peculiarity=ncjianasid&releaseDate=2023-06-12&season=3&act=321&rotation=true&path=dnajksdnajk HTTP/1.1" 200 4156 http-bio-8080-exec-1 2
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:00:19:05 -0300] "POST /create-map HTTP/1.1" 302 - http-bio-8080-exec-1 5
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:00:19:05 -0300] "GET /maps HTTP/1.1" 200 3805 http-bio-8080-exec-1 5
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:00:19:08 -0300] "GET /adm/create-map/CreateMap.jsp?id=1&name=isdabadi&description=duisndasan&bombsites=41331&coordinates=3428432789&country=fuijdasndij&peculiarity=ncjianasid&releaseDate=2023-06-12&season=3&act=321&rotation=false&path=dnajksdnajk HTTP/1.1" 200 4156 http-bio-8080-exec-1 6
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:00:19:12 -0300] "POST /create-map HTTP/1.1" 302 - http-bio-8080-exec-1 4
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:00:19:12 -0300] "GET /maps HTTP/1.1" 200 3805 http-bio-8080-exec-1 5
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:00:19:26 -0300] "GET /maps HTTP/1.1" 200 3805 http-bio-8080-exec-1 9
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:00:19:28 -0300] "GET /adm/create-map/CreateMap.jsp?id=1&name=isdabadi&description=duisndasan&bombsites=41331&coordinates=3428432789&country=fuijdasndij&peculiarity=ncjianasid&releaseDate=2023-06-12&season=3&act=321&rotation=false&path=dnajksdnajk HTTP/1.1" 200 4155 http-bio-8080-exec-1 77
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:00:19:30 -0300] "POST /create-map HTTP/1.1" 302 - http-bio-8080-exec-7 2
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:00:19:30 -0300] "GET /maps HTTP/1.1" 200 3803 http-bio-8080-exec-7 2
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:00:19:32 -0300] "GET /adm/create-map/CreateMap.jsp?id=1&name=isdabadi&description=duisndasan&bombsites=41331&coordinates=3428432789&country=fuijdasndij&peculiarity=ncjianasid&releaseDate=2023-06-12&season=3&act=321&rotation=true&path=dnajksdnajk HTTP/1.1" 200 4155 http-bio-8080-exec-7 2
+>>>>>>> 640770da994839219cdec673cf2da7b78b733be4
