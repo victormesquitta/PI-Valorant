@@ -47,6 +47,9 @@
                         <label>Season</label>
                             <input type="number" name="skin-season" id="skin-season" value="${param.season}"  required>
                         <br>
+                        <label>Name Season</label>
+                            <input type="text" name="skin-nameSeason" id="skin-nameSeason" value="${param.nameSeason}"  required>
+                        <br>
                         <label>Act</label>
                             <input type="number" name="skin-act" id="skin-act" value="${param.act}"  required>
                         <br>
