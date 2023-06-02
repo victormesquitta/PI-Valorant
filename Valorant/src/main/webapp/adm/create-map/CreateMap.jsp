@@ -41,7 +41,7 @@
                             <input type="text" name="map-name" id="map-name" value="${param.name}" required>
                         <br>
                         <label>Description</label>
-                            <textarea name="map-description" id="map-description" value="${param.description}" required></textarea>
+                            <input name="map-description" id="map-description" value="${param.description}" required></input>
                         <br>
                         <label>BombSites</label>
                             <input type="number" name="map-bombsites" id="map-bombsites" value="${param.bombsites}" required>
@@ -58,7 +58,7 @@
                         <input type="text" name="map-peculiarity" id="map-peculiarity" value="${param.peculiarity}" required>
                         <br>
                         <label>Release Date</label>
-                            <input type="Date" name="map-date" id="map-date" value="${param.date}" required>
+                            <input type="Date" name="map-date" id="map-date" value="${param.releaseDate}" required>
                         <br>
                         <label>Season</label>
                                 <input type="number" name="map-season" id="map-season" value="${param.season}" required>
@@ -68,7 +68,7 @@
                         <br>
                         <label>Rotation</label>
                         <div id="div-rotation">
-                            <input type="checkbox" name="map-rotation" id="map-rotation" value = "true">
+                            <input type="checkbox" name="map-rotation" id="map-rotation" value="${map.rotation ? 'false' : 'true'}">
                         </div>
                         <br>
                         <label>Path</label>

@@ -68,9 +68,9 @@
                         <form action="/delete-map" method="post" id="form-map">
                             <input type="hidden" id="map-id" name="map-id" value="${map.id}" class="button">
                             <button type="submit" class="button" id="button-delete">Delete</button>
-                            <span> | </span>
-                            <a href="/adm/create-map/CreateMap.jsp?id=${map.id}&name=${map.name}">Update</a>
                         </form>
+                            <span> | </span>
+                            <a href="/adm/create-map/CreateMap.jsp?id=${map.id}&name=${map.name}&description=${map.description}&bombsites=${map.bombsites}&coordinates=${map.coordinates}&country=${map.country}&peculiarity=${map.peculiarity}&releaseDate=${map.releaseDate}&season=${map.season}&act=${map.act}&rotation=${map.rotation}&path=${map.path}">Update</a>
                     </td>
                 </tr>
             </c:forEach>
