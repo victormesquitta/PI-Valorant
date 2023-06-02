@@ -31,6 +31,7 @@
                 <img src=${skin.path} alt="">
                 <h2>${skin.name}</h2>
             </div>
+            
         </c:forEach>
     </div>
     
