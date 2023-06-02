@@ -2110,3 +2110,11 @@
 0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:43:10 -0300] "GET /user/agents/Images/Drone-Coruja.png HTTP/1.1" 200 1635 http-bio-8080-exec-8 9
 0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:43:10 -0300] "GET /user/agents/Images/Flecha-de-Choque.png HTTP/1.1" 200 2203 http-bio-8080-exec-5 14
 >>>>>>> Stashed changes
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:49:26 -0300] "GET /agents HTTP/1.1" 200 13708 http-bio-8080-exec-1 1285
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:49:26 -0300] "GET /user/agents/style.css HTTP/1.1" 304 - http-bio-8080-exec-3 4
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:49:26 -0300] "GET /user/agents/Images/Iniciador.png HTTP/1.1" 200 3984 http-bio-8080-exec-4 7
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:49:26 -0300] "GET /user/agents/Images/Sova.png HTTP/1.1" 200 181849 http-bio-8080-exec-2 12
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:49:26 -0300] "GET /user/agents/Images/Flecha-de-Choque.png HTTP/1.1" 200 2203 http-bio-8080-exec-5 4
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:49:26 -0300] "GET /user/agents/Images/Flecha-Rastreadora.png HTTP/1.1" 200 3386 http-bio-8080-exec-6 3
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:49:26 -0300] "GET /user/agents/Images/Drone-Coruja.png HTTP/1.1" 200 1635 http-bio-8080-exec-8 6
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:49:26 -0300] "GET /user/agents/Images/Furia-do-Cacador.png HTTP/1.1" 200 2927 http-bio-8080-exec-8 4

@@ -80,7 +80,7 @@
                                 <div class="div-img-skill">
                                     <img class="img-ultimate" src="${duelista.pathultimate}" alt="">
                                 </div>
-                                <h4 class="descricao-ultimate">${duelista.ultimateDescription}Lorem sadkugsadkjbsda sdjkbsadkj sadkj sadjh sadk sdasa dkjsda kjsa sajk sdakj dsaoj askjdasjk dsa kjlsad kjdas jkas sakdn kdjsab dasjk das</h4>
+                                <h4 class="descricao-ultimate">${duelista.ultimateDescription}</h4>
                             </div>
                         </div>
                     </div>
@@ -111,7 +111,7 @@
                         <div class="coluna-1-baixo">
                             <div class="overlay-div-lore">
                                 <h3 class="overlay-lore-titulo">Lore</h3>
-                                <h4 class="overlay-lore">${iniciador.lore} Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste omnis, ab aliquid, laborum deleniti excepturi voluptas, voluptate temporibus placeat dolores odio similique illo hic possimus eos velit quidem! Voluptate, veniam?</h4>
+                                <h4 class="overlay-lore">${iniciador.lore}</h4>
                             </div> 
                         </div>
 
@@ -178,7 +178,7 @@
                         <div class="coluna-1-baixo">
                             <div class="overlay-div-lore">
                                 <h3 class="overlay-lore-titulo">Lore</h3>
-                                <h4 class="overlay-lore">${controlador.lore} Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste omnis, ab aliquid, laborum deleniti excepturi voluptas, voluptate temporibus placeat dolores odio similique illo hic possimus eos velit quidem! Voluptate, veniam?</h4>
+                                <h4 class="overlay-lore">${controlador.lore}</h4>
                             </div> 
                         </div>
                     </div>
@@ -244,7 +244,7 @@
                         <div class="coluna-1-baixo">
                             <div class="overlay-div-lore">
                                 <h3 class="overlay-lore-titulo">Lore</h3>
-                                <h4 class="overlay-lore">${sentinela.lore} Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste omnis, ab aliquid, laborum deleniti excepturi voluptas, voluptate temporibus placeat dolores odio similique illo hic possimus eos velit quidem! Voluptate, veniam?</h4>
+                                <h4 class="overlay-lore">${sentinela.lore}</h4>
                             </div> 
                         </div>
                     </div>
