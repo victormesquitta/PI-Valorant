@@ -180,28 +180,34 @@ h1{
 }
 
 .coluna-1-cima{
+    border-radius: 18px 0 0 18px ;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 20%;
+    height: 30%;
 }
 
 .coluna-1-meio{
     display: flex;
+    justify-content: center;
+    align-items: center;
     height: 40%;
     justify-content: center;
 }
 
 .coluna-1-baixo{
+    border-radius: 18px 0 0 18px ;
     display: flex;
-    height: 40%;
     justify-content: center;
+    align-items: center;
+    height: 30%;
+    width: 100%;
+
 }
 
 
 .overlay-name{
-    height: 100%;
     margin-top: 5%;
     margin-bottom: 5%;
     font-weight: bold;
@@ -217,34 +223,35 @@ h1{
 }
 
 .overlay-div-tipo{
-    display: flex;
+    height: 50%;
     flex-direction: column;
     align-items: center;
-    height: 80%;
 }
 
 .overlay-tipo{
-    font-size: 1.5rem;
+    height: 50%;
+    font-size: 1.25rem;
     text-transform: uppercase;
 }
 
 .overlay-creds{
+    height: 50%;
     display: flex;
     justify-content: center;
 }
 
 .img-creds{
-    height: 15%;
+    height: 65%;
+    padding-right: 2%;
 }
 
-.overlay-creds{
-    font-size: 0.7rem;
+.creds{
+    font-size: 1.2rem;
 }
 
 
 .overlay-coluna-2{
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     margin: 0;
@@ -274,14 +281,14 @@ h1{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 60%;
+    height: 50%;
     width: 85%;
 }
 
 .div-pente, .div-reserve, .div-penetracao, .div-cadencia{
     display: flex;
     align-items: center;
-    height: 15%;
+    height: 25%;
     width: 100%;
     justify-content: space-between;
 }
@@ -296,7 +303,7 @@ h1{
 .nome-pente, .nome-reserve, .nome-penetracao, .nome-cadencia{
     display: flex;
     justify-content: center;
-    width: 25%;
+    width: 40%;
     text-transform: capitalize;
     font-size: 1rem;
 }
@@ -314,6 +321,9 @@ h1{
     font-size: 0.6rem;
     text-align: left;
     font-weight: 100;
+}
+table{
+    margin-top: 5%;
 }
 
 

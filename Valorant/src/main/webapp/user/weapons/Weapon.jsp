@@ -45,7 +45,7 @@
                                 <h3 class="overlay-tipo">Tipo: ${pistol.type}</h3>
                                 <div class="overlay-creds">
                                     <img class="img-creds" src="/user/weapons/Images/Creds.png" alt="">
-                                    <h4 class="overlay-creds">Créditos: ${pistol.creds}</h4>
+                                    <h4 class="creds">Créditos: ${pistol.creds}</h4>
                                 </div>
                             </div>
                         </div>
@@ -60,7 +60,7 @@
                                     <img class="img-pente" src="/user/weapons/Images/Magazine.png" alt="">
                                 </div>
                                 <h3 class="nome-pente">Munição por Pente: </h3>
-                                <h4 class="qtd-magazine">${pistol.magazine}</h4>
+                                <h4 class="qtd-pente">${pistol.magazine}</h4>
                             </div>
                             <div class="div-reserve">
                                 <div class="div-img-weapon">
