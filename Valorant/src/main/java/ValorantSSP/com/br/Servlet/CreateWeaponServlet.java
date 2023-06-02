@@ -30,7 +30,7 @@ public class CreateWeaponServlet extends HttpServlet {
         int weaponDamageLongBody = Integer.parseInt(req.getParameter("weapon-damageLongBody"));
         int weaponDamageShortLeg = Integer.parseInt(req.getParameter("weapon-damageShortLeg"));
         int weaponDamageMediumLeg = Integer.parseInt(req.getParameter("weapon-damageMediumLeg"));
-        int weaponDamageLongLeg = Integer.parseInt(req.getParameter("damageLongLeg"));
+        int weaponDamageLongLeg = Integer.parseInt(req.getParameter("weapon-damageLongLeg"));
         int weaponMagazine = Integer.parseInt(req.getParameter("weapon-magazine"));
         int weaponReserve = Integer.parseInt(req.getParameter("weapon-reserve"));
         int weaponFireRateSecs = Integer.parseInt(req.getParameter("weapon-fireRateSecs"));

@@ -47,38 +47,38 @@
                         <label>Creds</label>
                             <input type="number" name="weapon-creds" id="weapon-creds" value="${param.creds}" required>
                         <br>
-                        <label>Damage</label>
-                            <input type="number" name="weapon-damage" id="weapon-damage" value="${param.damageLongHead}" required>
+                        <label>DamageShortHead</label>
+                            <input type="number" name="weapon-damageShortHead" id="weapon-damageShortHead" value="${param.damageShortHead}" required>
                         <br>
-                        <label>Damage</label>
-                            <input type="number" name="weapon-damage" id="weapon-damage" value="${param.damageMediumHead}" required>
+                        <label>DamageMediumHead</label>
+                            <input type="number" name="weapon-damageMediumHead" id="weapon-damageMediumHead" value="${param.damageMediumHead}" required>
                         <br>
+
 
                     </div>
                     <div id="coluna-2">
-
-                        <label>Damage</label>
-                            <input type="number" name="weapon-damage" id="weapon-damage" value="${param.damageShortHead}" required>
+                        <label>DamageLongHead</label>
+                            <input type="number" name="weapon-damageLongHead" id="weapon-damageLongHead" value="${param.damageLongHead}" required>
                         <br>
-                        <label>Damage</label>
-                            <input type="number" name="weapon-damage" id="weapon-damage" value="${param.damageLongBody}" required>
+                        <label>DamageShortBody</label>
+                            <input type="number" name="weapon-damageShortBody" id="weapon-damageShortBody" value="${param.damageShortBody}" required>
                         <br>
-                        <label>Damage</label>
-                            <input type="number" name="weapon-damage" id="weapon-damage" value="${param.damage}" required>
+                        <label>DamageMediumBody</label>
+                            <input type="number" name="weapon-damageMediumBody" id="weapon-damageMediumBody" value="${param.damageMediumBody}" required>
                         <br>
-                        <label>Damage</label>
-                            <input type="number" name="weapon-damage" id="weapon-damage" value="${param.damage}" required>
+                        <label>DamageLongBody</label>
+                        <input type="number" name="weapon-damageLongBody" id="weapon-damageLongBody" value="${param.damageLongBody}" required>
                         <br>
-                        <label>Damage</label>
-                            <input type="number" name="weapon-damage" id="weapon-damage" value="${param.damage}" required>
+                        <label>DamageShortLeg</label>
+                        <input type="number" name="weapon-damageShortLeg" id="weapon-damageShortLeg" value="${param.damageShortLeg}" required>
                         <br>
                     </div>
                     <div id="coluna-3">
-                        <label>Damage</label>
-                            <input type="number" name="weapon-damage" id="weapon-damage" value="${param.damage}" required>
+                        <label>DamageMediumLeg</label>
+                            <input type="number" name="weapon-damageMediumLeg" id="weapon-damageMediumLeg" value="${param.damageMediumLeg}" required>
                         <br>
-                        <label>Damage</label>
-                            <input type="number" name="weapon-damage" id="weapon-damage" value="${param.damage}" required>
+                        <label>DamageLongLeg</label>
+                            <input type="number" name="weapon-damageLongLeg" id="weapon-damageLongLeg" value="${param.damageLongLeg}" required>
                         <br>
 
                         <label>Magazine</label>

@@ -1961,6 +1961,7 @@
 0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:12:37 -0300] "GET /home HTTP/1.1" 200 1677 http-bio-8080-exec-7 7
 0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:12:37 -0300] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-8 1
 0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:12:41 -0300] "GET /armas HTTP/1.1" 500 3582 http-bio-8080-exec-9 39
+<<<<<<< Updated upstream
 =======
 0:0:0:0:0:0:0:1 - - [02/Jun/2023:15:46:45 -0300] "GET /agents HTTP/1.1" 200 8867 http-bio-8080-exec-1 1517
 0:0:0:0:0:0:0:1 - - [02/Jun/2023:15:46:45 -0300] "GET /user/agents/style.css HTTP/1.1" 200 6360 http-bio-8080-exec-3 7
@@ -2179,3 +2180,65 @@
 0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:49:26 -0300] "GET /user/agents/Images/Drone-Coruja.png HTTP/1.1" 200 1635 http-bio-8080-exec-8 6
 0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:49:26 -0300] "GET /user/agents/Images/Furia-do-Cacador.png HTTP/1.1" 200 2927 http-bio-8080-exec-8 4
 >>>>>>> master
+=======
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:44:46 -0300] "GET / HTTP/1.1" 200 4582 http-bio-8080-exec-2 132
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:44:49 -0300] "GET /login HTTP/1.1" 200 1611 http-bio-8080-exec-4 30
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:44:54 -0300] "POST /login HTTP/1.1" 302 - http-bio-8080-exec-5 78
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:44:54 -0300] "GET /home HTTP/1.1" 200 1677 http-bio-8080-exec-7 8
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:44:54 -0300] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-8 1
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:44:58 -0300] "GET /armas HTTP/1.1" 200 4615 http-bio-8080-exec-9 682
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:45:55 -0300] "GET /agents HTTP/1.1" 200 7564 http-bio-8080-exec-10 116
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:45:55 -0300] "GET /adm/dashboard-agent/images/logo.png HTTP/1.1" 304 - http-bio-8080-exec-2 7
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:45:55 -0300] "GET /adm/dashboard-agent/Agent.css HTTP/1.1" 200 4451 http-bio-8080-exec-10 9
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:53:40 -0300] "GET / HTTP/1.1" 200 4582 http-bio-8080-exec-2 120
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:53:43 -0300] "GET /login HTTP/1.1" 200 1611 http-bio-8080-exec-3 33
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:53:47 -0300] "POST /login HTTP/1.1" 302 - http-bio-8080-exec-5 66
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:53:47 -0300] "GET /home HTTP/1.1" 200 1677 http-bio-8080-exec-7 8
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:53:47 -0300] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-8 2
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:53:51 -0300] "GET /armas HTTP/1.1" 200 4615 http-bio-8080-exec-9 30
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:53:54 -0300] "GET /adm/create-weapon/CreateWeapon.jsp HTTP/1.1" 200 5933 http-bio-8080-exec-10 525
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:53:54 -0300] "GET /adm/create-weapon/CreateWeapon.css HTTP/1.1" 200 4277 http-bio-8080-exec-10 5
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:53:54 -0300] "GET /adm/create-weapon/images/valorant-transparent.png HTTP/1.1" 404 1049 http-bio-8080-exec-10 1
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:54:30 -0300] "POST /create-weapon HTTP/1.1" 500 1572 http-bio-8080-exec-10 7
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:55:35 -0300] "GET / HTTP/1.1" 200 4582 http-bio-8080-exec-1 95
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:55:40 -0300] "GET /login HTTP/1.1" 200 1611 http-bio-8080-exec-3 33
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:55:40 -0300] "GET /adm/login/login.css HTTP/1.1" 304 - http-bio-8080-exec-4 4
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:55:41 -0300] "GET /login HTTP/1.1" 200 1611 http-bio-8080-exec-5 1
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:55:45 -0300] "POST /login HTTP/1.1" 302 - http-bio-8080-exec-6 63
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:55:45 -0300] "GET /home HTTP/1.1" 200 1677 http-bio-8080-exec-7 7
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:55:45 -0300] "GET /adm/home/style.css HTTP/1.1" 304 - http-bio-8080-exec-8 3
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:55:45 -0300] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-9 1
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:55:47 -0300] "GET /armas HTTP/1.1" 200 4615 http-bio-8080-exec-10 30
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:55:47 -0300] "GET /adm/dashboard-weapons/Weapons.css HTTP/1.1" 304 - http-bio-8080-exec-10 3
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:55:47 -0300] "GET /adm/dashboard-weapons/images/logo.png HTTP/1.1" 304 - http-bio-8080-exec-10 4
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:55:47 -0300] "GET /adm/dashboard-weapons/images/agent-icon.png HTTP/1.1" 304 - http-bio-8080-exec-2 6
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:55:47 -0300] "GET /adm/dashboard-weapons/images/map-icon.png HTTP/1.1" 304 - http-bio-8080-exec-10 3
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:55:47 -0300] "GET /adm/dashboard-weapons/images/weapon-icon.png HTTP/1.1" 304 - http-bio-8080-exec-4 6
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:55:47 -0300] "GET /adm/dashboard-weapons/images/skin-icon.jpg HTTP/1.1" 304 - http-bio-8080-exec-5 6
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:55:49 -0300] "GET /adm/create-weapon/CreateWeapon.jsp HTTP/1.1" 200 5561 http-bio-8080-exec-5 593
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:55:49 -0300] "GET /adm/create-weapon/CreateWeapon.css HTTP/1.1" 200 4277 http-bio-8080-exec-5 6
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:55:49 -0300] "GET /adm/create-weapon/images/logo.png HTTP/1.1" 304 - http-bio-8080-exec-5 6
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:55:49 -0300] "GET /adm/create-weapon/images/agent-icon.png HTTP/1.1" 304 - http-bio-8080-exec-4 7
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:55:49 -0300] "GET /adm/create-weapon/images/map-icon.png HTTP/1.1" 304 - http-bio-8080-exec-10 8
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:55:49 -0300] "GET /adm/create-weapon/images/skin-icon.jpg HTTP/1.1" 304 - http-bio-8080-exec-2 8
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:55:49 -0300] "GET /adm/create-weapon/images/weapon-icon.png HTTP/1.1" 304 - http-bio-8080-exec-6 10
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:55:49 -0300] "GET /adm/create-weapon/images/valorant-transparent.png HTTP/1.1" 404 1049 http-bio-8080-exec-6 1
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:56:12 -0300] "POST /create-weapon HTTP/1.1" 500 1572 http-bio-8080-exec-6 5
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:58:45 -0300] "GET / HTTP/1.1" 200 4582 http-bio-8080-exec-1 247
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:58:48 -0300] "GET /login HTTP/1.1" 200 1611 http-bio-8080-exec-3 30
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:58:53 -0300] "POST /login HTTP/1.1" 302 - http-bio-8080-exec-5 67
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:58:53 -0300] "GET /home HTTP/1.1" 200 1677 http-bio-8080-exec-7 7
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:58:53 -0300] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-8 1
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:59:03 -0300] "GET /armas HTTP/1.1" 200 4615 http-bio-8080-exec-9 32
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:59:05 -0300] "GET /adm/create-weapon/CreateWeapon.jsp HTTP/1.1" 200 5561 http-bio-8080-exec-10 7
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:59:05 -0300] "GET /adm/create-weapon/CreateWeapon.css HTTP/1.1" 304 - http-bio-8080-exec-10 5
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:59:05 -0300] "GET /adm/create-weapon/images/valorant-transparent.png HTTP/1.1" 404 1049 http-bio-8080-exec-10 0
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:59:30 -0300] "POST /create-weapon HTTP/1.1" 302 - http-bio-8080-exec-10 3
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:59:30 -0300] "GET /armas HTTP/1.1" 200 6330 http-bio-8080-exec-2 4
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:59:37 -0300] "GET /adm/create-weapon/CreateWeapon.jsp?id=2&name=adas&type=asdas&creds=2323&damageShortHead=232&damageMediumHead=323&damageLongHead=3223&damageShortBody=2323&damageMediumBody=233223&damageLongBody=3232&damageShortLeg=3232&damageMediumLeg=2323&damageLongLeg=2323&magazine=323&reserve=2323&fireRateSecs=3232&wallPenetration=asdsda&path=afsasa HTTP/1.1" 200 5634 http-bio-8080-exec-2 2
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:59:45 -0300] "POST /create-weapon HTTP/1.1" 302 - http-bio-8080-exec-2 6
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:59:45 -0300] "GET /armas HTTP/1.1" 200 6330 http-bio-8080-exec-2 5
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:17:59:54 -0300] "GET /adm/create-weapon/CreateWeapon.jsp?id=2&name=adas&type=asdas&creds=2323&damageShortHead=232&damageMediumHead=323&damageLongHead=3223&damageShortBody=2323&damageMediumBody=233223&damageLongBody=3232&damageShortLeg=3232&damageMediumLeg=2323&damageLongLeg=2323&magazine=323&reserve=2323&fireRateSecs=3232&wallPenetration=asdsda&path=afsasa HTTP/1.1" 200 5634 http-bio-8080-exec-2 3
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:18:00:03 -0300] "POST /create-weapon HTTP/1.1" 302 - http-bio-8080-exec-2 2
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:18:00:03 -0300] "GET /armas HTTP/1.1" 200 6330 http-bio-8080-exec-2 6
+>>>>>>> Stashed changes

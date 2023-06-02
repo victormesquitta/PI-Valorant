@@ -82,7 +82,7 @@
                             <input type="hidden" id="weapon-id" name="weapon-id" value="${weapon.id}" class="button">
                             <button type="submit" class="button" id="button-delete">Delete</button>
                             <span> | </span>
-                            <a href="/adm/create-weapon/CreateWeapon.jsp?id=${weapon.id}&name=${weapon.name}&type=${weapon.type}&creds=${weapon.creds}&damage=${weapon.damage}&magazine=${weapon.magazine}&reserve=${weapon.reserve}&fireRateSecs=${weapon.fireRateSecs}&wallPenetration=${weapon.wallPenetration}&path=${weapon.path}">Update</a>
+                            <a href="/adm/create-weapon/CreateWeapon.jsp?id=${weapon.id}&name=${weapon.name}&type=${weapon.type}&creds=${weapon.creds}&damageShortHead=${weapon.damageShortHead}&damageMediumHead=${weapon.damageMediumHead}&damageLongHead=${weapon.damageLongHead}&damageShortBody=${weapon.damageShortBody}&damageMediumBody=${weapon.damageMediumBody}&damageLongBody=${weapon.damageLongBody}&damageShortLeg=${weapon.damageShortLeg}&damageMediumLeg=${weapon.damageMediumLeg}&damageLongLeg=${weapon.damageLongLeg}&magazine=${weapon.magazine}&reserve=${weapon.reserve}&fireRateSecs=${weapon.fireRateSecs}&wallPenetration=${weapon.wallPenetration}&path=${weapon.path}">Update</a>
                         </form>
                     </td>
                 </tr>
