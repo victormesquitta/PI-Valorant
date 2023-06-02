@@ -7,14 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agents</title>
     <link rel="stylesheet" href="user/agents/style.css">
-    <link rel="shortcut icon" href="user/Images/valorant-transparente.png" type="image/x-icon">
-</head>
+    <link rel="shortcut icon" href="images/valorant-transparent.png" type="image/x-icon"></head>
 <body>
     <header>
             <a href="../../" class="" id="logo-ancora"><img class="" id="logo-navbar" src="/user/agents/Images/logo.png" alt="logo"></a>
             <nav class="nav_links">
                 <a href="../../">Home</a>
-                <a href="/">Agentes</a>
+                <a href="">Agentes</a>
                 <a href="/armas">Armas</a>
                 <a href="/maps">Mapas</a>
                 <a href="/skins">Skins</a>  

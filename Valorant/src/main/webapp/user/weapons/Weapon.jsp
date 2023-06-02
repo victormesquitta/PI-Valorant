@@ -13,9 +13,9 @@
     <header>
         <a href="/home" class="" id="logo-ancora"><img class="" id="logo-navbar" src="/user/skins/Images/logo.png" alt="logo"></a>
         <nav class="nav_links">
-            <a href="/home">Home</a>
+            <a href="../../">Home</a>
             <a href="/agents">Agentes</a>
-            <a href="/armas">Armas</a>
+            <a href="">Armas</a>
             <a href="/maps">Mapas</a>
             <a href="/skins">Skins</a>
         </nav>

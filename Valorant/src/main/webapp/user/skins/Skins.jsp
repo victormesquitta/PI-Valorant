@@ -17,7 +17,7 @@
             <a href="/agents">Agentes</a>
             <a href="/armas">Armas</a>
             <a href="/maps">Mapas</a>
-            <a href="/skins">Skins</a>
+            <a href="">Skins</a>
         </nav>
     </header>
     <div id="title">
