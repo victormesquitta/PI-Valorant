@@ -64,7 +64,15 @@ CREATE TABLE WEAPON(
     NAME VARCHAR(20) NOT NULL,
     TYPE VARCHAR(20) NOT NULL,
     CREDS INT NOT NULL,
-    DAMAGE INT NOT NULL,
+    DAMAGESHORTHEAD INT NOT NULL,
+    DAMAGEMEDIUMHEAD INT NOT NULL,
+    DAMAGELONGHEAD INT NOT NULL,
+    DAMAGESHORTBODY INT NOT NULL,
+    DAMAGEMEDIUMBODY INT NOT NULL,
+    DAMAGELONGBODY INT NOT NULL,
+    DAMAGESHORTLEG INT NOT NULL,
+    DAMAGEMEDIUMLEG INT NOT NULL,
+    DAMAGELONGLEG INT NOT NULL,
     MAGAZINE INT NOT NULL,
     RESERVE INT NOT NULL,
     FIRERATESECS INT NOT NULL,
@@ -72,13 +80,21 @@ CREATE TABLE WEAPON(
     PATH VARCHAR(100) NOT NULL
 );
 
-INSERT INTO WEAPON (NAME, TYPE, CREDS, DAMAGE, MAGAZINE, RESERVE, FIRERATESECS, WALLPENETRATION, PATH)
+INSERT INTO WEAPON (NAME, TYPE, CREDS, DAMAGESHORTBODY, DAMAGEMEDIUMBODY, DAMAGELONGBODY, DAMAGESHORTHEAD, DAMAGEMEDIUMHEAD, DAMAGELONGHEAD, DAMAGESHORTLEG, DAMAGEMEDIUMLEG, DAMAGELONGLEG, MAGAZINE, RESERVE, FIRERATESECS, WALLPENETRATION, PATH)
 VALUES (
 'Classic',
 'pistola',
 '0',
-'1',
+'26',
+'22',
+'22',
+'78',
+'66',
+'66',
+'22',
 '12',
+'18',
+'18',
 '36',
 '675',
 'Alto',
@@ -110,7 +126,7 @@ VALUES (
 'dá uma smoke',
 'dá um tpzin',
 'dá o TELEPORTE',
-7,
+'7',
 'user\agents\Images\Omen.png',
 'user\agents\Images\Controlador.png',
 'user\agents\Images\Paranoia.png',
@@ -132,7 +148,7 @@ VALUES (
 'dá um Cartuchos de Tinta',
 'dá um Bumba',
 'dá o Estraga-Prazeres',
-8,
+'8',
 'user\agents\Images\Raze.png',
 'user\agents\Images\Duelista.png',
 'user\agents\Images\Carga-de-Explosivos.png',
@@ -140,6 +156,27 @@ VALUES (
 'user\agents\Images\Bumba.png',
 'user\agents\Images\Estraga-Prazeres.png'
 );
+
+INSERT INTO WEAPON (NAME, TYPE, CREDS, DAMAGESHORTBODY, DAMAGEMEDIUMBODY, DAMAGELONGBODY, DAMAGESHORTHEAD, DAMAGEMEDIUMHEAD, DAMAGELONGHEAD, DAMAGESHORTLEG, DAMAGEMEDIUMLEG, DAMAGELONGLEG, MAGAZINE, RESERVE, FIRERATESECS, WALLPENETRATION, PATH)
+VALUES (
+'Classic',
+'pistola',
+'0',
+'26',
+'22',
+'22',
+'78',
+'66',
+'66',
+'22',
+'18',
+'18',
+'12',
+'36',
+'6',
+'Alto',
+'user\weapons\Images\Classic.png');
+
 
 INSERT INTO AGENT (NAME, ROLE, LORE, SKILLQ, SKILLE, SKILLC, ULTIMATE, SKILLDESCRIPTIONQ, SKILLDESCRIPTIONE, SKILLDESCRIPTIONC, ULTIMATEDESCRIPTION, ULTIMATEPOINTS, PATHAGENT, PATHROLE, PATHSKILLQ, PATHSKILLE, PATHSKILLC, PATHULTIMATE)
 VALUES (
@@ -154,7 +191,7 @@ VALUES (
 'EQUIPE um arco com uma flecha de reconhecimento. DISPARE para lançar a flecha, que é ativada mediante impacto e revela a localização de quaisquer inimigos próximos da sua linha de visão. SEGURE O DISPARO para ampliar o alcance do projétil. Use o DISPARO SECUNDÁRIO para adicionar até dois ricochetes à flecha.',
 'EQUIPE um drone coruja. DISPARE para acionar e pilotar o drone. Enquanto pilota o drone, DISPARE para atirar um dardo marcador. Dardos revelam a localização de quaisquer jogadores atingidos.',
 'EQUIPE um arco com três disparos de longo alcance que perfuram paredes. DISPARE para atirar um raio de energia diante de Sova, causando dano e revelando a localização dos inimigos que estiverem na linha. A habilidade pode ser REPETIDA mais duas vezes enquanto o cronômetro de habilidade estiver ativo.',
-8,
+'8',
 'user\agents\Images\Sova.png',
 'user\agents\Images\Iniciador.png',
 'user\agents\Images\Flecha-de-Choque.png',
@@ -162,4 +199,5 @@ VALUES (
 'user\agents\Images\Drone-Coruja.png',
 'user\agents\Images\Furia-do-Cacador.png'
 );
+
 

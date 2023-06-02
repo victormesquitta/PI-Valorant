@@ -42,7 +42,15 @@
                 <th class="th">Name</th>
                 <th class="th">Type</th>
                 <th class="th">Creds</th>
-                <th class="th">Damage</th>
+                <th class="th">DamageShortHead</th>
+                <th class="th">DamageMediumHead</th>
+                <th class="th">DamageLongHead</th>
+                <th class="th">DamageShortBody</th>
+                <th class="th">DamageMediumBody</th>
+                <th class="th">DamageLongBody</th>
+                <th class="th">DamageShortLeg</th>
+                <th class="th">DamageMediumLeg</th>
+                <th class="th">DamageLongLeg</th>
                 <th class="th">Magazine</th>
                 <th class="th">Reserve</th>
                 <th class="th">FireRateSecs</th>
@@ -55,7 +63,15 @@
                     <td class="td">${weapon.name}</td>
                     <td class="td">${weapon.type}</td>
                     <td class="td">${weapon.creds}</td>
-                    <td class="td">${weapon.damage}</td>
+                    <td class="td">${weapon.damageShortHead}</td>
+                    <td class="td">${weapon.damageMediumHead}</td>
+                    <td class="td">${weapon.damageLongHead}</td>
+                    <td class="td">${weapon.damageShortBody}</td>
+                    <td class="td">${weapon.damageMediumBody}</td>
+                    <td class="td">${weapon.damageLongBody}</td>
+                    <td class="td">${weapon.damageShortLeg}</td>
+                    <td class="td">${weapon.damageMediumLeg}</td>
+                    <td class="td">${weapon.damageLongLeg}</td>
                     <td class="td">${weapon.magazine}</td>
                     <td class="td">${weapon.reserve}</td>
                     <td class="td">${weapon.fireRateSecs}</td>
@@ -66,7 +82,7 @@
                             <input type="hidden" id="weapon-id" name="weapon-id" value="${weapon.id}" class="button">
                             <button type="submit" class="button" id="button-delete">Delete</button>
                             <span> | </span>
-                            <a href="/adm/create-weapon/CreateWeapon.jsp?id=${weapon.id}&name=${weapon.name}&type=${weapon.type}&creds=${weapon.creds}&damage=${weapon.damage}&magazine=${weapon.magazine}&reserve=${weapon.reserve}&fireRateSecs=${weapon.fireRateSecs}&wallPenetration=${weapon.wallPenetration}&path=${weapon.path}">Update</a>
+                            <a href="/adm/create-weapon/CreateWeapon.jsp?id=${weapon.id}&name=${weapon.name}&type=${weapon.type}&creds=${weapon.creds}&damageShortHead=${weapon.damageShortHead}&damageMediumHead=${weapon.damageMediumHead}&damageLongHead=${weapon.damageLongHead}&damageShortBody=${weapon.damageShortBody}&damageMediumBody=${weapon.damageMediumBody}&damageLongBody=${weapon.damageLongBody}&damageShortLeg=${weapon.damageShortLeg}&damageMediumLeg=${weapon.damageMediumLeg}&damageLongLeg=${weapon.damageLongLeg}&magazine=${weapon.magazine}&reserve=${weapon.reserve}&fireRateSecs=${weapon.fireRateSecs}&wallPenetration=${weapon.wallPenetration}&path=${weapon.path}">Update</a>
                         </form>
                     </td>
                 </tr>
@@ -75,7 +91,7 @@
         <div id="div-ancora-novo">
             <a href="../adm/create-weapon/CreateWeapon.jsp" class="novo-ancora" id=""><button id="button_novo" class="button">Novo</button></a>
         </div>
-        
+
     </div>
 </body>
 </html>
