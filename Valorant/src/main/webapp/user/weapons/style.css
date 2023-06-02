@@ -272,14 +272,14 @@ h1{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 90%;
+    height: 60%;
     width: 85%;
 }
 
-.skill1, .skill2, .skill3, .ultimate{
+.div-pente, .div-reserve, .div-penetracao, .div-cadencia{
     display: flex;
     align-items: center;
-    height: 25%;
+    height: 15%;
     width: 100%;
     justify-content: space-between;
 }
@@ -291,7 +291,7 @@ h1{
     width: 30%;
 }
 
-.nome-skill1, .nome-skill2, .nome-skill3, .nome-ultimate{
+.nome-pente, .nome-reserve, .nome-penetracao, .nome-cadencia{
     display: flex;
     justify-content: center;
     width: 25%;
@@ -299,20 +299,19 @@ h1{
     font-size: 1rem;
 }
 
-.img-skill1, .img-skill2, .img-skill3, .img-ultimate{
+.img-pente, .img-reserve, .img-penetracao, .img-cadencia{
     display: flex;
     justify-content: center;
     width: 30%;
 }
 
-.descricao-skill1, .descricao-skill2, .descricao-skill3, .descricao-ultimate{
+.qtd-pente, .qtd-reserve, .qtd-penetracao, .qtd-cadencia{
     width: 45%;
     display: flex;
     justify-content: flex-end;
     font-size: 0.6rem;
     text-align: left;
     font-weight: 100;
-    text-transform: capitalize;
 }
 
 

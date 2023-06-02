@@ -59,32 +59,81 @@
                                 <div class="div-img-weapon">
                                     <img class="img-pente" src="/user/weapons/Images/Magazine.png" alt="">
                                 </div>
-                                <h3 class="nome-pente">Munição por pente: </h3>
+                                <h3 class="nome-pente">Munição por Pente: </h3>
                                 <h4 class="qtd-magazine">${pistol.magazine}</h4>
                             </div>
                             <div class="div-reserve">
                                 <div class="div-img-weapon">
                                     <img class="img-reserve" src="/user/weapons/Images/Reserve.png  " alt="">
                                 </div>
-                                <h3 class="nome-reserve">${duelista.skille}</h3>
-                                <h4 class="qtd-reserve">${duelista.skillDescriptione} Lorem sadkugsadkjbsda sdjkbsadkj sadkj sadjh sadk sdasa dkjsda kjsa sajk sdakj dsaoj askjdasjk dsa kjlsad kjdas jkas sakdn kdjsab dasjk das</h4>
+                                <h3 class="nome-reserve">Munição Total:</h3>
+                                <h4 class="qtd-reserve">${pistol.reserve}</h4>
                             </div>
                             <div class="div-penetracao">
                                 <div class="div-img-weapon">
-                                    <img class="img-penetracao" src="${duelista.pathskillc}" alt="">
+                                    <img class="img-penetracao" src="/user/weapons/Images/wallpenetration.png" alt="">
                                 </div>
-                                <h3 class="nome-penetracao">${duelista.skillc}</h3>
-                                <h4 class="qtd-penetracao">${duelista.skillDescriptionc}Lorem sadkugsadkjbsda sdjkbsadkj sadkj sadjh sadk sdasa dkjsda kjsa sajk sdakj dsaoj askjdasjk dsa kjlsad kjdas jkas sakdn kdjsab dasjk das</h4>
+                                <h3 class="nome-penetracao">Penetração de Parede:</h3>
+                                <h4 class="qtd-penetracao">${pistol.penetracao}</h4>
                             </div>
                             <div class="div-cadencia">
                                 <div class="div-img-weapon">
-                                    <img class="img-cadencia" src="${duelista.pathultimate}" alt="">
+                                    <img class="img-cadencia" src="/user/weapons/Images/fire-rate.png" alt="">
                                 </div>
-                                <h3 class="nome-cadencia">${duelista.ultimate}</h3>
-                                <h4 class="qtd-cadencia">${duelista.ultimateDescription}Lorem sadkugsadkjbsda sdjkbsadkj sadkj sadjh sadk sdasa dkjsda kjsa sajk sdakj dsaoj askjdasjk dsa kjlsad kjdas jkas sakdn kdjsab dasjk das</h4>
+                                <h3 class="nome-cadencia">Cadência de Tiros:</h3>
+                                <h4 class="qtd-cadencia">${pistol.cadencia}</h4>
                             </div>
                         </div>
                         
+                        <div>
+                            <table>
+                                <tr>
+                                  <th colspan="4">Dano</th>
+                                </tr>
+                                <tr>
+                                  <th>Distância\Área</th>
+                                  <th>Cabeça</th>
+                                  <th>Corpo</th>
+                                  <th>Perna</th>
+                                </tr>
+                                <tr>
+                                  <th>Curta Distância</th>
+                                  <%-- Dados do banco de dados --%>
+                                  <%
+                                    String curtaCabeca = "10";
+                                    String curtaCorpo = "5";
+                                    String curtaPerna = "3";
+                                %>
+                                    <td><%= curtaCabeca %></td>
+                                    <td><%= curtaCorpo %></td>
+                                    <td><%= curtaPerna %></td>
+                                </tr>
+                                    <tr>
+                                      <th>Média Distância</th>
+                                      <%-- Dados do banco de dados --%>
+                                        <%
+                                           String mediaCabeca = "8";
+                                           String mediaCorpo = "4";
+                                           String mediaPerna = "2";
+                                           %>
+                                          <td><%= mediaCabeca %></td>
+                                          <td><%= mediaCorpo %></td>
+                                          <td><%= mediaPerna %></td>
+                                          </tr>
+                                        <tr>
+                                          <th>Longa Distância</th>
+                                          <%-- Dados do banco de dados --%>
+                                            <%
+                                               String longaCabeca = "6";
+                                               String longaCorpo = "3";
+                                               String longaPerna = "1";
+                                               %>
+                                              <td><%= longaCabeca %></td>
+                                              <td><%= longaCorpo %></td>
+                                              <td><%= longaPerna %></td>
+                                              </tr>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
