@@ -601,9 +601,9 @@ public class WeaponDao {
             preparedStatement.setInt(13, weapon.getMagazine());
             preparedStatement.setInt(14, weapon.getReserve());
             preparedStatement.setInt(15, weapon.getFireRateSecs());
-            preparedStatement.setString(16, weapon.getPath());
-            preparedStatement.setString(17, weapon.getId());
-            preparedStatement.setString(18, weapon.getWallPenetration());
+            preparedStatement.setString(16, weapon.getWallPenetration());
+            preparedStatement.setString(17, weapon.getPath());
+            preparedStatement.setString(18, weapon.getId());
             preparedStatement.execute();
 
             System.out.println("success in update weapon");

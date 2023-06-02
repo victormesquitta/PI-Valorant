@@ -67,16 +67,16 @@
                             <input type="number" name="weapon-damageMediumBody" id="weapon-damageMediumBody" value="${param.damageMediumBody}" required>
                         <br>
                         <label>DamageLongBody</label>
-                        <input type="number" name="weapon-damageLongBody" id="weapon-damageLongBody" value="${param.damageLongBody}" required>
+                            <input type="number" name="weapon-damageLongBody" id="weapon-damageLongBody" value="${param.damageLongBody}" required>
                         <br>
                         <label>DamageShortLeg</label>
-                        <input type="number" name="weapon-damageShortLeg" id="weapon-damageShortLeg" value="${param.damageShortLeg}" required>
+                            <input type="number" name="weapon-damageShortLeg" id="weapon-damageShortLeg" value="${param.damageShortLeg}" required>
                         <br>
-                    </div>
-                    <div id="coluna-3">
                         <label>DamageMediumLeg</label>
                             <input type="number" name="weapon-damageMediumLeg" id="weapon-damageMediumLeg" value="${param.damageMediumLeg}" required>
                         <br>
+                    </div>
+                    <div id="coluna-3">
                         <label>DamageLongLeg</label>
                             <input type="number" name="weapon-damageLongLeg" id="weapon-damageLongLeg" value="${param.damageLongLeg}" required>
                         <br>

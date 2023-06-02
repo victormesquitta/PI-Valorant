@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Weapons</title>
-    <link rel="stylesheet" href="adm/dashboard-weapons/Weapons.css">
+    <link rel="stylesheet" href="adm/dashboard-agent/Agent.css">
     <link rel="shortcut icon" href="images/valorant-transparent.png" type="image/x-icon">
 </head>
 <body>
@@ -34,6 +34,9 @@
             </div>
         </div>
     </header>
+    <!-- <div id="espaço-vazio">
+        a   a
+    </div> -->
     <div id="dashboard">
         <h1>Weapons</h1>
         <table id="table">
