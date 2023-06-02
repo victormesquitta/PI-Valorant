@@ -124,7 +124,7 @@ public class WeaponDao {
     }
 
     public List<Weapon> findAllPistols(){
-        String SQL = "SELECT * FROM WEAPON WHERE TYPE = 'pistola'";
+        String SQL = "SELECT * FROM WEAPON WHERE TYPE = 'Pistola'";
 
         try {
 
@@ -180,7 +180,7 @@ public class WeaponDao {
 
             }
 
-            System.out.println("success in select * weapon where type = 'pistola'");
+            System.out.println("success in select * weapon where type = 'Pistola'");
 
             connection.close();
 
@@ -196,7 +196,7 @@ public class WeaponDao {
     }
 
     public List<Weapon> findAllSubs(){
-        String SQL = "SELECT * FROM WEAPON WHERE TYPE = 'submetralhadora'";
+        String SQL = "SELECT * FROM WEAPON WHERE TYPE = 'Submetralhadora'";
 
         try {
 
@@ -252,7 +252,7 @@ public class WeaponDao {
 
             }
 
-            System.out.println("success in select * weapon where type = 'submetralhadora'");
+            System.out.println("success in select * weapon where type = 'Submetralhadora'");
 
             connection.close();
 
@@ -268,7 +268,7 @@ public class WeaponDao {
     }
 
     public List<Weapon> findAllFuzilPrecisao(){
-        String SQL = "SELECT * FROM WEAPON WHERE TYPE = 'fuzil de precisao'";
+        String SQL = "SELECT * FROM WEAPON WHERE TYPE = 'Fuzil de Precisao'";
 
         try {
 
@@ -324,7 +324,7 @@ public class WeaponDao {
 
             }
 
-            System.out.println("success in select * weapon where type = 'fuzil de precisao'");
+            System.out.println("success in select * weapon where type = 'Fuzil de Precisao'");
 
             connection.close();
 
@@ -340,7 +340,7 @@ public class WeaponDao {
     }
 
     public List<Weapon> findAllEscopetas(){
-        String SQL = "SELECT * FROM WEAPON WHERE TYPE = 'escopeta'";
+        String SQL = "SELECT * FROM WEAPON WHERE TYPE = 'Escopeta'";
 
         try {
 
@@ -396,7 +396,7 @@ public class WeaponDao {
 
             }
 
-            System.out.println("success in select * weapon where type = 'escopeta'");
+            System.out.println("success in select * weapon where type = 'Escopeta'");
 
             connection.close();
 
@@ -411,80 +411,8 @@ public class WeaponDao {
         }
     }
 
-    public List<Weapon> findAllMetralhadoras(){
-        String SQL = "SELECT * FROM WEAPON WHERE TYPE = 'metralhadora'";
-
-        try {
-
-            Connection connection = ConnectionPoolConfig.getConnection();
-
-            PreparedStatement preparedStatement = connection.prepareStatement(SQL);
-
-            ResultSet resultSet = preparedStatement.executeQuery();
-
-            List<Weapon> metralhadoras = new ArrayList<>();
-
-            while (resultSet.next()) {
-
-                String fuzID = resultSet.getString("id");
-                String fuzName = resultSet.getString("name");
-                String fuzType = resultSet.getString("type");
-                int fuzCreds = resultSet.getInt("creds");
-                int fuzDamageLongHead = resultSet.getInt("damageLongHead");
-                int fuzDamageMediumHead = resultSet.getInt("damageLongHead");
-                int fuzDamageShortHead = resultSet.getInt("damageLongHead");
-                int fuzDamageShortBody = resultSet.getInt("damageShortBody");
-                int fuzDamageMediumBody = resultSet.getInt("damageMediumBody");
-                int fuzDamageLongBody = resultSet.getInt("damageLongBody");
-                int fuzDamageShortLeg = resultSet.getInt("damageShortLeg");
-                int fuzDamageMediumLeg = resultSet.getInt("damageMediumLeg");
-                int fuzDamageLongLeg = resultSet.getInt("damageLongLeg");
-                int fuzMagazine = resultSet.getInt("magazine");
-                int fuzReserve = resultSet.getInt("reserve");
-                int fuzFireRateSecs = resultSet.getInt("fireRateSecs");
-                String fuzWallPenetration = resultSet.getString("wallPenetration");
-                String fuzPath = resultSet.getString("path");
-
-                Weapon fuzil = new Weapon();
-                fuzil.setId(fuzID);
-                fuzil.setName(fuzName);
-                fuzil.setType(fuzType);
-                fuzil.setCreds(fuzCreds);
-                fuzil.setDamageLongHead(fuzDamageLongHead);
-                fuzil.setDamageMediumHead(fuzDamageMediumHead);
-                fuzil.setDamageShortHead(fuzDamageShortHead);
-                fuzil.setDamageLongBody(fuzDamageLongBody);
-                fuzil.setDamageMediumBody(fuzDamageMediumBody);
-                fuzil.setDamageShortBody(fuzDamageShortBody);
-                fuzil.setDamageLongLeg(fuzDamageLongLeg);
-                fuzil.setDamageMediumLeg(fuzDamageMediumLeg);
-                fuzil.setDamageShortLeg(fuzDamageShortLeg);
-                fuzil.setMagazine(fuzMagazine);
-                fuzil.setReserve(fuzReserve);
-                fuzil.setFireRateSecs(fuzFireRateSecs);
-                fuzil.setWallPenetration(fuzWallPenetration);
-                fuzil.setPath(fuzPath);
-                metralhadoras.add(fuzil);
-
-            }
-
-            System.out.println("success in select * weapon where type = 'metralhadora'");
-
-            connection.close();
-
-            return metralhadoras;
-
-        } catch (Exception e) {
-
-            System.out.println("fail in database connection");
-
-            return Collections.emptyList();
-
-        }
-    }
-
     public List<Weapon> findAllFuzil(){
-        String SQL = "SELECT * FROM WEAPON WHERE TYPE = 'fuzil'";
+        String SQL = "SELECT * FROM WEAPON WHERE TYPE = 'Fuzil'";
 
         try {
 
@@ -540,11 +468,82 @@ public class WeaponDao {
 
             }
 
-            System.out.println("success in select * weapon where type = 'fuzil'");
+            System.out.println("success in select * weapon where type = 'Fuzil'");
 
             connection.close();
 
             return fuzis;
+
+        } catch (Exception e) {
+
+            System.out.println("fail in database connection");
+
+            return Collections.emptyList();
+
+        }
+    }
+    public List<Weapon> findAllMetralhadora(){
+        String SQL = "SELECT * FROM WEAPON WHERE TYPE = 'Metralhadora'";
+
+        try {
+
+            Connection connection = ConnectionPoolConfig.getConnection();
+
+            PreparedStatement preparedStatement = connection.prepareStatement(SQL);
+
+            ResultSet resultSet = preparedStatement.executeQuery();
+
+            List<Weapon> metralhadora = new ArrayList<>();
+
+            while (resultSet.next()) {
+
+                String metID = resultSet.getString("id");
+                String metName = resultSet.getString("name");
+                String metType = resultSet.getString("type");
+                int metCreds = resultSet.getInt("creds");
+                int metDamageLongHead = resultSet.getInt("damageLongHead");
+                int metDamageMediumHead = resultSet.getInt("damageLongHead");
+                int metDamageShortHead = resultSet.getInt("damageLongHead");
+                int metDamageShortBody = resultSet.getInt("damageShortBody");
+                int metDamageMediumBody = resultSet.getInt("damageMediumBody");
+                int metDamageLongBody = resultSet.getInt("damageLongBody");
+                int metDamageShortLeg = resultSet.getInt("damageShortLeg");
+                int metDamageMediumLeg = resultSet.getInt("damageMediumLeg");
+                int metDamageLongLeg = resultSet.getInt("damageLongLeg");
+                int metMagazine = resultSet.getInt("magazine");
+                int metReserve = resultSet.getInt("reserve");
+                int metFireRateSecs = resultSet.getInt("fireRateSecs");
+                String metWallPenetration = resultSet.getString("wallPenetration");
+                String metPath = resultSet.getString("path");
+
+                Weapon met = new Weapon();
+                met.setId(metID);
+                met.setName(metName);
+                met.setType(metType);
+                met.setCreds(metCreds);
+                met.setDamageLongHead(metDamageLongHead);
+                met.setDamageMediumHead(metDamageMediumHead);
+                met.setDamageShortHead(metDamageShortHead);
+                met.setDamageLongBody(metDamageLongBody);
+                met.setDamageMediumBody(metDamageMediumBody);
+                met.setDamageShortBody(metDamageShortBody);
+                met.setDamageLongLeg(metDamageLongLeg);
+                met.setDamageMediumLeg(metDamageMediumLeg);
+                met.setDamageShortLeg(metDamageShortLeg);
+                met.setMagazine(metMagazine);
+                met.setReserve(metReserve);
+                met.setFireRateSecs(metFireRateSecs);
+                met.setWallPenetration(metWallPenetration);
+                met.setPath(metPath);
+                metralhadora.add(met);
+
+            }
+
+            System.out.println("success in select * weapon where type = 'Metralhadora'");
+
+            connection.close();
+
+            return metralhadora;
 
         } catch (Exception e) {
 

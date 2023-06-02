@@ -5927,3 +5927,14 @@
 0:0:0:0:0:0:0:1 - - [02/Jun/2023:20:38:19 -0300] "GET /agents HTTP/1.1" 200 13482 http-bio-8080-exec-4 5
 0:0:0:0:0:0:0:1 - - [02/Jun/2023:20:38:19 -0300] "GET /user/agents/script.js HTTP/1.1" 304 - http-bio-8080-exec-4 2
 0:0:0:0:0:0:0:1 - - [02/Jun/2023:20:38:20 -0300] "GET / HTTP/1.1" 200 4582 http-bio-8080-exec-4 1
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:20:46:36 -0300] "GET /armas HTTP/1.1" 200 27266 http-bio-8080-exec-1 577
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:20:49:22 -0300] "GET /armas HTTP/1.1" 200 32418 http-bio-8080-exec-4 74
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:20:49:22 -0300] "GET /user/skins/Images/logo.png HTTP/1.1" 304 - http-bio-8080-exec-5 4
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:20:49:22 -0300] "GET /user/weapons/style.css HTTP/1.1" 200 6079 http-bio-8080-exec-6 7
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:20:49:22 -0300] "GET /user/weapons/Images/Creds.png HTTP/1.1" 304 - http-bio-8080-exec-8 3
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:20:49:22 -0300] "GET /user/weapons/Images/Magazine.png HTTP/1.1" 304 - http-bio-8080-exec-10 3
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:20:49:22 -0300] "GET /user/weapons/Images/Botao-voltar.png HTTP/1.1" 304 - http-bio-8080-exec-9 3
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:20:49:22 -0300] "GET /user/agents/script.js HTTP/1.1" 304 - http-bio-8080-exec-7 3
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:20:49:22 -0300] "GET /user/weapons/Images/fire-rate.png HTTP/1.1" 304 - http-bio-8080-exec-7 3
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:20:49:22 -0300] "GET /user/weapons/Images/Reserve.png HTTP/1.1" 304 - http-bio-8080-exec-8 3
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:20:49:22 -0300] "GET /user/weapons/Images/wallpenetration.png HTTP/1.1" 304 - http-bio-8080-exec-6 3

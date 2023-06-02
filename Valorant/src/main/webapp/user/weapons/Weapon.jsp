@@ -100,7 +100,7 @@
                                   <th>Curta Distância</th>
                                   <%-- Dados do banco de dados --%>
                                   <%
-                                    String curtaCabeca = "10";
+                                    String curtaCabeca = "${pistol.wallPenetration}";
                                     String curtaCorpo = "5";
                                     String curtaPerna = "3";
                                 %>
@@ -294,7 +294,7 @@
                                    <img class="img-pente" src="/user/weapons/Images/Magazine.png" alt="">
                                </div>
                                <h3 class="nome-pente">Munição por Pente: </h3>
-                               <h4 class="qtd-pente">${sub.magazine}</h4>
+                               <h4 class="qtd-pente">${esc.magazine}</h4>
                            </div>
                            <div class="div-reserve">
                                <div class="div-img-weapon">
@@ -610,7 +610,7 @@
 
     <h1 class="subtitle">METRALHADORA</h1>
     <div class="container">
-        <c:forEach var = "metralhadora" items="${metralhadoras}">
+        <c:forEach var = "metralhadora" items="${metralhadora}">
             <div class="box" onclick="openOverlay(5)">
                 <img class="images" src=${metralhadora.path}>
                 <h1 class="name">${metralhadora.name}</h1>

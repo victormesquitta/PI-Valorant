@@ -25,6 +25,7 @@ public class ListWeaponServlet extends HttpServlet{
         List<Weapon> escopetas = new WeaponDao().findAllEscopetas();
         List<Weapon> fuzis = new WeaponDao().findAllFuzil();
         List<Weapon> fuzilPrecisao = new WeaponDao().findAllFuzilPrecisao();
+        List<Weapon> metralhadora = new WeaponDao().findAllMetralhadora();
 
         req.setAttribute("weapons", weapons);
         req.setAttribute("pistols", pistols);
@@ -32,6 +33,7 @@ public class ListWeaponServlet extends HttpServlet{
         req.setAttribute("escopetas", escopetas);
         req.setAttribute("fuzis" , fuzis);
         req.setAttribute("fuzilPrecisao" , fuzilPrecisao);
+        req.setAttribute("metralhadora", metralhadora);
 
         HttpSession session = req.getSession();
 
