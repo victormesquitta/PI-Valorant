@@ -12,6 +12,14 @@ import java.io.IOException;
 
 @WebServlet ("/create-skin")
 public class CreateSkinServlet extends HttpServlet {
+
+    @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
+        req.getRequestDispatcher("/adm/create-skin/CreateSkin.jsp").forward(req, resp);
+
+    }
+
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 

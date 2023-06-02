@@ -5,27 +5,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Skins</title>
-    <link rel="stylesheet" href="adm/dashboard-weapons/Weapons.css">
+    <link rel="stylesheet" href="../../adm/dashboard-weapons/Weapons.css">
     <link rel="shortcut icon" href="images/valorant-transparent.png" type="image/x-icon">
 </head>
 <body>
     <header>
         <div id="header-up">
-            <a href="" class="logo-ancora" id=""><img class="" id="logo-navbar" src="adm/dashboard-weapons/images/logo.png" alt="logo"></a>
+            <a href="" class="logo-ancora" id=""><img class="" id="logo-navbar" src="../../adm/dashboard-weapons/images/logo.png" alt="logo"></a>
             <a href="" class="logo-ancora" id=""><h2 id="titulo-header">Visão Administrativa</h2></a>
         </div>
         <nav class="nav_links">
             <div class="nav_link">
-                <a href="/agents"><img id="agent-icon" class="icon" src="adm/dashboard-weapons/images/agent-icon.png">Agentes</a>
+                <a href="/agents"><img id="agent-icon" class="icon" src="../../adm/dashboard-weapons/images/agent-icon.png">Agentes</a>
             </div>
             <div class="nav_link">
-                <a href="/armas"><img id="weapon-icon" class="icon" src="adm/dashboard-weapons/images/weapon-icon.png">Armas</a>
+                <a href="/armas"><img id="weapon-icon" class="icon" src="../../adm/dashboard-weapons/images/weapon-icon.png">Armas</a>
             </div>
             <div class="nav_link">
-                <a href="/maps"><img id="map-icon" class="icon" src="adm/dashboard-weapons/images/map-icon.png">Mapas</a>
+                <a href="/maps"><img id="map-icon" class="icon" src="../../adm/dashboard-weapons/images/map-icon.png">Mapas</a>
             </div>
             <div class="nav_link">
-                <a href="/skins"><img id="skin-icon" class="icon" src="adm/dashboard-weapons/images/skin-icon.jpg">Skins</a>
+                <a href="/skins"><img id="skin-icon" class="icon" src="../../adm/dashboard-weapons/images/skin-icon.jpg">Skins</a>
             </div>
         </nav>
         <div id="header-down">
@@ -70,7 +70,7 @@
         </c:forEach>
         </table>
                 <div id="div-ancora-novo">
-                    <a href="../adm/create-skin/CreateSkin.jsp" class="novo-ancora" id=""><button id="button_novo" class="button">Novo</button></a>
+                    <a href="/create-skin" class="novo-ancora" id=""><button id="button_novo" class="button">Novo</button></a>
                 </div>
     </div>
 </body>

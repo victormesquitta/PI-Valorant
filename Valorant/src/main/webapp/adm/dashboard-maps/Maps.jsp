@@ -77,7 +77,7 @@
             </c:forEach>
         </table>
         <div id="div-ancora-novo">
-            <a href="../adm/create-map/CreateMap.jsp" class="novo-ancora" id=""><button id="button_novo" class="button">Novo</button></a>
+            <a href="/create-map" class="novo-ancora" id=""><button id="button_novo" class="button">Novo</button></a>
         </div>
 
     </div>
