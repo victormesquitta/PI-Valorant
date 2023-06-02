@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="/adm/login/login.css">
-    <link rel="shortcut icon" href="images/valorant-transparente.png" type="image/x-icon">
-</head>
+    <link rel="shortcut icon" href="images/valorant-transparent.png" type="image/x-icon"></head>
 <body>
     <div id="main-box"> 
         <div class="box-item" id="item-title">
@@ -31,9 +30,8 @@
             </div>
 
         </form>
-        <!--<div class="box-item" id="item-cadastro">
-            <a href="../cadastro/index.jsp" id="ancora-cadastro"> <button id="cadastrar-se" class="button button-cadastro">Cadastrar-se</button></a>
-        </div>-->
+            <div class="box-item" id="item-cadastro">
+            <a href="/cadastro " id="ancora-cadastro"> <button id="cadastrar-se" class="button button-cadastro">Cadastrar-se</button></a>
         
     </div>
 </body>

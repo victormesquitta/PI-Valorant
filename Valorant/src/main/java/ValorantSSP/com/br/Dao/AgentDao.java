@@ -42,7 +42,7 @@ public class AgentDao {
             preparedStatement.setString(16, agent.getPathskille());
             preparedStatement.setString(17, agent.getPathskillc());
             preparedStatement.setString(18, agent.getPathultimate());
-            preparedStatement.setString(19, agent.getId());
+           // preparedStatement.setString(19, agent.getId());
             preparedStatement.execute();
 
             connection.close();

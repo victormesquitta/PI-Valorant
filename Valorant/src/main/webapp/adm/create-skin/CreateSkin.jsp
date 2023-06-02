@@ -4,6 +4,7 @@
 <head>
     <title>Skins</title>
     <link rel="stylesheet" href="CreateSkin.css">
+    <link rel="shortcut icon" href="images/valorant-transparent.png" type="image/x-icon">
 </head>
 <body>
     <header>

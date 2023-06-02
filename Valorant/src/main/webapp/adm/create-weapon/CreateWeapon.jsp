@@ -4,6 +4,7 @@
 <head>
     <title>Armas</title>
     <link rel="stylesheet" href="CreateWeapon.css">
+    <link rel="shortcut icon" href="images/valorant-transparent.png" type="image/x-icon">
 </head>
 <body>
    <header>

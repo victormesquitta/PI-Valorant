@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <title>Weapons</title>
     <link rel="stylesheet" href="adm/dashboard-weapons/Weapons.css">
+    <link rel="shortcut icon" href="images/valorant-transparent.png" type="image/x-icon">
 </head>
 <body>
     <header>
