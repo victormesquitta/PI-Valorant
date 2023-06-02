@@ -47,27 +47,56 @@
                         <label>Creds</label>
                             <input type="number" name="weapon-creds" id="weapon-creds" value="${param.creds}" required>
                         <br>
-                        <label>Damage</label>
-                            <input type="number" name="weapon-damage" id="weapon-damage" value="${param.damage}" required>
+                        <label>DamageShortHead</label>
+                            <input type="number" name="weapon-damageShortHead" id="weapon-damageShortHead" value="${param.damageShortHead}" required>
                         <br>
+                        <label>DamageMediumHead</label>
+                            <input type="number" name="weapon-damageMediumHead" id="weapon-damageMediumHead" value="${param.damageMediumHead}" required>
+                        <br>
+
+
+                    </div>
+                    <div id="coluna-2">
+                        <label>DamageLongHead</label>
+                            <input type="number" name="weapon-damageLongHead" id="weapon-damageLongHead" value="${param.damageLongHead}" required>
+                        <br>
+                        <label>DamageShortBody</label>
+                            <input type="number" name="weapon-damageShortBody" id="weapon-damageShortBody" value="${param.damageShortBody}" required>
+                        <br>
+                        <label>DamageMediumBody</label>
+                            <input type="number" name="weapon-damageMediumBody" id="weapon-damageMediumBody" value="${param.damageMediumBody}" required>
+                        <br>
+                        <label>DamageLongBody</label>
+                        <input type="number" name="weapon-damageLongBody" id="weapon-damageLongBody" value="${param.damageLongBody}" required>
+                        <br>
+                        <label>DamageShortLeg</label>
+                        <input type="number" name="weapon-damageShortLeg" id="weapon-damageShortLeg" value="${param.damageShortLeg}" required>
+                        <br>
+                    </div>
+                    <div id="coluna-3">
+                        <label>DamageMediumLeg</label>
+                            <input type="number" name="weapon-damageMediumLeg" id="weapon-damageMediumLeg" value="${param.damageMediumLeg}" required>
+                        <br>
+                        <label>DamageLongLeg</label>
+                            <input type="number" name="weapon-damageLongLeg" id="weapon-damageLongLeg" value="${param.damageLongLeg}" required>
+                        <br>
+
                         <label>Magazine</label>
                             <input type="number" name="weapon-magazine" id="weapon-magazine" value="${param.magazine}" required>
                         <br>
-                    </div>
-                    <div id="coluna-2">
                         <label>Reserve</label>
-                        <input type="number" name="weapon-reserve" id="weapon-reserve" value="${param.reserve}" required>
+                            <input type="number" name="weapon-reserve" id="weapon-reserve" value="${param.reserve}" required>
                         <br>
                         <label>Fire Rate per Seconds</label>
                             <input type="number" name="weapon-fireRateSecs" id="weapon-fireRateSecs" value="${param.fireRateSecs}" required>
                         <br>
                         <label>Wall Penetration</label>
-                                <input type="text" name="weapon-wallPenetration" id="weapon-wallPenetration" value="${param.wallPenetration}" required>
+                            <input type="text" name="weapon-wallPenetration" id="weapon-wallPenetration" value="${param.wallPenetration}" required>
                         <br>
                         <label>Path</label>
-                                <input type="text" name="weapon-path" id="weapon-path" value="${param.path}"  required>
-                                <input type="hidden" name="weapon-id" id="map-weapon" value="${param.id}">
-                        <br>
+                            <input type="text" name="weapon-path" id="weapon-path" value="${param.path}"  required>
+                            <input type="hidden" name="weapon-id" id="map-weapon" value="${param.id}">
+
                     </div>
                 </div>
 
