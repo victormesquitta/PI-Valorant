@@ -41,8 +41,14 @@
                         <label>Name</label>
                         <input type="text" name="skin-name" id="skin-name" value="${param.name}"   required>
                         <br>
+                        <label>Type</label>
+                        <input type="text" name="skin-type" id="skin-type" value="${param.type}"   required>
+                        <br>
                         <label>Season</label>
                             <input type="number" name="skin-season" id="skin-season" value="${param.season}"  required>
+                        <br>
+                        <label>Name Season</label>
+                            <input type="text" name="skin-nameSeason" id="skin-nameSeason" value="${param.nameSeason}"  required>
                         <br>
                         <label>Act</label>
                             <input type="number" name="skin-act" id="skin-act" value="${param.act}"  required>
@@ -60,6 +66,9 @@
                         <br>
                         <label>Path</label>
                             <input type="text" name="skin-path" id="skin-path" value="${param.path}"  required>
+                        <br>
+                        <label>Path Type</label>
+                            <input type="text" name="skin-pathType" id="skin-pathType" value="${param.pathType}"  required>
                             <input type="hidden" name="skin-id" id="skin-id" value="${param.id}">
                         <br>
                     </div>

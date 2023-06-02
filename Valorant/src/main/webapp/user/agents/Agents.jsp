@@ -7,14 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agents</title>
     <link rel="stylesheet" href="user/agents/style.css">
-    <link rel="shortcut icon" href="user/Images/valorant-transparente.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/valorant-transparent.png" type="image/x-icon">
 </head>
 <body>
     <header>
             <a href="../../" class="" id="logo-ancora"><img class="" id="logo-navbar" src="/user/agents/Images/logo.png" alt="logo"></a>
             <nav class="nav_links">
                 <a href="../../">Home</a>
-                <a href="/">Agentes</a>
+                <a href="">Agentes</a>
                 <a href="/armas">Armas</a>
                 <a href="/maps">Mapas</a>
                 <a href="/skins">Skins</a>  
@@ -111,7 +111,7 @@
                         <div class="coluna-1-baixo">
                             <div class="overlay-div-lore">
                                 <h3 class="overlay-lore-titulo">Lore</h3>
-                                <h4 class="overlay-lore">${iniciador.lore} Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste omnis, ab aliquid, laborum deleniti excepturi voluptas, voluptate temporibus placeat dolores odio similique illo hic possimus eos velit quidem! Voluptate, veniam?</h4>
+                                <h4 class="overlay-lore">${iniciador.lore}</h4>
                             </div> 
                         </div>
 
@@ -178,7 +178,7 @@
                         <div class="coluna-1-baixo">
                             <div class="overlay-div-lore">
                                 <h3 class="overlay-lore-titulo">Lore</h3>
-                                <h4 class="overlay-lore">${controlador.lore} Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste omnis, ab aliquid, laborum deleniti excepturi voluptas, voluptate temporibus placeat dolores odio similique illo hic possimus eos velit quidem! Voluptate, veniam?</h4>
+                                <h4 class="overlay-lore">${controlador.lore}</h4>
                             </div> 
                         </div>
                     </div>
@@ -244,7 +244,7 @@
                         <div class="coluna-1-baixo">
                             <div class="overlay-div-lore">
                                 <h3 class="overlay-lore-titulo">Lore</h3>
-                                <h4 class="overlay-lore">${sentinela.lore} Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste omnis, ab aliquid, laborum deleniti excepturi voluptas, voluptate temporibus placeat dolores odio similique illo hic possimus eos velit quidem! Voluptate, veniam?</h4>
+                                <h4 class="overlay-lore">${sentinela.lore}</h4>
                             </div> 
                         </div>
                     </div>

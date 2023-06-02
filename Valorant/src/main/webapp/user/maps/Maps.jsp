@@ -16,7 +16,7 @@
                 <a href="../../">Home</a>
                 <a href="/agents">Agentes</a>
                 <a href="/armas">Armas</a>
-                <a href="/maps">Mapas</a>
+                <a href="">Mapas</a>
                 <a href="/skins">Skins</a>
             </nav>
     </header>

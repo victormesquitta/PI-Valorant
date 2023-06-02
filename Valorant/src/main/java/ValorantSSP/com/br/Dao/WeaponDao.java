@@ -411,6 +411,62 @@ public class WeaponDao {
         }
     }
 
+    public List<Weapon> findAllMetralhadoras(){
+        String SQL = "SELECT * FROM WEAPON WHERE TYPE = 'metralhadora'";
+
+        try {
+
+            Connection connection = ConnectionPoolConfig.getConnection();
+
+            PreparedStatement preparedStatement = connection.prepareStatement(SQL);
+
+            ResultSet resultSet = preparedStatement.executeQuery();
+
+            List<Weapon> metralhadoras = new ArrayList<>();
+
+            while (resultSet.next()) {
+
+                String fuzID = resultSet.getString("id");
+                String fuzName = resultSet.getString("name");
+                String fuzType = resultSet.getString("type");
+                int fuzCreds = resultSet.getInt("creds");
+                int fuzDamage = resultSet.getInt("damage");
+                int fuzMagazine = resultSet.getInt("magazine");
+                int fuzReserve = resultSet.getInt("reserve");
+                int fuzFireRateSecs = resultSet.getInt("fireRateSecs");
+                String fuzWallPenetration = resultSet.getString("wallPenetration");
+                String fuzPath = resultSet.getString("path");
+
+                Weapon fuzil = new Weapon();
+                fuzil.setId(fuzID);
+                fuzil.setName(fuzName);
+                fuzil.setType(fuzType);
+                fuzil.setCreds(fuzCreds);
+                fuzil.setDamage(fuzDamage);
+                fuzil.setMagazine(fuzMagazine);
+                fuzil.setReserve(fuzReserve);
+                fuzil.setFireRateSecs(fuzFireRateSecs);
+                fuzil.setWallPenetration(fuzWallPenetration);
+                fuzil.setPath(fuzPath);
+                metralhadoras.add(fuzil);
+
+            }
+
+            System.out.println("success in select * weapon where type = 'metralhadora'");
+
+            connection.close();
+
+            return metralhadoras;
+
+        } catch (Exception e) {
+
+            System.out.println("fail in database connection");
+
+            return Collections.emptyList();
+
+        }
+    }
+
     public List<Weapon> findAllFuzil(){
         String SQL = "SELECT * FROM WEAPON WHERE TYPE = 'fuzil'";
 

@@ -14,7 +14,7 @@ import java.util.List;
 public class SkinDao {
     public void createSkin(Skin skin){
 
-        String SQL = "INSERT INTO SKIN (NAME, DATE, PRICE, SEASON, ACT, RECOLORS, PATH) VALUES (?,?,?,?,?,?,?)";
+        String SQL = "INSERT INTO SKIN (NAME, TYPE, DATE, PRICE, SEASON, NAMESEASON, ACT, RECOLORS, PATH, PATHTYPE) VALUES (?,?,?,?,?,?,?,?,?,?)";
 
         try {
 
@@ -23,14 +23,15 @@ public class SkinDao {
             PreparedStatement preparedStatement = connection.prepareStatement(SQL);
 
             preparedStatement.setString(1, skin.getName());
-            preparedStatement.setString(2, skin.getDate());
-            preparedStatement.setInt(3, skin.getSeason());
-            preparedStatement.setInt(4, skin.getAct());
-            preparedStatement.setFloat(5, skin.getPrice());
-            preparedStatement.setInt(6, skin.getRecolors());
-            preparedStatement.setString(7, skin.getPath());
-
-
+            preparedStatement.setString(2, skin.getType());
+            preparedStatement.setString(3, skin.getDate());
+            preparedStatement.setInt(4, skin.getSeason());
+            preparedStatement.setString(5, skin.getNameSeason());
+            preparedStatement.setInt(6, skin.getAct());
+            preparedStatement.setFloat(7, skin.getPrice());
+            preparedStatement.setInt(8, skin.getRecolors());
+            preparedStatement.setString(9, skin.getPath());
+            preparedStatement.setString(10, skin.getPathType());
 
             preparedStatement.execute();
 
@@ -59,18 +60,24 @@ public class SkinDao {
 
                 String skinId = resultSet.getString("id");
                 String skinName = resultSet.getString("name");
+                String skinType = resultSet.getString("type");
                 int skinSeason = resultSet.getInt("season");
+                String skinNameSeason = resultSet.getString("nameSeason");
                 int skinAct = resultSet.getInt("act");
                 String skinDate = resultSet.getString("date");
                 float skinPrice = resultSet.getFloat("price");
                 int skinRecolors = resultSet.getInt("recolors");
                 String skinPath = resultSet.getString("path");
+                String skinPathType = resultSet.getString("pathType");
 
                 Skin skin = new Skin();
                 skin.setId(skinId);
                 skin.setName(skinName);
+                skin.setType(skinType);
                 skin.setPath(skinPath);
+                skin.setPathType(skinPathType);
                 skin.setSeason(skinSeason);
+                skin.setNameSeason(skinNameSeason);
                 skin.setAct(skinAct);
                 skin.setDate(skinDate);
                 skin.setPrice(skinPrice);
@@ -119,7 +126,7 @@ public class SkinDao {
     }
     public void updateSkin(Skin skin) {
 
-        String SQL = "UPDATE SKIN SET NAME = ?, DATE = ?, PRICE = ?, SEASON = ?, ACT = ?, RECOLORS = ?, PATH = ? WHERE ID = ?";
+        String SQL = "UPDATE SKIN SET NAME = ?, TYPE = ?, DATE = ?, PRICE = ?, SEASON = ?, ACT = ?, RECOLORS = ?, PATH = ?, PATHTYPE = ? WHERE ID = ?";
 
         try {
 
@@ -129,13 +136,15 @@ public class SkinDao {
             PreparedStatement preparedStatement = connection.prepareStatement(SQL);
 
             preparedStatement.setString(1, skin.getName());
-            preparedStatement.setString(2, skin.getDate());
-            preparedStatement.setInt(3, skin.getAct());
-            preparedStatement.setInt(4, skin.getRecolors());
-            preparedStatement.setFloat(5, skin.getPrice());
-            preparedStatement.setInt(6, skin.getSeason());
-            preparedStatement.setString(7, skin.getPath());
-            preparedStatement.setString(8, skin.getId());
+            preparedStatement.setString(2, skin.getType());
+            preparedStatement.setString(3, skin.getDate());
+            preparedStatement.setInt(4, skin.getAct());
+            preparedStatement.setInt(5, skin.getRecolors());
+            preparedStatement.setFloat(6, skin.getPrice());
+            preparedStatement.setInt(7, skin.getSeason());
+            preparedStatement.setString(8, skin.getPath());
+            preparedStatement.setString(9, skin.getPathType());
+            preparedStatement.setString(10, skin.getId());
             preparedStatement.execute();
 
             System.out.println("success in update skin");

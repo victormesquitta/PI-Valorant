@@ -341,14 +341,10 @@ c:forEach{
     display: flex;
     justify-content: flex-end;
     font-size: 0.6rem;
-    text-align: justify;
+    text-align: left;
     font-weight: 100;
     text-transform: capitalize;
 }
-
-
-
-
 
 #container-sentinelas{
     padding-bottom: 10%;
