@@ -84,7 +84,7 @@
                             <input type="hidden" id="agent-id" name="agent-id" value="${agent.id}" class="button">
                             <button type="submit" class="button" id="button-delete">Delete</button>
                             <span> | </span>
-                            <a href="/adm/create-agent/CreateAgent.jsp?id=${agent.id}&name=${agent.name}&role=${agent.role}&lore=${agent.lore}&skillq=${agent.skillq}&skille=${agent.skille}&skillc=${agent.skillc}&ultimate=${agent.ultimate}&skillDescriptionq=${agent.skillDescriptionq}&skillDescriptione=${agent.skillDescriptione}&skillDescriptionc=${agent.skillDescriptionc}&ultimateDescription=${agent.ultimateDescription}&ultimatePoints${agent.ultimatePoints}&pathagent${agent.pathagent}&pathrole${agent.pathrole}&pathskillq${agent.pathskillq}&pathskille${agent.pathskille}&pathskillc${agent.pathskillc}&pathultimate${agent.pathultimate}">Update</a>
+                            <a href="/adm/create-agent/CreateAgent.jsp?id=${agent.id}&name=${agent.name}&role=${agent.role}&lore=${agent.lore}&skillq=${agent.skillq}&skille=${agent.skille}&skillc=${agent.skillc}&ultimate=${agent.ultimate}&skillDescriptionq=${agent.skillDescriptionq}&skillDescriptione=${agent.skillDescriptione}&skillDescriptionc=${agent.skillDescriptionc}&ultimateDescription=${agent.ultimateDescription}&ultimatePoints=${agent.ultimatePoints}&pathagent=${agent.pathagent}&pathrole=${agent.pathrole}&pathskillq=${agent.pathskillq}&pathskille=${agent.pathskille}&pathskillc=${agent.pathskillc}&pathultimate=${agent.pathultimate}">Update</a>
                         </form>
                     </td>
                 </tr>

@@ -44,7 +44,7 @@
                             <input type="text" name="agent-role" id="agent-role" value="${param.role}" required>
                         <br>
                         <label>Lore</label>
-                            <textarea name="agent-lore" id="agent-lore" value="${param.lore}" required></textarea>
+                            <textarea name="agent-lore" id="agent-lore" required>${param.lore}</textarea>
                         <br>
                     </div>
                     <div id="coluna-2">
@@ -61,21 +61,21 @@
                         <input type="text" name="agent-ultimate" id="agent-ultimate" value="${param.ultimate}" required>
                         <br>
                         <label>Skill Description 1</label>
-                            <input type="text" name="agent-skilldescriptionq" id="agent-skilldescriptionq" value="${param.descriptionq}" required>
+                            <input type="text" name="agent-skilldescriptionq" id="agent-skilldescriptionq" value="${param.skillDescriptionq}" required>
                         <br>
                     </div>
                     <div id="coluna-3">
                         <label>Skill Description 2</label>
-                            <input type="text" name="agent-skilldescriptione" id="agent-skilldescriptione" value="${param.descriptione}" required>
+                            <input type="text" name="agent-skilldescriptione" id="agent-skilldescriptione" value="${param.skillDescriptione}" required>
                         <br>
                         <label>Skill Description 3</label>
-                            <input type="text" name="agent-skilldescriptionc" id="agent-skilldescriptionc" value="${param.descriptionc}" required>
+                            <input type="text" name="agent-skilldescriptionc" id="agent-skilldescriptionc" value="${param.skillDescriptionc}" required>
                         <br>
                         <label>Ultimate Description</label>
-                            <input type="text" name="agent-ultimatedescription" id="agent-ultimatedescription" value="${param.ultimatedescription}" required>
+                            <input type="text" name="agent-ultimatedescription" id="agent-ultimatedescription" value="${param.ultimateDescription}" required>
                         <br>
                         <label>Ultimate Points</label>
-                            <input type="number" name="agent-ultimatepoints" id="agent-ultimatepoints" value="${param.ultimatepoints}" required>
+                            <input type="number" name="agent-ultimatepoints" id="agent-ultimatepoints" value="${param.ultimatePoints}" required>
                         <br>
                         <label>Path Agent</label>
                             <input type="text" name="agent-pathagent" id="agent-pathagent" value="${param.pathagent}" required>

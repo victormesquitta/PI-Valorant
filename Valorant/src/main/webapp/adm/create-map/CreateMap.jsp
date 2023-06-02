@@ -27,7 +27,7 @@
         </nav>
         <div id="header-down">
             <div id="div-ancora-button">
-                <a href="../../" id="ancora-button"><button id="button_logout">LOG OUT</button></a>
+                <a href="/logout" id="ancora-button"><button id="button_logout">LOG OUT</button></a>
             </div>
         </div>
     </header>
@@ -41,7 +41,7 @@
                             <input type="text" name="map-name" id="map-name" value="${param.name}" required>
                         <br>
                         <label>Description</label>
-                            <input name="map-description" id="map-description" value="${param.description}" required></input>
+                            <textarea name="map-description" id="map-description" required>${param.description}</textarea>
                         <br>
                         <label>BombSites</label>
                             <input type="number" name="map-bombsites" id="map-bombsites" value="${param.bombsites}" required>
