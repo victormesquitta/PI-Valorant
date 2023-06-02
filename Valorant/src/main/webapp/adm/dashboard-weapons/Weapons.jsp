@@ -64,6 +64,8 @@
                         <form action="/delete-weapon" method="post" id="form-delete">
                             <input type="hidden" id="weapon-id" name="weapon-id" value="${weapon.id}" class="button">
                             <button type="submit" class="button" id="button-delete">Delete</button>
+                            <span> | </span>
+                            <a href="/adm/create-weapon/CreateWeapon.jsp?id=${weapon.id}&name=${weapon.name}&type=${weapon.type}">Update</a>
                         </form>
                     </td>
                 </tr>

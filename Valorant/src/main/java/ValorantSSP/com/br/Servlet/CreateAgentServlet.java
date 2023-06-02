@@ -18,6 +18,7 @@ import java.io.IOException;
 
             req.setCharacterEncoding("UTF-8");
 
+            String agentId = req.getParameter("agent-id");
             String agentName = req.getParameter("agent-name");
             String agentRole = req.getParameter("agent-role");
             String agentLore = req.getParameter("agent-lore");
@@ -38,6 +39,7 @@ import java.io.IOException;
             String agentPathUltimate = req.getParameter("agent-pathultimate");
 
             Agent agent = new Agent();
+            agent.setId(agentId);
             agent.setName(agentName);
             agent.setRole(agentRole);
             agent.setLore(agentLore);
@@ -57,7 +59,16 @@ import java.io.IOException;
             agent.setPathskillc(agentPathSkillC);
             agent.setPathultimate(agentPathUltimate);
 
-            new AgentDao().createAgent(agent);
+            AgentDao agentDao = new AgentDao();
+
+            if (agentId.isBlank()) {
+
+                agentDao.createAgent(agent);
+
+            } else {
+
+                agentDao.updateAgent(agent);
+            }
 
             resp.sendRedirect("/agents");
         }

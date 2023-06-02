@@ -38,64 +38,65 @@
                 <div id="colunas">
                     <div id="coluna-1">
                         <label>Name</label>
-                        <input type="text" name="agent-name" id="agent-name" required>
+                        <input type="text" name="agent-name" id="agent-name" value="${param.name}" required>
                         <br>
                         <label>Role</label>
-                            <input type="text" name="agent-role" id="agent-role" required>
+                            <input type="text" name="agent-role" id="agent-role" value="${param.role}" required>
                         <br>
                         <label>Lore</label>
-                            <textarea name="agent-lore" id="agent-lore" required></textarea>
+                            <textarea name="agent-lore" id="agent-lore" value="${param.lore}" required></textarea>
                         <br>
                     </div>
                     <div id="coluna-2">
                         <label>Skill 1</label>
-                            <input type="text" name="agent-skillq" id="agent-skillq" required>
+                            <input type="text" name="agent-skillq" id="agent-skillq" value="${param.skillq}" required>
                         <br>
                         <label>Skill 2</label>
-                            <input type="text" name="agent-skille" id="agent-skille" required>
+                            <input type="text" name="agent-skille" id="agent-skille" value="${param.skille}" required>
                         <br>
                         <label>Skill 3</label>
-                            <input type="text" name="agent-skillc" id="agent-skillc" required>
+                            <input type="text" name="agent-skillc" id="agent-skillc" value="${param.skillc}" required>
                         <br>
                         <label>Ultimate</label>
-                        <input type="text" name="agent-ultimate" id="agent-ultimate" required>
+                        <input type="text" name="agent-ultimate" id="agent-ultimate" value="${param.ultimate}" required>
                         <br>
                         <label>Skill Description 1</label>
-                            <input type="text" name="agent-skilldescriptionq" id="agent-skilldescriptionq" required>
+                            <input type="text" name="agent-skilldescriptionq" id="agent-skilldescriptionq" value="${param.descriptionq}" required>
                         <br>
                     </div>
                     <div id="coluna-3">
                         <label>Skill Description 2</label>
-                            <input type="text" name="agent-skilldescriptione" id="agent-skilldescriptione" required>
+                            <input type="text" name="agent-skilldescriptione" id="agent-skilldescriptione" value="${param.descriptione}" required>
                         <br>
                         <label>Skill Description 3</label>
-                            <input type="text" name="agent-skilldescriptionc" id="agent-skilldescriptionc" required>
+                            <input type="text" name="agent-skilldescriptionc" id="agent-skilldescriptionc" value="${param.descriptionc}" required>
                         <br>
                         <label>Ultimate Description</label>
-                            <input type="text" name="agent-ultimatedescription" id="agent-ultimatedescription" required>
+                            <input type="text" name="agent-ultimatedescription" id="agent-ultimatedescription" value="${param.ultimatedescription}" required>
                         <br>
                         <label>Ultimate Points</label>
-                            <input type="number" name="agent-ultimatepoints" id="agent-ultimatepoints" required>
+                            <input type="number" name="agent-ultimatepoints" id="agent-ultimatepoints" value="${param.ultimatepoints}" required>
                         <br>
                         <label>Path Agent</label>
-                            <input type="text" name="agent-pathagent" id="agent-pathagent" required>
+                            <input type="text" name="agent-pathagent" id="agent-pathagent" value="${param.pathagent}" required>
                         <br>
                     </div>
                     <div id="coluna-4">
                         <label>Path Role</label>
-                            <input type="text" name="agent-pathrole" id="agent-pathrole" required>
+                            <input type="text" name="agent-pathrole" id="agent-pathrole" value="${param.pathrole}" required>
                         <br>
                         <label>Path Skill 1</label>
-                            <input type="text" name="agent-pathskillq" id="agent-pathskillq" required>
+                            <input type="text" name="agent-pathskillq" id="agent-pathskillq" value="${param.pathskillq}" required>
                         <br>
                         <label>Path Skill 2</label>
-                            <input type="text" name="agent-pathskille" id="agent-pathskille" required>
+                            <input type="text" name="agent-pathskille" id="agent-pathskille" value="${param.pathskille}" required>
                         <br>
                         <label>Path Skill 3</label>
-                            <input type="text" name="agent-pathskillc" id="agent-pathskillc" required>
+                            <input type="text" name="agent-pathskillc" id="agent-pathskillc" value="${param.pathskillc}" required>
                         <br>
                         <label>Path Ultimate</label>
-                            <input type="text" name="agent-pathultimate" id="agent-pathultimate" required>
+                            <input type="text" name="agent-pathultimate" id="agent-pathultimate" value="${param.pathultimate}" required>
+                            <input type="hidden" name="agent-id" id="agent-id" value="${param.id}">
                         <br>
                     </div>
                 </div>

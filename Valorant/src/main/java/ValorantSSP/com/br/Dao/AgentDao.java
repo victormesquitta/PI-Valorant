@@ -1,6 +1,7 @@
 package ValorantSSP.com.br.Dao;
 
 import ValorantSSP.com.br.Model.Agent;
+import ValorantSSP.com.br.Model.Map;
 import ValorantSSP.com.br.Model.Weapon;
 import ValorantSSP.com.br.config.ConnectionPoolConfig;
 
@@ -41,6 +42,7 @@ public class AgentDao {
             preparedStatement.setString(16, agent.getPathskille());
             preparedStatement.setString(17, agent.getPathskillc());
             preparedStatement.setString(18, agent.getPathultimate());
+            preparedStatement.setString(19, agent.getId());
             preparedStatement.execute();
 
             connection.close();
@@ -65,7 +67,7 @@ public class AgentDao {
             List<Agent> agents = new ArrayList<>();
             while (resultSet.next()) {
 
-                int agentId = resultSet.getInt("id");
+                String agentId = resultSet.getString("id");
                 String agentName = resultSet.getString("name");
                 String agentRole = resultSet.getString("role");
                 String agentLore = resultSet.getString("lore");
@@ -147,7 +149,7 @@ public class AgentDao {
 
             while (resultSet.next()) {
 
-                int agentId = resultSet.getInt("id");
+                String agentId = resultSet.getString("id");
                 String agentName = resultSet.getString("name");
                 String agentRole = resultSet.getString("role");
                 String agentLore = resultSet.getString("lore");
@@ -222,7 +224,7 @@ public class AgentDao {
 
             while (resultSet.next()) {
 
-                int agentId = resultSet.getInt("id");
+                String agentId = resultSet.getString("id");
                 String agentName = resultSet.getString("name");
                 String agentRole = resultSet.getString("role");
                 String agentLore = resultSet.getString("lore");
@@ -297,7 +299,7 @@ public class AgentDao {
 
             while (resultSet.next()) {
 
-                int agentId = resultSet.getInt("id");
+                String agentId = resultSet.getString("id");
                 String agentName = resultSet.getString("name");
                 String agentRole = resultSet.getString("role");
                 String agentLore = resultSet.getString("lore");
@@ -372,7 +374,8 @@ public class AgentDao {
 
             while (resultSet.next()) {
 
-                int agentId = resultSet.getInt("id");
+
+                String agentId = resultSet.getString("id");
                 String agentName = resultSet.getString("name");
                 String agentRole = resultSet.getString("role");
                 String agentLore = resultSet.getString("lore");
@@ -451,6 +454,50 @@ public class AgentDao {
         } catch (Exception e) {
 
             System.out.println("fail in database connection");
+
+        }
+
+    }
+    public void updateAgent(Agent agent) {
+
+        String SQL = "UPDATE AGENT SET NAME = ?, ROLE = ?, LORE = ?, SKILLQ = ?, SKILLE = ?, SKILLC = ?, ULTIMATE = ?, SKILLDESCRIPTIONQ = ?, SKILLDESCRIPTIONE = ?, SKILLDESCRIPTIONC = ?, ULTIMATEDESCRIPTION = ?, ULTIMATEPOINTS = ?, PATHAGENT = ?, PATHROLE = ?, PATHSKILLQ = ?, PATHSKILLE = ?, PATHSKILLC = ?, PATHULTIMATE = ?  WHERE ID = ?";
+
+        try {
+
+            Connection connection = ConnectionPoolConfig.getConnection();
+            System.out.println("success in database connection");
+
+            PreparedStatement preparedStatement = connection.prepareStatement(SQL);
+
+            preparedStatement.setString(1, agent.getName());
+            preparedStatement.setString(2, agent.getLore());
+            preparedStatement.setString(3, agent.getRole());
+            preparedStatement.setString(4, agent.getSkillc());
+            preparedStatement.setString(5, agent.getSkillq());
+            preparedStatement.setString(6, agent.getSkille());
+            preparedStatement.setString(7, agent.getUltimate());
+            preparedStatement.setString(8, agent.getSkillDescriptionq());
+            preparedStatement.setString(9, agent.getSkillDescriptione());
+            preparedStatement.setString(10, agent.getSkillDescriptionc());
+            preparedStatement.setString(11, agent.getUltimateDescription());
+            preparedStatement.setInt(12, agent.getUltimatePoints());
+            preparedStatement.setString(13, agent.getPathagent());
+            preparedStatement.setString(14, agent.getPathrole());
+            preparedStatement.setString(15, agent.getPathultimate());
+            preparedStatement.setString(16, agent.getPathskillq());
+            preparedStatement.setString(17, agent.getPathskillc());
+            preparedStatement.setString(18, agent.getPathskille());
+            preparedStatement.setString(19, agent.getId());
+            preparedStatement.execute();
+
+            System.out.println("success in update agent");
+
+            connection.close();
+
+        } catch (Exception e) {
+
+            System.out.println("fail in database connection");
+            System.out.println("Error: " + e.getMessage());
 
         }
 

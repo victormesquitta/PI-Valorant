@@ -1,7 +1,7 @@
 package ValorantSSP.com.br.Model;
 
 public class Agent {
-    private int id;
+    private String id;
     private String name;
     private String role;
     private String lore;
@@ -21,11 +21,11 @@ public class Agent {
     private String pathskillc;
     private String pathultimate;
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
