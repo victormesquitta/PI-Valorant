@@ -74,7 +74,15 @@ body{
     flex-direction: column;  
 }
 
-#title{
+.title h1{
+    margin-left: 10%;
+}
+
+.barra{
+    margin-left: 10%;
+}
+
+.title{
     width: 100%;
 }
 
@@ -107,4 +115,16 @@ h1{
 .conteudo img{
     width: 70%;
     border-radius: 45px;
+}
+
+footer{
+    background-color: #191919;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+}
+
+footer h1{
+    color: white;
 }

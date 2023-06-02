@@ -20,7 +20,7 @@
             <a href="">Skins</a>
         </nav>
     </header>
-    <div id="title">
+    <div class="title">
         <h1>COLEÇÕES</h1>
         <img class="barra" src="/user/skins/Images/linha-de-titulo-branca.png">
     </div>
@@ -34,6 +34,9 @@
             
         </c:forEach>
     </div>
+    <footer>
+            <h1>&copy;</h1>
+        </footer>
     
 </body>
 </html>

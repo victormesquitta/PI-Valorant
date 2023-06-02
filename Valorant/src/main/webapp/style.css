@@ -334,11 +334,15 @@ h4{
 } */
 
 footer{
-    background-color: gold;
+    background-color: #191919;
     width: 100%;
     display: flex;
     justify-content: center;
     height: 30vh;
+}
+
+footer h1{
+    color: white;
 }
 
 

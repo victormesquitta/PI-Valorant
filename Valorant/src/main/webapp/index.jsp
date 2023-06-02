@@ -75,6 +75,7 @@
             </div>
         </div>
     </div>
+
     <footer>
         <h1>&copy;</h1>
     </footer>

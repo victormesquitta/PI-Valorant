@@ -194,8 +194,8 @@
         </c:forEach>
     </div>
     <footer>
-        a
-    </footer>
+            <h1>&copy;</h1>
+        </footer>
     <script src="user/agents/script.js"></script>
 </body>
 </html>

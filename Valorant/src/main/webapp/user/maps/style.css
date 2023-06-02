@@ -204,7 +204,8 @@ p{
 }
 
 footer{
-    background-color: gold;
+    font-color: white
+    background-color: #191919;
     width: 100%;
     display: flex;
     justify-content: center;

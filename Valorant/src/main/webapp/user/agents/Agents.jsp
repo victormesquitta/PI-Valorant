@@ -288,7 +288,7 @@
         </c:forEach>
     </div>
     <footer>
-        dsadsa
+        <h1>&copy;</h1>
     </footer>
     <script src="user/agents/script.js"></script>
 <body>
