@@ -15,7 +15,7 @@ public class WeaponDao {
 
     public void createWeapon(Weapon weapon){
 
-        String SQL = "INSERT INTO WEAPON (NAME, TYPE, CREDS, DAMAGE, MAGAZINE, RESERVE, FIRERATESECS, WALLPENETRATION, PATH) VALUES (?,?,?,?,?,?,?,?,?)";
+        String SQL = "INSERT INTO WEAPON (NAME, TYPE, CREDS, DAMAGESHORTBODY, DAMAGEMEDIUMBODY, DAMAGELONGBODY, DAMAGESHORTHEAD, DAMAGEMEDIUMHEAD, DAMAGELONGHEAD, DAMAGESHORTLEG, DAMAGEMEDIUMLEG, DAMAGELONGLEG, MAGAZINE, RESERVE, FIRERATESECS, WALLPENETRATION, PATH) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
 
         try {
 
@@ -26,12 +26,20 @@ public class WeaponDao {
             preparedStatement.setString(1, weapon.getName());
             preparedStatement.setString(2, weapon.getType());
             preparedStatement.setInt(3, weapon.getCreds());
-            preparedStatement.setInt(4, weapon.getDamage());
-            preparedStatement.setInt(5, weapon.getMagazine());
-            preparedStatement.setInt(6, weapon.getReserve());
-            preparedStatement.setInt(7,  weapon.getFireRateSecs());
-            preparedStatement.setString(8, weapon.getWallPenetration());
-            preparedStatement.setString(9, weapon.getPath());
+            preparedStatement.setInt(4, weapon.getDamageShortHead());
+            preparedStatement.setInt(5, weapon.getDamageMediumHead());
+            preparedStatement.setInt(6, weapon.getDamageLongHead());
+            preparedStatement.setInt(7, weapon.getDamageShortBody());
+            preparedStatement.setInt(8, weapon.getDamageMediumBody());
+            preparedStatement.setInt(9, weapon.getDamageLongBody());
+            preparedStatement.setInt(10, weapon.getDamageShortLeg());
+            preparedStatement.setInt(11, weapon.getDamageMediumLeg());
+            preparedStatement.setInt(12, weapon.getDamageLongLeg());
+            preparedStatement.setInt(13, weapon.getMagazine());
+            preparedStatement.setInt(14, weapon.getReserve());
+            preparedStatement.setInt(15,  weapon.getFireRateSecs());
+            preparedStatement.setString(16, weapon.getWallPenetration());
+            preparedStatement.setString(17, weapon.getPath());
 
 
             preparedStatement.execute();
@@ -62,7 +70,15 @@ public class WeaponDao {
                 String weaponName = resultSet.getString("name");
                 String weaponType = resultSet.getString("type");
                 int weaponCreds = resultSet.getInt("creds");
-                int weaponDamage = resultSet.getInt("damage");
+                int weaponDamageShortHead = resultSet.getInt("damageShortHead");
+                int weaponDamageMediumHead = resultSet.getInt("damageMediumHead");
+                int weaponDamageLongHead = resultSet.getInt("damageLongHead");
+                int weaponDamageShortBody = resultSet.getInt("damageShortBody");
+                int weaponDamageMediumBody = resultSet.getInt("damageMediumBody");
+                int weaponDamageLongBody = resultSet.getInt("damageLongBody");
+                int weaponDamageShortLeg = resultSet.getInt("damageShortLeg");
+                int weaponDamageMediumLeg = resultSet.getInt("damageMediumLeg");
+                int weaponDamageLongLeg = resultSet.getInt("damageLongLeg");
                 int weaponMagazine = resultSet.getInt("magazine");
                 int weaponReserve = resultSet.getInt("reserve");
                 int weaponFireRateSecs = resultSet.getInt("fireRateSecs");
@@ -74,7 +90,15 @@ public class WeaponDao {
                 weapon.setName(weaponName);
                 weapon.setType(weaponType);
                 weapon.setCreds(weaponCreds);
-                weapon.setDamage(weaponDamage);
+                weapon.setDamageShortHead(weaponDamageShortHead);
+                weapon.setDamageMediumHead(weaponDamageMediumHead);
+                weapon.setDamageLongHead(weaponDamageLongHead);
+                weapon.setDamageShortBody(weaponDamageShortBody);
+                weapon.setDamageMediumBody(weaponDamageMediumBody);
+                weapon.setDamageLongBody(weaponDamageLongBody);
+                weapon.setDamageShortLeg(weaponDamageShortLeg);
+                weapon.setDamageMediumLeg(weaponDamageMediumLeg);
+                weapon.setDamageLongLeg(weaponDamageLongLeg);
                 weapon.setMagazine(weaponMagazine);
                 weapon.setReserve(weaponReserve);
                 weapon.setFireRateSecs(weaponFireRateSecs);
@@ -118,7 +142,15 @@ public class WeaponDao {
                 String pistolName = resultSet.getString("name");
                 String pistolType = resultSet.getString("type");
                 int pistolCreds = resultSet.getInt("creds");
-                int pistolDamage = resultSet.getInt("damage");
+                int pistolDamageLongHead = resultSet.getInt("damageLongHead");
+                int pistolDamageMediumHead = resultSet.getInt("damageLongHead");
+                int pistolDamageShortHead = resultSet.getInt("damageLongHead");
+                int pistolDamageShortBody = resultSet.getInt("damageShortBody");
+                int pistolDamageMediumBody = resultSet.getInt("damageMediumBody");
+                int pistolDamageLongBody = resultSet.getInt("damageLongBody");
+                int pistolDamageShortLeg = resultSet.getInt("damageShortLeg");
+                int pistolDamageMediumLeg = resultSet.getInt("damageMediumLeg");
+                int pistolDamageLongLeg = resultSet.getInt("damageLongLeg");
                 int pistolMagazine = resultSet.getInt("magazine");
                 int pistolReserve = resultSet.getInt("reserve");
                 int pistolFireRateSecs = resultSet.getInt("fireRateSecs");
@@ -130,7 +162,15 @@ public class WeaponDao {
                 pistol.setName(pistolName);
                 pistol.setType(pistolType);
                 pistol.setCreds(pistolCreds);
-                pistol.setDamage(pistolDamage);
+                pistol.setDamageLongHead(pistolDamageLongHead);
+                pistol.setDamageMediumHead(pistolDamageMediumHead);
+                pistol.setDamageShortHead(pistolDamageShortHead);
+                pistol.setDamageLongBody(pistolDamageLongBody);
+                pistol.setDamageMediumBody(pistolDamageMediumBody);
+                pistol.setDamageShortBody(pistolDamageShortBody);
+                pistol.setDamageLongLeg(pistolDamageLongLeg);
+                pistol.setDamageMediumLeg(pistolDamageMediumLeg);
+                pistol.setDamageShortLeg(pistolDamageShortLeg);
                 pistol.setMagazine(pistolMagazine);
                 pistol.setReserve(pistolReserve);
                 pistol.setFireRateSecs(pistolFireRateSecs);
@@ -174,7 +214,15 @@ public class WeaponDao {
                 String subName = resultSet.getString("name");
                 String subType = resultSet.getString("type");
                 int subCreds = resultSet.getInt("creds");
-                int subDamage = resultSet.getInt("damage");
+                int subDamageLongHead = resultSet.getInt("damageLongHead");
+                int subDamageMediumHead = resultSet.getInt("damageLongHead");
+                int subDamageShortHead = resultSet.getInt("damageLongHead");
+                int subDamageShortBody = resultSet.getInt("damageShortBody");
+                int subDamageMediumBody = resultSet.getInt("damageMediumBody");
+                int subDamageLongBody = resultSet.getInt("damageLongBody");
+                int subDamageShortLeg = resultSet.getInt("damageShortLeg");
+                int subDamageMediumLeg = resultSet.getInt("damageMediumLeg");
+                int subDamageLongLeg = resultSet.getInt("damageLongLeg");
                 int subMagazine = resultSet.getInt("magazine");
                 int subReserve = resultSet.getInt("reserve");
                 int subFireRateSecs = resultSet.getInt("fireRateSecs");
@@ -186,7 +234,15 @@ public class WeaponDao {
                 sub.setName(subName);
                 sub.setType(subType);
                 sub.setCreds(subCreds);
-                sub.setDamage(subDamage);
+                sub.setDamageLongHead(subDamageLongHead);
+                sub.setDamageMediumHead(subDamageMediumHead);
+                sub.setDamageShortHead(subDamageShortHead);
+                sub.setDamageLongBody(subDamageLongBody);
+                sub.setDamageMediumBody(subDamageMediumBody);
+                sub.setDamageShortBody(subDamageShortBody);
+                sub.setDamageLongLeg(subDamageLongLeg);
+                sub.setDamageMediumLeg(subDamageMediumLeg);
+                sub.setDamageShortLeg(subDamageShortLeg);
                 sub.setMagazine(subMagazine);
                 sub.setReserve(subReserve);
                 sub.setFireRateSecs(subFireRateSecs);
@@ -230,7 +286,15 @@ public class WeaponDao {
                 String fuziName = resultSet.getString("name");
                 String fuziType = resultSet.getString("type");
                 int fuziCreds = resultSet.getInt("creds");
-                int fuziDamage = resultSet.getInt("damage");
+                int fuziDamageLongHead = resultSet.getInt("damageLongHead");
+                int fuziDamageMediumHead = resultSet.getInt("damageLongHead");
+                int fuziDamageShortHead = resultSet.getInt("damageLongHead");
+                int fuziDamageShortBody = resultSet.getInt("damageShortBody");
+                int fuziDamageMediumBody = resultSet.getInt("damageMediumBody");
+                int fuziDamageLongBody = resultSet.getInt("damageLongBody");
+                int fuziDamageShortLeg = resultSet.getInt("damageShortLeg");
+                int fuziDamageMediumLeg = resultSet.getInt("damageMediumLeg");
+                int fuziDamageLongLeg = resultSet.getInt("damageLongLeg");
                 int fuziMagazine = resultSet.getInt("magazine");
                 int fuziReserve = resultSet.getInt("reserve");
                 int fuziFireRateSecs = resultSet.getInt("fireRateSecs");
@@ -242,7 +306,15 @@ public class WeaponDao {
                 fuzilP.setName(fuziName);
                 fuzilP.setType(fuziType);
                 fuzilP.setCreds(fuziCreds);
-                fuzilP.setDamage(fuziDamage);
+                fuzilP.setDamageLongHead(fuziDamageLongHead);
+                fuzilP.setDamageMediumHead(fuziDamageMediumHead);
+                fuzilP.setDamageShortHead(fuziDamageShortHead);
+                fuzilP.setDamageLongBody(fuziDamageLongBody);
+                fuzilP.setDamageMediumBody(fuziDamageMediumBody);
+                fuzilP.setDamageShortBody(fuziDamageShortBody);
+                fuzilP.setDamageLongLeg(fuziDamageLongLeg);
+                fuzilP.setDamageMediumLeg(fuziDamageMediumLeg);
+                fuzilP.setDamageShortLeg(fuziDamageShortLeg);
                 fuzilP.setMagazine(fuziMagazine);
                 fuzilP.setReserve(fuziReserve);
                 fuzilP.setFireRateSecs(fuziFireRateSecs);
@@ -286,7 +358,15 @@ public class WeaponDao {
                 String escName = resultSet.getString("name");
                 String escType = resultSet.getString("type");
                 int escCreds = resultSet.getInt("creds");
-                int escDamage = resultSet.getInt("damage");
+                int escDamageLongHead = resultSet.getInt("damageLongHead");
+                int escDamageMediumHead = resultSet.getInt("damageLongHead");
+                int escDamageShortHead = resultSet.getInt("damageLongHead");
+                int escDamageShortBody = resultSet.getInt("damageShortBody");
+                int escDamageMediumBody = resultSet.getInt("damageMediumBody");
+                int escDamageLongBody = resultSet.getInt("damageLongBody");
+                int escDamageShortLeg = resultSet.getInt("damageShortLeg");
+                int escDamageMediumLeg = resultSet.getInt("damageMediumLeg");
+                int escDamageLongLeg = resultSet.getInt("damageLongLeg");
                 int escMagazine = resultSet.getInt("magazine");
                 int escReserve = resultSet.getInt("reserve");
                 int escFireRateSecs = resultSet.getInt("fireRateSecs");
@@ -298,7 +378,15 @@ public class WeaponDao {
                 escopeta.setName(escName);
                 escopeta.setType(escType);
                 escopeta.setCreds(escCreds);
-                escopeta.setDamage(escDamage);
+                escopeta.setDamageLongHead(escDamageLongHead);
+                escopeta.setDamageMediumHead(escDamageMediumHead);
+                escopeta.setDamageShortHead(escDamageShortHead);
+                escopeta.setDamageLongBody(escDamageLongBody);
+                escopeta.setDamageMediumBody(escDamageMediumBody);
+                escopeta.setDamageShortBody(escDamageShortBody);
+                escopeta.setDamageLongLeg(escDamageLongLeg);
+                escopeta.setDamageMediumLeg(escDamageMediumLeg);
+                escopeta.setDamageShortLeg(escDamageShortLeg);
                 escopeta.setMagazine(escMagazine);
                 escopeta.setReserve(escReserve);
                 escopeta.setFireRateSecs(escFireRateSecs);
@@ -342,7 +430,15 @@ public class WeaponDao {
                 String fuzName = resultSet.getString("name");
                 String fuzType = resultSet.getString("type");
                 int fuzCreds = resultSet.getInt("creds");
-                int fuzDamage = resultSet.getInt("damage");
+                int fuzDamageLongHead = resultSet.getInt("damageLongHead");
+                int fuzDamageMediumHead = resultSet.getInt("damageLongHead");
+                int fuzDamageShortHead = resultSet.getInt("damageLongHead");
+                int fuzDamageShortBody = resultSet.getInt("damageShortBody");
+                int fuzDamageMediumBody = resultSet.getInt("damageMediumBody");
+                int fuzDamageLongBody = resultSet.getInt("damageLongBody");
+                int fuzDamageShortLeg = resultSet.getInt("damageShortLeg");
+                int fuzDamageMediumLeg = resultSet.getInt("damageMediumLeg");
+                int fuzDamageLongLeg = resultSet.getInt("damageLongLeg");
                 int fuzMagazine = resultSet.getInt("magazine");
                 int fuzReserve = resultSet.getInt("reserve");
                 int fuzFireRateSecs = resultSet.getInt("fireRateSecs");
@@ -354,7 +450,15 @@ public class WeaponDao {
                 fuzil.setName(fuzName);
                 fuzil.setType(fuzType);
                 fuzil.setCreds(fuzCreds);
-                fuzil.setDamage(fuzDamage);
+                fuzil.setDamageLongHead(fuzDamageLongHead);
+                fuzil.setDamageMediumHead(fuzDamageMediumHead);
+                fuzil.setDamageShortHead(fuzDamageShortHead);
+                fuzil.setDamageLongBody(fuzDamageLongBody);
+                fuzil.setDamageMediumBody(fuzDamageMediumBody);
+                fuzil.setDamageShortBody(fuzDamageShortBody);
+                fuzil.setDamageLongLeg(fuzDamageLongLeg);
+                fuzil.setDamageMediumLeg(fuzDamageMediumLeg);
+                fuzil.setDamageShortLeg(fuzDamageShortLeg);
                 fuzil.setMagazine(fuzMagazine);
                 fuzil.setReserve(fuzReserve);
                 fuzil.setFireRateSecs(fuzFireRateSecs);
@@ -401,7 +505,7 @@ public class WeaponDao {
     }
     public void updateWeapon(Weapon weapon) {
 
-        String SQL = "UPDATE WEAPON SET NAME = ?, TYPE = ? , CREDS = ? , DAMAGE = ? , MAGAZINE = ?, RESERVE = ?, FIRERATESECS = ?, WALLPENETRATION = ?, PATH = ? WHERE ID = ?";
+        String SQL = "UPDATE WEAPON SET NAME = ?, TYPE = ?, CREDS = ?, DAMAGESHORTBODY = ?, DAMAGEMEDIUMBODY = ?, DAMAGELONGBODY = ?, DAMAGESHORTHEAD = ?, DAMAGEMEDIUMHEAD = ?, DAMAGELONGHEAD = ?, DAMAGESHORTLEG = ?, DAMAGEMEDIUMLEG = ?, DAMAGELONGLEG = ?, MAGAZINE = ?, RESERVE = ?, FIRERATESECS = ?, WALLPENETRATION = ?, PATH = ? WHERE ID = ?";
 
         try {
 
@@ -413,13 +517,21 @@ public class WeaponDao {
             preparedStatement.setString(1, weapon.getName());
             preparedStatement.setString(2, weapon.getType());
             preparedStatement.setInt(3, weapon.getCreds());
-            preparedStatement.setString(4, weapon.getWallPenetration());
-            preparedStatement.setInt(5, weapon.getDamage());
-            preparedStatement.setInt(6, weapon.getMagazine());
-            preparedStatement.setInt(7, weapon.getReserve());
-            preparedStatement.setInt(8, weapon.getFireRateSecs());
-            preparedStatement.setString(9, weapon.getPath());
-            preparedStatement.setString(10, weapon.getId());
+            preparedStatement.setInt(4, weapon.getDamageShortHead());
+            preparedStatement.setInt(5, weapon.getDamageMediumHead());
+            preparedStatement.setInt(6, weapon.getDamageLongHead());
+            preparedStatement.setInt(7, weapon.getDamageShortBody());
+            preparedStatement.setInt(8, weapon.getDamageMediumBody());
+            preparedStatement.setInt(9, weapon.getDamageLongBody());
+            preparedStatement.setInt(10, weapon.getDamageShortLeg());
+            preparedStatement.setInt(11, weapon.getDamageMediumLeg());
+            preparedStatement.setInt(12, weapon.getDamageLongLeg());
+            preparedStatement.setInt(13, weapon.getMagazine());
+            preparedStatement.setInt(14, weapon.getReserve());
+            preparedStatement.setInt(15, weapon.getFireRateSecs());
+            preparedStatement.setString(16, weapon.getPath());
+            preparedStatement.setString(17, weapon.getId());
+            preparedStatement.setString(18, weapon.getWallPenetration());
             preparedStatement.execute();
 
             System.out.println("success in update weapon");
