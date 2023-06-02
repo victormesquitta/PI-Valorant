@@ -92,20 +92,25 @@
             </div>
             <div class="overlay" id="myOverlay2">
                 <div class="overlay-item">
-                    <div id="overlay-coluna-1">
-                        <h1 id="overlay-name">${controlador.name}</h1>
-                        <img class="images-overlay" src=${controlador.pathagent}>
-                        <div>
-                            <img src="${controlador.pathrole}" alt="">
-                            <h2 id="overlay-role">${controlador.role}</h2>
+                    <div class="overlay-coluna-1">
+                        <div class="coluna-1-cima">
+                            <h1 class="overlay-name">${controlador.name}</h1>
+                            <img class="image-overlay" src=${controlador.pathagent}>
+                            <div class="overlay-div-role">
+                                <img class="overlay-img-role" src="${controlador.pathrole}" alt="">
+                                <h2 class="overlay-role">${controlador.role}</h2>
+                            </div>
+                            <h4 class="overlay-ultimatepoints">Ultimate Points: ${controlador.ultimatePoints} Points</h4>
                         </div>
-                        <h4 id="overlay-ultimatepoints">Ultimate Points: ${controlador.ultimatePoints} Points</h4>
-                        <h3 id="overlay-lore-titulo">Lore</h3>
-                        <h4 id="overlay-lore">${controlador.lore}</h4>
-                        <button onclick="closeOverlay(2)">Fechar</button>
+                        <div class="coluna-1-baixo">
+                            <div class="overlay-div-lore">
+                                <h3 class="overlay-lore-titulo">Lore</h3>
+                                <h4 class="overlay-lore">${controlador.lore}</h4>
+                            </div> 
+                        </div>  
                     </div>
-                    <div id="overlay-coluna-2">
-
+                    <div class="overlay-coluna-2">
+                        <button class="overlay-button" onclick="closeOverlay(2)">Fechar</button>
                     </div>
                 </div>
             </div>
@@ -113,7 +118,7 @@
     </div>
 
     <h1 class="subtitle">Sentinelas</h1>
-    <div class="container">
+    <div class="container" id="container-sentinelas">
         <c:forEach var = "sentinela" items="${sentinelas}">
             <div class="box" onclick="openOverlay(3)">
                 <img class="images" src=${sentinela.pathagent}>
