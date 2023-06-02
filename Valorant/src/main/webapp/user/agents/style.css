@@ -315,14 +315,25 @@ c:forEach{
     justify-content: space-between;
 }
 
+.div-img-skill{
+    display: flex;
+    justify-content: center;
+    /* background-color: gold; */
+    width: 30%;
+}
+
 .nome-skill1, .nome-skill2, .nome-skill3, .nome-ultimate{
     display: flex;
     justify-content: center;
     width: 25%;
+    text-transform: capitalize;
+    font-size: 1rem;
 }
 
 .img-skill1, .img-skill2, .img-skill3, .img-ultimate{
-    width: 10%;
+    display: flex;
+    justify-content: center;
+    width: 30%;
 }
 
 .descricao-skill1, .descricao-skill2, .descricao-skill3, .descricao-ultimate{
@@ -332,7 +343,7 @@ c:forEach{
     font-size: 0.6rem;
     text-align: justify;
     font-weight: 100;
-
+    text-transform: capitalize;
 }
 
 

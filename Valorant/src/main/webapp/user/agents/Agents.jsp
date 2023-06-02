@@ -45,7 +45,7 @@
                         <div class="coluna-1-baixo">
                             <div class="overlay-div-lore">
                                 <h3 class="overlay-lore-titulo">Lore</h3>
-                                <h4 class="overlay-lore">${duelista.lore} Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste omnis, ab aliquid, laborum deleniti excepturi voluptas, voluptate temporibus placeat dolores odio similique illo hic possimus eos velit quidem! Voluptate, veniam?</h4>
+                                <h4 class="overlay-lore">${duelista.lore}</h4>
                             </div> 
                         </div>
                     </div>
@@ -56,22 +56,30 @@
                         <div class="skills">
                             <div class="skill1">
                                 <h3 class="nome-skill1">${duelista.skillq}</h3>
-                                <img class="img-skill1" src="${duelista.pathskillq}" alt="">
+                                <div class="div-img-skill">
+                                    <img class="img-skill1" src="${duelista.pathskillq}" alt="">
+                                </div>
                                 <h4 class="descricao-skill1">${duelista.skillDescriptionq}</h4>
                             </div>
                             <div class="skill2">
                                 <h3 class="nome-skill2">${duelista.skille}</h3>
-                                <img class="img-skill2" src="${duelista.pathskille}" alt="">
+                                <div class="div-img-skill">
+                                    <img class="img-skill2" src="${duelista.pathskille}" alt="">
+                                </div>
                                 <h4 class="descricao-skill2">${duelista.skillDescriptione}</h4>
                             </div>
                             <div class="skill3">
                                 <h3 class="nome-skill3">${duelista.skillc}</h3>
-                                <img class="img-skill3" src="${duelista.pathskillc}" alt="">
+                                <div class="div-img-skill">
+                                    <img class="img-skill3" src="${duelista.pathskillc}" alt="">
+                                </div>
                                 <h4 class="descricao-skill3">${duelista.skillDescriptionc}</h4>
                             </div>
                             <div class="ultimate">
                                 <h3 class="nome-ultimate">${duelista.ultimate}</h3>
-                                <img class="img-ultimate" src="${duelista.pathultimate}" alt="">
+                                <div class="div-img-skill">
+                                    <img class="img-ultimate" src="${duelista.pathultimate}" alt="">
+                                </div>
                                 <h4 class="descricao-ultimate">${duelista.ultimateDescription}</h4>
                             </div>
                         </div>
@@ -115,22 +123,30 @@
                         <div class="skills">
                             <div class="skill1">
                                 <h3 class="nome-skill1">${iniciador.skillq}</h3>
-                                <img class="img-skill1" src="${iniciador.pathskillq}" alt="">
+                                <div class="div-img-skill">
+                                    <img class="img-skill1" src="${iniciador.pathskillq}" alt="">
+                                </div>
                                 <h4 class="descricao-skill1">${iniciador.skillDescriptionq}</h4>
                             </div>
                             <div class="skill2">
                                 <h3 class="nome-skill2">${iniciador.skille}</h3>
-                                <img class="img-skill2" src="${iniciador.pathskille}" alt="">
+                                <div class="div-img-skill">
+                                    <img class="img-skill2" src="${iniciador.pathskille}" alt="">
+                                </div>
                                 <h4 class="descricao-skill2">${iniciador.skillDescriptione}</h4>
                             </div>
                             <div class="skill3">
                                 <h3 class="nome-skill3">${iniciador.skillc}</h3>
-                                <img class="img-skill3" src="${iniciador.pathskillc}" alt="">
+                                <div class="div-img-skill">
+                                    <img class="img-skill3" src="${iniciador.pathskillc}" alt="">
+                                </div>
                                 <h4 class="descricao-skill3">${iniciador.skillDescriptionc}</h4>
                             </div>
                             <div class="ultimate">
                                 <h3 class="nome-ultimate">${iniciador.ultimate}</h3>
-                                <img class="img-ultimate" src="${iniciador.pathultimate}" alt="">
+                                <div class="div-img-skill">
+                                    <img class="img-ultimate" src="${iniciador.pathultimate}" alt="">
+                                </div>
                                 <h4 class="descricao-ultimate">${iniciador.ultimateDescription}</h4>
                             </div>
                         </div>
@@ -173,22 +189,30 @@
                         <div class="skills">
                             <div class="skill1">
                                 <h3 class="nome-skill1">${controlador.skillq}</h3>
-                                <img class="img-skill1" src="${controlador.pathskillq}" alt="">
+                                <div class="div-img-skill">
+                                    <img class="img-skill1" src="${controlador.pathskillq}" alt="">
+                                </div>
                                 <h4 class="descricao-skill1">${controlador.skillDescriptionq}</h4>
                             </div>
                             <div class="skill2">
                                 <h3 class="nome-skill2">${controlador.skille}</h3>
-                                <img class="img-skill2" src="${controlador.pathskille}" alt="">
+                                <div class="div-img-skill">
+                                    <img class="img-skill2" src="${controlador.pathskille}" alt="">
+                                </div>
                                 <h4 class="descricao-skill2">${controlador.skillDescriptione}</h4>
                             </div>
                             <div class="skill3">
                                 <h3 class="nome-skill3">${controlador.skillc}</h3>
-                                <img class="img-skill3" src="${controlador.pathskillc}" alt="">
+                                <div class="div-img-skill">
+                                    <img class="img-skill3" src="${controlador.pathskillc}" alt="">
+                                </div>
                                 <h4 class="descricao-skill3">${controlador.skillDescriptionc}</h4>
                             </div>
                             <div class="ultimate">
                                 <h3 class="nome-ultimate">${controlador.ultimate}</h3>
-                                <img class="img-ultimate" src="${controlador.pathultimate}" alt="">
+                                <div class="div-img-skill">
+                                    <img class="img-ultimate" src="${controlador.pathultimate}" alt="">
+                                </div>
                                 <h4 class="descricao-ultimate">${controlador.ultimateDescription}</h4>
                             </div>
                         </div>
@@ -231,22 +255,30 @@
                         <div class="skills">
                             <div class="skill1">
                                 <h3 class="nome-skill1">${sentinela.skillq}</h3>
-                                <img class="img-skill1" src="${sentinela.pathskillq}" alt="">
+                                <div class="div-img-skill">
+                                    <img class="img-skill1" src="${sentinela.pathskillq}" alt="">
+                                </div>
                                 <h4 class="descricao-skill1">${sentinela.skillDescriptionq}</h4>
                             </div>
                             <div class="skill2">
                                 <h3 class="nome-skill2">${sentinela.skille}</h3>
-                                <img class="img-skill2" src="${sentinela.pathskille}" alt="">
+                                <div class="div-img-skill">
+                                    <img class="img-skill2" src="${sentinela.pathskille}" alt="">
+                                </div>
                                 <h4 class="descricao-skill2">${sentinela.skillDescriptione}</h4>
                             </div>
                             <div class="skill3">
                                 <h3 class="nome-skill3">${sentinela.skillc}</h3>
-                                <img class="img-skill3" src="${sentinela.pathskillc}" alt="">
+                                <div class="div-img-skill">
+                                    <img class="img-skill3" src="${sentinela.pathskillc}" alt="">
+                                </div>
                                 <h4 class="descricao-skill3">${sentinela.skillDescriptionc}</h4>
                             </div>
                             <div class="ultimate">
                                 <h3 class="nome-ultimate">${sentinela.ultimate}</h3>
-                                <img class="img-ultimate" src="${sentinela.pathultimate}" alt="">
+                                <div class="div-img-skill">
+                                    <img class="img-ultimate" src="${sentinela.pathultimate}" alt="">
+                                </div>
                                 <h4 class="descricao-ultimate">${sentinela.ultimateDescription}</h4>
                             </div>
                         </div>
