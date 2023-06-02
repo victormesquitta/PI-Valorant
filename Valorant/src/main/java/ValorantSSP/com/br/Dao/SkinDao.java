@@ -117,4 +117,37 @@ public class SkinDao {
         }
 
     }
+    public void updateSkin(Skin skin) {
+
+        String SQL = "UPDATE SKIN SET NAME = ?, DATE = ?, PRICE = ?, SEASON = ?, ACT = ?, RECOLORS = ?, PATH = ? WHERE ID = ?";
+
+        try {
+
+            Connection connection = ConnectionPoolConfig.getConnection();
+            System.out.println("success in database connection");
+
+            PreparedStatement preparedStatement = connection.prepareStatement(SQL);
+
+            preparedStatement.setString(1, skin.getName());
+            preparedStatement.setString(2, skin.getDate());
+            preparedStatement.setInt(3, skin.getAct());
+            preparedStatement.setInt(4, skin.getRecolors());
+            preparedStatement.setFloat(5, skin.getPrice());
+            preparedStatement.setInt(6, skin.getSeason());
+            preparedStatement.setString(7, skin.getPath());
+            preparedStatement.setString(8, skin.getId());
+            preparedStatement.execute();
+
+            System.out.println("success in update skin");
+
+            connection.close();
+
+        } catch (Exception e) {
+
+            System.out.println("fail in database connection");
+            System.out.println("Error: " + e.getMessage());
+
+        }
+
+    }
 }

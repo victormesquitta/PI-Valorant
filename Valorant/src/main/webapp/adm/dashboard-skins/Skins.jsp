@@ -62,6 +62,7 @@
                         <form action="/delete-skin" method="post" id="form-delete">
                         <input type="hidden" id="skin-id" name="skin-id" value="${skin.id}" class="button">
                         <button type="submit" class="button" id="button-delete">Delete</button>
+                        <a href="/adm/create-skin/CreateSkin.jsp?id=${skin.id}&name=${skin.name}&season=${skin.season}&act=${skin.act}&date=${skin.date}&price=${skin.price}&recolors=${skin.recolors}&path=${skin.path}">Update</a>
                     </form>
                 </td>
             </tr>

@@ -38,27 +38,28 @@
                 <div id="colunas">
                     <div id="coluna-1">
                         <label>Name</label>
-                        <input type="text" name="skin-name" id="skin-name" required>
+                        <input type="text" name="skin-name" id="skin-name" value="${param.name}"   required>
                         <br>
                         <label>Season</label>
-                            <input type="number" name="skin-season" id="skin-season" required>
+                            <input type="number" name="skin-season" id="skin-season" value="${param.season}"  required>
                         <br>
                         <label>Act</label>
-                            <input type="number" name="skin-act" id="skin-act" required>
+                            <input type="number" name="skin-act" id="skin-act" value="${param.act}"  required>
                         <br>
                         <label>Date</label>
-                            <input type="date" name="skin-date" id="skin-date" required>
+                            <input type="date" name="skin-date" id="skin-date" value="${param.date}"  required>
                         <br>
                     </div>
                     <div id="coluna-2">
                         <label>Price</label>
-                            <input type="number" name="skin-price" id="skin-price" required>
+                            <input type="number" name="skin-price" id="skin-price" value="${param.price}"  required>
                         <br>
                         <label>Recolors</label>
-                            <input type="number" name="skin-recolors" id="skin-recolors" required>
+                            <input type="number" name="skin-recolors" id="skin-recolors" value="${param.recolors}"  required>
                         <br>
                         <label>Path</label>
-                            <input type="text" name="skin-path" id="skin-path" required>
+                            <input type="text" name="skin-path" id="skin-path" value="${param.path}"  required>
+                            <input type="hidden" name="skin-id" id="skin-id" value="${param.id}">
                         <br>
                     </div>
                 </div>

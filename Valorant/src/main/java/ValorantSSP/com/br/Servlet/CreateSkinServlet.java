@@ -16,7 +16,7 @@ public class CreateSkinServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         req.setCharacterEncoding("UTF-8");
-
+        String skinId = req.getParameter("skin-id");
         String skinName = req.getParameter("skin-name");
         String skinDate = req.getParameter("skin-date");
         int skinSeason = Integer.parseInt(req.getParameter("skin-season"));
@@ -27,6 +27,8 @@ public class CreateSkinServlet extends HttpServlet {
 
 
         Skin skin = new Skin();
+
+        skin.setId(skinId);
         skin.setName(skinName);
         skin.setDate(skinDate);
         skin.setSeason(skinSeason);
@@ -36,7 +38,16 @@ public class CreateSkinServlet extends HttpServlet {
         skin.setPath(skinPath);
 
 
-        new SkinDao().createSkin(skin);
+        SkinDao skinDao = new SkinDao();
+
+        if (skinId.isBlank()) {
+
+            skinDao.createSkin(skin);
+
+        } else {
+
+            skinDao.updateSkin(skin);
+        }
 
         resp.sendRedirect("/skins");
 
