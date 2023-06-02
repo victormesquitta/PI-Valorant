@@ -29,6 +29,7 @@ public class CreateSkinServlet extends HttpServlet {
         String skinType = req.getParameter("skin-type");
         String skinDate = req.getParameter("skin-date");
         int skinSeason = Integer.parseInt(req.getParameter("skin-season"));
+        String skinNameSeason = req.getParameter("skin-nameSeason");
         int skinAct = Integer.parseInt(req.getParameter("skin-act"));
         float skinPrice = Float.parseFloat(req.getParameter("skin-price"));
         int skinRecolors = Integer.parseInt(req.getParameter("skin-recolors"));
@@ -43,6 +44,7 @@ public class CreateSkinServlet extends HttpServlet {
         skin.setType(skinType);
         skin.setDate(skinDate);
         skin.setSeason(skinSeason);
+        skin.setNameSeason(skinNameSeason);
         skin.setAct(skinAct);
         skin.setRecolors(skinRecolors);
         skin.setPrice(skinPrice);

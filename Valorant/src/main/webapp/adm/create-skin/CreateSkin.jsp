@@ -50,14 +50,14 @@
                         <label>Name Season</label>
                             <input type="text" name="skin-nameSeason" id="skin-nameSeason" value="${param.nameSeason}"  required>
                         <br>
-                        <label>Act</label>
-                            <input type="number" name="skin-act" id="skin-act" value="${param.act}"  required>
-                        <br>
                         <label>Date</label>
                             <input type="date" name="skin-date" id="skin-date" value="${param.date}"  required>
                         <br>
                     </div>
                     <div id="coluna-2">
+                        <label>Act</label>
+                            <input type="number" name="skin-act" id="skin-act" value="${param.act}"  required>
+                        <br>
                         <label>Price</label>
                             <input type="number" name="skin-price" id="skin-price" value="${param.price}"  required>
                         <br>

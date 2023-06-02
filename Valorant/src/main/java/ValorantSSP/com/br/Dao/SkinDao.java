@@ -25,10 +25,10 @@ public class SkinDao {
             preparedStatement.setString(1, skin.getName());
             preparedStatement.setString(2, skin.getType());
             preparedStatement.setString(3, skin.getDate());
-            preparedStatement.setInt(4, skin.getSeason());
-            preparedStatement.setString(5, skin.getNameSeason());
-            preparedStatement.setInt(6, skin.getAct());
-            preparedStatement.setFloat(7, skin.getPrice());
+            preparedStatement.setFloat(4, skin.getPrice());
+            preparedStatement.setInt(5, skin.getSeason());
+            preparedStatement.setString(6, skin.getNameSeason());
+            preparedStatement.setInt(7, skin.getAct());
             preparedStatement.setInt(8, skin.getRecolors());
             preparedStatement.setString(9, skin.getPath());
             preparedStatement.setString(10, skin.getPathType());

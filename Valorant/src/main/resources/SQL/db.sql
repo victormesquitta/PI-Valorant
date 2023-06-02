@@ -200,4 +200,17 @@ VALUES (
 'user\agents\Images\Furia-do-Cacador.png'
 );
 
+INSERT INTO SKIN (NAME, TYPE, DATE, PRICE, SEASON, NAMESEASON, ACT, RECOLORS, PATH, PATHTYPE)
+VALUES (
+'Oni',
+'Premium',
+'2023-03-07',
+7100,
+6,
+'Revelation',
+2,
+4,
+'user/skins/Images/Oni.png',
+'user/skins/Images/Premiun-icon.png'
+);
 

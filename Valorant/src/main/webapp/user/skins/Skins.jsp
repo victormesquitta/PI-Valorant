@@ -22,9 +22,9 @@
     </header>
     <div id="title">
         <h1>COLEÇÕES</h1>
-    </div>  
+        <img class="barra" src="/user/skins/Images/linha-de-titulo-branca.png">
+    </div>
     <div class="skins">
-    <img class="barra" src="/user/skins/Images/linha-de-titulo-branca.png">
 
         <c:forEach var="skin" items="${skins}">
             <div class="conteudo">
