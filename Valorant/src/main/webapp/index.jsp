@@ -75,8 +75,5 @@
             </div>
         </div>
     </div>
-    <footer>
-        <h1>&copy;</h1>
-    </footer>
     <script src="script.js"></script>
 <body>

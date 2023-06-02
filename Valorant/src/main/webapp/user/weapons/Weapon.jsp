@@ -722,9 +722,6 @@
             </div>
         </c:forEach>
     </div>
-    <footer>
-        a
-    </footer>
     <script src="user/agents/script.js"></script>
 </body>
 </html>

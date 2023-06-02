@@ -50,7 +50,4 @@
             </div>
         </c:forEach>
     </div>
-    <footer>
-        <h1>&copy;</h1>
-    </footer>
 <body>
