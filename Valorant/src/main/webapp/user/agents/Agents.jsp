@@ -45,7 +45,7 @@
                         <div class="coluna-1-baixo">
                             <div class="overlay-div-lore">
                                 <h3 class="overlay-lore-titulo">Lore</h3>
-                                <h4 class="overlay-lore">${duelista.lore} Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste omnis, ab aliquid, laborum deleniti excepturi voluptas, voluptate temporibus placeat dolores odio similique illo hic possimus eos velit quidem! Voluptate, veniam?</h4>
+                                <h4 class="overlay-lore">${duelista.lore}</h4>
                             </div> 
                         </div>
                     </div>

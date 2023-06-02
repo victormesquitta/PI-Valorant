@@ -470,8 +470,8 @@ public class AgentDao {
             PreparedStatement preparedStatement = connection.prepareStatement(SQL);
 
             preparedStatement.setString(1, agent.getName());
-            preparedStatement.setString(2, agent.getLore());
-            preparedStatement.setString(3, agent.getRole());
+            preparedStatement.setString(2, agent.getRole());
+            preparedStatement.setString(3, agent.getLore());
             preparedStatement.setString(4, agent.getSkillc());
             preparedStatement.setString(5, agent.getSkillq());
             preparedStatement.setString(6, agent.getSkille());
