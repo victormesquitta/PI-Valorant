@@ -114,6 +114,7 @@ h1{
     box-sizing: border-box;
     border: 5px solid #ECE8E1;
     border-radius: 20px;
+    cursor: pointer;
 }
 .images{
     display: flex;
@@ -200,6 +201,7 @@ h1{
 
 
 .overlay-name{
+    height: 100%;
     margin-top: 5%;
     margin-bottom: 5%;
     font-weight: bold;
@@ -209,8 +211,8 @@ h1{
 }
 
 .image-overlay{
-    border-radius: 100%;
-    width: 45%;
+    display: flex;
+    height: 60%;
     margin-bottom: 5%;
 }
 

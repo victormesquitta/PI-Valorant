@@ -27,7 +27,7 @@
     <h1 class="subtitle">PISTOLAS</h1>
     <div class="container">
         <c:forEach var = "pistol" items="${pistols}">
-            <div class="box">
+            <div class="box" onclick="openOverlay(0)">
                 <img class="images" src=${pistol.path}>
                 <h1 class="name">${pistol.name}</h1>
             </div>
@@ -74,14 +74,14 @@
                                     <img class="img-penetracao" src="/user/weapons/Images/wallpenetration.png" alt="">
                                 </div>
                                 <h3 class="nome-penetracao">Penetração de Parede:</h3>
-                                <h4 class="qtd-penetracao">${pistol.penetracao}</h4>
+                                <h4 class="qtd-penetracao">${pistol.wallPenetration}</h4>
                             </div>
                             <div class="div-cadencia">
                                 <div class="div-img-weapon">
                                     <img class="img-cadencia" src="/user/weapons/Images/fire-rate.png" alt="">
                                 </div>
                                 <h3 class="nome-cadencia">Cadência de Tiros:</h3>
-                                <h4 class="qtd-cadencia">${pistol.cadencia}</h4>
+                                <h4 class="qtd-cadencia">${pistol.fireRateSecs}</h4>
                             </div>
                         </div>
                         
