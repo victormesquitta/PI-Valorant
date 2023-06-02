@@ -31,6 +31,58 @@
                 <img class="images" src=${pistol.path}>
                 <h1 class="name">${pistol.name}</h1>
             </div>
+            <div class="overlay" id="myOverlay0">
+                <div class="overlay-item">
+                    <div class="overlay-coluna-1">
+                        <div class="coluna-1-cima">
+                            <h1 class="overlay-name">${pistol.name}</h1>
+                        </div>
+                        <div class="coluna-1-meio">
+                            <img class="image-overlay" src=${pistol.path}>
+                        </div>
+                        <div class="coluna-1-baixo">
+                            <div class="overlay-div-lore">
+                                <h4 class="overlay-lore">Tipo: ${pistol.type}</h4>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="overlay-coluna-2">
+                        <div class="div-botao-voltar">
+                            <img class="botao-voltar" onclick="closeOverlay(0)" src="/user/agents/Images/Botao-voltar.png">
+                        </div>
+                        <div class="skills">
+                            <div class="skill1">
+                                <h3 class="nome-skill1">${duelista.skillq}</h3>
+                                <div class="div-img-skill">
+                                    <img class="img-skill1" src="${duelista.pathskillq}" alt="">
+                                </div>
+                                <h4 class="descricao-skill1">${duelista.skillDescriptionq}Lorem sadkugsadkjbsda sdjkbsadkj sadkj sadjh sadk sdasa dkjsda kjsa sajk sdakj dsaoj askjdasjk dsa kjlsad kjdas jkas sakdn kdjsab dasjk das</h4>
+                            </div>
+                            <div class="skill2">
+                                <h3 class="nome-skill2">${duelista.skille}</h3>
+                                <div class="div-img-skill">
+                                    <img class="img-skill2" src="${duelista.pathskille}" alt="">
+                                </div>
+                                <h4 class="descricao-skill2">${duelista.skillDescriptione} Lorem sadkugsadkjbsda sdjkbsadkj sadkj sadjh sadk sdasa dkjsda kjsa sajk sdakj dsaoj askjdasjk dsa kjlsad kjdas jkas sakdn kdjsab dasjk das</h4>
+                            </div>
+                            <div class="skill3">
+                                <h3 class="nome-skill3">${duelista.skillc}</h3>
+                                <div class="div-img-skill">
+                                    <img class="img-skill3" src="${duelista.pathskillc}" alt="">
+                                </div>
+                                <h4 class="descricao-skill3">${duelista.skillDescriptionc}Lorem sadkugsadkjbsda sdjkbsadkj sadkj sadjh sadk sdasa dkjsda kjsa sajk sdakj dsaoj askjdasjk dsa kjlsad kjdas jkas sakdn kdjsab dasjk das</h4>
+                            </div>
+                            <div class="ultimate">
+                                <h3 class="nome-ultimate">${duelista.ultimate}</h3>
+                                <div class="div-img-skill">
+                                    <img class="img-ultimate" src="${duelista.pathultimate}" alt="">
+                                </div>
+                                <h4 class="descricao-ultimate">${duelista.ultimateDescription}Lorem sadkugsadkjbsda sdjkbsadkj sadkj sadjh sadk sdasa dkjsda kjsa sajk sdakj dsaoj askjdasjk dsa kjlsad kjdas jkas sakdn kdjsab dasjk das</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </c:forEach>
     </div>
 
@@ -77,5 +129,19 @@
             </div>
         </c:forEach>
     </div>
+
+    <h1 class="subtitle">METRALHADORA</h1>
+    <div class="container">
+        <c:forEach var = "metralhadora" items="${metralhadoras}">
+            <div class="box">
+                <img class="images" src=${metralhadora.path}>
+                <h1 class="name">${metralhadora.name}</h1>
+            </div>
+        </c:forEach>
+    </div>
+    <footer>
+        a
+    </footer>
+    <script src="user/agents/script.js"></script>
 </body>
 </html>

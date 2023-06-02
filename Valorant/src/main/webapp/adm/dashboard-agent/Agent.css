@@ -156,16 +156,22 @@ a{
     cursor: pointer;
 }
 
+#espacio-vazio{
+    display: flex;
+    width: 25vw;
+    height: 100%;
+    background-color: gold;
+}
+
 #dashboard{
     display: flex;
     justify-content: center;
-    align-items: center;
     text-align: center;
     flex-direction: column;
-    width: 82.5%;
+    width: 100%;
     height: 100vh;
     color: rgb(78, 78, 78);
-    margin-left: 17.5%;
+    margin-left: 20vw;
 }
 
 h1{

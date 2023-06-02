@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agents</title>
     <link rel="stylesheet" href="user/agents/style.css">
-    <link rel="shortcut icon" href="images/valorant-transparent.png" type="image/x-icon"></head>
+    <link rel="shortcut icon" href="images/valorant-transparent.png" type="image/x-icon">
+</head>
 <body>
     <header>
             <a href="../../" class="" id="logo-ancora"><img class="" id="logo-navbar" src="/user/agents/Images/logo.png" alt="logo"></a>
@@ -79,7 +80,7 @@
                                 <div class="div-img-skill">
                                     <img class="img-ultimate" src="${duelista.pathultimate}" alt="">
                                 </div>
-                                <h4 class="descricao-ultimate">${duelista.ultimateDescription}</h4>
+                                <h4 class="descricao-ultimate">${duelista.ultimateDescription}Lorem sadkugsadkjbsda sdjkbsadkj sadkj sadjh sadk sdasa dkjsda kjsa sajk sdakj dsaoj askjdasjk dsa kjlsad kjdas jkas sakdn kdjsab dasjk das</h4>
                             </div>
                         </div>
                     </div>
