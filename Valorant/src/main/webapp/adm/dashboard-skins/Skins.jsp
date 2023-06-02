@@ -43,6 +43,7 @@
                 <th class="th">Name</th>
                 <th class="th">Type</th>
                 <th class="th">Season</th>
+                <th class="th">Name Season</th>
                 <th class="th">Act</th>
                 <th class="th">Date</th>
                 <th class="th">Price</th>
@@ -57,6 +58,7 @@
                     <td class="td">${skin.name}</td>
                     <td class="td">${skin.type}</td>
                     <td class="td">${skin.season}</td>
+                    <td class="td">${skin.nameSeason}</td>
                     <td class="td">${skin.act}</td>
                     <td class="td">${skin.date}</td>
                     <td class="td">${skin.price}</td>
@@ -67,7 +69,7 @@
                         <form action="/delete-skin" method="post" id="form-delete">
                         <input type="hidden" id="skin-id" name="skin-id" value="${skin.id}" class="button">
                         <button type="submit" class="button" id="button-delete">Delete</button>
-                        <a href="/adm/create-skin/CreateSkin.jsp?id=${skin.id}&name=${skin.name}&type=${skin.type}&season=${skin.season}&act=${skin.act}&date=${skin.date}&price=${skin.price}&recolors=${skin.recolors}&path=${skin.path}&pathType=${skin.pathType}">Update</a>
+                        <a href="/adm/create-skin/CreateSkin.jsp?id=${skin.id}&name=${skin.name}&type=${skin.type}&season=${skin.season}&nameSeason=${skin.nameSeason}&act=${skin.act}&date=${skin.date}&price=${skin.price}&recolors=${skin.recolors}&path=${skin.path}&pathType=${skin.pathType}">Update</a>
                     </form>
                 </td>
             </tr>

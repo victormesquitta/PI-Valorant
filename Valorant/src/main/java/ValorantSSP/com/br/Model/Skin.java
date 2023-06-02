@@ -5,6 +5,7 @@ public class Skin {
     private String name;
     private String type;
     private int season;
+    private String nameSeason;
     private int act;
     private String date;
     private float price;
@@ -49,6 +50,14 @@ public class Skin {
 
     public void setSeason(int season) {
         this.season = season;
+    }
+
+    public String getNameSeason() {
+        return nameSeason;
+    }
+
+    public void setNameSeason(String nameSeason) {
+        this.nameSeason = nameSeason;
     }
 
     public int getAct() {

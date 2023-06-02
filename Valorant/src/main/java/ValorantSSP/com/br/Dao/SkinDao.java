@@ -14,7 +14,7 @@ import java.util.List;
 public class SkinDao {
     public void createSkin(Skin skin){
 
-        String SQL = "INSERT INTO SKIN (NAME, TYPE, DATE, PRICE, SEASON, ACT, RECOLORS, PATH, PATHTYPE) VALUES (?,?,?,?,?,?,?,?,?)";
+        String SQL = "INSERT INTO SKIN (NAME, TYPE, DATE, PRICE, SEASON, NAMESEASON, ACT, RECOLORS, PATH, PATHTYPE) VALUES (?,?,?,?,?,?,?,?,?,?)";
 
         try {
 
@@ -26,13 +26,12 @@ public class SkinDao {
             preparedStatement.setString(2, skin.getType());
             preparedStatement.setString(3, skin.getDate());
             preparedStatement.setInt(4, skin.getSeason());
-            preparedStatement.setInt(5, skin.getAct());
-            preparedStatement.setFloat(6, skin.getPrice());
-            preparedStatement.setInt(7, skin.getRecolors());
-            preparedStatement.setString(8, skin.getPath());
-            preparedStatement.setString(9, skin.getPathType());
-
-
+            preparedStatement.setString(5, skin.getNameSeason());
+            preparedStatement.setInt(6, skin.getAct());
+            preparedStatement.setFloat(7, skin.getPrice());
+            preparedStatement.setInt(8, skin.getRecolors());
+            preparedStatement.setString(9, skin.getPath());
+            preparedStatement.setString(10, skin.getPathType());
 
             preparedStatement.execute();
 
@@ -63,6 +62,7 @@ public class SkinDao {
                 String skinName = resultSet.getString("name");
                 String skinType = resultSet.getString("type");
                 int skinSeason = resultSet.getInt("season");
+                String skinNameSeason = resultSet.getString("nameSeason");
                 int skinAct = resultSet.getInt("act");
                 String skinDate = resultSet.getString("date");
                 float skinPrice = resultSet.getFloat("price");
@@ -77,6 +77,7 @@ public class SkinDao {
                 skin.setPath(skinPath);
                 skin.setPathType(skinPathType);
                 skin.setSeason(skinSeason);
+                skin.setNameSeason(skinNameSeason);
                 skin.setAct(skinAct);
                 skin.setDate(skinDate);
                 skin.setPrice(skinPrice);
