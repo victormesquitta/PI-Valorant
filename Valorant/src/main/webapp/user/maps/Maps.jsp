@@ -1,4 +1,4 @@
-/adm/home/home.jsp<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mapas</title>
     <link rel="stylesheet" href="/user/maps/style.css">
-    <link rel="shortcut icon" href="images/valorant-transparente.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/valorant-transparent.png" type="image/x-icon">
 </head>
 <body>
     <header>

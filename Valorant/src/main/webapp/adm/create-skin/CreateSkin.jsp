@@ -4,6 +4,7 @@
 <head>
     <title>Skins</title>
     <link rel="stylesheet" href="CreateSkin.css">
+    <link rel="shortcut icon" href="images/valorant-transparent.png" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -27,7 +28,7 @@
         </nav>
         <div id="header-down">
             <div id="div-ancora-button">
-                <a href="../../" id="ancora-button"><button id="button_logout">LOG OUT</button></a>
+                <a href="/logout" id="ancora-button"><button id="button_logout">LOG OUT</button></a>
             </div>
         </div>
     </header>

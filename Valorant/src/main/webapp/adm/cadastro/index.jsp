@@ -7,14 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
     <link rel="stylesheet" href="adm/cadastro/style.css">
-    <link rel="shortcut icon" href="images/valorant-transparente.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/valorant-transparent.png" type="image/x-icon">
 </head>
 <body>
     <div id="main-box">
         <div id="box-logar">
             <h1 class="box-logar-item">Já tem uma conta ?</h1>
             <p class="box-logar-item">Acesse agora mesmo utilizando suas credenciais!</p>
-            <a href="../login/index.jsp" id="ancora-entrar"><button class="button box-logar-item" id="button-entrar">ENTRAR</button></a>
+            <a href="/login" id="ancora-entrar"><button class="button box-logar-item" id="button-entrar">ENTRAR</button></a>
         </div>
         <div id="div-registrar-box">
             <div id="registrar-box">

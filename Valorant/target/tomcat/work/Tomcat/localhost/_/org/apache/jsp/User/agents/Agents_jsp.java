@@ -76,14 +76,14 @@ public final class Agents_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n");
       out.write("    <title>Agents</title>\r\n");
       out.write("    <link rel=\"stylesheet\" href=\"user/agents/style.css\">\r\n");
-      out.write("    <link rel=\"shortcut icon\" href=\"user/Images/valorant-transparente.png\" type=\"image/x-icon\">\r\n");
+      out.write("    <link rel=\"shortcut icon\" href=\"images/valorant-transparent.png\" type=\"image/x-icon\">\r\n");
       out.write("</head>\r\n");
       out.write("<body>\r\n");
       out.write("    <header>\r\n");
       out.write("            <a href=\"../../\" class=\"\" id=\"logo-ancora\"><img class=\"\" id=\"logo-navbar\" src=\"/user/agents/Images/logo.png\" alt=\"logo\"></a>\r\n");
       out.write("            <nav class=\"nav_links\">\r\n");
-      out.write("                <a href=\"../../\">Home</a>\r\n");
-      out.write("                <a href=\"/\">Agentes</a>\r\n");
+      out.write("                <a href=\"/home\">Home</a>\r\n");
+      out.write("                <a href=\"\">Agentes</a>\r\n");
       out.write("                <a href=\"/armas\">Armas</a>\r\n");
       out.write("                <a href=\"/maps\">Mapas</a>\r\n");
       out.write("                <a href=\"/skins\">Skins</a>  \r\n");

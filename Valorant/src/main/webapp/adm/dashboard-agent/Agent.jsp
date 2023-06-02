@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <title>Agents</title>
     <link rel="stylesheet" href="adm/dashboard-agent/Agent.css">
+    <link rel="shortcut icon" href="images/valorant-transparent.png" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -91,7 +92,7 @@
             </c:forEach>
         </table>
         <div id="div-ancora-novo">
-            <a href="../adm/create-agent/CreateAgent.jsp" class="novo-ancora" id=""><button id="button_novo" class="button">Novo</button></a>
+            <a href="/create-agent" class="novo-ancora" id=""><button id="button_novo" class="button">Novo</button></a>
         </div>
 
     </div>

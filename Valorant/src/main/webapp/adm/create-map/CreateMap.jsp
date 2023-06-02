@@ -4,6 +4,7 @@
 <head>
     <title>Mapas</title>
     <link rel="stylesheet" href="CreateMap.css">
+    <link rel="shortcut icon" href="images/valorant-transparent.png" type="image/x-icon">
 </head>
 <body>
     <header>

@@ -3,7 +3,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <head>
     <title>Agentes</title>
-    <link rel="stylesheet" href="CreateAgent.css">
+    <link rel="stylesheet" href="adm/create-agent/CreateAgent.css">
+    <link rel="shortcut icon" href="images/valorant-transparent.png" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -13,21 +14,21 @@
         </div>
         <nav class="nav_links">
             <div class="nav_link">
-                <a href="/agents"><img id="agent-icon" class="icon" src="images/agent-icon.png">Agentes</a>
+                <a href="/agents"><img id="agent-icon" class="icon" src="adm/create-agent/images/agent-icon.png">Agentes</a>
             </div>
             <div class="nav_link">
-                <a href= "/armas" ><img id="weapon-icon" class="icon" src="images/weapon-icon.png">Armas</a>
+                <a href= "/armas" ><img id="weapon-icon" class="icon" src="adm/create-agent/images/weapon-icon.png">Armas</a>
             </div>
             <div class="nav_link">
-                <a href="/maps"><img id="map-icon" class="icon" src="images/map-icon.png">Mapas</a>
+                <a href="/maps"><img id="map-icon" class="icon" src="adm/create-agent/images/map-icon.png">Mapas</a>
             </div>
             <div class="nav_link">
-                <a href="/skins"><img id="skin-icon" class="icon" src="images/skin-icon.jpg">Skins</a>
+                <a href="/skins"><img id="skin-icon" class="icon" src="adm/create-agent/images/skin-icon.jpg">Skins</a>
             </div>
         </nav>
         <div id="header-down">
             <div id="div-ancora-button">
-                <a href="../../" id="ancora-button"><button id="button_logout">LOG OUT</button></a>
+                <a href="/logout" id="ancora-button"><button id="button_logout">LOG OUT</button></a>
             </div>
         </div>
     </header>
