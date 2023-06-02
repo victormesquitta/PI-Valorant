@@ -38,48 +38,53 @@
                             <h1 class="overlay-name">${pistol.name}</h1>
                         </div>
                         <div class="coluna-1-meio">
-                            <img class="image-overlay" src=${pistol.path}>
+                            <img class="image-overlay" src=${pistol.path}>  
                         </div>
                         <div class="coluna-1-baixo">
-                            <div class="overlay-div-lore">
-                                <h4 class="overlay-lore">Tipo: ${pistol.type}</h4>
-                            </div> 
+                            <div class="overlay-div-tipo">
+                                <h3 class="overlay-tipo">Tipo: ${pistol.type}</h3>
+                                <div class="overlay-creds">
+                                    <img class="img-creds" src="/user/weapons/Images/Creds.png" alt="">
+                                    <h4 class="overlay-creds">Créditos: ${pistol.creds}</h4>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="overlay-coluna-2">
                         <div class="div-botao-voltar">
-                            <img class="botao-voltar" onclick="closeOverlay(0)" src="/user/agents/Images/Botao-voltar.png">
+                            <img class="botao-voltar" onclick="closeOverlay(0)" src="/user/weapons/Images/Botao-voltar.png">
                         </div>
-                        <div class="skills">
-                            <div class="skill1">
-                                <h3 class="nome-skill1">${duelista.skillq}</h3>
-                                <div class="div-img-skill">
-                                    <img class="img-skill1" src="${duelista.pathskillq}" alt="">
+                        <div class="infos-armas">
+                            <div class="div-pente">
+                                <div class="div-img-weapon">
+                                    <img class="img-pente" src="/user/weapons/Images/Magazine.png" alt="">
                                 </div>
-                                <h4 class="descricao-skill1">${duelista.skillDescriptionq}Lorem sadkugsadkjbsda sdjkbsadkj sadkj sadjh sadk sdasa dkjsda kjsa sajk sdakj dsaoj askjdasjk dsa kjlsad kjdas jkas sakdn kdjsab dasjk das</h4>
+                                <h3 class="nome-pente">Munição por pente: </h3>
+                                <h4 class="qtd-magazine">${pistol.magazine}</h4>
                             </div>
-                            <div class="skill2">
-                                <h3 class="nome-skill2">${duelista.skille}</h3>
-                                <div class="div-img-skill">
-                                    <img class="img-skill2" src="${duelista.pathskille}" alt="">
+                            <div class="div-reserve">
+                                <div class="div-img-weapon">
+                                    <img class="img-reserve" src="/user/weapons/Images/Reserve.png  " alt="">
                                 </div>
-                                <h4 class="descricao-skill2">${duelista.skillDescriptione} Lorem sadkugsadkjbsda sdjkbsadkj sadkj sadjh sadk sdasa dkjsda kjsa sajk sdakj dsaoj askjdasjk dsa kjlsad kjdas jkas sakdn kdjsab dasjk das</h4>
+                                <h3 class="nome-reserve">${duelista.skille}</h3>
+                                <h4 class="qtd-reserve">${duelista.skillDescriptione} Lorem sadkugsadkjbsda sdjkbsadkj sadkj sadjh sadk sdasa dkjsda kjsa sajk sdakj dsaoj askjdasjk dsa kjlsad kjdas jkas sakdn kdjsab dasjk das</h4>
                             </div>
-                            <div class="skill3">
-                                <h3 class="nome-skill3">${duelista.skillc}</h3>
-                                <div class="div-img-skill">
-                                    <img class="img-skill3" src="${duelista.pathskillc}" alt="">
+                            <div class="div-penetracao">
+                                <div class="div-img-weapon">
+                                    <img class="img-penetracao" src="${duelista.pathskillc}" alt="">
                                 </div>
-                                <h4 class="descricao-skill3">${duelista.skillDescriptionc}Lorem sadkugsadkjbsda sdjkbsadkj sadkj sadjh sadk sdasa dkjsda kjsa sajk sdakj dsaoj askjdasjk dsa kjlsad kjdas jkas sakdn kdjsab dasjk das</h4>
+                                <h3 class="nome-penetracao">${duelista.skillc}</h3>
+                                <h4 class="qtd-penetracao">${duelista.skillDescriptionc}Lorem sadkugsadkjbsda sdjkbsadkj sadkj sadjh sadk sdasa dkjsda kjsa sajk sdakj dsaoj askjdasjk dsa kjlsad kjdas jkas sakdn kdjsab dasjk das</h4>
                             </div>
-                            <div class="ultimate">
-                                <h3 class="nome-ultimate">${duelista.ultimate}</h3>
-                                <div class="div-img-skill">
-                                    <img class="img-ultimate" src="${duelista.pathultimate}" alt="">
+                            <div class="div-cadencia">
+                                <div class="div-img-weapon">
+                                    <img class="img-cadencia" src="${duelista.pathultimate}" alt="">
                                 </div>
-                                <h4 class="descricao-ultimate">${duelista.ultimateDescription}Lorem sadkugsadkjbsda sdjkbsadkj sadkj sadjh sadk sdasa dkjsda kjsa sajk sdakj dsaoj askjdasjk dsa kjlsad kjdas jkas sakdn kdjsab dasjk das</h4>
+                                <h3 class="nome-cadencia">${duelista.ultimate}</h3>
+                                <h4 class="qtd-cadencia">${duelista.ultimateDescription}Lorem sadkugsadkjbsda sdjkbsadkj sadkj sadjh sadk sdasa dkjsda kjsa sajk sdakj dsaoj askjdasjk dsa kjlsad kjdas jkas sakdn kdjsab dasjk das</h4>
                             </div>
                         </div>
+                        
                     </div>
                 </div>
             </div>

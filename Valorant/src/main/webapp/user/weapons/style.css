@@ -183,12 +183,18 @@ h1{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 65%;
+    height: 20%;
+}
+
+.coluna-1-meio{
+    display: flex;
+    height: 40%;
+    justify-content: center;
 }
 
 .coluna-1-baixo{
     display: flex;
-    height: 35%;
+    height: 40%;
     justify-content: center;
 }
 
@@ -208,55 +214,31 @@ h1{
     margin-bottom: 5%;
 }
 
-.overlay-div-role{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 5%;
-    width: 85%;
-    margin-bottom: 2.5%;
-}
-
-.overlay-img-role{
-    height: 100%;
-    padding-right: 5%;
-}
-
-.overlay-role{
-    text-transform: uppercase;
-    font-size: 1.5rem;
-}
-
-
-.overlay-ultimatepoints{
-    margin-bottom: 5%;
-}
-
-.overlay-div-lore{
+.overlay-div-tipo{
     display: flex;
     flex-direction: column;
-    width: 80%;
-    margin: 0;
+    align-items: center;
+    height: 80%;
 }
 
-.overlay-lore-titulo{
-    text-align: left;
+.overlay-tipo{
+    font-size: 1.5rem;
+    text-transform: uppercase;
 }
 
-.overlay-lore{
-    text-align: justify;
-    width: 100%;
+.overlay-creds{
+    display: flex;
+    justify-content: center;
+}
+
+.img-creds{
+    height: 15%;
+}
+
+.overlay-creds{
     font-size: 0.7rem;
 }
 
-.overlay-button{
-    padding: 0;
-    border: none;
-    cursor: pointer;
-    border-radius: 10px;
-    width: 15%;
-    height: 7%;
-}
 
 .overlay-coluna-2{
     display: flex;
@@ -285,7 +267,7 @@ h1{
     width: 5%;
 }
 
-.skills{
+.infos-armas{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -302,7 +284,7 @@ h1{
     justify-content: space-between;
 }
 
-.div-img-skill{
+.div-img-weapon{
     display: flex;
     justify-content: center;
     /* background-color: gold; */
