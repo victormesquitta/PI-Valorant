@@ -183,37 +183,36 @@ c:forEach{
 .overlay-coluna-1{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     margin: 0;
     padding: 0;
     height: 100%;
-    width: 35%;
+    width: 40%;
     color: #383E3A;
-    background-color: rgb(62, 140, 31);
+    border-radius: 18px 0 0 18px ;
 }
 
 .coluna-1-cima{
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 65%;
 }
 
 .coluna-1-baixo{
-    
+    display: flex;
+    height: 35%;
+    justify-content: center;
 }
 
-
-.overlay-coluna-2{
-    margin: 0;
-    padding: 0;
-    background-color: #323533;
-    height: 100%;
-    width: 65%;
-    border-radius: 0 18px 18px 0;
-}
 
 .overlay-name{
+    margin-top: 5%;
     margin-bottom: 5%;
     font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Alumni Sans';
+    font-size: 3rem;
 }
 
 .image-overlay{
@@ -224,26 +223,22 @@ c:forEach{
 
 .overlay-div-role{
     display: flex;
+    justify-content: center;
     align-items: center;
     height: 5%;
+    width: 85%;
     margin-bottom: 2.5%;
 }
 
 .overlay-img-role{
-    height: 80%;
-    padding: 5%;
+    height: 100%;
+    padding-right: 5%;
 }
 
 .overlay-role{
     text-transform: uppercase;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
-
-
-.overlay-name{
-    text-transform: uppercase;
-}
-
 
 
 .overlay-ultimatepoints{
@@ -276,12 +271,81 @@ c:forEach{
     height: 7%;
 }
 
+.overlay-coluna-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: #323533;
+    height: 100%;
+    width: 65%;
+    border-radius: 0 18px 18px 0;
+}
+
+.div-botao-voltar{
+    margin: 2.5% 4% 0 0 ;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.botao-voltar{
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    width: 5%;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90%;
+    width: 85%;
+}
+
+.skill1, .skill2, .skill3, .ultimate{
+    display: flex;
+    align-items: center;
+    height: 25%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nome-skill1, .nome-skill2, .nome-skill3, .nome-ultimate{
+    display: flex;
+    justify-content: center;
+    width: 25%;
+}
+
+.img-skill1, .img-skill2, .img-skill3, .img-ultimate{
+    width: 10%;
+}
+
+.descricao-skill1, .descricao-skill2, .descricao-skill3, .descricao-ultimate{
+    width: 45%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.6rem;
+    text-align: justify;
+    font-weight: 100;
+
+}
+
+
+
+
+
+#container-sentinelas{
+    padding-bottom: 10%;
+}
+
 footer{
     height: 20%;
     padding-bottom: 20%;
     background-color: gold;
 }
 
-#container-sentinelas{
-    padding-bottom: 10%;
-}
