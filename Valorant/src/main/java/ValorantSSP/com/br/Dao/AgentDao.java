@@ -135,7 +135,7 @@ public class AgentDao {
 
     public List<Agent> findAllDuelistas(){
 
-        String SQL = "SELECT * FROM AGENT WHERE ROLE = 'duelista'";
+        String SQL = "SELECT * FROM AGENT WHERE ROLE = 'Duelista'";
 
         try {
 
@@ -194,7 +194,7 @@ public class AgentDao {
 
             }
 
-            System.out.println("success in select * agent where role = 'duelista'");
+            System.out.println("success in select * agent where role = 'Duelista'");
 
             connection.close();
 
@@ -210,7 +210,7 @@ public class AgentDao {
     }
 
     public List<Agent> findAllIniciadores(){
-        String SQL = "SELECT * FROM AGENT WHERE ROLE = 'iniciador'";
+        String SQL = "SELECT * FROM AGENT WHERE ROLE = 'Iniciador'";
 
         try {
 
@@ -269,7 +269,7 @@ public class AgentDao {
 
             }
 
-            System.out.println("success in select * agent where role = 'iniciador'");
+            System.out.println("success in select * agent where role = 'Iniciador'");
 
             connection.close();
 
@@ -285,7 +285,7 @@ public class AgentDao {
     }
 
     public List<Agent> findAllControladores(){
-        String SQL = "SELECT * FROM AGENT WHERE ROLE = 'controlador'";
+        String SQL = "SELECT * FROM AGENT WHERE ROLE = 'Controlador'";
 
         try {
 
@@ -344,7 +344,7 @@ public class AgentDao {
 
             }
 
-            System.out.println("success in select * agent where role = 'controlador'");
+            System.out.println("success in select * agent where role = 'Controlador'");
 
             connection.close();
 
@@ -360,7 +360,7 @@ public class AgentDao {
     }
 
     public List<Agent> findAllSentinelas(){
-        String SQL = "SELECT * FROM AGENT WHERE ROLE = 'sentinela'";
+        String SQL = "SELECT * FROM AGENT WHERE ROLE = 'Sentinela'";
 
         try {
 
@@ -420,7 +420,7 @@ public class AgentDao {
 
             }
 
-            System.out.println("success in select * agent where role = 'sentinela'");
+            System.out.println("success in select * agent where role = 'Sentinela'");
 
             connection.close();
 
