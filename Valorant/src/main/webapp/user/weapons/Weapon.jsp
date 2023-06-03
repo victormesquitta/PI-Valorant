@@ -216,9 +216,9 @@
                               <th>Curta Distância</th>
                               <%-- Dados do banco de dados --%>
                               <%
-                                String curtaCabeca = "10";
-                                String curtaCorpo = "5";
-                                String curtaPerna = "3";
+                                String curtaCabeca = "36";
+                                String curtaCorpo = "23";
+                                String curtaPerna = "12";
                             %>
                                 <td><%= curtaCabeca %></td>
                                 <td><%= curtaCorpo %></td>
@@ -228,9 +228,9 @@
                                   <th>Média Distância</th>
                                   <%-- Dados do banco de dados --%>
                                     <%
-                                       String mediaCabeca = "8";
-                                       String mediaCorpo = "4";
-                                       String mediaPerna = "2";
+                                       String mediaCabeca = "32";
+                                       String mediaCorpo = "21";
+                                       String mediaPerna = "11";
                                        %>
                                       <td><%= mediaCabeca %></td>
                                       <td><%= mediaCorpo %></td>
@@ -240,9 +240,9 @@
                                       <th>Longa Distância</th>
                                       <%-- Dados do banco de dados --%>
                                         <%
-                                           String longaCabeca = "6";
-                                           String longaCorpo = "3";
-                                           String longaPerna = "1";
+                                           String longaCabeca = "32";
+                                           String longaCorpo = "21";
+                                           String longaPerna = "11";
                                            %>
                                           <td><%= longaCabeca %></td>
                                           <td><%= longaCorpo %></td>
@@ -334,9 +334,9 @@
                                  <th>Curta Distância</th>
                                  <%-- Dados do banco de dados --%>
                                  <%
-                                   String curtaCabeca = "10";
-                                   String curtaCorpo = "5";
-                                   String curtaPerna = "3";
+                                   String curtaCabeca = "56";
+                                   String curtaCorpo = "36";
+                                   String curtaPerna = "12";
                                %>
                                    <td><%= curtaCabeca %></td>
                                    <td><%= curtaCorpo %></td>
@@ -346,9 +346,9 @@
                                      <th>Média Distância</th>
                                      <%-- Dados do banco de dados --%>
                                        <%
-                                          String mediaCabeca = "8";
-                                          String mediaCorpo = "4";
-                                          String mediaPerna = "2";
+                                          String mediaCabeca = "34";
+                                          String mediaCorpo = "24";
+                                          String mediaPerna = "8";
                                           %>
                                          <td><%= mediaCabeca %></td>
                                          <td><%= mediaCorpo %></td>
@@ -358,9 +358,9 @@
                                          <th>Longa Distância</th>
                                          <%-- Dados do banco de dados --%>
                                            <%
-                                              String longaCabeca = "6";
-                                              String longaCorpo = "3";
-                                              String longaPerna = "1";
+                                              String longaCabeca = "26";
+                                              String longaCorpo = "11";
+                                              String longaPerna = "6";
                                               %>
                                              <td><%= longaCabeca %></td>
                                              <td><%= longaCorpo %></td>
@@ -452,9 +452,9 @@
                                  <th>Curta Distância</th>
                                  <%-- Dados do banco de dados --%>
                                  <%
-                                   String curtaCabeca = "10";
-                                   String curtaCorpo = "5";
-                                   String curtaPerna = "3";
+                                   String curtaCabeca = "160";
+                                   String curtaCorpo = "40";
+                                   String curtaPerna = "36";
                                %>
                                    <td><%= curtaCabeca %></td>
                                    <td><%= curtaCorpo %></td>
@@ -464,9 +464,9 @@
                                      <th>Média Distância</th>
                                      <%-- Dados do banco de dados --%>
                                        <%
-                                          String mediaCabeca = "8";
-                                          String mediaCorpo = "4";
-                                          String mediaPerna = "2";
+                                          String mediaCabeca = "160";
+                                          String mediaCorpo = "40";
+                                          String mediaPerna = "36";
                                           %>
                                          <td><%= mediaCabeca %></td>
                                          <td><%= mediaCorpo %></td>
@@ -476,9 +476,9 @@
                                          <th>Longa Distância</th>
                                          <%-- Dados do banco de dados --%>
                                            <%
-                                              String longaCabeca = "6";
-                                              String longaCorpo = "3";
-                                              String longaPerna = "1";
+                                              String longaCabeca = "160";
+                                              String longaCorpo = "40";
+                                              String longaPerna = "36";
                                               %>
                                              <td><%= longaCabeca %></td>
                                              <td><%= longaCorpo %></td>
@@ -568,9 +568,9 @@
                                  <th>Curta Distância</th>
                                  <%-- Dados do banco de dados --%>
                                  <%
-                                   String curtaCabeca = "10";
-                                   String curtaCorpo = "5";
-                                   String curtaPerna = "3";
+                                   String curtaCabeca = "255";
+                                   String curtaCorpo = "150";
+                                   String curtaPerna = "255";
                                %>
                                    <td><%= curtaCabeca %></td>
                                    <td><%= curtaCorpo %></td>
@@ -580,9 +580,9 @@
                                      <th>Média Distância</th>
                                      <%-- Dados do banco de dados --%>
                                        <%
-                                          String mediaCabeca = "8";
-                                          String mediaCorpo = "4";
-                                          String mediaPerna = "2";
+                                          String mediaCabeca = "255";
+                                          String mediaCorpo = "150";
+                                          String mediaPerna = "150";
                                           %>
                                          <td><%= mediaCabeca %></td>
                                          <td><%= mediaCorpo %></td>
@@ -592,9 +592,9 @@
                                          <th>Longa Distância</th>
                                          <%-- Dados do banco de dados --%>
                                            <%
-                                              String longaCabeca = "6";
-                                              String longaCorpo = "3";
-                                              String longaPerna = "1";
+                                              String longaCabeca = "255";
+                                              String longaCorpo = "150";
+                                              String longaPerna = "120";
                                               %>
                                              <td><%= longaCabeca %></td>
                                              <td><%= longaCorpo %></td>
@@ -683,9 +683,9 @@
                                  <th>Curta Distância</th>
                                  <%-- Dados do banco de dados --%>
                                  <%
-                                   String curtaCabeca = "10";
-                                   String curtaCorpo = "5";
-                                   String curtaPerna = "3";
+                                   String curtaCabeca = "67";
+                                   String curtaCorpo = "54";
+                                   String curtaPerna = "43";
                                %>
                                    <td><%= curtaCabeca %></td>
                                    <td><%= curtaCorpo %></td>
@@ -695,9 +695,9 @@
                                      <th>Média Distância</th>
                                      <%-- Dados do banco de dados --%>
                                        <%
-                                          String mediaCabeca = "8";
-                                          String mediaCorpo = "4";
-                                          String mediaPerna = "2";
+                                          String mediaCabeca = "56";
+                                          String mediaCorpo = "43";
+                                          String mediaPerna = "32";
                                           %>
                                          <td><%= mediaCabeca %></td>
                                          <td><%= mediaCorpo %></td>
@@ -707,9 +707,9 @@
                                          <th>Longa Distância</th>
                                          <%-- Dados do banco de dados --%>
                                            <%
-                                              String longaCabeca = "6";
-                                              String longaCorpo = "3";
-                                              String longaPerna = "1";
+                                              String longaCabeca = "56";
+                                              String longaCorpo = "34";
+                                              String longaPerna = "21";
                                               %>
                                              <td><%= longaCabeca %></td>
                                              <td><%= longaCorpo %></td>

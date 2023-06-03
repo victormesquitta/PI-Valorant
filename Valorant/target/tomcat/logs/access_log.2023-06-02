@@ -5940,3 +5940,13 @@
 0:0:0:0:0:0:0:1 - - [02/Jun/2023:20:49:22 -0300] "GET /user/weapons/Images/wallpenetration.png HTTP/1.1" 304 - http-bio-8080-exec-6 3
 0:0:0:0:0:0:0:1 - - [02/Jun/2023:20:52:07 -0300] "GET /maps HTTP/1.1" 200 1107 http-bio-8080-exec-1 91
 0:0:0:0:0:0:0:1 - - [02/Jun/2023:20:52:07 -0300] "GET /user/maps/style.css HTTP/1.1" 200 3520 http-bio-8080-exec-3 3
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:20:54:51 -0300] "GET /armas HTTP/1.1" 200 32395 http-bio-8080-exec-1 1571
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:20:54:51 -0300] "GET /user/weapons/style.css HTTP/1.1" 304 - http-bio-8080-exec-3 4
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:20:55:06 -0300] "GET /armas HTTP/1.1" 500 3551 http-bio-8080-exec-4 113
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:20:55:32 -0300] "GET /armas HTTP/1.1" 500 3551 http-bio-8080-exec-1 635
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:20:55:34 -0300] "GET /armas HTTP/1.1" 500 2864 http-bio-8080-exec-2 4
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:20:55:34 -0300] "GET /armas HTTP/1.1" 500 2864 http-bio-8080-exec-3 3
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:20:55:34 -0300] "GET /armas HTTP/1.1" 500 2864 http-bio-8080-exec-4 3
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:20:55:34 -0300] "GET /armas HTTP/1.1" 500 2864 http-bio-8080-exec-5 4
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:20:56:59 -0300] "GET /armas HTTP/1.1" 500 3551 http-bio-8080-exec-1 605
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:20:57:56 -0300] "GET /armas HTTP/1.1" 500 3545 http-bio-8080-exec-1 587

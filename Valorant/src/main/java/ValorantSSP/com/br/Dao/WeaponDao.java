@@ -143,8 +143,8 @@ public class WeaponDao {
                 String pistolType = resultSet.getString("type");
                 int pistolCreds = resultSet.getInt("creds");
                 int pistolDamageLongHead = resultSet.getInt("damageLongHead");
-                int pistolDamageMediumHead = resultSet.getInt("damageLongHead");
-                int pistolDamageShortHead = resultSet.getInt("damageLongHead");
+                int pistolDamageMediumHead = resultSet.getInt("damageMediumHead");
+                int pistolDamageShortHead = resultSet.getInt("damageShortHead");
                 int pistolDamageShortBody = resultSet.getInt("damageShortBody");
                 int pistolDamageMediumBody = resultSet.getInt("damageMediumBody");
                 int pistolDamageLongBody = resultSet.getInt("damageLongBody");
@@ -502,8 +502,8 @@ public class WeaponDao {
                 String metType = resultSet.getString("type");
                 int metCreds = resultSet.getInt("creds");
                 int metDamageLongHead = resultSet.getInt("damageLongHead");
-                int metDamageMediumHead = resultSet.getInt("damageLongHead");
-                int metDamageShortHead = resultSet.getInt("damageLongHead");
+                int metDamageMediumHead = resultSet.getInt("damageMediumHead");
+                int metDamageShortHead = resultSet.getInt("damageShortHead");
                 int metDamageShortBody = resultSet.getInt("damageShortBody");
                 int metDamageMediumBody = resultSet.getInt("damageMediumBody");
                 int metDamageLongBody = resultSet.getInt("damageLongBody");
