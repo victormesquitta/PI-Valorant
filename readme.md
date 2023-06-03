@@ -27,6 +27,11 @@
 ![image](https://github.com/victormesquitta/PI-Valorant/assets/105395280/a7666f6a-f78f-46d7-bf77-0a125b6931f6)
 ![image](https://github.com/victormesquitta/PI-Valorant/assets/105395280/528ef51d-92ce-48df-a2b8-6fef29344f35)
 ![image](https://github.com/victormesquitta/PI-Valorant/assets/105395280/a4bae74b-521d-41e8-a0ce-d96ae7818db3)
+![image](https://github.com/victormesquitta/PI-Valorant/assets/105395280/585826dc-070a-4ad5-bc91-273e4cde19a8)
+![image](https://github.com/victormesquitta/PI-Valorant/assets/105395280/6580f1a1-b87b-4ea3-8a3f-ac3ef244ebb8)
+![image](https://github.com/victormesquitta/PI-Valorant/assets/105395280/9b459ba2-f7b5-4144-9173-e605b4a1e849)
+![image](https://github.com/victormesquitta/PI-Valorant/assets/105395280/19e3eba6-84ac-42a6-a334-264bc5a71c67)
+
 
 
 
