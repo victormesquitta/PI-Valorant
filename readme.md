@@ -17,100 +17,22 @@
 * Consulta de Armas: informações técnicas de cada arma (dano, cadência de tiro, ...), valores e skins.
 ***
 
+### Áreas do Site:
+![image](https://github.com/victormesquitta/PI-Valorant/assets/105395280/fab0e458-4f21-4f17-9471-05620810ca75)
+![image](https://github.com/victormesquitta/PI-Valorant/assets/105395280/99507bb4-f58d-4b78-9780-79454578de5c)
+![image](https://github.com/victormesquitta/PI-Valorant/assets/105395280/08e6e3fc-971c-481f-a862-3baf343a9f7c)
+![image](https://github.com/victormesquitta/PI-Valorant/assets/105395280/5384a49a-b5a4-441d-8683-f00846e191a5)
+![image](https://github.com/victormesquitta/PI-Valorant/assets/105395280/be5d24f8-cfac-4575-a534-99ebdc88e54c)
+![image](https://github.com/victormesquitta/PI-Valorant/assets/105395280/79730022-9718-4abd-9ff1-ef78a742ba92)
+![image](https://github.com/victormesquitta/PI-Valorant/assets/105395280/a7666f6a-f78f-46d7-bf77-0a125b6931f6)
+![image](https://github.com/victormesquitta/PI-Valorant/assets/105395280/528ef51d-92ce-48df-a2b8-6fef29344f35)
+![image](https://github.com/victormesquitta/PI-Valorant/assets/105395280/a4bae74b-521d-41e8-a0ce-d96ae7818db3)
+
+
+
 ### Instruções para execução do sistema
 * Run no projeto dentro do Maven;
-* Após isso, abrir o localhost do H2DB (http://localhost:8080/console); 
-* Fazer o login (user: "sa", password:"sa");
-* Criar a tabela referente as funcionalidades com os seguintes comando:
+* Testar a área de usuário navegando pela Navbar;
+* Testar a área de adm acessando: http://localhost:8080/login
 
-### Mapa:
-```
-    CREATE TABLE MAP(
-    ID INT PRIMARY KEY AUTO_INCREMENT, 
-    NAME VARCHAR(20) NOT NULL,
-    DESCRIPTION VARCHAR(1000) NOT NULL,
-    BOMBSITES INT NOT NULL,
-    COORDINATES VARCHAR(50) UNIQUE NOT NULL,
-    COUNTRY VARCHAR(50) NOT NULL,
-    PECULIARITY VARCHAR(50),
-    RELEASE_DATE DATE NOT NULL,
-    SEASON INT NOT NULL,
-    ACT INT NOT NULL,
-    ROTATION BOOLEAN NOT NULL,
-    PATH VARCHAR(100) NOT NULL
-    ); 
-  ```
-* Para o preenchimento dos dados, acessar o url de CRUD do mapa (http://localhost:8080/create-map).
-***
 
-### Arma:
-```
-   CREATE TABLE WEAPON(
-    ID INT PRIMARY KEY AUTO_INCREMENT, 
-    NAME VARCHAR(20) NOT NULL,
-    TYPE VARCHAR(20) NOT NULL,
-    CREDS INT NOT NULL,
-    DAMAGE INT NOT NULL,
-    MAGAZINE INT NOT NULL,
-    RESERVE INT NOT NULL,
-    FIRERATESECS INT NOT NULL,
-    WALLPENETRATION VARCHAR(20) NOT NULL,
-    PATH VARCHAR(100) NOT NULL
-    );
- ```
-* Para o preenchimento dos dados, acessar o url de CRUD do mapa (http://localhost:8080/create-weapon).
-***
-### Skin:
-```
-    CREATE TABLE SKIN(
-    ID INT PRIMARY KEY AUTO_INCREMENT, 
-    NAME VARCHAR(50) NOT NULL,
-    DATE DATE NOT NULL,
-    PRICE FLOAT NOT NULL,
-    SEASON INT NOT NULL,
-    ACT INT NOT NULL,
-    RECOLORS INT NOT NULL,
-    PATH VARCHAR(100) NOT NULL
-    );
- ```
- * Para o preenchimento dos dados, acessar o url de CRUD do mapa (http://localhost:8080/create-skin).
-
-### Agent:
-```
-    CREATE TABLE AGENT(
-    ID INT PRIMARY KEY AUTO_INCREMENT, 
-    NAME VARCHAR(20) NOT NULL,
-    ROLE VARCHAR(20) NOT NULL,
-    LORE VARCHAR(200) NOT NULL,
-    SKILLQ VARCHAR(50) NOT NULL,
-    SKILLE VARCHAR(50) NOT NULL,
-    SKILLC VARCHAR(50) NOT NULL,
-    ULTIMATE VARCHAR(50) NOT NULL,
-    SKILLDESCRIPTIONQ VARCHAR(1000) NOT NULL,
-    SKILLDESCRIPTIONE VARCHAR(1000) NOT NULL,
-    SKILLDESCRIPTIONC VARCHAR(1000)  NOT NULL,
-    ULTIMATEDESCRIPTION VARCHAR(1000) NOT NULL,
-    ULTIMATEPOINTS INT NOT NULL,
-    PATHAGENT VARCHAR(100) NOT NULL,
-    PATHROLE VARCHAR(100) NOT NULL,
-    PATHSKILLQ VARCHAR(100) NOT NULL,    
-    PATHSKILLE VARCHAR(100) NOT NULL,
-    PATHSKILLC VARCHAR(100) NOT NULL,
-    PATHULTIMATE VARCHAR(100) NOT NULL
-);
- ```
- * Para o preenchimento dos dados, acessar o url de CRUD do mapa (http://localhost:8080/create-agent).
-
-### Login:
-```
-    CREATE TABLE USR (
-    ID INT PRIMARY KEY AUTO_INCREMENT, 
-    USERNAME VARCHAR(50) NOT NULL,
-    PASSWORD VARCHAR(50) NOT NULL
-    );
- ```
- * Comando para inserir o primeiro login.
- ```
-    INSERT INTO USR (USERNAME, PASSWORD) VALUES ('your-user', 'your-password')
- ```
- 
