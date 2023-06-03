@@ -14,7 +14,8 @@
 
 * Consulta de Agentes: nacionalidade, habilidades e função.
 * Consulta de Mapas: coordenadas na vida real, informações sobre o mapa, melhores composições de agentes de cada mapa.
-* Consulta de Armas: informações técnicas de cada arma (dano, cadência de tiro, ...), valores e skins.
+* Consulta de Armas: informações técnicas de cada arma, como dano, cadência de tiro, ...
+* Consulta de Skins: informações acerca de preço de coleções, ato e episódio de lançamento, ...
 ***
 
 ### Áreas do Site:
