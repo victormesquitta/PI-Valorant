@@ -218,6 +218,21 @@ VALUES (
 '1234'
 );
 
+INSERT INTO MAP (NAME, DESCRIPTION, BOMBSITES, COORDINATES, COUNTRY, PECULIARITY, RELEASE_DATE, SEASON, ACT, ROTATION, PATH)
+VALUES (
+'Ascent',
+'Com várias opções de posicionamento e conflito, um território aberto divide duas áreas em Ascent. Cada uma pode ser fortificada por portas explosivas irreversíveis que, quando derrubadas, forçam as equipes a destruí-las ou a acharem outra maneira de prosseguir. Não deixe que o inimigo tome o seu território.',
+2,
+'45°26 BF N 12°20 Q E',
+'Italia',
+'Mercado',
+'2020-04-27',
+1,
+1,
+true,
+'user/maps/Images/Ascent.png'
+);
+
 INSERT INTO AGENT (NAME, ROLE, LORE, SKILLQ, SKILLE, SKILLC, ULTIMATE, SKILLDESCRIPTIONQ, SKILLDESCRIPTIONE, SKILLDESCRIPTIONC, ULTIMATEDESCRIPTION, ULTIMATEPOINTS, PATHAGENT, PATHROLE, PATHSKILLQ, PATHSKILLE, PATHSKILLC, PATHULTIMATE)
 VALUES (
 'Omen',
